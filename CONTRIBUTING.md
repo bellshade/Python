@@ -79,8 +79,15 @@ def adding(num1, num2):
 - ``fix`` untuk mengubah algoritma yang sudah ada atau memperbaiki
 - ``docs`` untuk mengubah atau membuat dokumentasi
 - ``style`` untuk mengubah atau memperbaiki style kode
-untuk contohnya bisa dilihat pada contoh commit yang diatas 
+untuk contohnya bisa dilihat pada contoh commit yang diatas.
 
+pull request akan di ``merged`` jika:
+- mengikuti standar dan arahan dari ```CONTRIBUTING.md```
+- lulus test dan cek dari beberapa test yang sudah kami siapkan.
+
+**tambahan**: 
+- jika ada kendala atau masalah dalam pull request, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues)
+- jika ada tes yang tidak lewat atau gagal, kami akan mengecek kembali perubahan anda.
 
 untuk pull request kami sarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,
 serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
