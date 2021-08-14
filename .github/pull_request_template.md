@@ -2,7 +2,7 @@
 <!-- deskripsikan tentang perubahan yang kamu berikan -->
 
 ## contributor requirements (syarat contributor)
- - [] saya sudah membaca (i have read)[CONTRIBUTING](https://github.com/bellshade/PythonAlgorithm/blob/main/CONTRIBUTING.md)
+ - [ ] saya sudah membaca (i have read) [CONTRIBUTING](https://github.com/bellshade/PythonAlgorithm/blob/main/CONTRIBUTING.md) dan sudah menyetujui semua
 
 ## env
 saya menggunakan (im used):
