@@ -62,6 +62,25 @@ def adding(num1, num2):
     return num1 + num2
 ```
 
+## lint test
+**instalasi**
+
+kami menggunakan flake8 untuk lint testing agar penulisan code lebih baik.
+installasi flake8
+```bash
+pip install flake8
+```
+
+**testing**
+
+untuk lint testing,kami menyarankan kepada kamu untuk test lokal dengan flake8 dengan cara
+```bash
+flake8 perubahan_kamu.py --ignore=E203,W503 --max-complexity=25 --max-line-length=88
+```
+```bash
+flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88
+```
+
 **saran**
 
 [Pemahaman daftar dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
@@ -82,7 +101,6 @@ def adding(num1, num2):
 - lakukan push ke branch kamu dan kemudian open pull request
 
 **saran pesan commit**
-<<<<<<< HEAD
 
 - `add` untuk menambah algoritma atau tambahan lainnya
 - `fix` untuk mengubah algoritma yang sudah ada atau memperbaiki
