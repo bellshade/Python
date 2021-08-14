@@ -1,10 +1,10 @@
 import numpy as np
 
+
 def retroactive_resolution(coefficients: np.matrix, vector: np.ndarray) -> np.ndarray:
     """
     Fungsi ini melakukan resolusi sistem linier retroaktif
     untuk matriks segitiga
-
     contoh:
         2x1 + 2x2 - 1x3 = 5         2x1 + 2x2 = -1
         0x1 - 2x2 - 1x3 = -7        0x1 - 2x2 = -1
