@@ -27,10 +27,8 @@ def bisection(function: Callable[[float], float], a: float, b: float) -> float:
     elif function(b) == 0:
         return b
     elif function(a) * function(b) > 0:
-        """
-        jika tidak ada yang root dan keduanya positif atau negatif
-        maka algoritma ini tidak dapat menemukan root
-        """
+        # jika tidak ada yang root dan keduanya positif atau negatif
+        # maka algoritma ini tidak dapat menemukan root
         raise ValueError("tidak dapat menemukan root dalam interval yang diberikan.")
     else:
         mid: float = start + (end - start) / 2.0
