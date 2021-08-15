@@ -8,7 +8,7 @@ orbs:
   python: circleci/python@1.2
 
 workflows:
-  sample:  # This is the name of the workflow, feel free to change it to better match your workflow.
+  circle_python_test:  # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run. 
     # For more details on extending your workflow, see the configuration docs: https://circleci.com/docs/2.0/configuration-reference/#workflows 
     jobs:
