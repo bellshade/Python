@@ -15,5 +15,5 @@ list dari repositori bisa dilihat dibawah ini
 
 ## analisis matematika
 - [bisection](arithmetic_analysis/bisection.py)
-- [gaussian_elimination](arithmetic_analysis/gaussian_elimination.py)
+- [gaussian elimination](arithmetic_analysis/gaussian_elimination.py)
 - [static equilibrium](arithmetic_analysis/in_static_equilibrium.py)
