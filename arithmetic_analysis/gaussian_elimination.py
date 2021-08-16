@@ -34,7 +34,6 @@ def retroactive_resolution(coefficients: np.matrix, vector: np.ndarray) -> np.nd
 def gaussian_elimination(coefficients: np.matrix, vector: np.ndarray) -> np.ndarray:
     """
     Fungsi ini melakukan metode eliminasi Gaussian
-
     contoh:
         1x1 - 4x2 - 2x3 = -2        1x1 + 2x2 = 5
         5x1 + 2x2 - 2x3 = -3        5x1 + 2x2 = 5
