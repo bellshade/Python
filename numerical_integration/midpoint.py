@@ -1,11 +1,11 @@
 import numpy as np
 
-def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) -> float:
+def midpoint(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) -> float:
     """
-    Metode segi empat adalah metode integrasi paling sederhana.
-    Metode ini membagi domain integrasi sebanyak n buah
-    dan menjumlahkan seluruh luas segi empat dengan dimensi
-    (a + b)/n * f(x), dimana x adalah sudut kiri segiempat
+    Aturan titik tengah berfungsi mengoptimasi metode segiempat
+    Dengan aturan ini, metode segiempat membagi domain integrasi 
+    sebanyak n buah dan menjumlahkan seluruh luas segi empat dengan dimensi
+    (a + b)/n * f(x), dimana x adalah titik tengah segiempat
 
     Parameter:
     f   = fungsi input
@@ -17,13 +17,13 @@ def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) ->
         n  = 100
         x  = np.linspace(a, b, n)
         dx = x[1] - x[0]
-        L0 = sum([dx*func(i, *args, **kwargs) for i in x])
+        L0 = sum([dx*func(i+dx/2, *args, **kwargs) for i in x])
         err = 1
         while err > eps:
             n += 1
             x  = np.linspace(a, b, n)
             dx = x[1] - x[0]
-            L1 = sum([dx*func(i, *args, **kwargs) for i in x])
+            L1 = sum([dx*func(i+dx/2, *args, **kwargs) for i in x])
             err= np.abs(L1 - L0)/np.abs(L1)
             L0 = L1
     except:
@@ -31,6 +31,6 @@ def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) ->
     return L1  
 
 if __name__ == "__main__":
-    f = lambda x : [i**2 for i in range(x)]
-    print(rectangle(f, 0, 2))
+    f = lambda x : x**3
+    print(midpoint(f, 0, 1))
 
