@@ -2,35 +2,35 @@
 
 **contributor**
 
-Kami sangat senang anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau memperbaiki error.
-semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai berikut:
+Salam, terima kasih anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau perbaikan error.
+Semua orang boleh ikut berkontribusi walaupun kecil dengan persyaratan sebagai berikut:
 
-- hasil pekerjaan kamu adalah buatan kamu sendiri dan tidak ada hak cipta dari orang lain
-  - jika kami menemukan kesamaan maka kami tidak `merged`.
-- hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika permintaan pull kamu sudah di merged
-- hasil kerja kamu wajib mengikuti standar dan style koding dari kami
+- hasil kerja adalah buatan sendiri dan tidak melanggar hak cipta orang lain
+  - jika ditemukan kesamaan maka tidak akan dilakukan `merged`.
+- hasil kerja yang diserahkan akan berlisensi [MIT](LICENSE) ketika *pull request* (PR) kamu sudah di merged
+- hasil kerja wajib mengikuti standar dan style koding kami
 
 **apa itu algoritma?**
 
 Algoritma adalah satu atau lebih fungsi (atau kelas) yang:
 
-- memiliki satu atau lebih inpu
-- melakukan beberapa internal kalkulasi atau manipulasi data
-- mengembalikan nilai hasil satu atau lebih
+- memiliki satu atau lebih *input*
+- melakukan beberapa kalkulasi internal atau manipulasi data
+- mengembalikan satu atau lebih nilai hasil
 - memiliki kekurangan minimal (contoh : `print()`,`plot()`,`read()`,`write()`)
 
 Algoritma harus dikemas sedemikian rupa sehingga memudahkan pembaca untuk memasukkannya ke dalam program yang lebih besar.
 
 Algoritma harus memiliki:
 
-- memiliki nama kelas dan fungsi intuitif yang memperjelas tujuannya bagi pembaca
-- menggunakan konvensi penamaan Python dan nama variabel intuitif untuk memudahkan pemahaman
-- fleksibel untuk mengambil nilai input yang berbeda
-- memiliki petunjuk tipe Python untuk parameter input dan nilai pengembaliannya
-- tingkatkan pengecualian Python (ValueError, dll.) pada nilai input yang salah
-- memiliki docstrings dengan penjelasan yang jelas dan/atau URL ke materi sumber
-- berisi doctests yang menguji nilai input yang valid dan salah
-- kembalikan semua hasil perhitungan alih-alih mencetak atau memplotnya
+- nama kelas & fungsi yang intuitif dan dapat menjelaskan tujuannya bagi pembaca
+- implementasi tata nama variabel sesuai PEP8 dan intuitif untuk memudahkan pemahaman
+- fleksibilitas untuk mengambil nilai input yang berbeda
+- petunjuk tipe data untuk parameter input dan nilai pengembaliannya
+- tindakan pengecualian (ValueError, dll.) pada nilai input yang salah
+- docstrings yang berisi penjelasan dan/atau URL ke materi sumber
+- doctests yang berfungsi untuk menguji nilai input yang valid
+- hasil perhitungan dalam bentuk `return` alih-alih mencetak atau memplotnya
 
 # docstrings
 
@@ -100,7 +100,7 @@ flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88
 
 **saran**
 
-[Pemahaman daftar dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
+[*list comprehension* dan *generator*](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disarankan daripada penggunaan `lambda`, `map`, `filter`, tetapi yang penting adalah menunjukkan kemampuan Python dalam kode yang mudah dibaca dan dipelihara.
 
 # Pull Request
 
