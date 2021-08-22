@@ -4,7 +4,11 @@ from typing import Callable
 function_real = Callable[[float], float]
 
 
-def newton(function: function_real, deriative: function_real, starting_int: int) -> int:
+def newton(
+    function: function_real,
+    derivative: function_real,
+    starting_int: int
+) -> int:
     """
     >>> newton(lambda x: x ** 3 - 2 * x - 5, lambda x: 3 * x ** 2 - 2, 3)
     2.0945514815423474
@@ -27,7 +31,7 @@ def newton(function: function_real, deriative: function_real, starting_int: int)
     prev_guess = float(starting_int)
     while True:
         try:
-            next_guess = prev_guess - function(prev_guess) / deriative(prev_guess)
+            next_guess = prev_guess - function(prev_guess) / derivative(prev_guess)
         except ZeroDivisionError:
             raise ZeroDivisionError("tidak dapat menemukan akar") from None
         if abs(prev_guess - next_guess) < 10 ** -5:

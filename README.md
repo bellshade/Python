@@ -12,8 +12,4 @@ baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
 
 # List
 list dari repositori bisa dilihat dibawah ini
-
-## analisis matematika
-- [bisection](arithmetic_analysis/bisection.py)
-- [gaussian elimination](arithmetic_analysis/gaussian_elimination.py)
-- [static equilibrium](arithmetic_analysis/in_static_equilibrium.py)
+- [analisis matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
