@@ -5,11 +5,11 @@
 ![python_build](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/python%20testing?label=python%20testing&style=for-the-badge)
 ![circleCI](https://img.shields.io/circleci/build/github/bellshade/PythonAlgorithm/main?label=Circle%20CI&style=for-the-badge)
 
-kumpulan berbagai macam contoh dari beberapa struktur data, algoritma serta penerapan matematika pada pemograman (khususnya pemograman python)
+kumpulan berbagai macam contoh struktur data, algoritma serta komputasi matematika pada pemograman khususnya dalam implementasi bahasa Python
 
 ## Peraturan dan pedoman kontribusi
 baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
 
-# List
-list dari repositori bisa dilihat dibawah ini
+# Dokumentasi
+Daftar dokumentasi algoritma dapat dilihat pada link berikut:
 - [analisis matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
