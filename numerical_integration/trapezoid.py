@@ -30,7 +30,7 @@ def trapezoid(
             n += 1
             h = (b - a) / n
             fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
-            L1 = h / 2 * (fx[0] + fx[-1]) + h*sum(fx[1:-1])
+            L1 = h / 2 * (fx[0] + fx[-1]) + h * sum(fx[1:-1])
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
