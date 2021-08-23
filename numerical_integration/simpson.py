@@ -21,16 +21,19 @@ def simpson_13(
         # Iterasi pertama
         n = 10
         h = (b - a) / n
-        fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-        L0 = h/3 * (fx[0] + 4*sum(fx[1:-1:2]) + 2*sum(fx[2:-2:2]) + fx[-1])
+        fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
+        L0 = h / 3 * (fx[0] + 4 * sum(fx[1:-1:2])
+                      + 2 * sum(fx[2:-2:2]) + fx[-1])
 
         # Optimasi
         err = 1
         while err > eps:
             n *= 2
             h = (b - a) / n
-            fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-            L1 = h/3 * (fx[0] + 4*sum(fx[1:-1:2]) + 2*sum(fx[2:-2:2]) + fx[-1])
+            fx = [func(a + i * h, *args, **kwargs)
+                  for i in range(n + 1)]
+            L1 = h / 3 * (fx[0] + 4 * sum(fx[1:-1:2])
+                          + 2 * sum(fx[2:-2:2]) + fx[-1])
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
@@ -58,18 +61,20 @@ def simpson_38(
         # Iterasi pertama
         n = 10
         h = (b - a) / n
-        fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-        L0 = 3/8 * h * (fx[0] + 3*sum(fx[1:-2:3])
-                        + 3*sum(fx[2:-1:3]) + 2*sum(fx[3:-3:3]) + fx[-1])
+        fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
+        L0 = 3 / 8 * h * (fx[0] + 3 * sum(fx[1:-2:3])
+                          + 3 * sum(fx[2:-1:3]) + 2 * sum(fx[3:-3:3]) + fx[-1])
 
         # Optimasi
         err = 1
         while err > eps:
             n *= 3
             h = (b - a) / n
-            fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-            L1 = 3/8 * h * (fx[0] + 3*sum(fx[1:-2:3])
-                            + 3*sum(fx[2:-1:3]) + 2*sum(fx[3:-3:3]) + fx[-1])
+            fx = [func(a + i * h, *args, **kwargs)
+                  for i in range(n + 1)]
+            L1 = 3 / 8 * h * (fx[0] + 3 * sum(fx[1:-2:3])
+                              + 3 * sum(fx[2:-1:3])
+                              + 2 * sum(fx[3:-3:3]) + fx[-1])
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:

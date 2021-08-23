@@ -21,16 +21,16 @@ def trapezoid(
         # Iterasi pertama
         n = 100
         h = (b - a) / n
-        fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-        L0 = h/2*(fx[0] + fx[-1]) + h*sum(fx[1:-1])
+        fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
+        L0 = h / 2 * (fx[0] + fx[-1]) + h * sum(fx[1:-1])
 
         # Optimasi
         err = 1
         while err > eps:
             n += 1
             h = (b - a) / n
-            fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
-            L1 = h/2*(fx[0] + fx[-1]) + h*sum(fx[1:-1])
+            fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
+            L1 = h / 2 * (fx[0] + fx[-1]) + h*sum(fx[1:-1])
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
