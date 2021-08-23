@@ -4,6 +4,7 @@
 ![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/PythonAlgorithm/main?label=code%20factor&style=for-the-badge)
 ![python_build](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/python%20testing?label=python%20testing&style=for-the-badge)
 ![circleCI](https://img.shields.io/circleci/build/github/bellshade/PythonAlgorithm/main?label=Circle%20CI&style=for-the-badge)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbellshade%2FPythonAlgorithm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbellshade%2FPythonAlgorithm?ref=badge_shield)
 
 kumpulan berbagai macam contoh struktur data, algoritma serta komputasi matematika pada pemograman khususnya dalam implementasi bahasa Python
 
@@ -13,3 +14,7 @@ baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
 # Dokumentasi
 Daftar dokumentasi algoritma dapat dilihat pada link berikut:
 - [analisis matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbellshade%2FPythonAlgorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbellshade%2FPythonAlgorithm?ref=badge_large)
