@@ -2,35 +2,35 @@
 
 **contributor**
 
-Salam, terima kasih anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau perbaikan error.
-Semua orang boleh ikut berkontribusi walaupun kecil dengan persyaratan sebagai berikut:
+Kami sangat senang anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau memperbaiki error.
+semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai berikut:
 
-- hasil kerja adalah buatan sendiri dan tidak melanggar hak cipta orang lain
-  - jika ditemukan kesamaan maka tidak akan dilakukan `merged`.
-- hasil kerja yang diserahkan akan berlisensi [MIT](LICENSE) ketika *pull request* (PR) kamu sudah di merged
-- hasil kerja wajib mengikuti standar dan style koding kami
+- hasil pekerjaan kamu adalah buatan kamu sendiri dan tidak ada hak cipta dari orang lain
+  - jika kami menemukan kesamaan maka kami tidak `merged`.
+- hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika permintaan pull kamu sudah di merged
+- hasil kerja kamu wajib mengikuti standar dan style koding dari kami
 
 **apa itu algoritma?**
 
 Algoritma adalah satu atau lebih fungsi (atau kelas) yang:
 
-- memiliki satu atau lebih *input*
-- melakukan beberapa kalkulasi internal atau manipulasi data
-- mengembalikan satu atau lebih nilai hasil
+- memiliki satu atau lebih inpu
+- melakukan beberapa internal kalkulasi atau manipulasi data
+- mengembalikan nilai hasil satu atau lebih
 - memiliki kekurangan minimal (contoh : `print()`,`plot()`,`read()`,`write()`)
 
 Algoritma harus dikemas sedemikian rupa sehingga memudahkan pembaca untuk memasukkannya ke dalam program yang lebih besar.
 
 Algoritma harus memiliki:
 
-- nama kelas & fungsi yang intuitif dan dapat menjelaskan tujuannya bagi pembaca
-- implementasi tata nama variabel sesuai PEP8 dan intuitif untuk memudahkan pemahaman
-- fleksibilitas untuk mengambil nilai input yang berbeda
-- petunjuk tipe data untuk parameter input dan nilai pengembaliannya
-- tindakan pengecualian (ValueError, dll.) pada nilai input yang salah
-- docstrings yang berisi penjelasan dan/atau URL ke materi sumber
-- doctests yang berfungsi untuk menguji nilai input yang valid
-- hasil perhitungan dalam bentuk `return` alih-alih mencetak atau memplotnya
+- memiliki nama kelas dan fungsi intuitif yang memperjelas tujuannya bagi pembaca
+- menggunakan konvensi penamaan Python dan nama variabel intuitif untuk memudahkan pemahaman
+- fleksibel untuk mengambil nilai input yang berbeda
+- memiliki petunjuk tipe Python untuk parameter input dan nilai pengembaliannya
+- tingkatkan pengecualian Python (ValueError, dll.) pada nilai input yang salah
+- memiliki docstrings dengan penjelasan yang jelas dan/atau URL ke materi sumber
+- berisi doctests yang menguji nilai input yang valid dan salah
+- kembalikan semua hasil perhitungan alih-alih mencetak atau memplotnya
 
 # docstrings
 
@@ -92,15 +92,22 @@ pip install flake8
 
 untuk lint testing,kami menyarankan kepada kamu untuk test lokal dengan flake8 dengan cara
 ```bash
-flake8 perubahan_kamu.py --ignore=E203,W503 --max-complexity=25 --max-line-length=88
+flake8 perubahan_kamu.py --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
 ```
 ```bash
-flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88
+flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
+```
+untuk docstring dengan cara:
+```bash
+pytest . --doctest-modules
+```
+```bash
+pytest perubahan_kamu.py --doctest-modules
 ```
 
 **saran**
 
-[*list comprehension* dan *generator*](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disarankan daripada penggunaan `lambda`, `map`, `filter`, tetapi yang penting adalah menunjukkan kemampuan Python dalam kode yang mudah dibaca dan dipelihara.
+[Pemahaman daftar dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
 
 # Pull Request
 
@@ -109,7 +116,20 @@ flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88
 - lakukan fork pada repository kami
 - setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
   - untuk pull request merubah diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah
-- setelah merubah merubah, atau menambahkan algoritma, usahakan kamu membuat dengan branch kamu
+- lakukan testing dengan menggunakanan codecoverage testing
+  - install pytest modul
+  ```bash
+  pip install pytest
+  ```
+  - install codecoverage testing
+  ```bash
+  pip install pytest-cov
+  ```
+  - lakukan perintah testing
+  ```bash
+  pytest . --doctest-modules --cov=./ --cov-report=xml
+  ```
+- setelah merubah merubah, atau menambahkan algoritma, serta testing lokal kode kamu, usahakan kamu membuat dengan branch kamu
   ```bash
   git checkout -b <branch_name>
   git add .
