@@ -1,3 +1,6 @@
+# informasi tentang lu decomposition bisa cek disini
+# https://en.wikipedia.org/wiki/LU_decomposition
+
 from typing import Tuple
 import numpy as np
 
