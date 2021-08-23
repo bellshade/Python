@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) -> float:
     """
     Metode segi empat adalah metode integrasi paling sederhana.
@@ -14,23 +15,23 @@ def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) ->
     eps = error relatif maksimal
     """
     try:
-        n  = 100
-        x  = np.linspace(a, b, n)
+        n = 100
+        x = np.linspace(a, b, n)
         dx = x[1] - x[0]
-        L0 = sum([dx*func(i, *args, **kwargs) for i in x])
+        L0 = sum([dx * func(i, *args, **kwargs) for i in x])
         err = 1
         while err > eps:
             n += 1
-            x  = np.linspace(a, b, n)
+            x = np.linspace(a, b, n)
             dx = x[1] - x[0]
-            L1 = sum([dx*func(i, *args, **kwargs) for i in x])
-            err= np.abs(L1 - L0)/np.abs(L1)
+            L1 = sum([dx * func(i, *args, **kwargs) for i in x])
+            err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
-    except:
+    except Exception:
         raise RuntimeError('Integrasi gagal, pastikan fungsi anda benar!')
-    return L1  
+    return L1
 
 if __name__ == "__main__":
-    f = lambda x : [i**2 for i in range(x)]
+    def f(x: float) -> float: x**2
     print(rectangle(f, 0, 2))
 
