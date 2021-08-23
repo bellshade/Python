@@ -12,10 +12,10 @@ def rectangle(
     (a + b)/n * f(x), dimana x adalah sudut kiri segiempat
 
     Parameter:
-    f   = fungsi input
-    a   = batas bawah integrasi
-    b   = batas atas integrasi
-    eps = error relatif maksimal
+    func = fungsi input
+    a    = batas bawah integrasi
+    b    = batas atas integrasi
+    eps  = error relatif maksimal
     """
     try:
         n = 100
@@ -37,5 +37,8 @@ def rectangle(
 
 if __name__ == "__main__":
     def f(x: float) -> float:
+        """
+        Test Function
+        """
         return x**2
     print(rectangle(f, 0, 2))

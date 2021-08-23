@@ -1,15 +1,15 @@
 import numpy as np
 
 
-def midpoint(
+def trapezoid(
         func, a: float, b: float,
         eps: float = 0.0001,
         *args, **kwargs) -> float:
     """
-    Aturan titik tengah berfungsi mengoptimasi metode segiempat
-    Dengan aturan ini, metode segiempat membagi domain integrasi
-    sebanyak n buah dan menjumlahkan seluruh luas segi empat dengan dimensi
-    (a + b)/n * f(x), dimana x adalah titik tengah segiempat
+    Metode integrasi trapesium mengganti bentuk segiempat
+    yang sebelumnya digunakan untuk mengintegrasi menjadi
+    bentuk trapesium. Maka dari itu, pada trapesium, nilai
+    f(x) dievaluasi pada masing2 sisi trapesium.
 
     Parameter:
     f   = fungsi input
@@ -18,16 +18,19 @@ def midpoint(
     eps = error relatif maksimal
     """
     try:
+        # Iterasi pertama
         n = 100
-        x = np.linspace(a, b, n)
-        dx = x[1] - x[0]
-        L0 = sum([dx * func(i + dx / 2, *args, **kwargs) for i in x])
+        h = (b - a) / n
+        fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
+        L0 = h/2*(fx[0] + fx[-1]) + h*sum(fx[1:-1])
+
+        # Optimasi
         err = 1
         while err > eps:
             n += 1
-            x = np.linspace(a, b, n)
-            dx = x[1] - x[0]
-            L1 = sum([dx * func(i + dx / 2, *args, **kwargs) for i in x])
+            h = (b - a) / n
+            fx = [func(a + i*h, *args, **kwargs) for i in range(n + 1)]
+            L1 = h/2*(fx[0] + fx[-1]) + h*sum(fx[1:-1])
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
@@ -40,5 +43,4 @@ if __name__ == "__main__":
         """
         Test Function
         """
-        return x**3
-    print(midpoint(f, 0, 1))
+        return x**4
