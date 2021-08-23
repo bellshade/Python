@@ -1,7 +1,10 @@
 import numpy as np
 
 
-def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) -> float:
+def rectangle(
+        func, a: float, b: float,
+        eps: float = 0.0001,
+        *args, **kwargs) -> float:
     """
     Metode segi empat adalah metode integrasi paling sederhana.
     Metode ini membagi domain integrasi sebanyak n buah
@@ -31,7 +34,7 @@ def rectangle(func, a: float, b: float, eps: float = 0.0001, *args, **kwargs) ->
         raise RuntimeError('Integrasi gagal, pastikan fungsi anda benar!')
     return L1
 
-if __name__ == "__main__":
-    def f(x: float) -> float: x**2
-    print(rectangle(f, 0, 2))
 
+if __name__ == "__main__":
+    def f(x: float) -> float: return x**2
+    print(rectangle(f, 0, 2))
