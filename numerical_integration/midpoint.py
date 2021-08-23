@@ -36,5 +36,6 @@ def midpoint(
 
 
 if __name__ == "__main__":
-    def f(x: float) -> float: return x**3
+    def f(x: float) -> float:
+        return x**3
     print(midpoint(f, 0, 1))

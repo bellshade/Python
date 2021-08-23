@@ -36,5 +36,6 @@ def rectangle(
 
 
 if __name__ == "__main__":
-    def f(x: float) -> float: return x**2
+    def f(x: float) -> float:
+        return x**2
     print(rectangle(f, 0, 2))
