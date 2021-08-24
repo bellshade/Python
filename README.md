@@ -10,7 +10,7 @@ Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algorit
 ## Peraturan dan Pedoman Kontribusi
 Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **PythonAlgorithm**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
 
-# Dokumentasi
-Semua dokumentasi tentang algoritma, dapat dilihat pada link berikut:
+## Dokumentasi
+Kumpulan contoh dari algoritma, bisa dilihat langsung lewat link berikut:
 - [Analisis Matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
 - [Manipulasi Bit](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
