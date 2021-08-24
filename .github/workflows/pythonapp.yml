@@ -21,7 +21,9 @@ jobs:
         python-version: 3.9
     - name: salam
       run: |
-        echo "Halo!\nMulai Testing..."
+        echo "Halo!"
+        echo "Mulai testing..."
+        echo "harap tunggu sebentar... :)"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
