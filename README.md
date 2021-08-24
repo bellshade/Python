@@ -8,9 +8,9 @@
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
 ## Peraturan dan Pedoman Kontribusi
-Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **PythonAlgorithm**. Tapi sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat dibaca pada ``CONTRIBUTING.md``.
+Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **PythonAlgorithm**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
 
 # Dokumentasi
-Daftar dokumentasi algoritma dapat dilihat pada link berikut:
-- [analisis matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
-- [manipulasi bit](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
+Semua dokumentasi tentang algoritma, dapat dilihat pada link berikut:
+- [Analisis Matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
+- [Manipulasi Bit](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
