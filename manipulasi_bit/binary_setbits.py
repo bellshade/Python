@@ -5,6 +5,9 @@ def binary_count(a: int) -> int:
     yaitu jumlah bit yang berisi 1
     dalam representasi biner
     dari nomor itu
+    contoh bilangan biner dari 25
+    25 = 11001
+    yang berarti 3 angka 1 dari 25
     >>> binary_count(25)
     3
     >>> binary_count(36)
