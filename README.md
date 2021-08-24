@@ -13,3 +13,4 @@ baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
 # Dokumentasi
 Daftar dokumentasi algoritma dapat dilihat pada link berikut:
 - [analisis matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
+- [manipulasi bit](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
