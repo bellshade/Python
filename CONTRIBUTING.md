@@ -135,6 +135,11 @@ pytest perubahan_kamu.py --doctest-modules
   git add .
   git commit -m "add: menambahkan algoritma terbaru"
   ```
+  - penggunaan lain, kamu bisa juga menggunakan untuk commit yang bahwasanya buatan kamu
+  ```bash
+  git checkout -b <branch_name>
+  git add .
+  git commit -s -m "add: menambahkan algoritma terbaru"
 - lakukan push ke branch kamu dan kemudian open pull request
 
 **saran pesan commit**
