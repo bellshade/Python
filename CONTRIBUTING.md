@@ -116,19 +116,7 @@ pytest perubahan_kamu.py --doctest-modules
 - lakukan fork pada repository kami
 - setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
   - untuk pull request merubah diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah
-- lakukan testing dengan menggunakanan codecoverage testing
-  - install pytest modul
-  ```bash
-  pip install pytest
-  ```
-  - install codecoverage testing
-  ```bash
-  pip install pytest-cov
-  ```
-  - lakukan perintah testing
-  ```bash
-  pytest . --doctest-modules --cov=./ --cov-report=xml
-  ```
+- lakukan testing dengan menggunakanan pytesting dan flake8 secara lokal
 - setelah merubah merubah, atau menambahkan algoritma, serta testing lokal kode kamu, usahakan kamu membuat dengan branch kamu
   ```bash
   git checkout -b <branch_name>
