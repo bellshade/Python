@@ -19,6 +19,9 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+    - name: salam
+      run: |
+        echo "Halo!\nMulai Testing..."
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
