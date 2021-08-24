@@ -8,7 +8,7 @@
 kumpulan berbagai macam contoh struktur data, algoritma serta komputasi matematika pada pemograman khususnya dalam implementasi bahasa Python
 
 ## Peraturan dan pedoman kontribusi
-Dipersilahkan untuk open pull requets atau kontribusi **PythonAlgorithm** dengan syarat yang sudah di tamulkan pada ``CONTRIBUTING.md``,baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
+Dipersilahkan untuk open pull requets atau kontribusi **PythonAlgorithm** dengan syarat yang sudah di temukan pada ``CONTRIBUTING.md``,baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
 
 # Dokumentasi
 Daftar dokumentasi algoritma dapat dilihat pada link berikut:
