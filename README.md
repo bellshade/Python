@@ -5,10 +5,10 @@
 ![python_build](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/python%20testing?label=python%20testing&style=for-the-badge)
 ![circleCI](https://img.shields.io/circleci/build/github/bellshade/PythonAlgorithm/main?label=Circle%20CI&style=for-the-badge)
 
-kumpulan berbagai macam contoh struktur data, algoritma serta komputasi matematika pada pemograman khususnya dalam implementasi bahasa Python
+Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
-## Peraturan dan pedoman kontribusi
-Dipersilahkan untuk open pull requets atau kontribusi **PythonAlgorithm** dengan syarat yang sudah di temukan pada ``CONTRIBUTING.md``,baca terlebih dahulu [peraturan dan pedoman kontribusi](CONTRIBUTING.md)
+## Peraturan dan Pedoman Kontribusi
+Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **PythonAlgorithm**. Tapi sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat dibaca pada ``CONTRIBUTING.md``.
 
 # Dokumentasi
 Daftar dokumentasi algoritma dapat dilihat pada link berikut:
