@@ -164,6 +164,7 @@ def hamilton_cycle(graph: List[List[int]], start_index: int = 0) -> List[int]:
 if __name__ == "__main__":
     import doctest
 
+    # penggunaan hamilton_cycle()
     # graph = [
     #     [0, 1, 0, 1, 0],
     #     [1, 0, 1, 1, 1],
