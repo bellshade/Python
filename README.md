@@ -4,6 +4,7 @@
 ![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/PythonAlgorithm/main?label=code%20factor&style=for-the-badge)
 ![python_build](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/python%20testing?label=python%20testing&style=for-the-badge)
 ![circleCI](https://img.shields.io/circleci/build/github/bellshade/PythonAlgorithm/main?label=Circle%20CI&style=for-the-badge)
+![codecoveragebuild](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/CodeCov%20testing?label=codecov%20build&style=for-the-badge)
 
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
@@ -14,3 +15,4 @@ Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **Pyth
 Kumpulan contoh dari algoritma, bisa dilihat langsung lewat link berikut:
 - [Analisis Matematika](https://github.com/bellshade/PythonAlgorithm/tree/main/arithmetic_analysis)
 - [Manipulasi Bit](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
+- [Backtracking](https://github.com/bellshade/PythonAlgorithm/tree/main/Backtracking)
