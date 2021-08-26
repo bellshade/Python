@@ -22,7 +22,7 @@ jobs:
       run: |
         pip install pytest
         pip install pytest-cov
-        pytest --doctest-modules --cov=. . --cov-report=xml
+        pytest --doctest-modules --cov=./ --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
