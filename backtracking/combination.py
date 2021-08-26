@@ -2,7 +2,6 @@
 # nomor dari 1 ... n. Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(C(n,k)) yaitu O(n pilih k) = O((n!/(k! * (n - k)!)))
 
-
 from typing import List
 
 
@@ -42,7 +41,10 @@ def print_state(total_list: List[List[int]]) -> None:
 
 
 if __name__ == "__main__":
-    n = 4
-    k = 2
-    total_list = generate_combination(n, k)
-    print_state(total_list)
+    import doctest
+
+    # n = 4
+    # k = 2
+    # total_list = generate_combination(n, k)
+    # print_state(total_list)
+    doctest.testmod()
