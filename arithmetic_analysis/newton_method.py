@@ -8,7 +8,7 @@ def newton(
     function: function_real,
     derivative: function_real,
     starting_int: int
-) -> int:
+) -> float:
     """
     >>> newton(lambda x: x ** 3 - 2 * x - 5, lambda x: 3 * x ** 2 - 2, 3)
     2.0945514815423474
