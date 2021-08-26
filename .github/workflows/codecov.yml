@@ -22,7 +22,7 @@ jobs:
       run: |
         pip install pytest
         pip install pytest-cov
-        pytest --doctest-modules --cov=./ --cov-report=term-missing:skip-covered
+        pytest --doctest-modules --cov-report=term-missing:skip-covered --cov=. .
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
