@@ -9,6 +9,7 @@ from typing import List
 
 solution = []
 
+
 def safe(board: List[List[int]], row: int, col: int) -> bool:
     """
     Fungsi ini mengembalikan nilai boolean True jika aman untuk menempatkan
@@ -19,20 +20,21 @@ def safe(board: List[List[int]], row: int, col: int) -> bool:
     for i in range(len(board)):
         if board[row][i] == 1:
             return False
-    
+
     for i in range(len(board)):
         if board[i][col] == 1:
             return False
-    
+
     for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
         if board[i][j] == 1:
             return False
-    
+
     for i, j in zip(range(row, -1, -1), range(col, len(board))):
         if board[i][j] == 1:
             return False
 
     return True
+
 
 def solve(board: List[List[int]], row: int) -> bool:
     """
@@ -42,7 +44,7 @@ def solve(board: List[List[int]], row: int) -> bool:
     ke cabang berikutnya kemungkinan cabang solusi.
 
     """
-    
+
     if row >= len(board):
         """
         Jika nomor baris melebihi N,
@@ -53,7 +55,7 @@ def solve(board: List[List[int]], row: int) -> bool:
         solution.append(board)
         printboard(board)
         print()
-        
+
         return True
     for i in range(len(board)):
         """
@@ -67,8 +69,9 @@ def solve(board: List[List[int]], row: int) -> bool:
             board[row][i] = 1
             solve(board, row + 1)
             board[row][i] = 0
-    
+
     return False
+
 
 def printboard(board: List[List[int]]) -> None:
     for i in range(len(board)):
@@ -79,8 +82,10 @@ def printboard(board: List[List[int]]) -> None:
                 print(".", end=" ")
         print()
 
+
 if __name__ == "__main__":
     import doctest
+
     # n = 8
     # board = [[0 for _ in range(n)] for _ in range(n)]
     # solve(board, 0)
