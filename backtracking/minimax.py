@@ -10,7 +10,6 @@ informasi lebih lanjut tentang game tree
 https://en.wikipedia.org/wiki/Game_tree
 """
 
-import math
 from typing import List
 
 
@@ -60,8 +59,9 @@ def minimax(
 if __name__ == "__main__":
     import doctest
 
+    # import math
     # scores = [90, 23, 6, 33, 21, 65, 123, 34423]
     # height = math.log(len(scores), 2)
-    # :print("optimasi value :", end="")
+    # print("optimasi value :", end="")
     # print(minimax(0, 0, True, scores, height))
     doctest.testmod()
