@@ -29,6 +29,7 @@ jobs:
         echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
         pip install flake8 pytest
+        pip install coverage
         pip install mypy
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test Python
@@ -43,3 +44,11 @@ jobs:
       run: |
         echo "Mulai Jalankan testing mypy"
         mypy .
+    - name: Test coverage
+      run: |
+        echo "Mulai testing coverage"
+        coverage run --source . -m pytest --doctest-modules
+    - name: Hasil coverage
+      run: |
+        echo "Laporan coverage"
+        coverage report -m
