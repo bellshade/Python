@@ -1,0 +1,7 @@
+reviewers:
+  defaults:
+    # python maintainer
+    - slowy07
+    # documentationa
+    - dydrmr5
+    
