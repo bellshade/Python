@@ -8,28 +8,30 @@ SIMBOL = (
     r"""abcdefghijklmnopqrstuvwxyz{|}~"""
 )
 
+
 def check_keys(keyA: int, keyB: int, mode: str) -> None:
-    if mode == 'enkripsi':
+    if mode == "enkripsi":
         if keyA == 1:
             sys.exit(
-                'sandi affine menjadi lemah saat enkripsi '
-                'A set ke 1. masukkan kunci lain.'
+                "sandi affine menjadi lemah saat enkripsi "
+                "A set ke 1. masukkan kunci lain."
             )
         if keyB == 0:
             sys.exit(
-                'sandi affine menjadi lemah saat enkripsi '
-                'B set ke 0. masukkan kunci lain.'
+                "sandi affine menjadi lemah saat enkripsi "
+                "B set ke 0. masukkan kunci lain."
             )
     if keyA < 0 or keyB < 0 or keyB > len(SIMBOL) - 1:
         sys.exit(
-            'kunci A harus lebih besar dari 0 dan kunci B '
-            f'Antara 0 dan {len(SIMBOL) - 1}.'
+            "kunci A harus lebih besar dari 0 dan kunci B "
+            f"Antara 0 dan {len(SIMBOL) - 1}."
         )
     if cryptomath.gcd(keyA, len(SIMBOL)) != 1:
         sys.exit(
-            f'Kunci A {keyA} and simbol set {len(SIMBOL)} '
-            'tidak relatif prima. Pilih kunci yang berbeda.'
+            f"Kunci A {keyA} and simbol set {len(SIMBOL)} "
+            "tidak relatif prima. Pilih kunci yang berbeda."
         )
+
 
 def encrypt_msg(key: int, message: str) -> str:
     """
@@ -46,6 +48,7 @@ def encrypt_msg(key: int, message: str) -> str:
         else:
             cipherText += symbol
     return cipherText
+
 
 def decrypt_msg(key: int, message: str) -> str:
     """
@@ -85,19 +88,20 @@ def testing() -> None:
     # mode = input("enskripsi / deskripsi ['E' / 'D']").strip().lower()
     message = "jonas jadi badut"
     key = 2500
-    mode = 'e'
-    
+    mode = "e"
+
     if mode.startswith("e"):
         mode = "enskripsi"
         trans = encrypt_msg(key, message)
     elif mode.startswith("d"):
         mode = "enskripsi"
         trans = decrypt_msg(key, message)
-    
+
     print(f"\n{mode.title()}\nText: {trans}")
+
 
 if __name__ == "__main__":
     import doctest
-    
+
     # testing()
     doctest.testmod()
