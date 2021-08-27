@@ -1,0 +1,4 @@
+__pycache__/
+.mypy_chache/
+.pytest_cache
+pip-log.txt
