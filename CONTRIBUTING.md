@@ -14,7 +14,7 @@ semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 
 Algoritma adalah satu atau lebih fungsi (atau kelas) yang:
 
-- memiliki satu atau lebih inpu
+- memiliki satu atau lebih input
 - melakukan beberapa internal kalkulasi atau manipulasi data
 - mengembalikan nilai hasil satu atau lebih
 - memiliki kekurangan minimal (contoh : `print()`,`plot()`,`read()`,`write()`)
@@ -115,12 +115,12 @@ pytest perubahan_kamu.py --doctest-modules
 
 - lakukan fork pada repository kami
 - setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
-  - untuk pull request merubah diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah
+  - untuk pull request merubah atau memperbaiki diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya
 - lakukan testing dengan menggunakanan pytesting dan flake8 secara lokal
 - setelah merubah merubah, atau menambahkan algoritma, serta testing lokal kode kamu, usahakan kamu membuat dengan branch kamu
   ```bash
   git checkout -b <branch_name>
-  git add .
+  git add . # atau git add nama_perubahan_kamu.py
   git commit -m "add: menambahkan algoritma terbaru"
   ```
 - lakukan push ke branch kamu dan kemudian open pull request
@@ -143,5 +143,4 @@ pull request akan di `merged` jika:
 - jika ada kendala atau masalah dalam pull request, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues)
 - jika ada tes yang tidak lewat atau gagal, kami akan mengecek kembali perubahan anda.
 
-untuk pull request kami sarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,
-serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
+untuk pull request disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
