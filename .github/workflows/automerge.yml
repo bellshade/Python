@@ -1,0 +1,21 @@
+name: automerge
+on:
+  pull_request:
+    types: [labeled]
+    branches:
+      - main/* # ranch
+jobs:
+  Run Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Automatically Merge PR
+        uses: plm9606/automerge_actions@1.2.2
+        with:
+          # label untuk dibuat auto merging
+          label-name: "core: ready to merge"
+          # metode ("merge", "squash", "rebase").
+          merge-method: "squash"
+          # cek branch pull dihapus atau tidak
+          auto-delete: true
+          # token
+          github-token: ${{ secrets.GITHUB_TOKEN }}
