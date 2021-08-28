@@ -14,7 +14,7 @@ semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 
 Algoritma adalah satu atau lebih fungsi (atau kelas) yang:
 
-- memiliki satu atau lebih inpu
+- memiliki satu atau lebih input
 - melakukan beberapa internal kalkulasi atau manipulasi data
 - mengembalikan nilai hasil satu atau lebih
 - memiliki kekurangan minimal (contoh : `print()`,`plot()`,`read()`,`write()`)
@@ -143,5 +143,4 @@ pull request akan di `merged` jika:
 - jika ada kendala atau masalah dalam pull request, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues)
 - jika ada tes yang tidak lewat atau gagal, kami akan mengecek kembali perubahan anda.
 
-untuk pull request kami sarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,
-serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
+untuk pull request disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
