@@ -1,7 +1,12 @@
 reviewers:
+  # The default reviewers
   defaults:
-    # python maintainer
-    - slowy07
-    # documentationa
-    - dydrmr5
-    
+    - slowy07 # group
+    - dydrmr5 # username
+files:
+  # Keys are glob expressions.
+  # You can assign groups defined above as well as GitHub usernames.
+  '**':
+    - sloyw07 # group
+  '**/*.md':
+    - dydrmr5 # group
