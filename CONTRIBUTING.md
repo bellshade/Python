@@ -115,12 +115,12 @@ pytest perubahan_kamu.py --doctest-modules
 
 - lakukan fork pada repository kami
 - setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
-  - untuk pull request merubah diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah
+  - untuk pull request merubah atau memperbaiki diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya
 - lakukan testing dengan menggunakanan pytesting dan flake8 secara lokal
 - setelah merubah merubah, atau menambahkan algoritma, serta testing lokal kode kamu, usahakan kamu membuat dengan branch kamu
   ```bash
   git checkout -b <branch_name>
-  git add .
+  git add . # atau git add nama_perubahan_kamu.py
   git commit -m "add: menambahkan algoritma terbaru"
   ```
 - lakukan push ke branch kamu dan kemudian open pull request
