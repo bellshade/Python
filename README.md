@@ -18,4 +18,8 @@ Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Blockchain](https://github.com/bellshade/PythonAlgorithm/tree/main/blockchain)
 - [Bit Manipulation](https://github.com/bellshade/PythonAlgorithm/tree/main/manipulasi_bit)
 - [Cipher/Cryptograph](https://github.com/bellshade/PythonAlgorithm/tree/main/chiper)
+- [Compression](https://github.com/bellshade/PythonAlgorithm/tree/main/compression)
 - [Conversion](https://github.com/bellshade/PythonAlgorithm/tree/main/conversion)
+- [Genetic Algorithm](https://github.com/bellshade/PythonAlgorithm/tree/main/genetic_algo)
+- [Linear Algebra](https://github.com/bellshade/PythonAlgorithm/tree/main/linear_algebra)
+- [Others Algorithm](https://github.com/bellshade/PythonAlgorithm/tree/main/other)
