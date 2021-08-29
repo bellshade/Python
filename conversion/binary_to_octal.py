@@ -1,20 +1,22 @@
-def binary_to_octal(msg: str) -> str:
+def binary_to_octal(binary: str) -> str:
     """
     implementasi biner ke oktal
     >>> binary_to_octal("1111")
     '17'
     """
-    if not all(char in "01" for char in msg):
+    if not all(char in "01" for char in binary):
         raise ValueError("Nilai non-biner diteruskan ke fungsi")
-    if not msg:
+    if not binary:
         raise ValueError("String kosong diteruskan ke fungsi")
 
     oct_string = ""
-    while len(msg) % 3 != 0:
-        msg = "0" + msg
+    while len(binary) % 3 != 0:
+        binary = "0" + binary
 
-    msg_string = [msg[index : index + 3] for index in range(len(msg)) if index % 3 == 0]
-    for bin_group in msg_string:
+    binary_string = [
+        binary[index : index + 3] for index in range(len(binary)) if index % 3 == 0
+    ]
+    for bin_group in binary_string:
         oct_val = 0
         for index, val in enumerate(bin_group):
             oct_val += int(2 ** (2 - index) * int(val))
