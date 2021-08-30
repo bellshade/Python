@@ -63,6 +63,7 @@ def adding(num1, num2):
 ```
 
 **saran penggunaan docstring yang baik**
+
 ```py
 def adding(num1, num2):
   """
@@ -80,10 +81,12 @@ def adding(num1, num2):
 ```
 
 ## lint test
+
 **instalasi**
 
 kami menggunakan flake8 untuk lint testing agar penulisan code lebih baik.
 installasi flake8
+
 ```bash
 pip install flake8
 ```
@@ -91,23 +94,38 @@ pip install flake8
 **testing**
 
 untuk lint testing,kami menyarankan kepada kamu untuk test lokal dengan flake8 dengan cara
+
 ```bash
 flake8 perubahan_kamu.py --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
 ```
+
 ```bash
 flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
 ```
+
 untuk docstring dengan cara:
+
 ```bash
 pytest . --doctest-modules
 ```
+
 ```bash
 pytest perubahan_kamu.py --doctest-modules
 ```
 
 **saran**
 
-[Pemahaman daftar dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
+[Pemahaman list dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
+
+## tambahan perubahan
+
+jika ingin menambahkan algoritma atau script python3 yang sederhana atau menambahkan kode yang sederhana, kamu bisa menambahkan perubahan di folder `other`, jika file tersebut melebihi satu file, sebaiknya file-file tersebut ke dalam folder sesuai dengan nama script tersebut sebagai contoh
+
+```
+count_bullet_speed
+├── count__bullet_speed.py
+└── file_tambahan.py
+```
 
 # Pull Request
 
