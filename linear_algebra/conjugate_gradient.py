@@ -68,8 +68,8 @@ def conjugate_gradient(
     r0 = np.copy(load_vector)
     p0 = np.copy(r0)
 
-    error_residual = 1e9
-    error_x_solution = 1e9
+    error_residual = 1e9  # lgtm [py/multiple-definition]
+    error_x_solution = 1e9  # lgtm [py/multiple-definition]
     error = 1e9
 
     iterations = 0
