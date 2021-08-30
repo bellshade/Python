@@ -2,12 +2,12 @@ from math import atan, cos, radians, sin, tan
 
 from .haversine import haversine
 
-def ellipsoidal_distance(
-    lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+
+def ellipsoidal_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """
     Hitung jarak terpendek sepanjang permukaan ellipsoid antara
     dua titik di permukaan bumi diberikan garis bujur dan garis lintang
-    
+
     bumi sebagai ellipsoid memungkinkan kita untuk memperkirakan jarak antara
     titik di permukaan jauh lebih baik daripada bola.
     Rumus ellipsoidal memperlakukan
@@ -39,7 +39,7 @@ def ellipsoidal_distance(
 
     b_lat1 = atan((1 - flattening) * tan(radians(lat1)))
     b_lat2 = atan((1 - flattening) * tan(radians(lat2)))
-    
+
     # Hitung sudut pusat antara dua titik
     # menggunakan haversine theta. sigma = haversine_distance / radius khatulistiwa
     sigma = haversine(lat1, lon1, lat2, lon2) / EQUATORIAL_RADIUS
@@ -57,7 +57,8 @@ def ellipsoidal_distance(
 
     return EQUATORIAL_RADIUS * (sigma - ((flattening / 2) * (X_value + Y_value)))
 
+
 if __name__ == "__main__":
     import doctest
-    
+
     doctest.testmod()
