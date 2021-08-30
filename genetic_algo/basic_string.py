@@ -30,6 +30,7 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
     ...
     ValueError: ['e'] tidak ada dalam daftar, evolusi tidak dapat menyatu
     """
+    # validasi jika N_POPULATION lebih besar dari N_SELECTED
     if N_POPULATION < N_SELECTED:
         raise ValueError(f"{N_POPULATION} harus lebih besar dari {N_SELECTED}")
     not_in_genes_list = sorted({c for c in target if c not in genes})
@@ -37,16 +38,21 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
         raise ValueError(
             f"{not_in_genes_list} tidak ada dalam daftar, evolusi tidak dapat menyatu"
         )
+    # buat random start population
     population = []
     for _ in range(N_POPULATION):
         population.append("".join([random.choice(genes) for i in range(len(target))]))
 
+    # log untuk melihat kerja dari algoritma
     generation, total_population = 0, 0
 
+    # Loop ini akan berakhir ketika kita akan menemukan
+    # pasangan yang cocok untuk target kita
     while True:
         generation += 1
         total_population += len(population)
 
+        # evaluasi dari random population yang sudah dibuat
         def evaluate(item: str, main_target: str = target) -> tuple[str, float]:
             """
             Evaluasi seberapa mirip item dengan target hanya dengan
@@ -61,10 +67,12 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
 
         population_score = [evaluate(item) for item in population]
 
+        # mengecek jika ada evolusinya yang cocok
         population_score = sorted(population_score, key=lambda x: x[1], reverse=True)
         if population_score[0][0] == target:
             return (generation, total_population, population_score[0][0])
 
+        # print hasil terbaiknya tiap 10 generasi
         if debug and generation % 10 == 0:
             print(
                 f"\nGenerasi : {generation}"
@@ -76,11 +84,15 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
         population.clear()
         population.extend(population_best)
 
+        # Normalisasi skor populasi dari 0 hingga 1
         population_score = [
             (item, score / len(target)) for item, score in population_score
         ]
 
         def select(parent_1: tuple[str, float]) -> list[str]:
+            """
+            Pilih parent kedua dan hasilkan populasi baru
+            """
             popula = []
             child_n = int(parent_1[1] * 100) + 1
             child_n = 10 if child_n >= 10 else child_n
@@ -94,6 +106,9 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
             return popula
 
         def crossover(parent_1: str, parent_2: str) -> tuple[str, str]:
+            """
+            Slice    dan gabungkan dua string di titik acak
+            """
             random_slice = random.randint(0, len(parent_1) - 1)
             child_1 = parent_1[:random_slice] + parent_2[random_slice:]
             child_2 = parent_2[:random_slice] + parent_1[random_slice:]
@@ -109,6 +124,12 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
 
         for i in range(N_SELECTED):
             population.extend(select(population_score[int(i)]))
+            # Periksa apakah populasi sudah mencapai nilai maksimum dan jika ya
+            # memutuskan siklus. jika pemeriksaan ini dinonaktifkan,
+            # algoritma akan mengambil
+            # selamanya untuk menghitung string besar tetapi
+            # juga akan menghitung string kecil di
+            # generasi jauh lebih sedikit
             if len(population) > N_POPULATION:
                 break
 
