@@ -5,9 +5,7 @@ function_real = Callable[[float], float]
 
 
 def newton(
-    function: function_real,
-    derivative: function_real,
-    starting_int: int
+    function: function_real, derivative: function_real, starting_int: int
 ) -> float:
     """
     >>> newton(lambda x: x ** 3 - 2 * x - 5, lambda x: 3 * x ** 2 - 2, 3)
