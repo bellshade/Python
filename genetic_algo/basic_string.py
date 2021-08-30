@@ -42,7 +42,7 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
     population = []
     for _ in range(N_POPULATION):
         population.append("".join([random.choice(genes) for i in range(len(target))]))
-    
+
     # log untuk melihat kerja dari algoritma
     generation, total_population = 0, 0
 
@@ -83,7 +83,7 @@ def getbasic(target: str, genes: list[str], debug: bool = True) -> tuple[int, in
         population_best = population[: int(N_POPULATION / 3)]
         population.clear()
         population.extend(population_best)
-        
+
         # Normalisasi skor populasi dari 0 hingga 1
         population_score = [
             (item, score / len(target)) for item, score in population_score
