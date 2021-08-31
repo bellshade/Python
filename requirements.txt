@@ -2,3 +2,4 @@ numpy
 sympy
 Pillow
 matplotlib
+scikit-fuzzy
