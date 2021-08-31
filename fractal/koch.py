@@ -17,7 +17,7 @@ INITIAL_VECTORS = [VECTOR_1, VECTOR_2, VECTOR_3, VECTOR_1]
 
 def iterate(initial_error: list[np.ndarray], steps: int) -> list[np.ndarray]:
     vectors = initial_error
-    for i in range(steps):
+    for _ in range(steps):
         vectors = iteration_step(vectors)
     return vectors
 
