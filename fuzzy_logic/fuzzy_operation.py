@@ -1,3 +1,5 @@
+# list set operasi fuzzy
+# https://en.wikipedia.org/wiki/Fuzzy_set_operations
 import numpy as np
 import skfuzzy as fuzz
 
