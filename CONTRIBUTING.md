@@ -9,6 +9,7 @@ semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
   - jika kami menemukan kesamaan maka kami tidak `merged`.
 - hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika permintaan pull kamu sudah di merged
 - hasil kerja kamu wajib mengikuti standar dan style koding dari kami
+- hanya menerima file yang berekstensi ``*.py`` selain itu dibuat pengecualian dengan menjelaskan secara detail
 
 **apa itu algoritma?**
 
@@ -62,7 +63,7 @@ def adding(num1, num2):
     return num1 + num2
 ```
 
-**saran penggunaan docstring yang baik**
+**saran penggunaan docstring yang baik untuk testing pytesting**
 
 ```py
 def adding(num1, num2):
