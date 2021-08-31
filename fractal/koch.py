@@ -37,6 +37,13 @@ def iteration_step(vectors: list[np.ndarray]) -> list[np.ndarray]:
 
 
 def rotate(vector: np.ndarray, angle_in_degrees: float) -> np.ndarray:
+    """
+    >>> import numpy
+    >>> rotate(numpy.array([1, 0]), 60)
+    array([0.5      , 0.8660254])
+    >>> rotate(numpy.array([1, 0]), 90)
+    array([6.123234e-17, 1.000000e+00])
+    """
     theta = np.radians(angle_in_degrees)
     c, s = np.cos(theta), np.sin(theta)
     rotation_matrix = np.array(((c, -s), (s, c)))
