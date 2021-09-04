@@ -7,6 +7,7 @@ test_graph = [
     [0, 0, 0, 0, 0, 0],
 ]
 
+
 def BFS(graph, s, t, parent) -> bool:
     visited = [False] * len(graph)
     queue = [s]
@@ -22,6 +23,7 @@ def BFS(graph, s, t, parent) -> bool:
 
     return True if visited[t] else False
 
+
 def mincut(graph, source, sink):
     """
     >>> mincut(test_graph, source=0, sink=5)
@@ -31,7 +33,7 @@ def mincut(graph, source, sink):
     max_flow = 0
     res = []
     temp = [i[:] for i in graph]
-    
+
     while BFS(graph, source, sink, parent):
         path_flow = float("Inf")
         s = sink
@@ -55,6 +57,7 @@ def mincut(graph, source, sink):
                 res.append((i, j))
 
     return res
+
 
 if __name__ == "__main__":
     import doctest
