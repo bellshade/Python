@@ -201,7 +201,7 @@ class Matrix:
             )
         return self.rows == other.rows
 
-    def __ne__(self):
+    def __ne__(self): # lgtm [py/special-method-wrong-signature]
         return self * -1
 
     def __add__(self, other):
