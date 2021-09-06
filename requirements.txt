@@ -3,3 +3,4 @@ sympy
 Pillow
 matplotlib
 scikit-fuzzy
+turtle
