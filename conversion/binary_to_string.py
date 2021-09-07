@@ -9,7 +9,7 @@ def binary_to_string(binaryString: str):
     >>> binary_to_string("")
     Traceback (most recent call last):
     ...
-    ValueError: Tidak ada yang diinputkan
+    ValueError: tidak ada yang diinputkan
     >>> binary_to_string("39")
     Traceback (most recent call last):
     ...
@@ -22,7 +22,7 @@ def binary_to_string(binaryString: str):
         raise ValueError("bukan string")
 
     elif len(binaryString) < 1:
-        raise ValueError("Tidak ada yang diinputkan")
+        raise ValueError("tidak ada yang diinputkan")
 
     return "".join([chr(int(i, 2)) for i in binaryString.split()])
 
