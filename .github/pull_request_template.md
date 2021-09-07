@@ -25,12 +25,11 @@ saya menggunakan (im used):
 <!-- jika ada gagal pada salah satu test kami akan mengeceknya kembali -->
 <!-- if there is a failure in one of the tests we will check it again -->
 ## maintainer
-<!-- request maintainer untuk review kode kamu 
-usahakan kamu memilih sesuai apa yang telah kamu ubah
 **python maintainer**
-@slowy07
+@norinorin
 @athallahmaajid
 @KelvinMulyawan
+@slowy07
 
 **maintainer dokumentasi**
 @dydrmr5
