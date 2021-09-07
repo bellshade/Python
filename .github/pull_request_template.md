@@ -1,38 +1,39 @@
-## deskripsi (description)
-<!-- deskripsikan tentang perubahan yang kamu berikan -->
+# Deskripsi (Description)
+<!-- Deskripsikan tentang perubahan yang kamu berikan. -->
 
-- [ ] saya menambah algoritma terbaru
-- [ ] saya memperbaiki algoritma yang sudah ada
-- [ ] saya memperbaiki dokumentasi
-- [ ] saya menambah dokumentasi
 
-## contributor requirements (syarat contributor) dan lain-lain:
- - [ ] saya sudah membaca (i have read) [CONTRIBUTING](https://github.com/bellshade/PythonAlgorithm/blob/main/CONTRIBUTING.md) dan sudah menyetujui semua syarat.
- - [ ] saya telah menambahkan docstring yang memberikan penjelasan maksud dari kode yang saya buat
- - [ ] saya menggunakan bahasa indonesia untuk memberikan penjelasan dari kode yang saya buat
+# Checklist:
+##### Umum:
+- [ ] Saya menambah algoritma terbaru.
+- [ ] Saya memperbaiki algoritma yang sudah ada.
+- [ ] Saya memperbaiki dokumentasi.
+- [ ] Saya menambah dokumentasi.
 
-## env
-saya menggunakan (im used):
+##### Contributor Requirements (Syarat Kontributor) dan Lain-Lain:
+ - [ ] Saya sudah membaca (I have read) [CONTRIBUTING](https://github.com/bellshade/PythonAlgorithm/blob/main/CONTRIBUTING.md) dan sudah menyetujui semua syarat.
+ - [ ] Saya telah menambahkan docstring yang memberikan penjelasan maksud dari kode yang saya buat.
+ - [ ] Saya menggunakan bahasa Indonesia untuk memberikan penjelasan dari kode yang saya buat.
+
+##### Unit Testing dan Linting:
+- [ ] pytest
+- [ ] flake8
+
+# Environment
+Saya menggunakan (I'm using):
 
 - ``os`` = ``linux / windows / macOS``
-- ``python`` = ``python3 --version``
-<!-- kami menggunakan python versi 3 dan tidak menyarankan untuk menggunakan python 2 -->
+- ``python`` = ``python3 -V (unix) / py -3 -V (Windows-Python launcher)``
+<!-- Kami menggunakan Python versi 3 dan tidak menyarankan untuk menggunakan Python 2. -->
 
-## testing 
-- [ ] pytesting
-- [ ] flake8 lint testing
-
-<!-- jika ada gagal pada salah satu test kami akan mengeceknya kembali -->
-<!-- if there is a failure in one of the tests we will check it again -->
-## maintainer
-**python maintainer**
+<!-- Jika ada gagal pada salah satu test, kami akan mengeceknya kembali. -->
+<!-- If there is a failure in one of the tests, we will check it again. -->
+# Maintainer
+**Python Maintainer**:
 @norinorin
 @athallahmaajid
 @KelvinMulyawan
 @slowy07
 
-**maintainer dokumentasi**
+**Docs maintainer**:
 @dydrmr5
 @nomadkode
--->
-
