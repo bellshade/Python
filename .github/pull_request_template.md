@@ -29,6 +29,7 @@ saya menggunakan (im used):
 usahakan kamu memilih sesuai apa yang telah kamu ubah
 **python maintainer**
 @slowy07
+@athallahmaajid
 @KelvinMulyawan
 
 **maintainer dokumentasi**
