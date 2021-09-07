@@ -18,10 +18,10 @@ def binary_to_string(bin_string: str):
     if not all(char in "01" for char in bin_string):
         raise ValueError("bukan bilangan biner")
 
-    if type(bin_string) != str:
+    if not isinstance(bin_string, str):
         raise ValueError("bukan string")
 
-    elif len(bin_string) < 1:
+    elif not bin_string:
         raise ValueError("tidak ada yang diinputkan")
 
     return "".join([chr(int(i, 2)) for i in bin_string.split()])
