@@ -14,6 +14,10 @@ def binary_to_string(bin_string: str):
     Traceback (most recent call last):
     ...
     ValueError: bukan bilangan biner
+    >>> binary_to_string(1010)
+    Traceback (most recent call last):
+    ...
+    TypeError: bukan string
     """
     if not all(char in "01" for char in bin_string):
         raise ValueError("bukan bilangan biner")
