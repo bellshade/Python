@@ -19,7 +19,7 @@ def binary_to_string(bin_string: str):
         raise ValueError("bukan bilangan biner")
 
     if not isinstance(bin_string, str):
-        raise ValueError("bukan string")
+        raise TypeError("bukan string")
 
     elif not bin_string:
         raise ValueError("tidak ada yang diinputkan")
