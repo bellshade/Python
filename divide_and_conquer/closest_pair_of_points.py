@@ -9,7 +9,7 @@
 # time complexity: O(n * log n)
 
 
-from typing import List, Tuple
+from typing import List
 
 
 def euclidan_distance_sqr(point1, point2):
