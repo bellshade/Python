@@ -11,6 +11,7 @@
 
 from __future__ import annotations
 
+
 def minimax(
     depth: int, node_index: int, is_max: bool, scores: list[int], height: float
 ) -> float:
