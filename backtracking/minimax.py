@@ -1,17 +1,15 @@
-"""
-Minimax membantu mencapai skor maksimum dalam permainan
-dengan memeriksa semua kemungkinan gerakan
-kedalaman adalah kedalaman saat ini di pohon permainan.
+# Minimax membantu mencapai skor maksimum dalam permainan
+# dengan memeriksa semua kemungkinan gerakan
+# kedalaman adalah kedalaman saat ini di pohon permainan.
 
-nodeIndex adalah indeks dari node saat ini dalam skor[]
-jika langkah adalah pemaksimal, return True
-jika tidak return False
-informasi lebih lanjut tentang game tree
-https://en.wikipedia.org/wiki/Game_tree
-"""
+# nodeIndex adalah indeks dari node saat ini dalam skor[]
+# jika langkah adalah pemaksimal, return True
+# jika tidak return False
+# informasi lebih lanjut tentang game tree
+# https://en.wikipedia.org/wiki/Game_tree
 
-from typing import List
 
+from __fututre__ import annotations
 
 def minimax(
     depth: int, node_index: int, is_max: bool, scores: List[int], height: float
