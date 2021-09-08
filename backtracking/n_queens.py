@@ -5,12 +5,12 @@
 # Ini berarti bahwa satu ratu tidak dapat memiliki ratu lain di horizontal,
 # vertikal dan garis diagonal.
 
-from typing import List
+from __future__ import annotations
 
 solution = []
 
 
-def safe(board: List[List[int]], row: int, col: int) -> bool:
+def safe(board: list[list[int]], row: int, col: int) -> bool:
     """
     Fungsi ini mengembalikan nilai boolean True jika aman untuk menempatkan
     ratu di sana Mempertimbangkan keadaan saat ini.
@@ -36,7 +36,7 @@ def safe(board: List[List[int]], row: int, col: int) -> bool:
     return True
 
 
-def solve(board: List[List[int]], row: int) -> bool:
+def solve(board: list[list[int]], row: int) -> bool:
     """
     Ini menciptakan pohon ruang
     dan memanggil fungsi yang aman sampai menerima
@@ -73,7 +73,7 @@ def solve(board: List[List[int]], row: int) -> bool:
     return False
 
 
-def printboard(board: List[List[int]]) -> None:
+def printboard(board: list[list[int]]) -> None:
     for i in range(len(board)):
         for j in range(len(board)):
             if board[i][j] == 1:
