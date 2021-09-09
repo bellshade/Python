@@ -21,6 +21,7 @@ Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Cipher/Cryptograph](https://github.com/bellshade/PythonAlgorithm/tree/main/chiper)
 - [Compression](https://github.com/bellshade/PythonAlgorithm/tree/main/compression)
 - [Conversion](https://github.com/bellshade/PythonAlgorithm/tree/main/conversion)
+- [Divide and Conquer](https://github.com/bellshade/PythonAlgorithm/tree/main/divide_and_conquer)
 - [Electro](https://github.com/bellshade/PythonAlgorithm/tree/main/electro)
 - [File Transfer](https://github.com/bellshade/PythonAlgorithm/tree/main/file_transfer)
 - [Fractal](https://github.com/bellshade/PythonAlgorithm/tree/main/fractal)
