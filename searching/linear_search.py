@@ -25,7 +25,7 @@ T = TypeVar("T")
 
 def linear_search(
     arr: Indexable[T], value: T, start: int = 0, stop: int | None = None, /
-):
+) -> int:
     """
     >>> arr = [5, 2, 1, 6, 3, 7]
     >>> linear_search(arr, 5, 1)
