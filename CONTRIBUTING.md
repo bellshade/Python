@@ -98,11 +98,11 @@ pip install flake8
 untuk lint testing,kami menyarankan kepada kamu untuk test lokal dengan flake8 dengan cara
 
 ```bash
-flake8 perubahan_kamu.py --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
+flake8 perubahan_kamu.py
 ```
 
 ```bash
-flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88 --show-source
+flake8 .
 ```
 
 untuk docstring dengan cara:
