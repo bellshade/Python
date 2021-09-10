@@ -1,13 +1,13 @@
 """
 Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
-from typing import List
+from __future__ import annotations
 import numpy as np
 
 
 def polar_force(
     magnitude: float, angle: float, radian_mode: bool = False
-) -> List[float]:
+) -> list[float]:
     """
     Menghitung force pada suatu sistem dengan menggunakan matriks
     rotasi dan magnitudenya.

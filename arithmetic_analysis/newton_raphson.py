@@ -4,15 +4,13 @@
 # Metode ini dianggap lebih mudah dari Metode Bagi-Dua (Bisection Method),
 # karena metode ini menggunakan pendekatan satu titik sebagai titik awal.
 
+from __future__ import annotations
 from decimal import Decimal
-from typing import Union
 from math import *  # noqa: F401, F403
 from sympy import diff
 
 
-def newton_raphson(
-    func: str, a: Union[float, Decimal], pres: float = 10 ** -10
-) -> float:
+def newton_raphson(func: str, a: float | Decimal, pres: float = 10 ** -10) -> float:
     """
     Menemukan akar dari titik 'a' dan seterusnya dengan metode Newton-Raphson
     >>> newton_raphson("sin(x)", 2)

@@ -2,9 +2,9 @@
 
 ![license](https://img.shields.io/github/license/bellshade/PythonAlgorithm?style=for-the-badge)
 ![code_quality](https://img.shields.io/lgtm/grade/python/github/bellshade/PythonAlgorithm?label=Code%20Quality&style=for-the-badge)
-![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/PythonAlgorithm/main?label=code%20factor&style=for-the-badge)
-![python_build](https://img.shields.io/github/workflow/status/bellshade/PythonAlgorithm/python%20testing?label=python%20testing&style=for-the-badge)
-![circleCI](https://img.shields.io/circleci/build/github/bellshade/PythonAlgorithm/main?label=Circle%20CI&style=for-the-badge)
+![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=code%20factor&style=for-the-badge)
+![python_build](https://img.shields.io/github/workflow/status/bellshade/Python/python%20testing?label=python%20testing&style=for-the-badge)
+![circleCI](https://img.shields.io/circleci/build/github/bellshade/Python/main?label=Circle%20CI&style=for-the-badge)
 
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
@@ -21,6 +21,7 @@ Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Cipher/Cryptograph](https://github.com/bellshade/PythonAlgorithm/tree/main/chiper)
 - [Compression](https://github.com/bellshade/PythonAlgorithm/tree/main/compression)
 - [Conversion](https://github.com/bellshade/PythonAlgorithm/tree/main/conversion)
+- [Divide and Conquer](https://github.com/bellshade/PythonAlgorithm/tree/main/divide_and_conquer)
 - [Electro](https://github.com/bellshade/PythonAlgorithm/tree/main/electro)
 - [File Transfer](https://github.com/bellshade/PythonAlgorithm/tree/main/file_transfer)
 - [Fractal](https://github.com/bellshade/PythonAlgorithm/tree/main/fractal)

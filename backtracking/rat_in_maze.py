@@ -4,10 +4,10 @@
 # dan jalur yang bisa kita gunakan.
 
 
-from typing import List
+from __future__ import annotations
 
 
-def solve_maze(maze: List[List[int]]) -> bool:
+def solve_maze(maze: list[list[int]]) -> bool:
     """
     kita bisa menggunakan parameter
     maze 2d: matrix
@@ -66,7 +66,7 @@ def solve_maze(maze: List[List[int]]) -> bool:
     return solved
 
 
-def run_maze(maze: List[List[int]], i: int, j: int, solution: List[List[int]]) -> bool:
+def run_maze(maze: list[list[int]], i: int, j: int, solution: list[list[int]]) -> bool:
     size = len(maze)
     if i == j == (size - 1):
         solution[i][j] = 1
