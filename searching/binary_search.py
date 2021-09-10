@@ -66,17 +66,26 @@ def binary_search(
         )
 
     r = len(arr) - 1
-    r = r if stop is None else _clamp(stop, 0, r)
-    L = _clamp(start, 0, r)
+    r = r if stop is None else _clamp(stop, 0, r)  # batas kanan
+    L = _clamp(start, 0, r)  # batas kiri
 
     while L <= r:
         if (temp := arr[(m := (L + r) // 2)]) < value:
+            # jika elemen tengah kurang dari nilai yang kita cari
+            # maka kita eliminasi bagian kiri
+            # update batas kiri
             L = m + 1
         elif temp > value:
+            # sedangkan jika elemen tengah lebih dari nilai yang kita cari
+            # maka kita elminiasi bagian kanan
+            # update batas kanan
             r = m - 1
         else:
+            # elemen tengah sama dengan nilai yang kita cari
+            # return index-nya
             return m
 
+    # nilai tidak ditemukan
     raise ValueError(f"{value} tidak ada dalam iterable")
 
 
