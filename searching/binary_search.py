@@ -36,8 +36,14 @@ class Comparable(Protocol):
     def __lt__(self, other: Any) -> bool:
         ...
 
+    def __le__(self, other: Any) -> bool:
+        """Hanya untuk suppress LGTM alert."""
+
     def __gt__(self, other: Any) -> bool:
         ...
+
+    def __ge__(self, other: Any) -> bool:
+        """Hanya untuk suppress LGTM alert."""
 
 
 T = TypeVar("T", bound=Comparable)
