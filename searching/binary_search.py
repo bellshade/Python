@@ -25,6 +25,8 @@ Space complexity: O(1)
 
 https://en.wikipedia.org/wiki/Binary_search_algorithm
 """
+from __future__ import annotations
+
 from typing import Protocol, TypeVar
 
 from _types import Indexable
@@ -41,7 +43,13 @@ class Comparable(Protocol):
 T = TypeVar("T", bound=Comparable)
 
 
-def binary_search(arr: Indexable[T], value: T, /) -> int:
+def _clamp(value: int, min_: int, max_: int) -> int:
+    return max(min(value, max_), min_)
+
+
+def binary_search(
+    arr: Indexable[T], value: T, start: int = 0, stop: int | None = None, /
+) -> int:
     """
     >>> arr = list(range(200))
     >>> binary_search(arr, 50)
@@ -51,8 +59,9 @@ def binary_search(arr: Indexable[T], value: T, /) -> int:
     ...
     ValueError: 201 tidak ada dalam iterable
     """
-    L = 0
     r = len(arr) - 1
+    r = r if stop is None else _clamp(stop, 0, r)
+    L = _clamp(start, 0, r)
 
     while L <= r:
         if (temp := arr[(m := (L + r) // 2)]) < value:
