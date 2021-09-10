@@ -5,7 +5,7 @@ def max_difference(a: list[int]) -> tuple[int, int]:
     1 <= i <= j <= n dan A[j] - A[i] sebesar mungkin.
     informasi lebih lanjut
     https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
-    
+
     >>> max_difference([5, 11, 2, 1, 7, 9, 0, 7])
     (1, 9)
     """
