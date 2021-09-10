@@ -61,7 +61,8 @@ def binary_search(
     """
     if not isinstance(arr, SizedIndexable):
         raise TypeError(
-            "tipe argumen pertama tidak memiliki implementasi `__getitem__` atau `__len__`"
+            "tipe argumen pertama tidak memiliki implementasi "
+            "`__getitem__` atau `__len__`"
         )
 
     r = len(arr) - 1
