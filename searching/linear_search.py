@@ -18,7 +18,7 @@ from __future__ import annotations
 
 from typing import TypeVar
 
-from ._types import Indexable
+from _types import Indexable
 
 T = TypeVar("T")
 
