@@ -14,3 +14,9 @@ class Indexable(Iterable[T], Protocol[T]):
     @overload
     def __getitem__(self, key: slice) -> Indexable[T]:
         ...
+
+
+@runtime_checkable
+class SizedIndexable(Indexable[T], Protocol[T]):
+    def __len__(self) -> int:
+        ...

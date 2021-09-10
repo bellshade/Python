@@ -27,16 +27,16 @@ https://en.wikipedia.org/wiki/Binary_search_algorithm
 """
 from __future__ import annotations
 
-from typing import Protocol, TypeVar
+from typing import Any, Protocol, TypeVar
 
-from _types import Indexable
+from _types import SizedIndexable
 
 
 class Comparable(Protocol):
-    def __lt__(self) -> bool:
+    def __lt__(self, other: Any) -> bool:
         ...
 
-    def __gt__(self) -> bool:
+    def __gt__(self, other: Any) -> bool:
         ...
 
 
@@ -48,7 +48,7 @@ def _clamp(value: int, min_: int, max_: int) -> int:
 
 
 def binary_search(
-    arr: Indexable[T], value: T, start: int = 0, stop: int | None = None, /
+    arr: SizedIndexable[T], value: T, start: int = 0, stop: int | None = None, /
 ) -> int:
     """
     >>> arr = list(range(200))
@@ -59,6 +59,11 @@ def binary_search(
     ...
     ValueError: 201 tidak ada dalam iterable
     """
+    if not isinstance(arr, SizedIndexable):
+        raise TypeError(
+            "tipe argumen pertama tidak memiliki implementasi `__getitem__` atau `__len__`"
+        )
+
     r = len(arr) - 1
     r = r if stop is None else _clamp(stop, 0, r)
     L = _clamp(start, 0, r)
