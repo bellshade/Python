@@ -1,4 +1,4 @@
-# Python Algorithm
+# Python
 
 ![license](https://img.shields.io/github/license/bellshade/PythonAlgorithm?style=for-the-badge)
 ![code_quality](https://img.shields.io/lgtm/grade/python/github/bellshade/PythonAlgorithm?label=Code%20Quality&style=for-the-badge)
@@ -9,7 +9,7 @@
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
 ## Peraturan dan Pedoman Kontribusi
-Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada **PythonAlgorithm**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
+Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
 
 ## Quick Access
 Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
