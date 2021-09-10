@@ -42,6 +42,8 @@ def linear_search(
     ValueError: 10 tidak ada dalam iterable
     >>> linear_search((1,), 1)
     0
+    >>> linear_search("ini string", "s")
+    4
     """
     if not isinstance(arr, SizedIndexable):
         raise TypeError(
@@ -56,15 +58,15 @@ def linear_search(
     i = max(start, 0)  # set index start
     cap = min(len(arr) if stop is None else stop, len(arr))
     while i < cap:
-        # cek apakah elemen ke-i adalah nilai yang kita cari
+        # cek apakah elemen ke-i adalah nilai yang kita cari.
         if arr[i] == value:
-            # jika ya, return index-nya
+            # jika ya, return index-nya.
             return i
 
-        # jika tidak, lanjut ke index selanjutnya
+        # jika tidak, lanjut ke index selanjutnya.
         i += 1
 
-    # nilai tidak ditemukan
+    # nilai tidak ditemukan.
     raise exc
 
 

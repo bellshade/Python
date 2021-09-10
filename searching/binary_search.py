@@ -8,12 +8,12 @@ dan mengeliminasi bagian dimana elemen
 tsb. tidak mungkin ada, lalu mengulangi
 tahap yang sama untuk bagian yang disisakan.
 
-N.B. binary search hanya bekerja pada
+NB. binary search hanya bekerja pada
 iterable yang berurut. Aplikasi pada
 iterable yang tidak berurut akan menghasilkan
 UB (undefined behaviour).
 
-N.B.B elemen dari iterable harus mengimplementasikan
+NBB. elemen dari iterable harus mengimplementasikan
 operasi < dan >.
 
 Time complexity:
@@ -78,20 +78,20 @@ def binary_search(
     while L <= r:
         if (temp := arr[(m := (L + r) // 2)]) < value:
             # jika elemen tengah kurang dari nilai yang kita cari
-            # maka kita eliminasi bagian kiri
-            # update batas kiri
+            # maka kita eliminasi bagian kiri.
+            # update batas kiri.
             L = m + 1
         elif temp > value:
             # sedangkan jika elemen tengah lebih dari nilai yang kita cari
-            # maka kita elminiasi bagian kanan
-            # update batas kanan
+            # maka kita elminiasi bagian kanan.
+            # update batas kanan.
             r = m - 1
         else:
-            # elemen tengah sama dengan nilai yang kita cari
-            # return index-nya
+            # elemen tengah sama dengan nilai yang kita cari.
+            # return index-nya.
             return m
 
-    # nilai tidak ditemukan
+    # nilai tidak ditemukan.
     raise ValueError(f"{value} tidak ada dalam iterable")
 
 
