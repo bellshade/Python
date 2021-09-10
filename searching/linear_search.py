@@ -27,7 +27,7 @@ class Indexable(Iterable[T], Protocol[T]):
         ...
 
     @overload
-    def __getitem__(self, key: slice) -> "Indexable[T]":
+    def __getitem__(self, key: slice) -> Indexable[T]:
         ...
 
 
