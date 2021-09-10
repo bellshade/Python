@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 def max_difference(a: list[int]) -> tuple[int, int]:
     """
     diberi array A[1..n] bilangan int, n >= 1. Kami ingin
