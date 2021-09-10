@@ -31,7 +31,7 @@ def linear_search(
     >>> linear_search(arr, 5, 1)
     Traceback (most recent call last):
     ...
-    ValueError: 5 tidak ada dalam list
+    ValueError: 5 tidak ada dalam iterable
     >>> linear_search(arr, 6)
     3
     >>> linear_search(arr, 1, 2, 3)
@@ -39,7 +39,7 @@ def linear_search(
     >>> linear_search(arr, 10)
     Traceback (most recent call last):
     ...
-    ValueError: 10 tidak ada dalam list
+    ValueError: 10 tidak ada dalam iterable
     >>> linear_search((1,), 1)
     0
     """
@@ -48,7 +48,7 @@ def linear_search(
             "tipe argumen pertama tidak memiliki implementasi `__getitem__`"
         )
 
-    exc = ValueError(f"{value} tidak ada dalam list")
+    exc = ValueError(f"{value} tidak ada dalam iterable")
 
     if start > len(arr) - 1:
         raise exc
