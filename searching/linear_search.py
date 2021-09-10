@@ -1,8 +1,9 @@
 """
 Linear search adalah salah satu metode
 untuk mencari index suatu elemen dalam
-suatu iterable, e.g., list, tuple, etc.
-dengan membandingkan satu per satu elemen-elemennya.
+suatu iterable yang dapat di-index
+e.g., list, tuple, etc. dengan membandingkan
+satu per satu elemen-elemennya.
 
 Time complexity:
     Kasus terbaik: O(1)
