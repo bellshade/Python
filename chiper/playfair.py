@@ -4,6 +4,7 @@
 # informasi tentang playfair chiper
 # https://en.wikipedia.org/wiki/Playfair_cipher
 
+from __future__ import annotations
 import itertools
 import string
 from typing import Generator, Iterable
