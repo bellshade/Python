@@ -1,2 +1,11 @@
-env/*
+# direktori hasil cache testing
+# akan di ignore oleh git
+# agar tidak ikut dalam proses git push
+__pycache__/
+.vscode/
+.mypy_chache/
+.pytest_cache/
+pip-log.txt
 
+# hasil coverage
+.coverage

@@ -19,14 +19,36 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+    - name: salam
+      run: |
+        echo "Halo!"
+        echo "Mulai testing..."
+        echo "harap tunggu sebentar... :)"
     - name: Install dependencies
       run: |
+        echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
         pip install flake8 pytest
+        pip install coverage
+        pip install mypy
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test Python
       run: |
+        echo "Mulai Jalankan testing docstring"
         pytest . --doctest-modules
     - name: Test Lint Python
       run: |
-        flake8 . --ignore=E203,W503 --max-complexity=25 --max-line-length=88
+        echo "Mulai Jalankan testing flake8"
+        flake8 .
+    - name: Test mypy
+      run: |
+        echo "Mulai Jalankan testing mypy"
+        mypy .
+    - name: Test coverage
+      run: |
+        echo "Mulai testing coverage"
+        coverage run --source . -m pytest --doctest-modules
+    - name: Hasil coverage
+      run: |
+        echo "Laporan coverage"
+        coverage report -m

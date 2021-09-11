@@ -51,5 +51,6 @@ def f(x: float) -> float:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
     # print(intersection(f, 3, 3.5))
