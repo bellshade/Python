@@ -1,10 +1,10 @@
+from typing import Callable
 import numpy as np
 
 
 def midpoint(
-        func, a: float, b: float,
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
+) -> float:
     """
     Aturan titik tengah berfungsi mengoptimasi metode segiempat
     Dengan aturan ini, metode segiempat membagi domain integrasi
@@ -18,9 +18,9 @@ def midpoint(
     eps = error relatif maksimal
 
 
-    >>> midpoint(lambda x : x**3, 0, 1)
+    >>> midpoint(lambda x: x**3, 0, 1)
     0.25503446882812497
-    >>> midpoint(lambda x : x**10, 0, 1)
+    >>> midpoint(lambda x: x**10, 0, 1)
     0.09396302982674617
     """
     try:
@@ -37,17 +37,20 @@ def midpoint(
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
-        raise RuntimeError('Integrasi gagal, pastikan fungsi anda benar!')
+        raise RuntimeError("Integrasi gagal, pastikan fungsi anda benar!")
     return L1
 
 
 if __name__ == "__main__":
+
     def f(x: float) -> float:
         """
         Test Function
         """
-        return x**3
+        return x ** 3
+
     print(midpoint(f, 0, 1))
 
     import doctest
+
     doctest.testmod()

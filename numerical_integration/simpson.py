@@ -1,8 +1,9 @@
+from typing import Callable
 import numpy as np
 
 
 def simpson_13(
-        func, a: float, b: float,
+        func: Callable[..., float], a: float, b: float,
         eps: float = 0.0001,
         *args, **kwargs) -> float:
     """
@@ -17,9 +18,9 @@ def simpson_13(
     b   = batas atas integrasi
     eps = error relatif maksimal
 
-    >>> simpson_13(lambda x : x**2, 0, 2)
+    >>> simpson_13(lambda x: x**2, 0, 2)
     2.6666666666666665
-    >>> simpson_13(lambda x : x**5, 0, 1)
+    >>> simpson_13(lambda x: x**5, 0, 1)
     0.16666679687500002
     """
     try:
@@ -47,7 +48,7 @@ def simpson_13(
 
 
 def simpson_38(
-        func, a: float, b: float,
+        func: Callable[..., float], a: float, b: float,
         eps: float = 0.0001,
         *args, **kwargs) -> float:
     """
@@ -62,9 +63,9 @@ def simpson_38(
     b   = batas atas integrasi
     eps = error relatif maksimal
 
-    >>> simpson_38(lambda x : x**2, 0, 2)
+    >>> simpson_38(lambda x: x**2, 0, 2)
     2.666666666666667
-    >>> simpson_38(lambda x : x**5, 0, 1)
+    >>> simpson_38(lambda x: x**5, 0, 1)
     0.16666667809785096
     """
     try:
@@ -103,4 +104,5 @@ if __name__ == "__main__":
     print(simpson_38(f, 0, 1))
 
     import doctest
+
     doctest.testmod()

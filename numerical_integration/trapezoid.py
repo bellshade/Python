@@ -1,10 +1,10 @@
+from typing import Callable
 import numpy as np
 
 
 def trapezoid(
-        func, a: float, b: float,
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
+) -> float:
     """
     Metode integrasi trapesium mengganti bentuk segiempat
     yang sebelumnya digunakan untuk mengintegrasi menjadi
@@ -17,9 +17,9 @@ def trapezoid(
     b   = batas atas integrasi
     eps = error relatif maksimal
 
-    >>> trapezoid(lambda x : x**5, 0, 1)
+    >>> trapezoid(lambda x: x**5, 0, 1)
     0.16670751153457503
-    >>> trapezoid(lambda x : x**2, 0, 2)
+    >>> trapezoid(lambda x: x**2, 0, 2)
     2.6667973728065877
     """
     try:
@@ -39,13 +39,18 @@ def trapezoid(
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
-        raise RuntimeError('Integrasi gagal, pastikan fungsi anda benar!')
+        raise RuntimeError("Integrasi gagal, pastikan fungsi anda benar!")
     return L1
 
 
 if __name__ == "__main__":
+
     def f(x: float) -> float:
         """
         Test Function
         """
-        return x**4
+        return x ** 4
+
+    import doctest
+
+    doctest.testmod()

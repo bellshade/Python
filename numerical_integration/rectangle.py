@@ -1,10 +1,10 @@
+from typing import Callable
 import numpy as np
 
 
 def rectangle(
-        func, a: float, b: float,
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
+) -> float:
     """
     Metode segi empat adalah metode integrasi paling sederhana.
     Metode ini membagi domain integrasi sebanyak n buah
@@ -17,9 +17,9 @@ def rectangle(
     b    = batas atas integrasi
     eps  = error relatif maksimal
 
-    >>> rectangle(lambda x : x**2, 0, 2)
+    >>> rectangle(lambda x: x**2, 0, 2)
     2.6992751228325296
-    >>> rectangle(lambda x : x**1, 0, 2)
+    >>> rectangle(lambda x: x**1, 0, 2)
     2.0198019801980194
     """
     try:
@@ -36,17 +36,20 @@ def rectangle(
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:
-        raise RuntimeError('Integrasi gagal, pastikan fungsi anda benar!')
+        raise RuntimeError("Integrasi gagal, pastikan fungsi anda benar!")
     return L1
 
 
 if __name__ == "__main__":
+
     def f(x: float) -> float:
         """
         Test Function
         """
-        return x**2
+        return x ** 2
+
     print(rectangle(f, 0, 2))
 
     import doctest
+
     doctest.testmod()
