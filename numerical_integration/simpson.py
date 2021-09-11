@@ -5,12 +5,7 @@ import numpy as np
 
 
 def simpson_13(
-    func: Callable[..., float],
-    a: float,
-    b: float,
-    eps: float = 0.0001,
-    *args,
-    **kwargs
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
 
     """
@@ -52,12 +47,7 @@ def simpson_13(
 
 
 def simpson_38(
-    func: Callable[..., float],
-    a: float,
-    b: float,
-    eps: float = 0.0001,
-    *args,
-    **kwargs
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
 
     """

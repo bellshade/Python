@@ -4,12 +4,7 @@ import numpy as np
 
 
 def trapezoid(
-    func: Callable[..., float],
-    a: float,
-    b: float,
-    eps: float = 0.0001,
-    *args,
-    **kwargs
+    func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
 
     """
