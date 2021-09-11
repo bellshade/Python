@@ -28,11 +28,7 @@ jobs:
       run: |
         echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
-        pip install flake8 pytest
-        pip install coverage
-        pip install mypy
-        pip install black isort
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install -r requirements.txt -r dev-requirements.txt
     - name: Format otomatis
       run: |
         echo "Mulai format otomatis"
