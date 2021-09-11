@@ -5,8 +5,10 @@
 # karena metode ini menggunakan pendekatan satu titik sebagai titik awal.
 
 from __future__ import annotations
+
 from decimal import Decimal
 from math import *  # noqa: F401, F403
+
 from sympy import diff
 
 
