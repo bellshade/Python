@@ -1,12 +1,17 @@
 # type: ignore[arg-type]
 from typing import Callable
+
 import numpy as np
 
 
 def simpson_13(
-        func: Callable[..., float], a: float, b: float,  # type: ignore
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float],
+    a: float,
+    b: float,  # type: ignore
+    eps: float = 0.0001,
+    *args,
+    **kwargs
+) -> float:
 
     """
     Metode simpson 1/3 menggunakan
@@ -47,9 +52,13 @@ def simpson_13(
 
 
 def simpson_38(
-        func: Callable[..., float], a: float, b: float,  # type: ignore
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float],
+    a: float,
+    b: float,  # type: ignore
+    eps: float = 0.0001,
+    *args,
+    **kwargs
+) -> float:
 
     """
     Metode simpson 3/8 menggunakan
@@ -73,8 +82,18 @@ def simpson_38(
         n = 10
         h = (b - a) / n
         fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
-        L0 = (3 / 8 * h * (fx[0] + 3 * sum(fx[1:-2:3]) + 3 * sum(fx[2:-1:3])
-              + 2 * sum(fx[3:-3:3]) + fx[-1]))
+        L0 = (
+            3
+            / 8
+            * h
+            * (
+                fx[0]
+                + 3 * sum(fx[1:-2:3])
+                + 3 * sum(fx[2:-1:3])
+                + 2 * sum(fx[3:-3:3])
+                + fx[-1]
+            )
+        )
 
         # Optimasi
         err = 1
@@ -82,8 +101,18 @@ def simpson_38(
             n *= 3
             h = (b - a) / n
             fx = [func(a + i * h, *args, **kwargs) for i in range(n + 1)]
-            L1 = (3 / 8 * h * (fx[0] + 3 * sum(fx[1:-2:3]) + 3 * sum(fx[2:-1:3])
-                  + 2 * sum(fx[3:-3:3]) + fx[-1]))
+            L1 = (
+                3
+                / 8
+                * h
+                * (
+                    fx[0]
+                    + 3 * sum(fx[1:-2:3])
+                    + 3 * sum(fx[2:-1:3])
+                    + 2 * sum(fx[3:-3:3])
+                    + fx[-1]
+                )
+            )
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:

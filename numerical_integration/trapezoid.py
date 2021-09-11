@@ -1,11 +1,16 @@
 from typing import Callable
+
 import numpy as np
 
 
 def trapezoid(
-    func: Callable[..., float], a: float, b: float,  # type: ignore
-        eps: float = 0.0001,
-        *args, **kwargs) -> float:
+    func: Callable[..., float],
+    a: float,
+    b: float,  # type: ignore
+    eps: float = 0.0001,
+    *args,
+    **kwargs
+) -> float:
 
     """
     Metode integrasi trapesium mengganti bentuk segiempat

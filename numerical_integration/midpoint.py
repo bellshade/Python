@@ -1,10 +1,16 @@
 from typing import Callable
+
 import numpy as np
 
 
 def midpoint(
-    func: Callable[..., float], a: float, b: float,  # type: ignore
-        eps: float = 0.0001, *args, **kwargs) -> float:
+    func: Callable[..., float],
+    a: float,
+    b: float,  # type: ignore
+    eps: float = 0.0001,
+    *args,
+    **kwargs
+) -> float:
 
     """
     Aturan titik tengah berfungsi mengoptimasi metode segiempat
