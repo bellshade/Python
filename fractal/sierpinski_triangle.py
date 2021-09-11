@@ -3,7 +3,6 @@
 
 import turtle
 
-
 name = "sierpinksi triangle"
 
 

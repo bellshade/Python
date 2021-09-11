@@ -3,8 +3,8 @@
 # 4 fase dari algoritma genetika bekerja
 
 from __future__ import annotations
-import random
 
+import random
 
 # ukuran maksimal population, bisa besar, lebih cepat tapi memory feed
 N_POPULATION = 200
