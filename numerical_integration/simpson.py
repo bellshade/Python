@@ -7,7 +7,7 @@ import numpy as np
 def simpson_13(
     func: Callable[..., float],
     a: float,
-    b: float,  # type: ignore
+    b: float,
     eps: float = 0.0001,
     *args,
     **kwargs
@@ -54,7 +54,7 @@ def simpson_13(
 def simpson_38(
     func: Callable[..., float],
     a: float,
-    b: float,  # type: ignore
+    b: float,
     eps: float = 0.0001,
     *args,
     **kwargs

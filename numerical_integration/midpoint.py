@@ -6,7 +6,7 @@ import numpy as np
 def midpoint(
     func: Callable[..., float],
     a: float,
-    b: float,  # type: ignore
+    b: float,
     eps: float = 0.0001,
     *args,
     **kwargs
