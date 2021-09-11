@@ -2,6 +2,7 @@
 Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
 from __future__ import annotations
+
 import numpy as np
 
 
