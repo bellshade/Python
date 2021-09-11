@@ -1,0 +1,6 @@
+flake8
+pytest
+coverage
+mypy
+black==21.7b0
+isort
