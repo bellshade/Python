@@ -16,6 +16,11 @@ def trapezoid(
     a   = batas bawah integrasi
     b   = batas atas integrasi
     eps = error relatif maksimal
+
+    >>> trapezoid(lambda x : x**5, 0, 1)
+    0.16670751153457503
+    >>> trapezoid(lambda x : x**2, 0, 2)
+    2.6667973728065877
     """
     try:
         # Iterasi pertama

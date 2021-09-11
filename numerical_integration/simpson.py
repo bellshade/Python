@@ -16,6 +16,11 @@ def simpson_13(
     a   = batas bawah integrasi
     b   = batas atas integrasi
     eps = error relatif maksimal
+
+    >>> simpson_13(lambda x : x**2, 0, 2)
+    2.6666666666666665
+    >>> simpson_13(lambda x : x**5, 0, 1)
+    0.16666679687500002
     """
     try:
         # Iterasi pertama
@@ -56,6 +61,11 @@ def simpson_38(
     a   = batas bawah integrasi
     b   = batas atas integrasi
     eps = error relatif maksimal
+
+    >>> simpson_38(lambda x : x**2, 0, 2)
+    2.666666666666667
+    >>> simpson_38(lambda x : x**5, 0, 1)
+    0.16666667809785096
     """
     try:
         # Iterasi pertama
@@ -91,3 +101,6 @@ if __name__ == "__main__":
 
     print(simpson_13(f, 0, 1))
     print(simpson_38(f, 0, 1))
+
+    import doctest
+    doctest.testmod()

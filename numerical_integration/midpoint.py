@@ -16,6 +16,12 @@ def midpoint(
     a   = batas bawah integrasi
     b   = batas atas integrasi
     eps = error relatif maksimal
+
+
+    >>> midpoint(lambda x : x**3, 0, 1)
+    0.25503446882812497
+    >>> midpoint(lambda x : x**10, 0, 1)
+    0.09396302982674617
     """
     try:
         n = 100
@@ -42,3 +48,6 @@ if __name__ == "__main__":
         """
         return x**3
     print(midpoint(f, 0, 1))
+
+    import doctest
+    doctest.testmod()

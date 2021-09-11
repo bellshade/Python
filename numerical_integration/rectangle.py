@@ -16,6 +16,11 @@ def rectangle(
     a    = batas bawah integrasi
     b    = batas atas integrasi
     eps  = error relatif maksimal
+
+    >>> rectangle(lambda x : x**2, 0, 2)
+    2.6992751228325296
+    >>> rectangle(lambda x : x**1, 0, 2)
+    2.0198019801980194
     """
     try:
         n = 100
@@ -42,3 +47,6 @@ if __name__ == "__main__":
         """
         return x**2
     print(rectangle(f, 0, 2))
+
+    import doctest
+    doctest.testmod()
