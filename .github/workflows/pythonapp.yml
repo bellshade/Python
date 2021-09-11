@@ -50,7 +50,7 @@ jobs:
       id: git-check
       run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
     - name: Push perubahan
-      if: steps.git-check.outputs.modified == 'ya'
+      if: steps.git-check.outputs.modified == 'ya' && github.event_name == 'push'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
