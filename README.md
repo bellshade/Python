@@ -31,4 +31,6 @@ Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Linear Algebra](https://github.com/bellshade/Python/tree/main/linear_algebra)
 - [Matrix](https://github.com/bellshade/Python/tree/main/matrix)
 - [Networking Flow](https://github.com/bellshade/Python/tree/main/networking_flow)
+- [Numerical Integration](https://github.com/bellshade/Python/tree/main/numerical_integration)
+- [Physics](https://github.com/bellshade/Python/tree/main/physics)
 - [Others Algorithm](https://github.com/bellshade/Python/tree/main/other)
