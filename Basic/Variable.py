@@ -7,6 +7,6 @@ umur = 12  # contoh tipe data integer (int)
 nilai = 95.5  # nilai
 
 print("Dia bernama ", nama)
-print("Dia baru berumur ", umur," tahun")
+print("Dia baru berumur ", umur, " tahun")
 print("dan dia mendapatkan nilai ", nilai)
 print("dan itu sangat hebat sekali")
