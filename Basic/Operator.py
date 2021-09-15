@@ -123,7 +123,7 @@ print("\n==================\n")
 # Identity Operators
 print("Identity Operators\n")
 print("a is b:", a is b)
-print("a is a:", a is a) # lgtm [py/comparison-of-identical-expressions]
+print("a is a:", a is a)  # lgtm [py/comparison-of-identical-expressions]
 print("a is not b:", a is not b)
 
 # Pemisah
