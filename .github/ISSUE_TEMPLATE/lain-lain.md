@@ -1,8 +1,8 @@
 ---
 name: Lain Lain
-about: buat report untuk masalah yang memungkinkan kita bisa menyelesaikan masalahnya
-title: Issue Lain
-labels: i have some problem
+about: buat report deskripsi untuk pull request
+title: Penambahan algoritma
+labels: enhancement
 assignees: ''
 
 ---

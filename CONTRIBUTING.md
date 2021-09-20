@@ -133,7 +133,8 @@ count_bullet_speed
 
 **Pull request yang baik**
 
-- lakukan fork pada repository kami
+- lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [issue](https://github.com/bellshade/Python/issues)
+- setelah menjelaskan perubahan anda di [issue](https://github.com/bellshade/Python/issues) kemudian lakukan fork pada repository kami
 - setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
   - untuk pull request merubah atau memperbaiki diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya
 - lakukan testing dengan menggunakanan pytesting dan flake8 secara lokal
