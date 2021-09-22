@@ -36,5 +36,5 @@ def testing() -> None:
 
 if __name__ == "__main__":
     import doctest
-    testing()
+    # testing()
     doctest.testmod()
