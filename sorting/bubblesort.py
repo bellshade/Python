@@ -4,8 +4,6 @@ membandingkan 2 elemen array lalu menggeser kedua elemen tersebut
 sesuai dengan urutan terus-menerus sampai akhir array
 """
 
-from __future__ import annotations
-
 
 def bubble_sort(numbers: list) -> list:
     """
