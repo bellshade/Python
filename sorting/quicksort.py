@@ -1,7 +1,7 @@
 """
-Quicksort merupakan Algoritme Pembagi. Pertama quicksort membagi list 
-yang besar menjadi dua buah sub list yang lebih kecil: element kecil 
-dan element besar. Quicksort kemudian dapat menyortir sub list itu 
+Quicksort merupakan Algoritme Pembagi. Pertama quicksort membagi list
+yang besar menjadi dua buah sub list yang lebih kecil: element kecil
+dan element besar. Quicksort kemudian dapat menyortir sub list itu
 secara rekursif. https://id.wikipedia.org/wiki/Quicksort
 """
 from __future__ import annotations
