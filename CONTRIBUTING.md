@@ -133,7 +133,7 @@ count_bullet_speed
 
 **Pull request yang baik**
 
-informasi : gunakan [issue](https://github.com/bellshade/Python/issue) apabila ingin menambahkan kode atau implementasi algoritma, dll (basic) lainnya agar tidak conflict antara pull request lainnya.
+informasi : gunakan [issue](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau implementasi algoritma, dll (basic) lainnya agar tidak conflict antara pull request lainnya.
 
 - lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [issue](https://github.com/bellshade/Python/issues)
 - setelah menjelaskan perubahan anda di [issue](https://github.com/bellshade/Python/issues) kemudian lakukan fork pada repository kami
