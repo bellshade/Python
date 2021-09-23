@@ -51,8 +51,8 @@ def bubble_sort(numbers: list) -> list:
 
 def testing() -> None:
     """
-    >>> numbers = [5, 3, 8, 4, 6]
-    >>> expected_result = [3, 4, 5, 6, 8]
+    >>> numbers = [5, 2, 1, 3, 2, 5, 7, 3, 4]
+    >>> expected_result = [1, 2, 2, 3, 3, 4, 5, 5, 7]
     >>> bubble_sort(numbers) == expected_result
     True
     """
