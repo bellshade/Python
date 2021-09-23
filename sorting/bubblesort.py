@@ -21,8 +21,6 @@ tidak ada lagi yang dapat ditukar posisi
 Final        [3, 4, 5, 6, 8] Array selesai diurutkan
 """
 
-from __future__ import annotations
-
 
 def bubble_sort(numbers: list) -> list:
     """
