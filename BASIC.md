@@ -1,7 +1,7 @@
-# Dasar - dasar Python
+# Dasar - Dasar Python
 - Hello world
-- Variable data types ( primitive )
-- Operator
+- [Variable dan data types ( primitive )](https://github.com/bellshade/Python/tree/main/Basic/variable)
+- [Operator](https://github.com/bellshade/Python/blob/main/Basic/Operator.py)
 - String
 - Input / output
 - Logika
