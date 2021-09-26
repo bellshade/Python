@@ -23,6 +23,6 @@ print(type(angka_string))
 
 
 # contoh lain (tipedata string)
-# string(1)
-# string("2")
-# string(3.14)
+# str(1)
+# str("2")
+# str(3.14)
