@@ -35,6 +35,7 @@ e = 0
 while e <= 5:
     print(e)
     e += 1
+    break
 else:
     print("e tidak lebih dari 5")
     
