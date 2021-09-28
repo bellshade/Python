@@ -1,7 +1,7 @@
 # tipe data pada python adalah
 # tipe text yaitu string
 # tipe angka yaitu int, float, dan complex
-# tipe data majemuk yaitu list, tuple, range
+# tipe data majemuk yaitu list, tuple, set dan range
 # tipe data map yaitu dict
 
 # penggunaan type() sebagai pemeriksa sebuah tipe data
@@ -19,7 +19,9 @@ print(type(operasi))
 # contoh tipe data dari list
 nama_siswa = ["andi", "buzz", "wheezy", "army"]
 print(nama_siswa)
+print(type(nama_siswa))
 
-# contoh tupe data dari dict
+# contoh tipe data dari dict
 merk_mobil = {"merk": "ferrari", "asal": "italia"}
 print(merk_mobil)
+print(type(merk_mobil))
