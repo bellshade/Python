@@ -8,7 +8,7 @@
 
 # suatu tipe data yang terdapat pada variabel
 # menampilkan contoh tipe data integer
-bilangan_integer = 2;
+bilangan_integer = 2
 print(type(bilangan_integer))
 
 # menampilkan tipe data yang merupakan
