@@ -7,10 +7,10 @@ hello() # Hello!
 
 # section 2
 
-def hello(nama):
+def selamat(nama):
     print('Hello '+str(nama)+' !')
     
-hello('Bellshade') # Hello Bellshade !
+selamat('Bellshade') # Hello Bellshade !
 
 # section 3
 
@@ -22,11 +22,11 @@ triangle(2,3)
 
 # section 4
 
-def triangle(alas,tinggi):
+def segitiga(alas,tinggi):
     hasil = (alas * tinggi)/2
     return hasil
     
-print(triangle(2,3))
+print(segitiga(2,3))
 
 # section 5
 
