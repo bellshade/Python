@@ -27,13 +27,4 @@ Saya menggunakan (I'm using):
 
 <!-- Jika ada gagal pada salah satu test, kami akan mengeceknya kembali. -->
 <!-- If there is a failure in one of the tests, we will check it again. -->
-# Maintainer
-**Python Maintainer**:
-@norinorin
-@athallahmaajid
-@KelvinMulyawan
-@slowy07
-
-**Docs maintainer**:
-@dydrmr5
-@nomadkode
+linked issue #NOMOR_ISSUE <!--contoh #1-->

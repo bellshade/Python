@@ -1,46 +1,45 @@
-# Contributing
+# *Contributing*
 ![contributor](https://img.shields.io/github/contributors/bellshade/PythonAlgorithm?label=kontributor&style=for-the-badge)
 
-**contributor**
+***Contributor***
 
-Kami sangat senang anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau memperbaiki error.
-semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai berikut:
+Kami sangat senang anda telah ikut berkontribusi dalam implementasi algortima, struktur data, atau memperbaiki *error*.
+Semua boleh ikut berkontribusi sekecil apapun dengan pengecualian sebagai berikut:
 
-- hasil pekerjaan kamu adalah buatan kamu sendiri dan tidak ada hak cipta dari orang lain
-  - jika kami menemukan kesamaan maka kami tidak `merged`.
-- hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika permintaan pull kamu sudah di merged
-- hasil kerja kamu wajib mengikuti standar dan style koding dari kami
-- hanya menerima file yang berekstensi ``*.py`` selain itu dibuat pengecualian dengan menjelaskan secara detail
+- Hasil pekerjaan kamu adalah buatan kamu sendiri dan tidak ada hak cipta dari orang lain. Jika kami menemukan kesamaan, maka tidak kami *merge*.
+- Hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika *pull request* kamu sudah di-*merge*.
+- Hasil kerja kamu wajib mengikuti standar dan *style* koding dari kami.
+- Hanya menerima *file* dengan ekstensi ``*.py``, selain itu dibuat pengecualian dengan menjelaskan secara detail.
 
-**apa itu algoritma?**
+**Apa itu algoritma?**
 
-Algoritma adalah satu atau lebih fungsi (atau kelas) yang:
+Algoritma adalah satu atau lebih fungsi dan/atau kelas yang:
 
-- memiliki satu atau lebih input
-- melakukan beberapa internal kalkulasi atau manipulasi data
-- mengembalikan nilai hasil satu atau lebih
-- memiliki kekurangan minimal (contoh : `print()`,`plot()`,`read()`,`write()`)
+- memiliki satu atau lebih *input*;
+- melakukan beberapa internal kalkulasi atau manipulasi data;
+- mengembalikan satu atau lebih nilai hasil;
+- memiliki kekurangan minimal (contoh: `print()`,`plot()`,`read()`,`write()`).
 
-Algoritma harus dikemas sedemikian rupa sehingga memudahkan pembaca untuk memasukkannya ke dalam program yang lebih besar.
+Algoritma harus dikemas sedemikian rupa agar dapat dengan mudah dimasukkan ke dalam program yang lebih besar.
 
-Algoritma harus memiliki:
+Algoritma harus:
 
-- memiliki nama kelas dan fungsi intuitif yang memperjelas tujuannya bagi pembaca
-- menggunakan konvensi penamaan Python dan nama variabel intuitif untuk memudahkan pemahaman
-- fleksibel untuk mengambil nilai input yang berbeda
-- memiliki petunjuk tipe Python untuk parameter input dan nilai pengembaliannya
-- tingkatkan pengecualian Python (ValueError, dll.) pada nilai input yang salah
-- memiliki docstrings dengan penjelasan yang jelas dan/atau URL ke materi sumber
-- berisi doctests yang menguji nilai input yang valid dan salah
-- kembalikan semua hasil perhitungan alih-alih mencetak atau memplotnya
+- memiliki nama kelas dan fungsi intuitif yang memperjelas tujuannya bagi pembaca;
+- menggunakan konvensi penamaan Python dan nama variabel intuitif untuk memudahkan pemahaman;
+- fleksibel untuk mengambil nilai *input* yang berbeda;
+- memiliki petunjuk tipe Python untuk parameter *input* dan nilai pengembaliannya;
+- tingkatkan pengecualian Python (ValueError, dll.) pada nilai *input* yang salah;
+- memiliki *docstring* dengan penjelasan yang jelas dan/atau URL ke materi sumber;
+- berisi *doctests* yang menguji nilai *input* yang valid dan salah;
+- mengembalikan semua hasil perhitungan alih-alih mencetak atau memplotnya.
 
-# docstrings
+# Docstrings
 
-**penggunaan docstrings**
+**Penggunaan *docstring***
 
-penggunaan doctstring bertujuan untuk memudahkan pembaca membaca dan mengimplementasikan algoritma.
+Penggunaan *docstring* bertujuan untuk memudahkan pembaca membaca dan mengimplementasikan algoritma.
 
-**docstring yang baik**
+***Docstring* yang baik:**
 
 ```py
 def adding(num1, num2):
@@ -54,7 +53,7 @@ def adding(num1, num2):
     return num1 + num2
 ```
 
-**docstring yang buruk**
+***Docstring* yang buruk:**
 
 ```py
 def adding(num1, num2):
@@ -64,7 +63,7 @@ def adding(num1, num2):
     return num1 + num2
 ```
 
-**saran penggunaan docstring yang baik untuk testing pytesting**
+**Saran penggunaan *docstring* yang baik untuk *doctest*:**
 
 ```py
 def adding(num1, num2):
@@ -82,20 +81,21 @@ def adding(num1, num2):
   return num1 + num2
 ```
 
-## lint test
+## Lint Test
 
-**instalasi**
+**Instalasi**
 
-kami menggunakan flake8 untuk lint testing agar penulisan code lebih baik.
-installasi flake8
+Kami menggunakan ``flake8`` untuk *lint testing* agar penulisan kode jadi lebih baik.
+
+Installasi ``flake8``:
 
 ```bash
 pip install flake8
 ```
 
-**testing**
+**Testing**
 
-untuk lint testing,kami menyarankan kepada kamu untuk test lokal dengan flake8 dengan cara
+Untuk *lint testing*, kami menyarankan kamu untuk melakukan tes lokal dengan ``flake8``:
 
 ```bash
 flake8 perubahan_kamu.py
@@ -105,7 +105,7 @@ flake8 perubahan_kamu.py
 flake8 .
 ```
 
-untuk docstring dengan cara:
+Untuk *doctests*:
 
 ```bash
 pytest . --doctest-modules
@@ -115,13 +115,13 @@ pytest . --doctest-modules
 pytest perubahan_kamu.py --doctest-modules
 ```
 
-**saran**
+**Saran**
 
-[Pemahaman list dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`, pengurangan tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
+[Pemahaman list dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`. Tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
 
-## tambahan perubahan
+## Tambahan Perubahan
 
-jika ingin menambahkan algoritma atau script python3 yang sederhana atau menambahkan kode yang sederhana, kamu bisa menambahkan perubahan di folder `other`, jika file tersebut melebihi satu file, sebaiknya file-file tersebut ke dalam folder sesuai dengan nama script tersebut sebagai contoh
+Jika ingin menambahkan algoritma atau *script* Python 3 yang sederhana atau menambahkan kode yang sederhana, kamu bisa menambahkan perubahan di folder `other`. Jika terdapat beberapa *file*, sebaiknya *file-file* tersebut ke dalam folder sesuai dengan nama *script* tersebut sebagai contoh:
 
 ```
 count_bullet_speed
@@ -129,38 +129,40 @@ count_bullet_speed
 └── file_tambahan.py
 ```
 
-# Pull Request
+# *Pull Request*
 
-**Pull request yang baik**
+***Pull request* yang baik**
 
-- lakukan fork pada repository kami
-- setelah melakukan fork anda dibebaskan untuk mengubah atau menambah algoritma.
-  - untuk pull request merubah atau memperbaiki diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya
-- lakukan testing dengan menggunakanan pytesting dan flake8 secara lokal
-- setelah merubah merubah, atau menambahkan algoritma, serta testing lokal kode kamu, usahakan kamu membuat dengan branch kamu
+Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau implementasi algoritma, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
+
+- Lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [*issue*](https://github.com/bellshade/Python/issues).
+- Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/Python/issues) kemudian lakukan *fork* pada repositori kami.
+- Setelah melakukan *fork*, anda dibebaskan untuk mengubah atau menambah algoritma.
+  - Untuk *pull request* merubah atau memperbaiki, diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya.
+- Lakukan tes dengan menggunakan ``pytest`` dan ``flake8`` secara lokal.
+- Setelah merubah-rubah atau menambahkan algoritma serta melakukan tes lokal kode kamu, usahakan kamu membuat *local branch* baru:
   ```bash
   git checkout -b <branch_name>
   git add . # atau git add nama_perubahan_kamu.py
   git commit -m "add: menambahkan algoritma terbaru"
   ```
-- lakukan push ke branch kamu dan kemudian open pull request
+- Lakukan *push* ke *branch* kamu dan kemudian *open pull request*.
 
-**saran pesan commit**
+**Saran pesan commit**
 
-- `add` untuk menambah algoritma atau tambahan lainnya
-- `fix` untuk mengubah algoritma yang sudah ada atau memperbaiki
-- `docs` untuk mengubah atau membuat dokumentasi
-- `style` untuk mengubah atau memperbaiki style kode
-  untuk contohnya bisa dilihat pada contoh commit yang diatas.
+- `add` untuk menambah algoritma atau tambahan lainnya;
+- `fix` untuk mengubah algoritma yang sudah ada atau memperbaiki;
+- `docs` untuk mengubah atau membuat dokumentasi;
+- `style` untuk mengubah atau memperbaiki *style* kode—untuk contohnya bisa dilihat pada contoh commit di atas.
 
-pull request akan di `merged` jika:
+Pull request akan di-*merge* jika:
 
-- mengikuti standar dan arahan dari `CONTRIBUTING.md`
-- lulus test dan cek dari beberapa test yang sudah kami siapkan.
+- mengikuti standar dan arahan dari `CONTRIBUTING.md`;
+- lulus tes dan cek dari beberapa tes yang sudah kami siapkan.
 
-**tambahan**:
+**Tambahan**:
 
-- jika ada kendala atau masalah dalam pull request, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues)
-- jika ada tes yang tidak lewat atau gagal, kami akan mengecek kembali perubahan anda.
+- Jika ada kendala atau masalah dalam *pull request*, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues).
+- Jika ada tes yang tidak lewat atau gagal, kami akan cek kembali perubahan anda.
 
-untuk pull request disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan,serta selalu berterima kasih, itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.
+Untuk *pull request*, disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan serta selalu berterima kasih. Itu salah satu bentuk tata krama yang baik terhadap sesama *contributor* dan *programmer* lainnya.

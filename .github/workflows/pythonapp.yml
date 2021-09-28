@@ -37,7 +37,7 @@ jobs:
     - name: Test Python
       run: |
         echo "Mulai Jalankan testing docstring"
-        pytest . --doctest-modules
+        pytest . --doctest-modules --ignore=Basic/
     - name: Test Lint Python
       run: |
         echo "Mulai Jalankan testing flake8"
@@ -60,7 +60,7 @@ jobs:
     - name: Test coverage
       run: |
         echo "Mulai testing coverage"
-        coverage run --source . -m pytest --doctest-modules
+        coverage run --source . -m pytest --doctest-modules --ignore=Basic/
     - name: Hasil coverage
       run: |
         echo "Laporan coverage"
