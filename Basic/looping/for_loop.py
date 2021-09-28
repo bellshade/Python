@@ -22,5 +22,6 @@ for item in angka:
     
 for item in angka:
     print(item)
+    break
 else:
     print("Selesai !")
