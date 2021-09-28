@@ -5,7 +5,7 @@ operator digunakan untuk melakukan operasi pada kedua variabel atau value
 python memiliki beberapa jenis operator yaitu
 
 - [operator aritmatika](operator_aritmatika.py)
-- operator penugasan
+- [operator penugasan](operator_penugasan.py)
 - operator komparasi
 - operator logika
 - operator identitas
