@@ -49,7 +49,9 @@ print("nilai adalah", nilai)
 operasi tersebut menambahkan sekaligus menetapkan ke dalam variabel nilai
 
 berikut tabel dari operasi penugasan
+
 |   Operator    |   Example     |  Sama Dengan  |
+|---------------|---------------|---------------|
 |     =         |   x = 5       |   x = 5       |
 |     +=        |   x += 3      |   x = x + 3   |
 |     -=        |   x -= 3      |   x = x - 3   |
