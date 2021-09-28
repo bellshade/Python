@@ -128,5 +128,5 @@ perbedaaan-nya adalah, while loop itu bergerak / melakukan sesuatu berdasarkan "
 sementara for loop adalah looping yang melakukan sesuatu berdasarkan "keanggotaan", seperti misalnya, "untuk setiap anggota dari list angka, tampilkan (print)", hal ini tentu di dukung dengan arti dari statement for loop yaitu ```for item in iterable``` yang artinya ```untuk setiap item yang ada di dalam iterable``` dan arti kata ```for``` itu sendiri yang artinya ```untuk```
 
 
-<a href="">while loop</a><br>
-<a href="">for loop</a>
+<a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/while_loop.py">while loop</a><br>
+<a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/for_loop.py">for loop</a>
