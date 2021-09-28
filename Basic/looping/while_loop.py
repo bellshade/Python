@@ -23,11 +23,11 @@ while c <= 5:
 # continue statement
 d = 0
 
-while i <= 5:
+while d <= 5:
     d += 1
     if d == 3:
         continue
-    print(i)
+    print(d)
     
 # else statement
 e = 0
