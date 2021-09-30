@@ -4,7 +4,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
 
 - berupa text
     
-    - ``str''
+    - ``str``
 
         merupakan salah satu tipe data yang berupa string, berfungsi untuk menghasilkan tipe data string seperti huruf abjad atau simbol lain
         ```python
@@ -14,7 +14,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
 
 - berupa angka
 
-    - int
+    - ``int``
 
         merupakan salah satu tipe numerik yang sering dipakai dalam pemograman, yang berupa bilangan bulat
         ```python
@@ -22,7 +22,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         tahun_lahir = 1945
         ```
 
-    - float
+    - ``float``
 
         merupakan salah satu tipe numerik yang menghasilkan berupa bilangan pecahan, sangat berguna dalam menghasilkan nilai secara detail
         ```python
@@ -30,7 +30,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         nilai_teman = 30.25912
         ```
 
-    - complex
+    - ``complex``
 
         merupakan salah satu tipe data numerik yang berfungsi menghasil sebuah angka complex, contoh angka complex bisa dilihat [disini](https://id.wikipedia.org/wiki/Bilangan_kompleks)
         ```python
@@ -40,7 +40,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
     
 - berupa urutan (sekuensial)
 
-    - list
+    - ``list``
 
         tipe data list adalah tipe data koleksi yang berisi beberapa value yang terdapat dalam satu variabel. list menggunakan kurung kotak
         ```python
@@ -48,7 +48,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         nilai_siswa = [12, 13, 14]
         ```
 
-    - tuple
+    - ``tuple``
 
         tipe data tuple adalah tipe data koleksi yang berisi beberap valua yang terdapat dalam satu variabel. perbedaan diantara keduanya adalah
         
@@ -62,7 +62,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
 
 - berupa map (kata kunci, dictionary)
 
-    - dict
+    - ``dict``
 
         tipe data dict  atau dictionary adalah tipe data array dimana kunci atau __key__ dari array bisa berbentuk string, dan angka
         ```python
