@@ -5,7 +5,7 @@ operator digunakan untuk melakukan operasi pada kedua variabel atau value
 python memiliki beberapa jenis operator yaitu
 
 - [operator aritmatika](operator_aritmatika.py)
-- operator penugasan
+- [operator penugasan](operator_penugasan.py)
 - operator komparasi
 - operator logika
 - operator identitas
@@ -36,3 +36,32 @@ berikut table dari operasi aritmatika
 | %        | modulus       | a % b             |
 | //       | floor         | a // b            |
 
+## operasi penugasan
+operasi penugasan adalah operasi yang digunakan untuk menetapkan suatu bilangan ke dalam variabel
+
+sebagai contoh operasi penugasan
+```python
+nilai = 5
+nilai += 3
+
+print("nilai adalah", nilai)
+```
+operasi tersebut menambahkan sekaligus menetapkan ke dalam variabel nilai
+
+berikut tabel dari operasi penugasan
+
+|   Operator    |   Example     |  Sama Dengan  |
+|---------------|---------------|---------------|
+|     =         |   x = 5       |   x = 5       |
+|     +=        |   x += 3      |   x = x + 3   |
+|     -=        |   x -= 3      |   x = x - 3   |
+|     *=        |   x *= 3      |   x = x * 3   |
+|     /=        |   x /= 3      |   x = x / 3   |
+|     %=        |   x %= 3      |   x = x % 3   |
+|     //=       |   x //= 3     |   x = x // 3  |
+|     **=       |   x **= 3     |   x = x ** 3  |
+|     &=        |   x &= 3      |   x = x & 3   |
+|     &#124;=        |   x &#124;= 3      |   x = x &#124; 3   |
+|     ^=        |   x ^= 3      |   x = x ^ 3   |
+|     <<=       |   x <<= 3     |   x = x << 3  |
+|     >>=       |   x >>= 3     |   x = x >> 3  |
