@@ -7,15 +7,15 @@ print("Hello")
 print("=================")
 
 # String Satu Kutip(')
-print('Hello')
+print("Hello")
 
 # Pemisah
 print("=================")
 
 # String Multiline
-print("""Lorem ipsum dolor sit amet,
+print(
+    """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.""")
-
-
+ut labore et dolore magna aliqua."""
+)
