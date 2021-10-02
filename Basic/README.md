@@ -1,8 +1,8 @@
 # Dasar - Dasar Python
-1. [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
+1. [Introduction](Introduction.py)
 2. Hello world
-3. [Variable dan data types ( primitive )](https://github.com/bellshade/Python/tree/main/Basic/variable)
-4. [Operator](https://github.com/bellshade/Python/blob/main/Basic/Operator.py)
+3. [Variable dan data types ( primitive )](variable)
+4. [Operator](Operator.py)
 5. String
 6. Input / output
 7. Logika
