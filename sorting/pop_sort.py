@@ -21,18 +21,16 @@ def pop_sort(arr):
         print('Data yang diambil:', top)
         print('Array A:', arrA)
 
-        """
-        Apabila array B ada isinya dan isi paling atas dari array B
-        lebih kecil dari array A, kita pindahkan semua nilai-nilai yang
-        cocok dengan kondisi tersebut ke array C
+        # Apabila array B ada isinya dan isi paling atas dari array B
+        # lebih kecil dari array A, kita pindahkan semua nilai-nilai yang
+        # cocok dengan kondisi tersebut ke array C
 
-        Pada bagian statement kedua, anda dapat mengganti "<" menjadi ">"
-        sesuai keinginan anda.
+        # Pada bagian statement kedua, anda dapat mengganti "<" menjadi ">"
+        # sesuai keinginan anda.
 
-        Catatan:
-        Kita harus menghitung isi array terlebih dahulu sebelum mengambil
-        data array lebih utama agar menghindari error "Undefined index"
-        """
+        # Catatan:
+        # Kita harus menghitung isi array terlebih dahulu sebelum mengambil
+        # data array lebih utama agar menghindari error "Undefined index"
         while len(arrB) > 0 and top > arrB[len(arrB) - 1]:
             arrC.append(arrB.pop())
 
