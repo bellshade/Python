@@ -1,8 +1,16 @@
 """
 Algoritma Konversi Suhu
+
 Satuan suhu yang tersedia: celcius, reamur, fahrenheit, kelvin
 (argumen dari parameter 'dari' dan 'ke' berlaku sebaliknya)
+
 Bahasa: Python
+
+===
+
+# Kelvin ke Fahrenheit
+>>> konversiSuhu("kelvin", "fahrenheit", 100)
+'Parameter Salah!'
 """
 
 def konversiSuhu(dari="celcius", ke="fahrenheit", suhu=0):
@@ -56,29 +64,20 @@ def konversiSuhu(dari="celcius", ke="fahrenheit", suhu=0):
         hasil = (4 / 5) * (suhu - 273)
         return tampilkanHasil(dari, ke, suhu, hasil)
 
-    return "Parameter Salah!\n"
+    return "Parameter Salah!"
 
 def tampilkanHasil(dari, ke, suhu, hasil):
     return ("=== Konversi Suhu ===\n" +
             "Dari: " + dari + ", " + str(suhu) + "\n" +
             "Ke: " + ke + ", " + str(hasil) + "\n")
 
-
 """
-Contoh implementasi
+Contoh implementasi: Celcius ke Fahrenheit
 """
 
-# Celcius ke Fahrenheit
 print(konversiSuhu("celcius", "fahrenheit", 32))
 
-# Celcius ke Reamur
-print(konversiSuhu("celcius", "reamur", 27))
+if __name__ == "__main__":
+    import doctest
 
-# Fahrenheit ke Celcius
-print(konversiSuhu("fahrenheit", "celcius", 60))
-
-# Kelvin ke Fahrenheit
-print(konversiSuhu("kelvin", "fahrenheit", 100))
-
-# Reamur ke Kelvin
-print(konversiSuhu("reamur", "kelvin", 18))
+    doctest.testmod()
