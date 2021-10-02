@@ -6,7 +6,7 @@ python memiliki beberapa jenis operator yaitu
 
 - [operator aritmatika](operator_aritmatika.py)
 - [operator penugasan](operator_penugasan.py)
-- operator komparasi
+- [operator komparasi](operator_perbandingan.py)
 - operator logika
 - operator identitas
 - operasi member
@@ -65,3 +65,25 @@ berikut tabel dari operasi penugasan
 |     ^=        |   x ^= 3      |   x = x ^ 3   |
 |     <<=       |   x <<= 3     |   x = x << 3  |
 |     >>=       |   x >>= 3     |   x = x >> 3  |
+
+
+## operasi perbandingan
+
+operasi perbandingan adalah operasi yang digunakan untuk membandingkan suatu nilai dengan nilai yang lain
+
+sebagai contoh operasi perbandingan
+```python
+print(2 < 3)  # True
+```
+
+operasi tersebut membadingkan apakah nilai pertama lebih kecil daripada nilai kedua
+
+berikut tabel dari operasi perbandingan
+|   Operator    |                Artinya                |
+|---------------|---------------------------------------|
+|      ==       |              Sama Dengan              |
+|      !=       |           Tidak Sama Dengan           |
+|      >        |           Lebih besar dari            |
+|      <        |           Lebih Kecil dari            |
+|      >=       |    Lebih Besar dari atau sama dengan  |
+|      <=       |    Lebih Kecil dari atau sama dengan  |
