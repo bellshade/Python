@@ -24,5 +24,5 @@ print("x > 6 or x < 1:", x > 6 or x < 1)  # False
 # operator "not" digunakan untuk mengecek
 # apakah nilai tersebut bernilai False
 
-print(not(x <= 6))  # False
-print(not(x >= 10))  # True
+print(not x <= 6)  # False
+print(not x >= 10)  # True
