@@ -3,6 +3,9 @@ Algoritma Konversi Suhu
 
 Satuan suhu yang tersedia: celcius, reamur, fahrenheit, kelvin
 (argumen dari parameter 'dari' dan 'ke' berlaku sebaliknya)
+
+>>> konversi_suhu("celcius", "fahrenheit", 32)
+'=== Konversi Suhu ===\\nDari: celcius, 32\\nKe: fahrenheit, 89.6\\n'
 """
 
 def konversi_suhu(dari="celcius", ke="fahrenheit", suhu=0):
