@@ -12,14 +12,14 @@ def pop_sort(arr):
     arrA = arr
     arrB = []
     arrC = []
-    print('Data sebelum disort:', arrA, end="\n\n")
+    print("Data sebelum disort:", arrA, end="\n\n")
 
     # Kita loop hingga data di $a kosong
     while len(arrA) > 0:
         # Keluarkan nilai paling atas dari array $a
         top = arrA.pop()
-        print('Data yang diambil:', top)
-        print('Array A:', arrA)
+        print("Data yang diambil:", top)
+        print("Array A:", arrA)
 
         # Apabila array B ada isinya dan isi paling atas dari array B
         # lebih kecil dari array A, kita pindahkan semua nilai-nilai yang
@@ -37,16 +37,16 @@ def pop_sort(arr):
         # Setelah aman, kita masukkan data dari $a ke $b
         arrB.append(top)
 
-        print('Array B:', arrB)
-        print('Array C:', arrC)
+        print("Array B:", arrB)
+        print("Array C:", arrC)
 
         # Apabila isi $c ada, kita balikkan lagi ke $b secara berurutan.
         while len(arrC) > 0:
             arrB.append(arrC.pop())
 
-        print('Hasil sementara:', arrB, end="\n\n")
+        print("Hasil sementara:", arrB, end="\n\n")
 
-    print('Data setelah disort:', arrB)
+    print("Data setelah disort:", arrB)
 
 
 if __name__ == "__main__":
