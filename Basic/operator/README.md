@@ -73,7 +73,7 @@ operasi perbandingan adalah operasi yang digunakan untuk membandingkan suatu nil
 
 sebagai contoh operasi perbandingan
 ```python
-print(2 < 3) # True
+print(2 < 3)  # True
 ```
 
 operasi tersebut membadingkan apakah nilai pertama lebih kecil daripada nilai kedua
