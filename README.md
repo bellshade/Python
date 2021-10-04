@@ -16,7 +16,7 @@ Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Arithmetic Analysis](https://github.com/bellshade/Python/tree/main/arithmetic_analysis)
 - [Backtracking](https://github.com/bellshade/Python/tree/main/Backtracking)
 - [Basic: Variable](https://github.com/bellshade/Python/tree/main/Basic/variable)
-- [Basic: Variable](https://github.com/bellshade/Python/tree/main/Basic/class)
+- [Basic: Class](https://github.com/bellshade/Python/tree/main/Basic/class)
 - [Blockchain](https://github.com/bellshade/Python/tree/main/blockchain)
 - [Boolean Algebra](https://github.com/bellshade/Python/tree/main/boolean_algebra)
 - [Bit Manipulation](https://github.com/bellshade/Python/tree/main/manipulasi_bit)
