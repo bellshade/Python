@@ -1,4 +1,3 @@
-
 """
 operator logika (Logical Operator) digunakan untuk
 menggabungkan pernyataan kondisional
