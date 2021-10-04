@@ -14,7 +14,7 @@ Metode adalah fungsi yang dibuat didalam kelas, karena metode adalah fungsi maka
 
 Ada 3 jenis metode class, yaitu:
 
-- metode biasa
+- instance method
 
 metode ini harus memiliki parameter self, yang berguna untuk mengakses atribut objek, untuk menggunakannya harus melalui objek.
 
