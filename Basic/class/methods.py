@@ -1,5 +1,4 @@
 class SegiEmpat:
-
     def __init__(self, panjang, lebar):
         self.panjang = panjang
         self.lebar = lebar
@@ -24,7 +23,7 @@ class SegiEmpat:
         metode ini akan mengembalikan jenis segiempat, apakah
         persegi atau persegipanjang
         """
-        return 'persegi' if panjang == lebar else 'persegi panjang'
+        return "persegi" if panjang == lebar else "persegi panjang"
 
 
 print(SegiEmpat.jenis_bangun(10, 5))

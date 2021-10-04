@@ -5,10 +5,7 @@ class Warung:
         self.menu = []
 
     def __del__(self):
-        print(
-            'Warung dihapus, data terakhir warung:',
-            self.data()
-        )
+        print("Warung dihapus, data terakhir warung:", self.data())
 
     def tambah_menu(self, makanan):
         """
@@ -23,22 +20,15 @@ class Warung:
         metode ini berfungsi untuk mengembalikan data
         seluruh atribut warung dalam bentuk dict.
         """
-        return {
-            'alamat warung' : self.alamat,
-            'owner' : self.owner,
-            'menu' : self.menu
-        }
+        return {"alamat warung": self.alamat, "owner": self.owner, "menu": self.menu}
 
 
 # membuat objek dan meng-inisialisasi-nya
-kedai_atuk = Warung(
-    owner='Atuk Daka',
-    alamat='Jl. Apel No. 23'
-)
+kedai_atuk = Warung(owner="Atuk Daka", alamat="Jl. Apel No. 23")
 
 # mengakses metode tambah_menu untuk menambahkan menu
-kedai_atuk.tambah_menu('kopi susu')
-kedai_atuk.tambah_menu('roti bakar')
+kedai_atuk.tambah_menu("kopi susu")
+kedai_atuk.tambah_menu("roti bakar")
 
 # mengakses metode data untuk melihat data warung
 data_kedai_atuk = kedai_atuk.data()
