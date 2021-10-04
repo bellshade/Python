@@ -24,7 +24,7 @@ metode ini menggunakan deokrator @classmethod dan harus memiliki parameter clf, 
 
 - staticmethod
 
-metode ini menggunakan deokrator @staticmethod, metode ini sama seperti classmethod namun tidak perlu menggunakan parameter wajib
+metode ini menggunakan dekorator @staticmethod, metode ini sama seperti classmethod namun tidak perlu menggunakan parameter wajib
 
 ## Konstruktor dan Destruktor
 
