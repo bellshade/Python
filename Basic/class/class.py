@@ -1,5 +1,4 @@
 class Hewan:
-    
     def __init__(self, suara):
         self.suara = suara
 
