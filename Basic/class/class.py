@@ -7,12 +7,12 @@ class Hewan(ABC):
     # Properti absstrak
     @abstractproperty
     def suara(self):
-        ...
+        pass
 
     # Metode abstrak
     @abstractmethod
     def bersuara(self):
-        ...
+        pass
 
 
 # Menggunakan pewarisan dari kelas Hewan
