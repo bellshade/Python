@@ -144,22 +144,21 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila
   ```bash
   git checkout -b <branch_name>
   git add . # atau git add nama_perubahan_kamu.py
-  git commit -m "add: menambahkan algoritma terbaru"
+  git commit -m "feat: menambahkan algoritma terbaru"
   ```
 - Lakukan *push* ke *branch* kamu dan kemudian *open pull request*.
 
 **Saran pesan commit**
 
-- `add` untuk menambah algoritma atau tambahan lainnya;
-- `fix` untuk mengubah algoritma yang sudah ada atau memperbaiki;
-- `docs` untuk mengubah atau membuat dokumentasi;
-- `style` untuk mengubah atau memperbaiki *style* kode—untuk contohnya bisa dilihat pada contoh commit di atas.
+- `feat:` untuk menambah algoritma atau tambahan lainnya;
+- `fix:` untuk mengubah algoritma yang sudah ada atau memperbaiki;
+- `docs ` untuk mengubah atau membuat dokumentasi;
 
 Catatan: pesan commit harus menjelaskan perubahan secara singkat.
 
 Contoh: 
-- &#9746; add: test_x.py
-- &#9745; add: tambah unittest untuk algoritma x
+- &#9746; feat: test_x.py
+- &#9745; feat: tambah unittest untuk algoritma x
 
 Pull request akan di-*merge* jika:
 
