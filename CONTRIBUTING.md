@@ -155,6 +155,12 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila
 - `docs` untuk mengubah atau membuat dokumentasi;
 - `style` untuk mengubah atau memperbaiki *style* kode—untuk contohnya bisa dilihat pada contoh commit di atas.
 
+Catatan: pesan commit harus menjelaskan perubahan secara singkat.
+
+Contoh: 
+- &#9746; add: test_x.py
+- &#9745; add: tambah unittest untuk algoritma x
+
 Pull request akan di-*merge* jika:
 
 - mengikuti standar dan arahan dari `CONTRIBUTING.md`;
