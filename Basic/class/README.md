@@ -6,7 +6,7 @@ Kelas memiliki atribut untuk mempertahankan nilainya, dan memilki metode untuk m
 
 # Atribut
 
-Atribut adalah variable dan fungsi yang ada didalam kelas, seluruh atribut bersifat publik dan dapat diakses menggunakan tanda titik (.) dibelakang objek.
+Atribut adalah variable dan fungsi yang ada didalam kelas, seluruh atribut bersifat publik dan dapat diakses menggunakan tanda titik (.) dibelakang objek. Note: atribut yang diawali dengan `_` umumnya dianggap *private*; tidak dimaksudkan untuk digunakan di luar kelas.
 
 # Metode 
 
