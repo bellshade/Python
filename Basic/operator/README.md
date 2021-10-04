@@ -1,4 +1,4 @@
-# operator
+# Operator
 
 operator digunakan untuk melakukan operasi pada kedua variabel atau value
 
@@ -7,12 +7,12 @@ python memiliki beberapa jenis operator yaitu
 - [operator aritmatika](operator_aritmatika.py)
 - [operator penugasan](operator_penugasan.py)
 - [operator komparasi](operator_perbandingan.py)
-- operator logika
+- [operator logika](operator_logika.py)
 - operator identitas
 - operasi member
 
 
-## operasi aritmatika
+## Operasi Aritmatika
 operasi aritmatika adalah operasi yang digunakan untuk melakukan operasi matematika diantara kedua value atau kedua variabel
 
 sebagai contoh operasi pertambahan
@@ -36,7 +36,7 @@ berikut table dari operasi aritmatika
 | %        | modulus       | a % b             |
 | //       | floor         | a // b            |
 
-## operasi penugasan
+## Operasi Penugasan
 operasi penugasan adalah operasi yang digunakan untuk menetapkan suatu bilangan ke dalam variabel
 
 sebagai contoh operasi penugasan
@@ -67,8 +67,7 @@ berikut tabel dari operasi penugasan
 |     >>=       |   x >>= 3     |   x = x >> 3  |
 
 
-## operasi perbandingan
-
+## Operasi Perbandingan
 operasi perbandingan adalah operasi yang digunakan untuk membandingkan suatu nilai dengan nilai yang lain
 
 sebagai contoh operasi perbandingan
@@ -76,7 +75,7 @@ sebagai contoh operasi perbandingan
 print(2 < 3)  # True
 ```
 
-operasi tersebut membadingkan apakah nilai pertama lebih kecil daripada nilai kedua
+operasi tersebut membandingkan apakah nilai pertama lebih kecil daripada nilai kedua
 
 berikut tabel dari operasi perbandingan
 |   Operator    |                Artinya                |
@@ -87,3 +86,20 @@ berikut tabel dari operasi perbandingan
 |      <        |           Lebih Kecil dari            |
 |      >=       |    Lebih Besar dari atau sama dengan  |
 |      <=       |    Lebih Kecil dari atau sama dengan  |
+
+## Operasi Logika
+operasi logika adalah operasi yang digunakan untuk mengecek pernyataan apakah True atau False
+
+sebagai contoh operasi logika
+```python
+print(3 < 5 and 5 > 3) # True
+```
+
+operasi tersebut mengecek apakah kedua nilai yang di cek memiliki nilai True
+
+berikut tabel dari operasi logika
+|   Operator    |                         Penjelasan                                    |
+|---------------|-----------------------------------------------------------------------|
+|     and       | Mengembalikan nilai True jika kedua nilai memiliki nilai True         |
+|     or        | Mengembalikan nilai True jika salah satu nilai memiliki nilai True    |
+|     not       | Membalikkan hasil, mengembalikan False jika hasilnya True             |
