@@ -1,5 +1,7 @@
-class Kucing:
-    suara = 'MIAWW MIAWW'
+class Hewan:
+    
+    def __init__(self, suara):
+        self.suara = suara
 
     def bersuara(self):
         """
@@ -9,8 +11,8 @@ class Kucing:
 
 
 # contoh membuat objek
-tomcat = Kucing()
+kucing = Hewan(suara="MIAWW MIAWW")
 
 # mengakses metode bersuara
-tomcat.bersuara()
+kucing.bersuara()
 # output: "MIAWW MIAWW"
