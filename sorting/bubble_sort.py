@@ -9,3 +9,7 @@ def Bubble_Sort(array, length):
             # Jika elemen sebelumnya lebih besar dari pertukaran itu.
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
+
+
+if __name__ == "__main__":
+    Bubble_Sort([83, 10, 54, 92, 62, 47, 15, 72])
