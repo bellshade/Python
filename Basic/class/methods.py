@@ -40,10 +40,7 @@ class SegiEmpat:
         metode ini akan mengembalikan jenis segiempat, apakah
         persegi atau persegipanjang
         """
-        if panjang == lebar:
-            return 'persegi'
-        elif panjang != lebar:
-            return 'persegi panjang'
+        return 'persegi' if panjang == lebar else 'persegi panjang'
 
 
 print(SegiEmpat.jenis_bangun(10, 5))
