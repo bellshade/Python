@@ -50,7 +50,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
 
     - ``tuple``
 
-        tipe data tuple adalah tipe data koleksi yang berisi beberap valua yang terdapat dalam satu variabel. perbedaan diantara keduanya adalah
+        tipe data tuple adalah tipe data koleksi yang berisi beberap value yang terdapat dalam satu variabel. perbedaan diantara keduanya adalah
         
         - tipe data tuple jika diberi value, maka tipe data tersebut tidak dapat diubah kembali
         - tipe data tuple menggunakan tutup kurung biasa ``()``
@@ -58,6 +58,24 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         ```python
         nama_siswa = ('buzz', 'andy', 'woody')
         nilai = (12, 13, 14)
+        ```
+
+    - ``set``
+
+        Tipe data set adalah tipe data koleksi yang elemennya dapat dirubah, tidak terurut, dan bersifat unik. Sesuai dengan namanya, tipe data set memiliki operasi matematika himpunan seperti gabungan, irisan, selisih, dan lain-lain. Set menggunakan kurung kurawal ``{}``
+
+        ```python
+        nama_siswa = {'buzz', 'andy', 'woody'}
+        nilai = {12, 13, 14}
+        ```
+
+    - ``frozenset``
+        
+        Tipe data frozenset adalah tipe data koleksi yang mirip dengan set, yang membedakannya dengan set adalah elemen pada frozenset tidak dapat dirubah setelah frozenset dibuat
+
+        ```python
+        nama_siswa = frozenset(['woody', 'buzz', 'andy'])
+        nilai = frozenset([12, 13, 14])
         ```
 
 - berupa map (kata kunci, dictionary)
