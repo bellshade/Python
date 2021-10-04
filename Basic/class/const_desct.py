@@ -1,7 +1,4 @@
 class Warung:
-
-    menu = []
-
     # Konstruktor
     # Konstruktor adalah metode yang dipanggil saat membuat suatu objek,
     # konstruktor dapat berguna untuk meminta atribut apa saja yang
@@ -11,6 +8,7 @@ class Warung:
     def __init__(self, owner, alamat):
         self.owner = owner
         self.alamat = alamat
+        self.menu = []
 
     # Destruktor
     # Destruktor adalah metode yang dipanggil saat suatu objek dihapus,
