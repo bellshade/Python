@@ -20,7 +20,7 @@ for item in angka:
         continue
     print(item)
 
-daftar = [int]
+daftar = [1, 2, 3, 4, 5]
 for item in daftar:
     print(item)
     break
