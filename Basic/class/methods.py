@@ -9,7 +9,7 @@ class SegiEmpat:
 
     # metode biasa
     # metode ini harus memiliki parameter self, yang berguna
-    # untuk mengakses atribut kelas, untuk menggunakannya
+    # untuk mengakses atribut objek, untuk menggunakannya
     # harus melalui objek
     def hitung_luas(self):
         """
