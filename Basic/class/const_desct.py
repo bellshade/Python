@@ -1,19 +1,9 @@
 class Warung:
-    # Konstruktor
-    # Konstruktor adalah metode yang dipanggil saat membuat suatu objek,
-    # konstruktor dapat berguna untuk meminta atribut apa saja yang
-    # diperlukan saat membuat objek. Membuat konstruktor dapat menggunakan
-    # dunder-method init dan harus memiliki parameter self,
-    # juga dapat memiliki parameter tambahan.
     def __init__(self, owner, alamat):
         self.owner = owner
         self.alamat = alamat
         self.menu = []
 
-    # Destruktor
-    # Destruktor adalah metode yang dipanggil saat suatu objek dihapus,
-    # untuk membuat destruktor dapat menggunakan dunder-method del dan
-    # memiliki parameter self.
     def __del__(self):
         print(
             'Warung dihapus, data terakhir warung:',
