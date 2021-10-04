@@ -20,7 +20,7 @@ metode ini harus memiliki parameter self, yang berguna untuk mengakses atribut o
 
 - classmethod
 
-metode ini menggunakan deokrator @classmethod dan harus memiliki parameter clf, yang berguna untuk mengakses atributnya, untuk menggunakannya dapat langsung dari kelasnya tanpa menggunakan objek.
+metode ini menggunakan deokrator @classmethod dan harus memiliki parameter cls, yang berguna untuk mengakses atributnya, untuk menggunakannya dapat langsung dari kelasnya tanpa menggunakan objek.
 
 - staticmethod
 
