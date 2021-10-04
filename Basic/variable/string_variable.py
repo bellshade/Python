@@ -27,3 +27,6 @@ print(pesan * 2)
 # gabung kata dengan kata baru
 # saya pergi kepasar dengan ibu saya
 print(pesan + " dengan ibu saya")
+
+# membalikan Kata (reverse string)
+print(pesan[::-1])
