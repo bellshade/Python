@@ -6,13 +6,13 @@
 # dan memilki metode untuk mengubah nilainya.
 # Untuk membuat class di python dapat menggunakan keyword class.
 
-class Warung:
+class Kucing:
 
     # Atribut adalah variable yang ada didalam kelas,
     # seluruh atribut bersifat publik dan dapat diakses
     # menggunakan tanda titik (.) dibelakang objek.
     # contoh atribut
-    menu_makanan = []
+    suara = 'MIAWW MIAWW'
 
     # Metode adalah fungsi yang dibuat didalam kelas,
     # metode harus memiliki parameter self, parameter ini
@@ -21,31 +21,16 @@ class Warung:
     # keyword def. Untuk mengakses sebuah metode harus melalui
     # objek, menggunakan tanda titik (.) dibelakang objek.
     # contoh metode
-    def tambah_menu(self, makanan):
+    def bersuara(self):
         """
-        metode ini berfungsi untuk menambahkan data
-        ke atribut menu_makanan
-        makanan = string
-        >>> Warung().tambah_menu('nasi goreng')
-        menu_makanan akan bernilai ['nasi goreng']
+        metode ini berfungsi untuk menampilkan atribut suara
         """
-        self.menu_makanan.append(makanan)
+        print(self.suara)
 
 
 # contoh membuat objek
-depot_adem = Warung()
+tomcat = Kucing()
 
-# contoh mengakses atribut menu_makanan dan menaruhnya divariable menu_depot_adem
-menu_depot_adem = depot_adem.menu_makanan
-
-# akan bernilai list kosong
-print(menu_depot_adem)
-# output: []
-
-# mengakses metode tambah_menu untuk mengubah argumen menu_makanan
-depot_adem.tambah_menu('mie goreng')
-depot_adem.tambah_menu('sate ayam')
-
-# akan berisi data yang tadi ditambahkan
-print(menu_depot_adem)
-# output: ['mie goreng', 'sate ayam']
+# mengakses metode bersuara
+tomcat.bersuara()
+# output: "MIAWW MIAWW"
