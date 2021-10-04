@@ -1,17 +1,29 @@
-class Hewan:
-    def __init__(self, suara):
-        self.suara = suara
+from abc import ABC, abstractproperty, abstractmethod
+
+
+class Hewan(ABC):
+    @abstractproperty
+    def suara(self):
+        ...
+
+    @abstractmethod
+    def bersuara(self):
+        ...
+
+
+# Menggunakan pewarisan dari kelas Hewan
+class Kucing(Hewan):
+    @property
+    def suara(self):
+        return('MIAWW MIAWW')
 
     def bersuara(self):
-        """
-        metode ini berfungsi untuk menampilkan atribut suara
-        """
         print(self.suara)
 
 
 # contoh membuat objek
-kucing = Hewan(suara="MIAWW MIAWW")
+tomcat = Kucing()
 
 # mengakses metode bersuara
-kucing.bersuara()
+tomcat.bersuara()
 # output: "MIAWW MIAWW"
