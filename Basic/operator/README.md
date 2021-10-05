@@ -103,3 +103,21 @@ berikut tabel dari operasi logika
 |     and       | Mengembalikan nilai True jika kedua nilai memiliki nilai True         |
 |     or        | Mengembalikan nilai True jika salah satu nilai memiliki nilai True    |
 |     not       | Membalikkan hasil, mengembalikan False jika hasilnya True             |
+
+
+## Operasi Keanggotaan
+operasi keanggotaan adalah operasi yang digunakan untuk memvalidasi anggota di dalam sebuah objek
+
+contoh operasi keanggotaan
+```python
+list_bahasa_pemrograman = ["javascript", "java", "Python", "Dart"]
+print("Python" in list_bahasa_pemrograman)  # True
+```
+
+operasi tersebut memvalidasi apakah `"Python"` ada di dalam list `list_bahasa_pemrograman`
+
+berikut tabel dari operasi keanggotaan
+|   Operator    |                      Penjelasan                                               |
+|---------------|-------------------------------------------------------------------------------|
+|      in       | Mengembalikan nilai True jika nilai yang disebutkan ada di dalam objek        |
+|    not in     | Mengembalikan nilai True jika nilai yang disebutkan tidak ada di dalam objek  |
