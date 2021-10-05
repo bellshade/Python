@@ -11,58 +11,35 @@ Satuan suhu yang tersedia: celcius, reamur, fahrenheit, kelvin
 'Parameter Salah!\\n'
 """
 
+
 def konversi_suhu(dari="celcius", ke="fahrenheit", suhu=0):
-    # Celcius ke Reamur
-    if dari == "celcius" and ke == "reamur":
-        hasil = (4 / 5) * suhu
-        return format_hasil(dari, ke, suhu, hasil)
+    try:
+        kamus_suhu = {
+            "celcius": {
+                "reamur": (4 / 5) * suhu,
+                "fahrenheit": (9 / 5) * suhu + 32,
+                "kelvin": suhu + 273,
+            },
+            "reamur": {
+                "celcius": (5 / 4) * suhu,
+                "fahrenheit": (9 / 4) * suhu + 32,
+                "kelvin": (5 / 4) * suhu + 273,
+            },
+            "fahrenheit": {
+                "celcius": (5 / 9) * (suhu - 32),
+                "reamur": (4 / 9) * (suhu - 32),
+            },
+            "kelvin": {
+                "celcius": suhu - 273,
+                "reamur": (4 / 5) * (suhu - 273),
+            }
+        }
 
-    # Celcius ke Fahrenheit
-    if dari == "celcius" and ke == "fahrenheit":
-        hasil = (9 / 5) * suhu + 32
+        hasil = round(kamus_suhu[dari][ke], 2)
         return format_hasil(dari, ke, suhu, hasil)
+    except KeyError:
+        return "Parameter Salah!\n"
 
-    # Celcius ke Kelvin
-    if dari == "celcius" and ke == "kelvin":
-        hasil = suhu + 273
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Reamur ke Celcius
-    if dari == "reamur" and ke == "celcius":
-        hasil = (5 / 4) * suhu
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Reamur ke Fahrenheit
-    if dari == "reamur" and ke == "fahrenheit":
-        hasil = (9 / 4) * suhu + 32
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Reamure ke Kelvin
-    if dari == "reamur" and ke == "kelvin":
-        hasil = (5 / 4) * suhu + 273
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Fahrenheit ke Celcius
-    if dari == "fahrenheit" and ke == "celcius":
-        hasil = (5 / 9) * (suhu - 32)
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Fahrenheit ke Celcius
-    if dari == "fahrenheit" and ke == "celcius":
-        hasil = (4 / 9) * (suhu - 32)
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Kelvin ke Celcius
-    if dari == "kelvin" and ke == "celcius":
-        hasil = suhu - 273
-        return format_hasil(dari, ke, suhu, hasil)
-
-    # Kelvin ke Reamur
-    if dari == "kelvin" and ke == "reamur":
-        hasil = (4 / 5) * (suhu - 273)
-        return format_hasil(dari, ke, suhu, hasil)
-
-    return "Parameter Salah!\n"
 
 def format_hasil(dari, ke, suhu, hasil):
     return (
@@ -70,6 +47,7 @@ def format_hasil(dari, ke, suhu, hasil):
         f"Dari: {dari}, {suhu}\n"
         f"Ke: {ke}, {hasil}\n"
     )
+
 
 if __name__ == "__main__":
     import doctest
