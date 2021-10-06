@@ -28,7 +28,7 @@ _Error_ juga dapat terjadi saat program berjalan (_runtime_) yang disebut dengan
   ZeroDivisionError: division by zero
   ```
 
-- `TypeError` : operasi artimatika pada tipe data yang tidak sesuai, misalkan tidak dapat melakukan operasi penjumlahan antara _integer_ dengan _string_
+- `TypeError` : operasi aritmatika pada tipe data yang tidak sesuai, misalkan tidak dapat melakukan operasi penjumlahan antara _integer_ dengan _string_
   ```python
   >>> 5 + "5"
   Traceback (most recent call last):
