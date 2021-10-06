@@ -1,4 +1,4 @@
-from abc import ABC, abstractproperty, abstractmethod
+from abc import ABC, abstractmethod, abstractproperty
 
 
 # Kelas abstrak hewan, tidak dapat di-inisialisasi dan hanya berupa instance
@@ -21,7 +21,7 @@ class Kucing(Hewan):
     # Mengimplementasikan properti suara
     @property
     def suara(self):
-        return('MIAWW MIAWW')
+        return "MIAWW MIAWW"
 
     # Mengimplementasikan atribut bersuara
     def bersuara(self):
