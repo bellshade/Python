@@ -1,6 +1,6 @@
 # looping
 
-loop adalah urutan instrusi yang dilakukan apabila kondisi terpenuhi
+Looping adalah urutan instruksi yang akan dijalankan, apabila suatu kondisi terpenuhi.
 
 looping pada python terbagi 2, yaitu
 - while loop
@@ -19,8 +19,7 @@ while a <= 5:
     a += 1
 ```
 
-yang mana kondisi dari koding di atas adalah, apabila variable a yang awalnya 1, nilainya masih dibawah dari 5 ataupun sama dengan 5, itulah kondisinya
-apabila kondisinya sudah tidak terpenuhi lagi, maka statement loop akan otomatis selesai
+yang mana kondisi dari koding di atas adalah, apabila variable `a` yang awalnya 1, tidak melebihi ataupun sama dengan 5 maka loop bisa berjalan, apabila kondisinya sudah tidak terpenuhi lagi, maka statement loop akan otomatis selesai
 
 contoh lainnya
 ```python
