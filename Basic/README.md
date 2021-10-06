@@ -15,4 +15,4 @@
 14. Rekayasa string
 15. Rekayasa string dan tuple
 16. Folder yang berisi program dengan menggunakan list dan tuple
-17. [Exception](exception)
+17. [Exception](exception.py)
