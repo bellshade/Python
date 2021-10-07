@@ -1,7 +1,7 @@
 """
 Operator Identitas adalah operator yang digunakan
 untuk membandingkan suatu object. Jika object bernilai sama
-dan memilii memori yang sama, maka akan mengembalikan nilai True.
+dan memiliki memori yang sama, maka akan mengembalikan nilai True.
 
 contoh:
 """
