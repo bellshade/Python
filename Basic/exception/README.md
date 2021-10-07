@@ -1,5 +1,5 @@
 # Exceptions (Eksepsi)
-Saat melakukan pemrograman di bahasa _python_, pasti sebagian besar _developer_ pernah mengalami kesalahan ketika mengeksekusi sebuah program yang dikenal dengan sebutan _error_. Hal ini terjadi karena ada kesalahan dalam menuliskan sintaks yang membuat program tersebut berhenti dan memunculkan pesan kesalahan (_error_) tersebut. Beberapa contoh kesalahan yg biasa kita lakukan ketika memprogram bahasa _python_ diantaranya:
+Saat melakukan pemrograman di bahasa _python_, pasti sebagian besar _developer_ pernah mengalami kesalahan ketika mengeksekusi sebuah program yang dikenal dengan sebutan _error_. Hal ini terjadi karena ada kesalahan dalam menuliskan sintaks yang membuat program tersebut berhenti dan memunculkan pesan kesalahan (_error_) tersebut. Beberapa contoh kesalahan yang biasa kita lakukan ketika memprogram bahasa _python_ diantaranya:
 
 - Pernyataan `if` atau `for` yang tidak diikuti dengan tanda titik dua
   ```python
@@ -85,7 +85,7 @@ except TypeError:
     print("Kedua bilangan berbeda tipe")
 ```
 
-Selain itu, kita dapat menampilkan pesan kesalahan atau eksepsi bawaan _python_ dengan menambahkan _alias_ menggunakan kata kunci `as` setelah jenis eksepsinya. Kemudian cetak _alias_ tersebut menggunakan `print()`. Contoh penulisannya sebagai berikut.
+Selain itu, kita dapat menampilkan pesan kesalahan atau eksepsi bawaan _python_ dengan menambahkan _alias_ menggunakan kata kunci `as` setelah jenis eksepsinya. Kemudian cetak pesan kesalahan dengan _alias_ tersebut menggunakan `print()`. Contoh penulisannya sebagai berikut.
 ```python
 # Bentuk 1
 try:
