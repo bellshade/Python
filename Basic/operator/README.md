@@ -141,20 +141,20 @@ Hasil:
 ``` 
 >> Tidak sama
 ```
-Karena x `is not` y atau tidak memliki memori yang sama. 
+Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama. 
 
 `contoh 2`
 ```python
-if (type(list_ular) is not list):
-    print("Ini bukan list")
+if (type(y) is not str):
+    print("Ini bukan integer")
 else:
-    print("Ini adalah list")
+    print("Ini adalah string")
 ```
 Hasil:
 ``` 
 >> Ini adalah list
 ```
-Karena tipe data yang digunakan pada `list_ular` adalah `list` dan memiliki memori yang sama.
+Karena tipe data yang digunakan pada variabel `y` adalah `string`, bukan integer.
 
 berikut tabel dari operasi identitas.
 |   Operator    |                      Penjelasan                                               |
