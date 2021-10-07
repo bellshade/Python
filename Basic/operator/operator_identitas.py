@@ -22,6 +22,6 @@ print("\n")
 # jika tipe data y bukan integer, maka cetak "Ini bukan integer"
 # jika tidak, maka cetak "Ini adalah string"
 if (type(y) is not str):
-    print("Ini bukan integer")
+    print("Ini bukan string")
 else:
     print("Ini adalah string")

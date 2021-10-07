@@ -146,13 +146,13 @@ Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama.
 `contoh 2`
 ```python
 if (type(y) is not str):
-    print("Ini bukan integer")
+    print("Ini bukan string")
 else:
     print("Ini adalah string")
 ```
 Hasil:
 ``` 
->> Ini adalah list
+>> Ini adalah string
 ```
 Karena tipe data yang digunakan pada variabel `y` adalah `string`, bukan integer.
 
