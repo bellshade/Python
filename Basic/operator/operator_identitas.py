@@ -1,39 +1,28 @@
 """
 Operator Identitas adalah operator yang digunakan
-untuk cek apakah nilai dari suatu varibel berada
-pada memori yang sama atau tidak
+untuk membandingkan suatu object. Jika object bernilai sama
+dan memilii memori yang sama, maka akan mengembalikan nilai True.
 
-contoh
+contoh:
 """
 
 # variabel
-x = "Python"
-y = "Cobra"
-z = "Python"
-list_ular1 = ["Python", "Cobra", "Sanca"]
-list_ular2 = ["Python", "Cobra", "Sanca"]
+x = "piton"
+y = "kobra"
+list_ular = ["piton", "kobra", "sanca"]
 
-# cek apakah nilai dari variabel
-# x dan y ada pada memori yang sama
-print("x is y = ", x is y)    # False
-
-# cek apakah nilai dari variabel
-# x dan z ada pada memori yang sama
-print("x is z = ", x is z)    # True
-
-# cek apakah nilai dari variabel
-# list_ular1 dan list_ular2 ada pada memori yang sama
-print("list_ular1 is list_ular2 = ", list_ular1 is list_ular2)    # False
+# cek apakah nilai dari variabel x dan y ada pada memori yang sama
+# jika x is y, maka cetak "Sama"
+# lain jika x is not y, maka cetak "Tidak sama"
+if x is y:
+    print("Sama")
+elif x is not y:
+    print("Tidak sama")
 print("\n")
 
-# cek apakah nilai dari variabel
-# list_ular1 dan list_ular2 tidak pada memori yang sama
-print("x is not y = ", x is not y)    # True
-
-# cek apakah nilai dari variabel
-# list_ular1 dan list_ular2 tidak pada memori yang sama
-print("x is not z = ", x is not z)    # False
-
-# cek apakah nilai dari variabel
-# list_ular1 dan list_ular2 tidak pada memori yang sama
-print("list_ular1 is list_ular2 = ", list_ular1 is not list_ular2)    # True
+# jika tipe data list_ular bukan list, maka cetak "Ini bukan list"
+# jika tidak, maka cetak "Ini adalah list"
+if (type(list_ular) is not list):
+    print("Ini bukan list")
+else:
+    print("Ini adalah list")
