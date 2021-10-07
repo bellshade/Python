@@ -128,9 +128,8 @@ Operator Identitas adalah operator yang digunakanuntuk membandingkan suatu objec
 contoh dari oeprasi identitas
 `contoh 1`
 ```python
-x = "piton"
-y = "kobra"
-list_ular = ["piton", "kobra", "sanca"]
+x = 3
+y = 7
 
 if x is y:
     print("Sama")
@@ -145,16 +144,16 @@ Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama.
 
 `contoh 2`
 ```python
-if (type(y) is not str):
-    print("Ini bukan string")
+if (type(y) is not int):
+    print("Ini bukan integer")
 else:
-    print("Ini adalah string")
+    print("Ini adalah integer")
 ```
 Hasil:
 ``` 
->> Ini adalah string
+>> Ini adalah integer
 ```
-Karena tipe data yang digunakan pada variabel `y` adalah `string`, bukan integer.
+Karena tipe data yang digunakan pada variabel `y` adalah `integer`, bukan string ataupun tipe data lainnya.
 
 berikut tabel dari operasi identitas.
 |   Operator    |                      Penjelasan                                               |

@@ -7,8 +7,8 @@ contoh:
 """
 
 # variabel
-x = "piton"
-y = "kobra"
+x = 3
+y = 7
 
 # cek apakah nilai dari variabel x dan y ada pada memori yang sama
 # jika x is y, maka cetak "Sama"
@@ -20,8 +20,8 @@ elif x is not y:
 print("\n")
 
 # jika tipe data y bukan integer, maka cetak "Ini bukan integer"
-# jika tidak, maka cetak "Ini adalah string"
-if (type(y) is not str):
-    print("Ini bukan string")
+# jika tidak, maka cetak "Ini adalah integer"
+if (type(y) is not int):
+    print("Ini bukan integer")
 else:
-    print("Ini adalah string")
+    print("Ini adalah integer")
