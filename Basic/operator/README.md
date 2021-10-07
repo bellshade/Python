@@ -123,19 +123,34 @@ berikut tabel dari operasi keanggotaan
 |    not in     | Mengembalikan nilai True jika nilai yang disebutkan tidak ada di dalam objek  |
 
 ## Operasi Identitas
-Operasi identitas adalah operator yang digunakan untuk mengecek apakah nilai dari suatu variabel berada pada memori yang sama atau tidak.
+Operator Identitas adalah operator yang digunakanuntuk membandingkan suatu object. Jika object bernilai sama dan memilii memori yang sama, maka akan mengembalikan nilai True.
 
 contoh dari oeprasi identitas
+`contoh 1`
 ```python
-ular1 = ["Python", "Cobra", "Sanca"]
-ular2 = ["Python", "Cobra", "Sanca"]
+x = "piton"
+y = "kobra"
+list_ular = ["piton", "kobra", "sanca"]
 
-print("ular1 is ular2 = ", ular1 is ular2) # False
+if x is y:
+    print("Sama")
+elif x is not y:
+    print("Tidak sama")
 ```
-Dari contoh di atas, maka dapat kita simpulkan bahwa `"ular1"` dan `"ular2"` tidak berada pada memori yang sama meskipun nilai di dalam dua variabel tersebut sama. Untuk contoh lengkapnya ada [di sini.](operator_identitas.py)
+
+`contoh 2`
+```python
+if (type(list_ular) is not list):
+    print("Ini bukan list")
+else:
+    print("Ini adalah list")
+```
+Pada contoh pertama, hasil akhirnya akan mencetak `Tidak sama` karena x `is not` y atau tidak memliki memori yang sama. 
+
+Sedangkan pada contoh kedua, hasil akhirnya adalah `Ini adalah list` karena tipe data yang digunakan pada `list_ular` adalah `list` dan memiliki memori yang sama.
 
 berikut tabel dari operasi identitas.
 |   Operator    |                      Penjelasan                                               |
 |---------------|-------------------------------------------------------------------------------|
-|      is       | Mengembalikan nilai True jika nilai yang disebutkan berada di dalam memori yang sama        |
-|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak di dalam memori yang  |git 
+|      is       | Mengembalikan nilai True jika nilai yang disebutkan memiliki objek dan memori yang sama        |
+|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak memiliki objek dan memori yang sama  |git 
