@@ -8,7 +8,7 @@ python memiliki beberapa jenis operator yaitu
 - [operator penugasan](operator_penugasan.py)
 - [operator komparasi](operator_perbandingan.py)
 - [operator logika](operator_logika.py)
-- operator identitas
+- [operator identitas](operator_identitas.py)
 - operasi member
 
 
@@ -121,3 +121,23 @@ berikut tabel dari operasi keanggotaan
 |---------------|-------------------------------------------------------------------------------|
 |      in       | Mengembalikan nilai True jika nilai yang disebutkan ada di dalam objek        |
 |    not in     | Mengembalikan nilai True jika nilai yang disebutkan tidak ada di dalam objek  |
+
+## Operasi Identitas
+Operasi identitas adalah operator yang digunakan untuk mengecek apakah nilai dari suatu variabel berada pada memori yang sama atau tidak.
+
+contoh:
+```python
+# varibel
+ular1 = ["Python", "Cobra", "Sanca"]
+ular2 = ["Python", "Cobra", "Sanca"]
+
+# mengecek apakah ular1 dan ular2 ada pada memori yang sama atau tidak
+print("ular1 is ular2 = ", ular1 is ular2) # False
+```
+Dari contoh di atas, maka dapat kita simpulkan bahwa `"ular1"` dan `"ular2"` tidak berada pada memori yang sama meskipun nilai di dalam dua variabel tersebut sama. Untuk contoh lengkapnya ada [di sini.](operator_identitas.py)
+
+berikut tabel dari operasi identitas.
+|   Operator    |                      Penjelasan                                               |
+|---------------|-------------------------------------------------------------------------------|
+|      is       | Mengembalikan nilai True jika nilai yang disebutkan berada di dalam memori yang sama        |
+|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak di dalam memori yang  |
