@@ -137,6 +137,11 @@ if x is y:
 elif x is not y:
     print("Tidak sama")
 ```
+Hasil:
+``` 
+>> Tidak sama
+```
+Karena x `is not` y atau tidak memliki memori yang sama. 
 
 `contoh 2`
 ```python
@@ -145,9 +150,11 @@ if (type(list_ular) is not list):
 else:
     print("Ini adalah list")
 ```
-Pada contoh pertama, hasil akhirnya akan mencetak `Tidak sama` karena x `is not` y atau tidak memliki memori yang sama. 
-
-Sedangkan pada contoh kedua, hasil akhirnya adalah `Ini adalah list` karena tipe data yang digunakan pada `list_ular` adalah `list` dan memiliki memori yang sama.
+Hasil:
+``` 
+>> Ini adalah list
+```
+Karena tipe data yang digunakan pada `list_ular` adalah `list` dan memiliki memori yang sama.
 
 berikut tabel dari operasi identitas.
 |   Operator    |                      Penjelasan                                               |
