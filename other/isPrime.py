@@ -7,6 +7,7 @@ def isPrime(num):
         #Jika num habis dibagi oleh i maka bilangan tersebut bukan Bilangan prima
         if(num%i==0):
             return ('Bukan Bilangan Prima')      
+            
     return ('Bilangan Prima')
 
 print(isPrime(20)) #output "Bukan Bilangan Prima"
