@@ -35,3 +35,28 @@ Konstruktor adalah metode yang dipanggil saat membuat suatu objek, konstruktor d
 - destruktor
 
 Destruktor adalah metode yang dipanggil saat suatu objek dihapus, untuk membuat destruktor dapat menggunakan dunder-method del dan memiliki parameter self.
+
+
+## menggunakan metode dunder atau magic method
+Metode dunder atau magic method dalam Python adalah metode yang memiliki dua garis bawah awalan dan akhiran dalam nama metode. Dunder disini berarti “Double Under (Underscores)”.
+
+contoh:
+```
+__add__, __repr__, __len__
+```
+
+contoh penggunaan dari dunder method
+```python
+class Hewan:
+    def __init__(self, nama_hewan, suara):
+        self.nama_hewan = nama_hewan
+        self.suara = suara
+
+    def __repr__(self):
+        return "kucing {} bersuara {}".format(self.nama_hewan, self.suara)
+
+
+if __name__ == "__main__":
+     hewan = Hewan("sapi", "Mooo")
+    print(f" {hewan.nama_hewan} bersuara :{hewan.suara}")
+```
