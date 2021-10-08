@@ -31,5 +31,6 @@ e = 0
 while e <= 5:
     print(e)
     e += 1
+    break
 else:
     print("Selamat, looping anda telah selesai !!")
