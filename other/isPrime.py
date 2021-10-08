@@ -2,7 +2,6 @@
 def isPrime(num):
     #Mengecek apakah num merupakan bilangan negatif dan dibawah 2
     if(num<2):return ('Bukan Bilangan Prima')
-    
     """
     Perulangan disini dimulai dari 2 dikarenakan kita bilangan prima dimulai dari 2 dan seterusnya
     Setiap perulangan i akan di tambah 1
