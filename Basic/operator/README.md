@@ -144,7 +144,7 @@ Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama.
 
 `contoh 2`
 ```python
-if (type(y) is not int):
+if (type(y) != int):
     print("Ini bukan integer")
 else:
     print("Ini adalah integer")

@@ -21,7 +21,7 @@ print("\n")
 
 # jika tipe data y bukan integer, maka cetak "Ini bukan integer"
 # jika tidak, maka cetak "Ini adalah integer"
-if (type(y) is not int):
+if (type(y) != int):
     print("Ini bukan integer")
 else:
     print("Ini adalah integer")
