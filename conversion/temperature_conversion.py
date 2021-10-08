@@ -32,7 +32,7 @@ def konversi_suhu(dari="celcius", ke="fahrenheit", suhu=0):
             "kelvin": {
                 "celcius": suhu - 273,
                 "reamur": (4 / 5) * (suhu - 273),
-            }
+            },
         }
 
         hasil = round(kamus_suhu[dari][ke], 2)
@@ -42,11 +42,7 @@ def konversi_suhu(dari="celcius", ke="fahrenheit", suhu=0):
 
 
 def format_hasil(dari, ke, suhu, hasil):
-    return (
-        "=== Konversi Suhu ===\n"
-        f"Dari: {dari}, {suhu}\n"
-        f"Ke: {ke}, {hasil}\n"
-    )
+    return "=== Konversi Suhu ===\n" f"Dari: {dari}, {suhu}\n" f"Ke: {ke}, {hasil}\n"
 
 
 if __name__ == "__main__":
