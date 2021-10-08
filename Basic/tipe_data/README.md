@@ -90,4 +90,27 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
             "rab": "rabu"
         }
         ```
-        
+
+- berupa tipe data binary (bytes, bytearray, memmoryview)
+
+    - ``bytes``
+        merupakan sebuah object tipe data yang berisikan array tunggal
+        ```python
+        angka_saya = bytes(12)
+        angka_saya1 = bytes(300)
+        ```
+    
+    - ``bytearray``
+        merupakan seubah object tipe data yang berisikan array byte tunggal yang tidak dapat dirubah
+        ```python
+        angka_saya = bytearray(12)
+        ```
+    
+    - ``memoryview``
+        memmoryview adalah cara aman untuk mengekspos protokol buffer dengan python. ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan.
+
+        memmoryview mengambalikan fungsi tampilan memori daripada objek yang diberikan
+        ```python
+        angka_saya = memoryview(bytes(12))
+        angka_saya1 = memoryview(bytes(1212))
+        ```
