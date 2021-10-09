@@ -1,5 +1,5 @@
 angka_saya = 30
-angka_saya1 = 5
+angka_saya1 = 6
 
 print("operator bitwise")
 print("angka_saya & angka =", angka_saya & angka_saya1)
