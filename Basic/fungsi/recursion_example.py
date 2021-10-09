@@ -13,7 +13,7 @@ def fibo(n):
         return 1
     # proses rekursi
     else:
-        return fibo(n-1) + fibo(n-2)
+        return fibo(n - 1) + fibo(n - 2)
 
 
 n = 3
