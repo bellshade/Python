@@ -129,3 +129,53 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
     
     - ``kata.startswith('karakter')``
         cek apakah kata mengandung karakter terseub atau tidak pada awal
+        
+berikut tabel method pada string
+
+| Method         | Penjelasan                                                                                    |
+|----------------|-----------------------------------------------------------------------------------------------|
+| capitalize()   | Mengubah karakter pertama menjadi Kapital                                                     |
+| casefold()     | Mengubah string menjadi huruf kecil                                                           |
+| center()       | Mengembalikan String yang ditengahkan                                                         |
+| count()        | Menghitung jumlah karakter tertentu di dalam string                                           |
+| encode()       | Mengembalikan string yang sudai disandi                                                       |
+| endswith()     | Mengembalikan True jika string berakhir dengan karakter tertentu                              |
+| expandtabs()   | Mengatur besar Tab pada String                                                                |
+| find()         | Mencari karakter tertentu dan mengembalikan letak dimana karakter itu berada                  |
+| format()       | mem-format karakter tertentu di dalam string                                                  |
+| format_map()   | mem-format karakter tertentu di dalam string                                                  |
+| index()        | Mencari karakter tertentu dan mengembalikan letak dimana karakter itu berada                  |
+| isalnum()      | Mengembalikan True jika semua karakter adalah alfanumerik                                     |
+| isalpha()      | Mengembalikan True jika semua karakter adalah alfabet                                         |
+| isascii()      | Mengembalikan True jika semua karakter adalah karakter ascii                                  |
+| isdecimal()    | Mengembalikan True jika semua karakter adalah desimal                                         |
+| isdigit()      | Mengembalikan True jika semua karakter adalah angka                                           |
+| isidentifier() | Mengembalikan True jika String adalah pengidentifikasi                                        |
+| islower()      | Mengembalikan True jika semua karakter adalah huruf kecil                                     |
+| isnumeric()    | Mengembalikan True jika semua karakter adalah numerik                                         |
+| isprintable()  | Mengembalikan True jika semua karakter dapat dicetak                                          |
+| isspace()      | Mengembalikan True jika semua karakter adalah spasi                                           |
+| istitle()      | Mengembalikan True jika string mengikuti aturan judul                                         |
+| isupper()      | Mengembalikan True jika semua karakter adalah upper case                                      |
+| join()         | masuk kedalam elemen dari suatu iterable dia akhir string                                     |
+| ljust()        | Mengembalikan String yang dikirikan                                                           |
+| lower()        | Mengkonversi string ke huruf kecil                                                            |
+| lstrip()       | Menghapus spasi di kiri pada string                                                           |
+| maketrans()    | Mengembalikan tabel translasi untuk di translasikan                                           |
+| partition()    | Mengembalikan Tuple dimana string dibagi menjadi tiga bagian                                  |
+| replace()      | Mengemlikan String dimana karakter tertentu di ganti dengan karakter yang lain                |
+| rfind()        | Mencari karakter tertentu dan mengembalikan posisi dimana karakter itu berada terakhir        |
+| rindex()       | Mencari karakter tertentu dan mengembalikan posisi dimana karakter itu berada terakhir        |
+| rjust()        | Mengembalikan string yang dikanankan                                                          |
+| rpartition()   | Mengembalikan Tuple dimana string dibagi menjadi tiga bagian                                  |
+| rsplit()       | Membagi string pada pembagi yang ditentukan, dan mengembalikan list                           |
+| rstrip()       | Menghapus spasi di kanan pada string                                                          |
+| split()        | Membagi string pada pembagi yang ditentukan, dan mengembalikan list                           |
+| splitlines()   | Membagi string pada baris baru, dan mengembalikan list                                        |
+| startswith()   | Mengembalikan True jika string dimulai dengan karakter tertentu                               |
+| strip()        | Mengembalikan String yang spasinya sudah dihapus                                              |
+| swapcase()     | Mengubah kapital menjadi huruf kecil dan sebaliknya                                           |
+| title()        | Mengubah huruf awal di setiap kata menjadi kapital                                            |
+| translate()    | Mengembalikan string yang sudah ditranslasi                                                   |
+| upper()        | Mengubah string menjadi huruf Kapital                                                         |
+| zfill()        | Mengisi string dengan angka 0 sebanyak jumlah yang ditentukan di awal string                  |
