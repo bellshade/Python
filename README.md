@@ -26,6 +26,7 @@ jika kamu kesulitan kamu bisa menonton video [ini](https://youtu.be/OSmaWPSgvTQ)
 
 ### Mac dan Linux
 - Kamu tidak perlu install karena python sudah terinstal
+- command: `python3`
 
 ## Quick Access
 Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
