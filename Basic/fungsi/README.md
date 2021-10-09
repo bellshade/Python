@@ -100,4 +100,69 @@ unlimitedkeyword(fname="Harry",lname="Potter")
 dimana pada command pertama, kita memasukkan 3 parameter dengan masing-masing key a,b,c dan value 1,2,3
 dan pada command kedua, kita memasukkan 2 parameter dengan masing-masing key yaitu fname dan lname dengan value Harry, Potter
 
+# Fungsi Rekursi
+## Definisi Fungsi Rekursi
+Fungsi yang dapat memanggil dirinya sendiri dinamakan fungsi rekursi. Beberapa permasalahan dalam algoritma dan struktur data menggunakan
+rekursi sebagai solusi penyelesaian, misalnya, dalam struktur data *linked list* atau *tree*. Perhatikan fungsi ```recursion``` di bawah
+
+```python
+def recursion(param):
+    return recursion(param)
+```
+
+Kita harus memperhatikan dua hal ketika berurusan dengan rekursi :. 
+1. *Base Case*      : *Base Case* berfungsi untuk mengentikan proses rekursi. Kita harus jeli ketika mendefinisikan *base case*, sebab tiap
+permasalahan memiliki *base case* yang berbeda. Salah mendefinisikan *base case* dapat berakhir dengan *infinite recursion*. *Base Case* biasanya
+didefinisikan ketika ```n = 0``` atau ```n = 1```
+2. Proses Rekursi   : Proses rekursi merupakan solusi penyederhanaan dari masalah yang besar menjadi subpermasalahan yang lebih kecil. Sama seperti
+*base case*, proses rekursi setiap permasalahan berbeda-beda.
+
+Contoh fungsi rekursi adalah faktorial. Faktorial merupakan perkalian mundur suatu bilangan positif yang kurang lebih atau sama dengan *n*. Faktorial dilambangkan dengan ```n!```. Faktorial 0 atau ```0!``` bernilai 1. Nilai faktorial suatu bilangan positif dapat dihitung menggunakan proses rekursi yang ditunjukkan pada fungsi ```faktorial(n)``` di bawah :
+
+```python
+def faktorial(n):
+    """
+    menghitung nilai faktorial suatu bilangan positif n
+    dan mengembalikan integer
+    >>> faktorial(5)
+    120
+    >>> faktorial(6)
+    720
+    """
+    
+    #base case
+    if n == 0 or n == 1:
+        return 1
+    #proses rekursi
+    else :
+        return n*faktorial(n-1)
+```
+
+Visualisasi dari proses rekursi di atas adalah sebagai berikut
+![gini](https://user-images.githubusercontent.com/64145699/136579744-7c573f70-a0d8-4e43-b265-d4a66ebfc6a0.png)
+
+## Rekursi Versus Loop
+Sebenarnya, beberapa permasalahan dalam pemrograman bisa diselesaikan menggunakan *loop* biasa daripada menggunakan rekursi, seperti pada kasus faktorial di atas. Kode untuk menghitung nilai faktorial menggunakan *loop* ditunjukkan pada kode di bawah ini :
+
+```python
+    n = int(input())
+    hasil = 1
+
+    if n == 0 or n == 1:
+        print(1)
+    else :
+        for i in range(n, 0, -1):
+            hasil = hasil * n
+            n = n - 1
+
+    print(hasil)
+```
+
+Jika kita meng-```input``` variabel *n* dengan nilai 5, kita akan mendapatkan ```hasil``` 120. Dari hasil tersebut, kita sama-sama tahu, bahwa perhitungan faktorial menggunakan fungsi rekursi dan *loop* biasa menghasilkan solusi yang sama.
+
+**Jadi, daripada memikirkan base case dan proses rekursi, lebih baik kita menggunakan loop biasa ketika menghadapi permasalahan yang melibatkan proses iterasi?**
+Jawabannya : **tidak**. Sebab, beberapa permasalahan dalam algoritma dan struktur data menggunakan pendekatan rekursi sebagai penyelesaian masalah. Hal ini disebabkan penyelesaian permasalahan menggunakan *loop* atau iterasi biasa tidak intuitif untuk permasalahan tersebut. Contoh solusi yang kurang intuitif dari permasalahan pada algoritma dan struktur data adalah ketika kita ingin meng-*insert* *node* pada *linked list* atau menambahkan *node* pada *tree*. Setidaknya sampai tulisan ini dibuat, penulis belum mendapatkan penyelesaian untuk menambahkan *node* pada kedua struktur data di atas menggunakan pendekatan iteratsi biasa.
+
+Contoh lain dari penyelesaian masalah menggunakan rekursi dapat dilihat di file ```recursion_example.py``` yang ada di repositori.
+
 <a href="https://github.com/bellshade/Python/blob/task/fungsi/Basic/fungsi/fungsi.py">Bellshade Python Function</a>
