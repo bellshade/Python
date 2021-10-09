@@ -9,8 +9,7 @@
 8. [Perulangan](looping)
 9. [Fungsi](fungsi)
 10. [Basic kalkulator dengan fungsi](kalkulator_dengan_fungsi)
-11. Folder berisi contoh program sederhana dengan menggunakan fungsi
-12. List dan tuple
-13. Rekayasa string
-14. Rekayasa string dan tuple
-15. [Exception](exception/exception.py)
+11.[ List dan tuple](list_tuple)
+12. Rekayasa string
+13. Rekayasa string dan tuple
+14. [Exception](exception/exception.py)
