@@ -1,13 +1,9 @@
 # Palindrom adalah kata yang dapat
 # dibaca dari depan maupun belakang
-def Palindrom(x):
-    # Perulangan disini berfungsi sebagai
-    # pengecekan apakah huruf didepan dan belakang itu sama
-    for i in range(0, len(x)):
-        if x[i] != x[len(x) - 1 - i]:
-            return "Bukan Palindrom"
-    return "Palindrom"
+def palindrom(x):
+    # Pengecekan apakah huruf didepan dan belakang itu sama
+    return x == x[::-1]
 
 
-print(Palindrom("kodok"))  # output "Palindrom"
-print(Palindrom("label"))  # output "Bukan Palindrom"
+print(palindrom("katak"))  # output "True/Palindrom"
+print(palindrom("label"))  # output "False/Bukan Palindrom"
