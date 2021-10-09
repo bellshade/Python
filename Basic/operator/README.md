@@ -121,3 +121,44 @@ berikut tabel dari operasi keanggotaan
 |---------------|-------------------------------------------------------------------------------|
 |      in       | Mengembalikan nilai True jika nilai yang disebutkan ada di dalam objek        |
 |    not in     | Mengembalikan nilai True jika nilai yang disebutkan tidak ada di dalam objek  |
+
+## operator bitwise
+Dalam Python, operator bitwise digunakan untuk melakukan perhitungan bitwise pada bilangan bulat. Bilangan bulat pertama diubah menjadi biner dan kemudian operasi dilakukan pada bit demi bit, maka nama operator bitwise. Kemudian hasilnya dikembalikan dalam format desimal.
+
+
+| operator |      deskripsi      | sintaks |
+|----------|---------------------|---------|
+| &        | Bitwise AND         | x & y   |
+| |        | Bitwise OR          | x | y   |
+| ~        | Bitwise NOT         | ~x      |
+| ^        | Bitwise XOR         | x ^ y   |
+| >>       | Bitwise right shift | x>>     |
+| <<       | Bitwise left shift  | x<<     |
+
+contoh
+```
+Mengembalikan 1 jika kedua bit adalah 1 yang lain 0.
+a = 10 = 1010 
+b = 4 = 0100
+a & b = 1010
+    = 1010 & 0100 = 0000 
+    = 0
+```
+
+contoh dari **bitwise right shift**
+
+Menggeser bit angka ke kiri dan mengisi 0 pada kekosongan ke kanan sebagai hasilnya. Efek serupa seperti mengalikan angka dengan perpangkatan.
+
+```
+a = 5 = 0000 0101
+a << 1 = 0000 1010 = 10
+a << 2 = 0001 0100 = 20
+```
+
+contoh dari **bitwise right shift**
+
+Menggeser bit angka ke kanan dan mengisi 0 pada kekosongan kiri (mengisi 1 dalam kasus angka negatif) sebagai hasilnya. Efek serupa seperti membagi nomor dengan beberapa perpangkatan dua.
+```
+a = 10 = 0000 1010
+a >> 1 = 0000 0101 = 5
+```
