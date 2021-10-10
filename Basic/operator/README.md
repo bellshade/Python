@@ -8,7 +8,7 @@ python memiliki beberapa jenis operator yaitu
 - [operator penugasan](operator_penugasan.py)
 - [operator komparasi](operator_perbandingan.py)
 - [operator logika](operator_logika.py)
-- operator identitas
+- [operator identitas](operator_identitas.py)
 - operasi member
 
 
@@ -121,3 +121,72 @@ berikut tabel dari operasi keanggotaan
 |---------------|-------------------------------------------------------------------------------|
 |      in       | Mengembalikan nilai True jika nilai yang disebutkan ada di dalam objek        |
 |    not in     | Mengembalikan nilai True jika nilai yang disebutkan tidak ada di dalam objek  |
+
+## Operasi Identitas
+Operator Identitas adalah operator yang digunakanuntuk membandingkan suatu object. Jika object bernilai sama dan memilii memori yang sama, maka akan mengembalikan nilai True.
+
+contoh dari oeprasi identitas
+`contoh 1`
+```python
+x = 3
+y = 7
+
+if x is y:
+    print("Sama")
+elif x is not y:
+    print("Tidak sama")
+```
+Hasil:
+``` 
+>> Tidak sama
+```
+Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama. 
+
+`contoh 2`
+```python
+if (type(y) != int):
+    print("Ini bukan integer")
+else:
+    print("Ini adalah integer")
+```
+Hasil:
+``` 
+>> Ini adalah integer
+```
+Karena tipe data yang digunakan pada variabel `y` adalah `integer`, bukan string ataupun tipe data lainnya.
+
+berikut tabel dari operasi identitas.
+|   Operator    |                      Penjelasan                                               |
+|---------------|-------------------------------------------------------------------------------|
+|      is       | Mengembalikan nilai True jika nilai yang disebutkan memiliki objek dan memori yang sama        |
+|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak memiliki objek dan memori yang sama  |git 
+
+
+## operator bitwise
+
+Dalam Python, operator bitwise digunakan untuk melakukan perhitungan bitwise pada bilangan bulat. Bilangan bulat pertama diubah menjadi biner dan kemudian operasi dilakukan pada bit demi bit, maka nama operator bitwise. Kemudian hasilnya dikembalikan dalam format desimal.
+
+| operator |      deskripsi      | sintaks |
+|:--       |---------------------| --:     |
+|&        | Bitwise AND         | x & y   |
+|\|       | Bitwise OR          | x | y   |
+|~        | Bitwise NOT         | ~x      |
+|^        | Bitwise XOR         | x ^ y   |
+|>>       | Bitwise right shift | x>>     |
+|<<       | Bitwise left shift  | x<<     |
+
+
+contoh dari **bitwise not operator**
+```
+angka_saya = 10 = 1010
+~a = ~1010
+    = -(1010 + 1)
+    = -(1011)
+    = -11
+```
+
+contoh dari **bitwise right**
+```
+angka_saya = 10 = 0000 1010
+a >> 1 = 0000 0101 = 5
+```

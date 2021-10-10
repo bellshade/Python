@@ -11,6 +11,23 @@ Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algorit
 ## Peraturan dan Pedoman Kontribusi
 Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
 
+## Instalasi dan Setup
+
+### Windows
+
+1. Download python [disini](https://www.python.org/downloads/windows/)
+2. Download versi terbaru pada python dan sesuaikan pada device kamu (64 bit atau 32 bit)
+3. Jalankan file installer yang sudah di-Download
+4. pastikan kamu centang semua yang ada checkbox-nya
+5. lanjutkan installer sampai selesai
+6. Verifikasi apakah python terinstal di perangkat kamu dengan mengetik `python -V` pada command prompt
+
+jika kamu kesulitan kamu bisa menonton video [ini](https://youtu.be/OSmaWPSgvTQ)
+
+### Mac dan Linux
+- Kamu tidak perlu install karena python sudah terinstal
+- command: `python3`
+
 ## Quick Access
 Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
 - [Arithmetic Analysis](https://github.com/bellshade/Python/tree/main/arithmetic_analysis)
