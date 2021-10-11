@@ -71,7 +71,7 @@ def login():
             self.kebangsaan = kebangsaan
             self.jeniskelamin = jeniskelamin
         def hasil(self):
-            lbl = Label(labelfr,text="Nama = "+self.nama+"\nEmail = "+self.email+"\nNo Telp ="+self.noTelp+"\nPassword = "+self.password+"\nMasukkan Password Lagi ="+self.password2+"\nKebangsaan ="+self.kebangsaan+"\nJenis Kelamin ="+self.jeniskelamin).grid()
+            Label(labelfr,text="Nama = "+self.nama+"\nEmail = "+self.email+"\nNo Telp ="+self.noTelp+"\nPassword = "+self.password+"\nMasukkan Password Lagi ="+self.password2+"\nKebangsaan ="+self.kebangsaan+"\nJenis Kelamin ="+self.jeniskelamin).grid()
     ditampilkan = orang(e1.get(),e2.get(),e3.get(),e4.get(),e5.get(),e6.get(), r.get())
     ditampilkan.hasil()
 
