@@ -1,3 +1,5 @@
+# flake8: noqa
+
 # lambda function atau dikenal juga dengan anonymous function
 # adalah function yang bisa menerima multiple arguments
 # tapi hanya bisa melakukan 1 expression
