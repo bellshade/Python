@@ -8,6 +8,6 @@
 7. [Perulangan](looping)
 8. [Fungsi](fungsi)
 9. [Basic kalkulator dengan fungsi](kalkulator_dengan_fungsi)
-10. Rekayasa string
-11. Rekayasa string dan tuple
+10. [Manipulasi String](manipulasi_string)
+11. [List dan Tuple](list_tuple)
 12. [Exception](exception/exception.py)
