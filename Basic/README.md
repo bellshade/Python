@@ -9,7 +9,8 @@
 8. [Perulangan](looping)
 9. [Fungsi](fungsi)
 10. [Basic kalkulator dengan fungsi](kalkulator_dengan_fungsi)
-11.[ List dan tuple](list_tuple)
+11. [List dan tuple](list_tuple)
 12. Rekayasa string
 13. Rekayasa string dan tuple
 14. [Exception](exception/exception.py)
+15. [Modul](module)
