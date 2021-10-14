@@ -165,4 +165,49 @@ Jawabannya : **tidak**. Sebab, beberapa permasalahan dalam algoritma dan struktu
 
 Contoh lain dari penyelesaian masalah menggunakan rekursi dapat dilihat di file ```recursion_example.py``` yang ada di repositori.
 
+# Closure
+## Definisi Closure
+Kita bisa mendefinisikan fungsi di dalam fungsi. Di Python, teknik ini disebut sebagai *closure* atau *nested function*. *Closure* dapat mengakses variabel yang tidak berada di dalam *scope* fungsi tersebut. Variabel ini biasa disebut *nonlocal variable*. *Closure* juga dapat mengembalikan fungsi layaknya fungsi rekursi. Fungsi ```outerFunc()``` di bawah ini mendemonstrasikan bagaimana *closure* bekerja.
+
+```python
+def outerFunc(pesan):
+
+    def innerFunc():
+        # parameter "pesan" dapat diakses oleh innerFunc
+        print("{} juga dari innerFunc".format(pesan))
+
+    # ketika outerFunc(pesan) dipanggil, innerFunc() juga ikut terpanggil
+    innerFunc()
+
+
+pesan = "Halo"
+hasil = outerFunc(pesan)
+# memunculkan "Halo juga dari innerFunc" di console
+hasil
+```
+
+Seperti yang sudah disebutkan pada bagian definisi, *closure* juga dapat mengembalikan fungsi. *Closure* yang memiliki kegunaan seperti ini biasa disebut sebgai *factory function*. Fungsi ```pangkat()``` di bawah mendemonstrasikan bagaimana cara kerja *factory function*
+
+```python
+def pangkat(n):
+
+    def basis(x):
+        return x ** n
+    return basis
+
+
+# membuat perpangkatan 2
+pangkat2 = pangkat(2)
+
+# membuat perpangkatan 3
+pangkat3 = pangkat(3)
+
+# menampilkan 4
+print(pangkat2(2))
+
+# menampilkan 27
+print(pangkat3(3))
+```
+
+
 <a href="https://github.com/bellshade/Python/blob/task/fungsi/Basic/fungsi/fungsi.py">Bellshade Python Function</a>
