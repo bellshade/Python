@@ -1,4 +1,4 @@
-from kalkulator import tambah, kurang, kali, bagi
+from kalkulator import bagi, kali, kurang, tambah
 
 print(tambah(2, 3))
 print(kurang(2, 3))
