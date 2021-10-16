@@ -3,76 +3,29 @@
 Regular Expression adalah sekumpulan karakter yang membentuk suatu pola pencarian
 
 # B. Regular Expression Special Sequences
-<table border=1>
-  <tr align="center">
-    <td>Special Sequences</td>
-    <td>Arti</td>
-  </tr>
-  <tr align="center">
-    <td>\d</td>
-    <td>Bilangan Bulat / Digit (0-9)</td>
-  </tr>
-  <tr align="center">
-    <td>\s</td>
-    <td>Spasi / Withspace</td>
-  </tr>
-  <tr align="center">
-    <td>\w</td>
-    <td>Alphabet (A-Za-z), Digit (0-9), dan '_' (garis bawah)</td>
-  </tr>
-</table>
+| Special Sequences   | Arti                                                  |
+|---------------------|-------------------------------------------------------|
+| \d                  | Bilangan Bulat / Digit (0-9)                          |
+| \s                  | Spasi / Whitespace                                    |
+| \w                  | Alphabet (A-Za-z), Digit (0-9), dan '-' (garis bawah) |
 
 # C. Regular Expression Metacharacters
-<table border=1>
-  <tr align="center">
-    <td>Metacharacters</td>
-    <td>Arti</td>
-  </tr>
-  <tr align="center">
-    <td>+</td>
-    <td>Apabila special sequences yang diinginkan muncul sekali ataupun lebih dari satu</td>
-  </tr>
-  <tr align="center">
-    <td>*</td>
-    <td>Apabila special sequences yang diinginkan tidak muncul ataupun lebih dari satu</td>
-  </tr>
-  <tr align="center">
-    <td>[]</td>
-    <td>Menspesifikasikan pola / special sequences yang diinginkan</td>
-  </tr>
-  <tr align="center">
-    <td>{}</td>
-    <td>Menspesifikasikan kemunculan dari special sequences tersebut</td>
-  </tr>
-  <tr align="center">
-    <td>|</td>
-    <td>Pernyataan logika OR pada Regex</td>
-  </tr>
-</table>
+| Metacharacters   | Arti                                                                            |
+|------------------|---------------------------------------------------------------------------------|
+| +                | Apabila special sequences yang diinginkan muncul sekali ataupun lebih dari satu |
+| *                | Apabila special sequences yang diinginkan tidak muncul ataupun lebih dari satu  |
+| []               | Menspesifikasikan pola / special sequences yang diinginkan                      |
+| {}               | Menspesifikasikan kemunculan dari special sequences tersebut                    |
+| |                | Pernyataan logika OR pada Regex                                                 |
 
 # D. Regular Expression Set Example
-<table border=1>
-  <tr align="center">
-    <td>Sets</td>
-    <td>Arti</td>
-  </tr>
-  <tr align="center">
-    <td>[A-Z]</td>
-    <td>Hanya menerima alphabet berupa huruf besar semua</td>
-  </tr>
-  <tr align="center">
-    <td>[a-z]</td>
-    <td>Menerima alphabet huruf kecil</td>
-  </tr>
-  <tr align="center">
-    <td>[abc]</td>
-    <td>Hanya huruf abc</td>
-  </tr>
-  <tr align="center">
-    <td>[0-9]</td>
-    <td>Bilangan digit dari 0 sampai 9</td>
-  </tr>
-</table>
+| Set   | Arti                                             |
+|-------|--------------------------------------------------|
+| [A-Z] | Hanya menerima alphabet berupa huruf besar semua |
+| [a-z] | Menerima alphabet huruf kecil                    |
+| [abc] | Hanya huruf abc                                  |
+| [0-9] | Bilangan digit dari 0 sampai 9                   |
+| [1-5] | Hanya menerima bilangan digit dari 1 sampai 5    |
 
 # E. Reguler Expression Function
 ## 1. Findall
