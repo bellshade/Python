@@ -36,6 +36,7 @@ print(nama_hewan)
 ```
 
 # Comprehension
+
 Kita juga dapat membuat atau membangun list atau dictionary menggunakan *comprehension*. *Comprehension* memanfaatkan *loop* untuk membangun list atau dictionary. Dengan *comprehension* kita dapat membuat list dengan kode yang lebih ringkas.
 
 ## List Comprehension
@@ -131,6 +132,7 @@ print(nama_hewan)
 # Comprehension
 Kita juga dapat membuat atau membangun list atau dictionary menggunakan *comprehension*. *Comprehension* memanfaatkan *loop* untuk membangun list atau dictionary. Dengan *comprehension* kita dapat membuat list dengan kode yang lebih ringkas.
 
+
 Dalam menggunakan *comprehension*, ada 3 hal yang harus kita perhatikan, yakni :
 
 1. Output
@@ -172,7 +174,7 @@ print(genap)
 
 ```
 
-Tidak hanya conditional menggunakan ```if``` saja, tetapi kita juga bisa menggunakan ```if ... else``` dalam list comprehension. Kode di bawah ini menggunakan ```if ... else``` untuk menampilkan apakah nilai dalam list bernilai ganjil atau genap.
+Tidak hanya conditional menggunakan ```if```, tetapi kita juga bisa menggunakan ```if ... else``` dalam list comprehension. Kode di bawah ini menggunakan ```if ... else``` untuk menampilkan apakah nilai dalam list bernilai ganjil atau genap.
 
 ```python
 ganjilGenap = ['genap' if num % 2 == 0 else 'ganjil' for num in range(5)]
@@ -190,7 +192,7 @@ print(matriks)
 
 ```
 
-Pada kode di atas, terdapat dua buah list comprehension. List comprehension pertama ditunjukkan oleh ```[i for i in range (3)]```, sedangkan list comprehension kedua ditunjukkan oleh ```[ ... for i in range (5)]```. List comprehension pertama akan menghasilkan baris dengan elemen tiap baris adalah ```[0, 1, 2]```, dan List comprehension kedua akan menghasilkan 5 buah kolom.
+Pada kode di atas, terdapat dua buah list comprehension. List comprehension pertama ditunjukkan oleh ```[i for i in range (3)]```, sedangkan list comprehension kedua ditunjukkan oleh ```[ ... for i in range (5)]```. List comprehension pertama akan menghasilkan baris dengan elemen tiap baris adalah ```[0, 1, 2]```, dan list comprehension kedua akan menghasilkan 5 buah kolom.
 
 ## Dictionary Comprehension
 Sama seperti list comprehension, kita juga dapat membangun sebuah dictionary menggunakan dictionary comprehension. Hanya saja, kita harus ingat, bahwa dictionary merupakan *key - value pair*, artinya kita mengakses elemen dictionary menggunakan *key* pada dictionary tersebut. 
