@@ -1,5 +1,6 @@
 # Python
 
+[![discord](https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge)](http://discord.gg/S4rrXQU)
 ![license](https://img.shields.io/github/license/bellshade/Python?style=for-the-badge)
 ![code_quality](https://img.shields.io/lgtm/grade/python/github/bellshade/PythonAlgorithm?label=Code%20Quality&style=for-the-badge)
 ![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=code%20factor&style=for-the-badge)
