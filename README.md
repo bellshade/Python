@@ -6,6 +6,7 @@
 ![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=code%20factor&style=for-the-badge)
 ![python_build](https://img.shields.io/github/workflow/status/bellshade/Python/python%20testing?label=python%20testing&style=for-the-badge)
 ![circleCI](https://img.shields.io/circleci/build/github/bellshade/Python/main?label=Circle%20CI&style=for-the-badge)
+[![discord](https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge)](http://discord.gg/S4rrXQU)
 
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
