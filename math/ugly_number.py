@@ -9,6 +9,15 @@
 
 
 def ugly_number(n: int) -> int:
+    """
+    return bilangan aneh
+    >>> ugly_number(100)
+    1536
+    >>> ugly_number(0)
+    1
+    >>> ugly_number(20)
+    36
+    """
     ugly_num = [1]
     i2, i3, i5 = 0, 0, 0
     next_2 = ugly_num[i2] * 2
