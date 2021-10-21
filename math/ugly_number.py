@@ -33,12 +33,15 @@ def ugly_number(n: int) -> int:
         if next_num == next_3:
             i3 += 1
             next_3 = ugly_num[i3] * 3
-
+        if next_num == next_5:
+            i5 += 1
+            next_5 = ugly_num[i5] * 5
     return ugly_num[-1]
+
 
 
 if __name__ == "__main__":
     import doctest
 
     doctest.testmod(verbose=True)
-    print(f"{ugly_number(200)}")
+    print(f"{ugly_number(100)}")
