@@ -39,7 +39,6 @@ def ugly_number(n: int) -> int:
     return ugly_num[-1]
 
 
-
 if __name__ == "__main__":
     import doctest
 
