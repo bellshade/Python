@@ -101,4 +101,4 @@ def zeller(date_input: str) -> str:
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmoid()
+    doctest.testmod()
