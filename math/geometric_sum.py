@@ -14,6 +14,8 @@ def geoSum(suku_pertama, rasio, jumlah_deret):
 
     Invalid input :
     >>> geoSum(3, 1, 5)
+    Traceback (most recent call last):
+    ...
     ValueError: Rasio tidak boleh sama dengan 1
     """
     a = suku_pertama
