@@ -8,7 +8,6 @@ jobs:
       - uses: actions/setup-python@v2
       - name: Write DIRECTORY.md
         run: |
-          chmod +x scripts/build_directory_md.py
           scripts/build_directory_md.py 2>&1 | tee DIRECTORY.md
           git config --global user.name github-actions
           git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
@@ -17,3 +16,4 @@ jobs:
         run: |
           git add DIRECTORY.md
           git commit -am "update DIRECTORY.md" ||  true
+          git push --force origin HEAD:$GITHUB_REF || true

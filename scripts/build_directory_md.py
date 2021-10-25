@@ -1,7 +1,7 @@
 import os
 from typing import Iterator
 
-URL_BASE = "https://github.com/bellshade/Python/tree/main"
+URL_BASE = "https://github.com/bellshade/Python/blob/main"
 
 
 def good_file_paths(top_dir: str = ".") -> Iterator[str]:
