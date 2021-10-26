@@ -66,6 +66,7 @@
   * [Coloring](https://github.com/bellshade/Python/blob/main/backtracking/coloring.py)
   * [Combination](https://github.com/bellshade/Python/blob/main/backtracking/combination.py)
   * [Hamilton Cycle](https://github.com/bellshade/Python/blob/main/backtracking/hamilton_cycle.py)
+  * [Knight Tour](https://github.com/bellshade/Python/blob/main/backtracking/knight_tour.py)
   * [Minimax](https://github.com/bellshade/Python/blob/main/backtracking/minimax.py)
   * [N Queen Math](https://github.com/bellshade/Python/blob/main/backtracking/n_queen_math.py)
   * [N Queens](https://github.com/bellshade/Python/blob/main/backtracking/n_queens.py)
