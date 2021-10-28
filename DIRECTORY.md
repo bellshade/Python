@@ -166,6 +166,7 @@
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
+  * [Triplet Sum](https://github.com/bellshade/Python/blob/main/math/triplet_sum.py)
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)
   * [Two Sum](https://github.com/bellshade/Python/blob/main/math/two_sum.py)
   * [Ugly Number](https://github.com/bellshade/Python/blob/main/math/ugly_number.py)
