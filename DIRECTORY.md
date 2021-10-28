@@ -42,6 +42,9 @@
     * [Operator Logika](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_logika.py)
     * [Operator Penugasan](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_penugasan.py)
     * [Operator Perbandingan](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_perbandingan.py)
+  * Python Datetime
+    * [Module Datetime](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/module_datetime.py)
+    * [Perhitungan Umur](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/perhitungan_umur.py)
   * Regex
     * [Regex Code](https://github.com/bellshade/Python/blob/main/Basic/regex/regex_code.py)
   * [String Python](https://github.com/bellshade/Python/blob/main/Basic/string_python.py)
