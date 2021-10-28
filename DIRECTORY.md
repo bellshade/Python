@@ -193,6 +193,7 @@
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
   * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
+  * [Powerdac](https://github.com/bellshade/Python/blob/main/other/powerDAC.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Physics
