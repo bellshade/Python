@@ -1,8 +1,40 @@
 pull_request_rules:
-  - name: Merge dengan label
+  - name: ci testing kalo sukses ke squash dengan label
     conditions:
+      - check-success=python testing
       - base=main
       - label=ready-to-merge
     actions:
       merge:
         method: squash
+  - name: python label
+    conditions:
+      - files~=\.py$
+    actions:
+      label:
+        add:
+          - python files
+          - request tim python untuk review
+  - name: markdown label
+    conditions:
+      - files~=\.md$
+    actions:
+      label:
+        add:
+          - markdown files
+          - request docs team untuk review
+  - name: review docs team untuk file markdown
+    conditions:
+      - label=markdown files
+    actions:
+      request_reviews:
+        teams:
+          - "@bellshade/docs-team"
+
+  - name: review docs team untuk file markdown
+    conditions:
+      - label=python files
+    actions:
+      request_reviews:
+        teams:
+          - "@bellshade/python-team"
