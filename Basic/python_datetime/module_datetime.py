@@ -14,7 +14,7 @@ print(sekarang.month)
 print(sekarang.day)
 
 # format tanggal DD-MM-YYYY
-print(sekarang.strftime('%d-%m-%Y'))
+print(sekarang.strftime("%d-%m-%Y"))
 
 # mendefinisikan tanggal dan waktu
 hari_kemerdekaan = datetime.date(1945, 8, 17)
