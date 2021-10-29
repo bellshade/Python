@@ -165,7 +165,12 @@
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
+  * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
+  * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
+  * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
+  * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
+  * [Trapezoid](https://github.com/bellshade/Python/blob/main/math/trapezoid.py)
   * [Triplet Sum](https://github.com/bellshade/Python/blob/main/math/triplet_sum.py)
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)
   * [Two Sum](https://github.com/bellshade/Python/blob/main/math/two_sum.py)
@@ -183,13 +188,6 @@
 ## Networking Flow
   * [Ford Fulkerson](https://github.com/bellshade/Python/blob/main/networking_flow/ford_fulkerson.py)
   * [Minimum Cut](https://github.com/bellshade/Python/blob/main/networking_flow/minimum_cut.py)
-
-## Numerical Integration
-  * [Intergration](https://github.com/bellshade/Python/blob/main/numerical_integration/intergration.py)
-  * [Midpoint](https://github.com/bellshade/Python/blob/main/numerical_integration/midpoint.py)
-  * [Rectangle](https://github.com/bellshade/Python/blob/main/numerical_integration/rectangle.py)
-  * [Simpson](https://github.com/bellshade/Python/blob/main/numerical_integration/simpson.py)
-  * [Trapezoid](https://github.com/bellshade/Python/blob/main/numerical_integration/trapezoid.py)
 
 ## Other
   * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
