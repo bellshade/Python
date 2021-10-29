@@ -166,6 +166,7 @@
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
+  * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
