@@ -45,6 +45,12 @@
   * Python Datetime
     * [Module Datetime](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/module_datetime.py)
     * [Perhitungan Umur](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/perhitungan_umur.py)
+  * Python Math
+    * [Math Eksponen Logaritma](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_eksponen_logaritma.py)
+    * [Math Konstanta](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_konstanta.py)
+    * [Math Konversi Sudut](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_konversi_sudut.py)
+    * [Math Pembulatan](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_pembulatan.py)
+    * [Math Trigonometri](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_trigonometri.py)
   * Regex
     * [Regex Code](https://github.com/bellshade/Python/blob/main/Basic/regex/regex_code.py)
   * [String Python](https://github.com/bellshade/Python/blob/main/Basic/string_python.py)
