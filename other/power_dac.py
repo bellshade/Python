@@ -43,7 +43,7 @@ def eksponen(a: int, n: int) -> int:
 
 if __name__ == "__main__":
     import doctest
-    
+
     doctest.testmod()
     # menghasilkan 243
     hasil = eksponen(3, 5)
