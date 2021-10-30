@@ -161,7 +161,6 @@
 ## Math
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
-  * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)
   * [Two Sum](https://github.com/bellshade/Python/blob/main/math/two_sum.py)
@@ -193,7 +192,7 @@
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
   * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
-  * [Powerdac](https://github.com/bellshade/Python/blob/main/other/powerDAC.py)
+  * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Physics
