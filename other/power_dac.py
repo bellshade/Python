@@ -1,4 +1,4 @@
-def eksponen(a, n):
+def eksponen(a: int, n :int) -> int:
     """
     Fungsi ini mengevaluasi a ^ n dengan
     kompleksitas waktu (O(n)) sebesar O(log n)
@@ -16,12 +16,14 @@ def eksponen(a, n):
     3 ^ 2 = (3 ^ 1) * (3 ^ 1)
 
     Valid input :
-    eksponen(3, 3)
-    >>> 27
+    >>> eksponen(3, 3)
+    27
 
     Invalid input :
-    eksponen(3, 2.5)
-    >>> ValueError: Pangkat negatif atau pecahan
+    >>> eksponen(3, 2.5)
+    Traceback (most recent call last):
+    ...
+    ValueError: Pangkat negatif atau pecahan
     """
     # meng-handle invalid input
     if isinstance(n, int) is False or n < 0:
@@ -39,9 +41,13 @@ def eksponen(a, n):
             return x * x * a
 
 
-# menghasilkan 243
-hasil = eksponen(3, 5)
-print(hasil)
-# me-raise exception
-hasil3 = eksponen(3, -1)
-print(hasil3)
+if __name__ == "__main__":
+    import doctest
+    
+    doctest.testmod()
+    # menghasilkan 243
+    hasil = eksponen(3, 5)
+    print(hasil)
+    # me-raise exception
+    hasil3 = eksponen(3, -1)
+    print(hasil3)
