@@ -212,3 +212,6 @@
 
 ## Sorting
   * [Pop Sort](https://github.com/bellshade/Python/blob/main/sorting/pop_sort.py)
+
+## Web Programming
+  * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)
