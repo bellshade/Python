@@ -1,4 +1,4 @@
-def eksponen(a: int, n :int) -> int:
+def eksponen(a: int, n: int) -> int:
     """
     Fungsi ini mengevaluasi a ^ n dengan
     kompleksitas waktu (O(n)) sebesar O(log n)
