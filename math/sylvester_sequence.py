@@ -17,7 +17,7 @@ def sylvester(number: int) -> int:
     if number == 1:
         return 2
     elif number < 1:
-        raise ValueError(f"angka tidak boleh negatif")
+        raise ValueError("angka tidak boleh negatif")
     else:
         num = sylvester(number - 1)
         lower = num - 1
