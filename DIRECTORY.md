@@ -170,6 +170,7 @@
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
+  * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
   * [Trapezoid](https://github.com/bellshade/Python/blob/main/math/trapezoid.py)
   * [Triplet Sum](https://github.com/bellshade/Python/blob/main/math/triplet_sum.py)
