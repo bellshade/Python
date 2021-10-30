@@ -171,6 +171,7 @@
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
+  * [Sylvester Sequence](https://github.com/bellshade/Python/blob/main/math/sylvester_sequence.py)
   * [Trapezoid](https://github.com/bellshade/Python/blob/main/math/trapezoid.py)
   * [Triplet Sum](https://github.com/bellshade/Python/blob/main/math/triplet_sum.py)
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)
