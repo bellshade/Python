@@ -170,6 +170,7 @@
 ## Math
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
+  * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
