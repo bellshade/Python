@@ -176,6 +176,7 @@
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
+  * [Segmented Sieve](https://github.com/bellshade/Python/blob/main/math/segmented_sieve.py)
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
   * [Sylvester Sequence](https://github.com/bellshade/Python/blob/main/math/sylvester_sequence.py)
