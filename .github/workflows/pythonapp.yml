@@ -55,6 +55,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git pull
         git commit -am "style: format otomatis dengan black dan isort"
         git push
     - name: Test coverage
