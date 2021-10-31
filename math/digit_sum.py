@@ -61,6 +61,7 @@ def digit_sum(n: int) -> int:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
 
     hasil = digit_sum(123)
