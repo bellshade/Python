@@ -60,112 +60,117 @@
     * [Variable](https://github.com/bellshade/Python/blob/main/Basic/variable/Variable.py)
     * [String Variable](https://github.com/bellshade/Python/blob/main/Basic/variable/string_variable.py)
 
-## Arithmetic Analysis
-  * [Bisection](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/bisection.py)
-  * [Gaussian Elimination](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/gaussian_elimination.py)
-  * [In Static Equilibrium](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/in_static_equilibrium.py)
-  * [Intersection](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/intersection.py)
-  * [Lu Decomposition](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/lu_decomposition.py)
-  * [Newton Forward Interpolation](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/newton_forward_interpolation.py)
-  * [Newton Method](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/newton_method.py)
-  * [Newton Raphson](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/newton_raphson.py)
-  * [Secant Method](https://github.com/bellshade/Python/blob/main/arithmetic_analysis/secant_method.py)
+## Algorithm
+  * Arithmetic Analysis
+    * [Bisection](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/bisection.py)
+    * [Gaussian Elimination](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/gaussian_elimination.py)
+    * [In Static Equilibrium](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/in_static_equilibrium.py)
+    * [Intersection](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/intersection.py)
+    * [Lu Decomposition](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/lu_decomposition.py)
+    * [Newton Forward Interpolation](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_forward_interpolation.py)
+    * [Newton Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_method.py)
+    * [Newton Raphson](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_raphson.py)
+    * [Secant Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/secant_method.py)
+  * Backtracking
+    * [Coloring](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/coloring.py)
+    * [Combination](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/combination.py)
+    * [Hamilton Cycle](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/hamilton_cycle.py)
+    * [Knight Tour](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/knight_tour.py)
+    * [Minimax](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/minimax.py)
+    * [N Queen Math](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/n_queen_math.py)
+    * [N Queens](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/n_queens.py)
+    * [Permutation](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/permutation.py)
+    * [Rat In Maze](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/rat_in_maze.py)
+    * [Subsequence](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/subsequence.py)
+    * [Sudoku](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/sudoku.py)
+  * Boolean Algebra
+    * [Quinc Mc Cluskey](https://github.com/bellshade/Python/blob/main/algorithm/boolean_algebra/quinc_mc_cluskey.py)
+  * Divide And Conquer
+    * [Closest Pair Of Points](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/closest_pair_of_points.py)
+    * [Convex Hull](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/convex_hull.py)
+    * [Heap Algorithm](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/heap_algorithm.py)
+    * [Inversion](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/inversion.py)
+    * [Kth Order Statistic](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/kth_order_statistic.py)
+    * [Max Difference Pair](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/max_difference_pair.py)
+    * [Max Subarray Sum](https://github.com/bellshade/Python/blob/main/algorithm/divide_and_conquer/max_subarray_sum.py)
+  * Fuzzy Logic
+    * [Fuzzy Operation](https://github.com/bellshade/Python/blob/main/algorithm/fuzzy_logic/fuzzy_operation.py)
+  * Genetic Algo
+    * [Basic String](https://github.com/bellshade/Python/blob/main/algorithm/genetic_algo/basic_string.py)
+  * Manipulasi Bit
+    * [Binary And Operator](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_and_operator.py)
+    * [Binary Count Trailing Zero](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_count_trailing_zero.py)
+    * [Binary Or Operator](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_or_operator.py)
+    * [Binary Setbits](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_setbits.py)
+    * [Binary Shift](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_shift.py)
+    * [Binary Two Complement](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_two_complement.py)
+    * [Binary Xor Operator](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_xor_operator.py)
+    * [Count One Of Bit](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/count_one_of_bit.py)
+    * [Reverse Bit](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/reverse_bit.py)
+  * Matrix
+    * [Inverse Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/inverse_matrix.py)
+    * [Matrix Class](https://github.com/bellshade/Python/blob/main/algorithm/matrix/matrix_class.py)
+    * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/rotate_matrix.py)
+    * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/searching_in_sorted_matrix.py)
+    * [Sherman Morison](https://github.com/bellshade/Python/blob/main/algorithm/matrix/sherman_morison.py)
+  * Networking Flow
+    * [Ford Fulkerson](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/ford_fulkerson.py)
+    * [Minimum Cut](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/minimum_cut.py)
+  * Searching
+    * [ Types](https://github.com/bellshade/Python/blob/main/algorithm/searching/_types.py)
+    * [Binary Search](https://github.com/bellshade/Python/blob/main/algorithm/searching/binary_search.py)
+    * [Linear Search](https://github.com/bellshade/Python/blob/main/algorithm/searching/linear_search.py)
+  * Sorting
+    * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
 
-## Backtracking
-  * [Coloring](https://github.com/bellshade/Python/blob/main/backtracking/coloring.py)
-  * [Combination](https://github.com/bellshade/Python/blob/main/backtracking/combination.py)
-  * [Hamilton Cycle](https://github.com/bellshade/Python/blob/main/backtracking/hamilton_cycle.py)
-  * [Knight Tour](https://github.com/bellshade/Python/blob/main/backtracking/knight_tour.py)
-  * [Minimax](https://github.com/bellshade/Python/blob/main/backtracking/minimax.py)
-  * [N Queen Math](https://github.com/bellshade/Python/blob/main/backtracking/n_queen_math.py)
-  * [N Queens](https://github.com/bellshade/Python/blob/main/backtracking/n_queens.py)
-  * [Permutation](https://github.com/bellshade/Python/blob/main/backtracking/permutation.py)
-  * [Rat In Maze](https://github.com/bellshade/Python/blob/main/backtracking/rat_in_maze.py)
-  * [Subsequence](https://github.com/bellshade/Python/blob/main/backtracking/subsequence.py)
-  * [Sudoku](https://github.com/bellshade/Python/blob/main/backtracking/sudoku.py)
-
-## Blockchain
-  * [Chinese Remainder](https://github.com/bellshade/Python/blob/main/blockchain/chinese_remainder.py)
-  * [Diophantine Equation](https://github.com/bellshade/Python/blob/main/blockchain/diophantine_equation.py)
-  * [Modular Division](https://github.com/bellshade/Python/blob/main/blockchain/modular_division.py)
-
-## Boolean Algebra
-  * [Quinc Mc Cluskey](https://github.com/bellshade/Python/blob/main/boolean_algebra/quinc_mc_cluskey.py)
-
-## Celular Automata
-  * [One Dimensional](https://github.com/bellshade/Python/blob/main/celular_automata/one_dimensional.py)
-
-## Chiper
-  * [Affine](https://github.com/bellshade/Python/blob/main/chiper/affine.py)
-  * [Atbash](https://github.com/bellshade/Python/blob/main/chiper/atbash.py)
-  * [Base16](https://github.com/bellshade/Python/blob/main/chiper/base16.py)
-  * [Base32](https://github.com/bellshade/Python/blob/main/chiper/base32.py)
-  * [Base64](https://github.com/bellshade/Python/blob/main/chiper/base64.py)
-  * [Base85](https://github.com/bellshade/Python/blob/main/chiper/base85.py)
-  * [Caesar](https://github.com/bellshade/Python/blob/main/chiper/caesar.py)
-  * [Cryptomath Module](https://github.com/bellshade/Python/blob/main/chiper/cryptomath_module.py)
-  * [Hill Chiper](https://github.com/bellshade/Python/blob/main/chiper/hill_chiper.py)
-  * [Playfair](https://github.com/bellshade/Python/blob/main/chiper/playfair.py)
-  * [Rot13](https://github.com/bellshade/Python/blob/main/chiper/rot13.py)
-
-## Compression
-  * [Burrows Wheeler](https://github.com/bellshade/Python/blob/main/compression/burrows_wheeler.py)
-  * [Huffman](https://github.com/bellshade/Python/blob/main/compression/huffman.py)
-  * [Lempel Ziv](https://github.com/bellshade/Python/blob/main/compression/lempel_ziv.py)
-
-## Conversion
-  * [Binary To Decimal](https://github.com/bellshade/Python/blob/main/conversion/binary_to_decimal.py)
-  * [Binary To Octal](https://github.com/bellshade/Python/blob/main/conversion/binary_to_octal.py)
-  * [Binary To String](https://github.com/bellshade/Python/blob/main/conversion/binary_to_string.py)
-  * [Temperature Conversion](https://github.com/bellshade/Python/blob/main/conversion/temperature_conversion.py)
-
-## Divide And Conquer
-  * [Closest Pair Of Points](https://github.com/bellshade/Python/blob/main/divide_and_conquer/closest_pair_of_points.py)
-  * [Convex Hull](https://github.com/bellshade/Python/blob/main/divide_and_conquer/convex_hull.py)
-  * [Heap Algorithm](https://github.com/bellshade/Python/blob/main/divide_and_conquer/heap_algorithm.py)
-  * [Inversion](https://github.com/bellshade/Python/blob/main/divide_and_conquer/inversion.py)
-  * [Kth Order Statistic](https://github.com/bellshade/Python/blob/main/divide_and_conquer/kth_order_statistic.py)
-  * [Max Difference Pair](https://github.com/bellshade/Python/blob/main/divide_and_conquer/max_difference_pair.py)
-  * [Max Subarray Sum](https://github.com/bellshade/Python/blob/main/divide_and_conquer/max_subarray_sum.py)
-
-## Electro
-  * [Ohm](https://github.com/bellshade/Python/blob/main/electro/ohm.py)
-
-## File Transfer
-  * [Receive File](https://github.com/bellshade/Python/blob/main/file_transfer/receive_file.py)
-  * [Send File](https://github.com/bellshade/Python/blob/main/file_transfer/send_file.py)
-
-## Fractal
-  * [Koch](https://github.com/bellshade/Python/blob/main/fractal/koch.py)
-  * [Mandelbrot](https://github.com/bellshade/Python/blob/main/fractal/mandelbrot.py)
-  * [Sierpinski Triangle](https://github.com/bellshade/Python/blob/main/fractal/sierpinski_triangle.py)
-
-## Fuzzy Logic
-  * [Fuzzy Operation](https://github.com/bellshade/Python/blob/main/fuzzy_logic/fuzzy_operation.py)
-
-## Genetic Algo
-  * [Basic String](https://github.com/bellshade/Python/blob/main/genetic_algo/basic_string.py)
-
-## Geodesy Egineering
-  * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/geodesy_egineering/ellipsodial_distance.py)
-  * [Haversine](https://github.com/bellshade/Python/blob/main/geodesy_egineering/haversine.py)
-
-## Linear Algebra
-  * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/linear_algebra/conjugate_gradient.py)
-  * [Polynom For Point](https://github.com/bellshade/Python/blob/main/linear_algebra/polynom_for_point.py)
-  * [Rayleigh Quotient](https://github.com/bellshade/Python/blob/main/linear_algebra/rayleigh_quotient.py)
-  * [Transformation 2D](https://github.com/bellshade/Python/blob/main/linear_algebra/transformation_2d.py)
-
-## Manipulasi Bit
-  * [Binary And Operator](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_and_operator.py)
-  * [Binary Count Trailing Zero](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_count_trailing_zero.py)
-  * [Binary Or Operator](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_or_operator.py)
-  * [Binary Setbits](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_setbits.py)
-  * [Binary Shift](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_shift.py)
-  * [Binary Two Complement](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_two_complement.py)
-  * [Binary Xor Operator](https://github.com/bellshade/Python/blob/main/manipulasi_bit/binary_xor_operator.py)
-  * [Count One Of Bit](https://github.com/bellshade/Python/blob/main/manipulasi_bit/count_one_of_bit.py)
-  * [Reverse Bit](https://github.com/bellshade/Python/blob/main/manipulasi_bit/reverse_bit.py)
+## Implementation
+  * Blockchain
+    * [Chinese Remainder](https://github.com/bellshade/Python/blob/main/implementation/blockchain/chinese_remainder.py)
+    * [Diophantine Equation](https://github.com/bellshade/Python/blob/main/implementation/blockchain/diophantine_equation.py)
+    * [Modular Division](https://github.com/bellshade/Python/blob/main/implementation/blockchain/modular_division.py)
+  * Celular Automata
+    * [One Dimensional](https://github.com/bellshade/Python/blob/main/implementation/celular_automata/one_dimensional.py)
+  * Chiper
+    * [Affine](https://github.com/bellshade/Python/blob/main/implementation/chiper/affine.py)
+    * [Atbash](https://github.com/bellshade/Python/blob/main/implementation/chiper/atbash.py)
+    * [Base16](https://github.com/bellshade/Python/blob/main/implementation/chiper/base16.py)
+    * [Base32](https://github.com/bellshade/Python/blob/main/implementation/chiper/base32.py)
+    * [Base64](https://github.com/bellshade/Python/blob/main/implementation/chiper/base64.py)
+    * [Base85](https://github.com/bellshade/Python/blob/main/implementation/chiper/base85.py)
+    * [Caesar](https://github.com/bellshade/Python/blob/main/implementation/chiper/caesar.py)
+    * [Cryptomath Module](https://github.com/bellshade/Python/blob/main/implementation/chiper/cryptomath_module.py)
+    * [Hill Chiper](https://github.com/bellshade/Python/blob/main/implementation/chiper/hill_chiper.py)
+    * [Playfair](https://github.com/bellshade/Python/blob/main/implementation/chiper/playfair.py)
+    * [Rot13](https://github.com/bellshade/Python/blob/main/implementation/chiper/rot13.py)
+  * Compression
+    * [Burrows Wheeler](https://github.com/bellshade/Python/blob/main/implementation/compression/burrows_wheeler.py)
+    * [Huffman](https://github.com/bellshade/Python/blob/main/implementation/compression/huffman.py)
+    * [Lempel Ziv](https://github.com/bellshade/Python/blob/main/implementation/compression/lempel_ziv.py)
+  * Electro
+    * Conversion
+      * [Binary To Decimal](https://github.com/bellshade/Python/blob/main/implementation/electro/conversion/binary_to_decimal.py)
+      * [Binary To Octal](https://github.com/bellshade/Python/blob/main/implementation/electro/conversion/binary_to_octal.py)
+      * [Binary To String](https://github.com/bellshade/Python/blob/main/implementation/electro/conversion/binary_to_string.py)
+      * [Temperature Conversion](https://github.com/bellshade/Python/blob/main/implementation/electro/conversion/temperature_conversion.py)
+    * [Ohm](https://github.com/bellshade/Python/blob/main/implementation/electro/ohm.py)
+  * File Transfer
+    * [Receive File](https://github.com/bellshade/Python/blob/main/implementation/file_transfer/receive_file.py)
+    * [Send File](https://github.com/bellshade/Python/blob/main/implementation/file_transfer/send_file.py)
+  * Fractal
+    * [Koch](https://github.com/bellshade/Python/blob/main/implementation/fractal/koch.py)
+    * [Mandelbrot](https://github.com/bellshade/Python/blob/main/implementation/fractal/mandelbrot.py)
+    * [Sierpinski Triangle](https://github.com/bellshade/Python/blob/main/implementation/fractal/sierpinski_triangle.py)
+  * Geodesy Egineering
+    * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/ellipsodial_distance.py)
+    * [Haversine](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/haversine.py)
+  * Linear Algebra
+    * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/conjugate_gradient.py)
+    * [Polynom For Point](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/polynom_for_point.py)
+    * [Rayleigh Quotient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/rayleigh_quotient.py)
+    * [Transformation 2D](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/transformation_2d.py)
+  * Physics
+    * [N Body Simulation](https://github.com/bellshade/Python/blob/main/implementation/physics/n_body_simulation.py)
+    * [Percepatan](https://github.com/bellshade/Python/blob/main/implementation/physics/percepatan.py)
 
 ## Math
   * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
@@ -191,17 +196,6 @@
   * [Volume](https://github.com/bellshade/Python/blob/main/math/volume.py)
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
-## Matrix
-  * [Inverse Matrix](https://github.com/bellshade/Python/blob/main/matrix/inverse_matrix.py)
-  * [Matrix Class](https://github.com/bellshade/Python/blob/main/matrix/matrix_class.py)
-  * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/matrix/rotate_matrix.py)
-  * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/matrix/searching_in_sorted_matrix.py)
-  * [Sherman Morison](https://github.com/bellshade/Python/blob/main/matrix/sherman_morison.py)
-
-## Networking Flow
-  * [Ford Fulkerson](https://github.com/bellshade/Python/blob/main/networking_flow/ford_fulkerson.py)
-  * [Minimum Cut](https://github.com/bellshade/Python/blob/main/networking_flow/minimum_cut.py)
-
 ## Other
   * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
@@ -210,18 +204,6 @@
   * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
-
-## Physics
-  * [N Body Simulation](https://github.com/bellshade/Python/blob/main/physics/n_body_simulation.py)
-  * [Percepatan](https://github.com/bellshade/Python/blob/main/physics/percepatan.py)
-
-## Searching
-  * [ Types](https://github.com/bellshade/Python/blob/main/searching/_types.py)
-  * [Binary Search](https://github.com/bellshade/Python/blob/main/searching/binary_search.py)
-  * [Linear Search](https://github.com/bellshade/Python/blob/main/searching/linear_search.py)
-
-## Sorting
-  * [Pop Sort](https://github.com/bellshade/Python/blob/main/sorting/pop_sort.py)
 
 ## Web Programming
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)
