@@ -168,6 +168,7 @@
   * [Reverse Bit](https://github.com/bellshade/Python/blob/main/manipulasi_bit/reverse_bit.py)
 
 ## Math
+  * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
