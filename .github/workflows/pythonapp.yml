@@ -11,7 +11,7 @@ on:
     branches: [ main ]
 
 jobs:
-  CekModifikasiFile:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -34,18 +34,6 @@ jobs:
         echo "Mulai format otomatis"
         isort . --profile=black
         black .
-    # - name: Test Python
-    #   run: |
-    #     echo "Mulai Jalankan testing docstring"
-    #     pytest . --doctest-modules --ignore=Basic/
-    # - name: Test Lint Python
-    #   run: |
-    #     echo "Mulai Jalankan testing flake8"
-    #     flake8 .
-    # - name: Test mypy
-    #   run: |
-    #     echo "Mulai Jalankan testing mypy"
-    #     mypy .
     - name: Cek modifikasi file
       id: git-check
       run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
@@ -58,41 +46,24 @@ jobs:
         git pull
         git commit -am "style: format otomatis dengan black dan isort"
         git push
-    # - name: Test coverage
-    #   run: |
-    #     echo "Mulai testing coverage"
-    #     coverage run --source . -m pytest --doctest-modules --ignore=Basic/
-    # - name: Hasil coverage
-    #   run: |
-    #     echo "Laporan coverage"
-    #     coverage report -m
-
-  build:
-    name: testing semua
-    runs-on: ubuntu-latest
-    needs: [CekModifikasiFile]
-    steps:
-      - name: setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
-      - uses: actions/checkout@v2
-      - name: Test Lint Python
-        run: |
-          echo "mulai jalanka testing flake8"
-          flake8 .
-      - name: testing mypy
-        run: |
-          echo "testing mypy"
-          mypy .
-      - name: test docstring python
-        run: |
-          echo "testing docstring"
-          pytest . --doctest-modules --ignore=Basic/
-      - name: test coverage
-        run: |
-          coverage run --sourcce . -m pytest --doctest-modules --ignore=Basic/
-      - name: codecov report test
-        run: |
-          echo "laporan coverage"
-          coverage report -m
+    - name: Test Python
+      run: |
+        echo "Mulai Jalankan testing docstring"
+        pytest . --doctest-modules --ignore=Basic/
+    - name: Test Lint Python
+      run: |
+        echo "Mulai Jalankan testing flake8"
+        flake8 .
+    - name: Test mypy
+      run: |
+        echo "Mulai Jalankan testing mypy"
+        mypy .
+    - name: Test coverage
+      run: |
+        echo "Mulai testing coverage"
+        coverage run --source . -m pytest --doctest-modules --ignore=Basic/
+    - name: Hasil coverage
+      run: |
+        echo "Laporan coverage"
+        coverage report -m
+        
