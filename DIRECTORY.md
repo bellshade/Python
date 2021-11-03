@@ -1,64 +1,72 @@
 
 ## Basic
-  * [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
-  * Akses Modfikasi
+  * 10 List Tuple
+    * [List Python](https://github.com/bellshade/Python/blob/main/Basic/10_list_tuple/list_python.py)
+    * [Tuple Python](https://github.com/bellshade/Python/blob/main/Basic/10_list_tuple/tuple_python.py)
+  * 12 Exception
+    * [Exception](https://github.com/bellshade/Python/blob/main/Basic/12_exception/exception.py)
+  * 13 Module
+    * [Kalkulator](https://github.com/bellshade/Python/blob/main/Basic/13_module/kalkulator.py)
+    * [Perhitungan1](https://github.com/bellshade/Python/blob/main/Basic/13_module/perhitungan1.py)
+    * [Perhitungan2](https://github.com/bellshade/Python/blob/main/Basic/13_module/perhitungan2.py)
+  * 14 Python Datetime
+    * [Module Datetime](https://github.com/bellshade/Python/blob/main/Basic/14_python_datetime/module_datetime.py)
+    * [Perhitungan Umur](https://github.com/bellshade/Python/blob/main/Basic/14_python_datetime/perhitungan_umur.py)
+  * 15 Python Math
+    * [Math Eksponen Logaritma](https://github.com/bellshade/Python/blob/main/Basic/15_python_math/math_eksponen_logaritma.py)
+    * [Math Konstanta](https://github.com/bellshade/Python/blob/main/Basic/15_python_math/math_konstanta.py)
+    * [Math Konversi Sudut](https://github.com/bellshade/Python/blob/main/Basic/15_python_math/math_konversi_sudut.py)
+    * [Math Pembulatan](https://github.com/bellshade/Python/blob/main/Basic/15_python_math/math_pembulatan.py)
+    * [Math Trigonometri](https://github.com/bellshade/Python/blob/main/Basic/15_python_math/math_trigonometri.py)
+  * 16 Class
+    * [Class](https://github.com/bellshade/Python/blob/main/Basic/16_class/class.py)
+    * [Const Desct](https://github.com/bellshade/Python/blob/main/Basic/16_class/const_desct.py)
+    * [Dunder Method](https://github.com/bellshade/Python/blob/main/Basic/16_class/dunder_method.py)
+    * [Methods](https://github.com/bellshade/Python/blob/main/Basic/16_class/methods.py)
+  * 17 Inheritance
+    * [Inheritance Python](https://github.com/bellshade/Python/blob/main/Basic/17_inheritance/inheritance_python.py)
+  * 18 Akses Modifikasi
+    * Private
+      * [Private](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/private/private.py)
+    * Protected
+      * [Protected](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/protected/protected.py)
     * Public
-      * [Public](https://github.com/bellshade/Python/blob/main/Basic/akses_modfikasi/public/public.py)
+      * [Public](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/public/public.py)
+  * 2 Tipe Data
+    * [Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/2_tipe_data/tipe_data.py)
+  * 2 Variable
+    * [Variable](https://github.com/bellshade/Python/blob/main/Basic/2_variable/Variable.py)
+    * [String Variable](https://github.com/bellshade/Python/blob/main/Basic/2_variable/string_variable.py)
+  * 3 Operator
+    * [Operator Aritmatika](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_aritmatika.py)
+    * [Operator Bitwise](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_bitwise.py)
+    * [Operator Identitas](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_identitas.py)
+    * [Operator Keanggotaan](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_keanggotaan.py)
+    * [Operator Logika](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_logika.py)
+    * [Operator Penugasan](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_penugasan.py)
+    * [Operator Perbandingan](https://github.com/bellshade/Python/blob/main/Basic/3_operator/operator_perbandingan.py)
+  * 4 String
+    * [String Python](https://github.com/bellshade/Python/blob/main/Basic/4_string/string_python.py)
+  * 5 Input Output
+    * [Input Output](https://github.com/bellshade/Python/blob/main/Basic/5_input_output/input_output.py)
+  * 6 Logika Percabangan
+    * [Logika Percabangan](https://github.com/bellshade/Python/blob/main/Basic/6_logika_percabangan/logika_percabangan.py)
+  * 7 Perulangan
+    * [For Loop](https://github.com/bellshade/Python/blob/main/Basic/7_perulangan/for_loop.py)
+    * [While Loop](https://github.com/bellshade/Python/blob/main/Basic/7_perulangan/while_loop.py)
+  * 8 Fungsi
+    * [Fungsi](https://github.com/bellshade/Python/blob/main/Basic/8_fungsi/fungsi.py)
+    * [Recursion Example](https://github.com/bellshade/Python/blob/main/Basic/8_fungsi/recursion_example.py)
+  * 9 Kalukulator Dengan Fungsi
+    * [Kalkulator Fungsi](https://github.com/bellshade/Python/blob/main/Basic/9_kalukulator_dengan_fungsi/kalkulator_fungsi.py)
+  * [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
   * [Casting Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/casting_tipe_data.py)
-  * Class
-    * [Class](https://github.com/bellshade/Python/blob/main/Basic/class/class.py)
-    * [Const Desct](https://github.com/bellshade/Python/blob/main/Basic/class/const_desct.py)
-    * [Dunder Method](https://github.com/bellshade/Python/blob/main/Basic/class/dunder_method.py)
-    * [Methods](https://github.com/bellshade/Python/blob/main/Basic/class/methods.py)
-  * Exception
-    * [Exception](https://github.com/bellshade/Python/blob/main/Basic/exception/exception.py)
-  * Fungsi
-    * [Fungsi](https://github.com/bellshade/Python/blob/main/Basic/fungsi/fungsi.py)
-    * [Recursion Example](https://github.com/bellshade/Python/blob/main/Basic/fungsi/recursion_example.py)
-  * Inheritance
-    * [Inheritance Python](https://github.com/bellshade/Python/blob/main/Basic/inheritance/inheritance_python.py)
-  * [Input Output](https://github.com/bellshade/Python/blob/main/Basic/input_output.py)
   * Iterator
     * [Iterator](https://github.com/bellshade/Python/blob/main/Basic/iterator/iterator.py)
-  * Kalukulator Dengan Fungsi
-    * [Kalkulator Fungsi](https://github.com/bellshade/Python/blob/main/Basic/kalukulator_dengan_fungsi/kalkulator_fungsi.py)
   * Lambda
     * [Lambda](https://github.com/bellshade/Python/blob/main/Basic/lambda/lambda.py)
-  * List Tuple
-    * [List Python](https://github.com/bellshade/Python/blob/main/Basic/list_tuple/list_python.py)
-    * [Tuple Python](https://github.com/bellshade/Python/blob/main/Basic/list_tuple/tuple_python.py)
-  * Looping
-    * [For Loop](https://github.com/bellshade/Python/blob/main/Basic/looping/for_loop.py)
-    * [While Loop](https://github.com/bellshade/Python/blob/main/Basic/looping/while_loop.py)
-  * Module
-    * [Kalkulator](https://github.com/bellshade/Python/blob/main/Basic/module/kalkulator.py)
-    * [Perhitungan1](https://github.com/bellshade/Python/blob/main/Basic/module/perhitungan1.py)
-    * [Perhitungan2](https://github.com/bellshade/Python/blob/main/Basic/module/perhitungan2.py)
-  * Operator
-    * [Operator Aritmatika](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_aritmatika.py)
-    * [Operator Bitwise](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_bitwise.py)
-    * [Operator Identitas](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_identitas.py)
-    * [Operator Keanggotaan](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_keanggotaan.py)
-    * [Operator Logika](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_logika.py)
-    * [Operator Penugasan](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_penugasan.py)
-    * [Operator Perbandingan](https://github.com/bellshade/Python/blob/main/Basic/operator/operator_perbandingan.py)
-  * Python Datetime
-    * [Module Datetime](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/module_datetime.py)
-    * [Perhitungan Umur](https://github.com/bellshade/Python/blob/main/Basic/python_datetime/perhitungan_umur.py)
-  * Python Math
-    * [Math Eksponen Logaritma](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_eksponen_logaritma.py)
-    * [Math Konstanta](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_konstanta.py)
-    * [Math Konversi Sudut](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_konversi_sudut.py)
-    * [Math Pembulatan](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_pembulatan.py)
-    * [Math Trigonometri](https://github.com/bellshade/Python/blob/main/Basic/python_math/math_trigonometri.py)
   * Regex
     * [Regex Code](https://github.com/bellshade/Python/blob/main/Basic/regex/regex_code.py)
-  * [String Python](https://github.com/bellshade/Python/blob/main/Basic/string_python.py)
-  * Tipe Data
-    * [Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/tipe_data/tipe_data.py)
-  * Variable
-    * [Variable](https://github.com/bellshade/Python/blob/main/Basic/variable/Variable.py)
-    * [String Variable](https://github.com/bellshade/Python/blob/main/Basic/variable/string_variable.py)
 
 ## Algorithm
   * Arithmetic Analysis
