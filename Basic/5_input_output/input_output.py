@@ -6,7 +6,7 @@ nama = "joes"
 print(nama)
 
 # mengganti nama 'joes' menjadi sesuai user
-nama = input("masukkan nama :").strip()
+nama = input("masukkan nama :")
 print(nama)
 
 # menggunakan inputan sesuai tipe data
