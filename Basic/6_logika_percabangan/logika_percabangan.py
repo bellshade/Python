@@ -12,4 +12,3 @@ elif cuaca == "cerah":
 # if dan elif
 else:
     print("gunakan pakaian renang")
-    
