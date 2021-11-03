@@ -31,7 +31,7 @@ jika kamu kesulitan kamu bisa menonton video [ini](https://youtu.be/OSmaWPSgvTQ)
 
 ## Quick Access
 Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
-- [basic](Basic)
+- [basic](Basic/README.md)
 - [algoritma](algorithm)
 - [implementasi](implementation)
 - [web programming](web_programming)
