@@ -47,4 +47,5 @@ def gradian_to_radian(gradian: float) -> float:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
