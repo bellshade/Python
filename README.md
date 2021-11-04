@@ -9,6 +9,26 @@
 
 Repositori ini berisi kumpulan dari berbagai macam contoh struktur data, algoritma dan komputasi matematika yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
 
+## singkat tentang python
+
+python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. peimilihan nama python itu sendiri diambil dari sebuah acara telviis yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
+
+python adalah bahasa pemograman multi paaradigma, pemogramaan berorientasi objek dan pemograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemgoraman fungsional. 
+
+kelebihan diatara python antara lain
+- mudah digunakan untuk menulis di perangkat lunak terbaru
+- mudah untuk diajarkan
+- dukung __iot__ (__internet of things__)
+- mudah dipahami
+- seta mudah didapatkan, karena mudah diinstal, python juga termasuk __multiplatform__
+
+contoh yang implementasi dari bahasa pemograman python adalah
+- komputasi ilmiah dan numerik contohnya seperti scipy
+- aplikasi bisnis seperti tryton
+- pembuatan game seperti battlefield 2
+- pengembangan web seperti django atau flask (library)
+- pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+
 ## Peraturan dan Pedoman Kontribusi
 Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
 
