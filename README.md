@@ -32,7 +32,7 @@ contoh yang implementasi dari bahasa pemograman python adalah
 - pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
 
 ## Peraturan dan Pedoman Kontribusi
-Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
+Dipersilahkan bila ingin berkontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md`` agar selalu dalam peraturan dan pedoman pada repositori python.
 
 ## Instalasi dan Setup
 

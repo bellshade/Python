@@ -49,6 +49,10 @@ def adding(num1, num2):
     num1 = integer
     num2 = integer
     mengembalikan hasil yang berupa integer
+    >>> adding(2, 50)
+    52
+    >>> adding(3, 2)
+    5
     """
     return num1 + num2
 ```
@@ -112,7 +116,7 @@ pytest . --doctest-modules
 ```
 
 ```bash
-pytest perubahan_kamu.py --doctest-modules
+pytest perubahan_kamu.py --doctest-modules --ignore=Basic/
 ```
 
 **Saran**
