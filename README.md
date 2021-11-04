@@ -1,4 +1,6 @@
-# Python
+<p align="center">
+  <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv" width=300 height=200>
+</p>
 
 [![discord](https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge)](http://discord.gg/S4rrXQU)
 ![license](https://img.shields.io/github/license/bellshade/Python?style=for-the-badge)
