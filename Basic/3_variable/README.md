@@ -78,3 +78,5 @@ python memiliki beberapa peraturan dalam penulisan sebuah variabel agar mengikut
     contoh diatas akan menghasilkan 2 nama karena variabel tersebut secara kalimat sama tapi secara penulisan berbeda, python memperhatikan hal ini.
 
 pada python penggunaan variabel disarankan menggunakan ``snake_case`` untuk mengikuti style bawaan dari python
+
+[Materi Selanjutnya](../4_operator)

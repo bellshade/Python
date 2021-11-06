@@ -190,3 +190,4 @@ contoh dari **bitwise right**
 angka_saya = 10 = 0000 1010
 a >> 1 = 0000 0101 = 5
 ```
+
