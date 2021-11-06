@@ -13,7 +13,7 @@ Selamat datang di basic pemrograman Python. Disini kalian dapat memulai pertama 
     - Gambaran Singkat
     - Contoh Hello World
 
-## Gambarang Singkat
+## Gambaran Singkat
 
 Python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. Python dibuat dengan menggunakan bahasa pemrograman C sebagai basisnya. pemilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
 
