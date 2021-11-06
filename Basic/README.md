@@ -8,7 +8,7 @@
 pada kamu yang ingin belajar bahasa pemograman python, berikut urutan basic untuk pemula yang ingin belajar dari bahasa pemograman python. **disarankan belajar sesuai list tersebut**.
 
 1. [Introduction](01_introduction)
-2. [Data types](02_tipe_data)
+2. [Data Types](02_tipe_data)
 3. [Variabel](03_variable)
 4. [Operator](04_operator)
 5. [String](05_string)
@@ -16,7 +16,7 @@ pada kamu yang ingin belajar bahasa pemograman python, berikut urutan basic untu
 7. [Logika](07_logika_percabangan)
 8. [Perulangan](08_perulangan)
 9. [Fungsi](09_fungsi)
-10. [List dan tuple](10_list_tuple)
+10. [List dan Tuple](10_list_tuple)
 11. [Manipulasi String](11_manipulasi_string)
 12. [Exception](12_exception)
 13. [Modul](13_module)
@@ -24,13 +24,13 @@ pada kamu yang ingin belajar bahasa pemograman python, berikut urutan basic untu
 15. [Fungsi Matematika](15_python_math)
 16. [Kelas](16_class)
 17. [Turunan](17_inheritance)
-18. [Akses modifikasi](18_akses_modifikasi)
+18. [Akses Modifikasi](18_akses_modifikasi)
 19. [Iterator](19_iterator)
 20. [Lambda](20_lambda)
 21. [Regex](21_regex)
 22. [Scope](22_scope)
-23. [Kalkulator dengan fungsi](23_kalkulator_dengan_fungsi)
-24. [Casting tipe data](24_casting_tipe_data)
+23. [Kalkulator dengan Fungsi](23_kalkulator_dengan_fungsi)
+24. [Casting Tipe Data](24_casting_tipe_data)
 
 
 ## install python pada perangkat
