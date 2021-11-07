@@ -23,7 +23,7 @@ Kelebihan diatara python antara lain
 
 - Mudah digunakan untuk menulis di perangkat lunak terbaru
 - Mudah untuk diajarkan
-- Mendukung **iot** (**internet of things**)
+- Mendukung **IoT** (**Internet of Things**)
 - Mudah dipahami
 - Serta mudah didapatkan, karena mudah diinstal, python juga termasuk **multiplatform**
 
