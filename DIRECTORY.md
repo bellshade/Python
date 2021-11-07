@@ -210,8 +210,10 @@
   * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
+  * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/other/dict_comprehension.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
   * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
+  * [List Comprehension](https://github.com/bellshade/Python/blob/main/other/list_comprehension.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
