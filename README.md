@@ -23,7 +23,7 @@ Repositori ini berisi kumpulan berbagai macam *source code* struktur data, algor
 
 ## Singkat Tentang Python
 
-python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. peimilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
+python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. pemilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
 
 python adalah bahasa pemograman multi paaradigma, pemogramaan berorientasi objek dan pemograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemgoraman fungsional. 
 
@@ -46,21 +46,21 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 
 | Langkah | Topik | Target Pembelajaran | Materi Rujukan |
 | :-----------: | :----------------------------------------: |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| 01 | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program | [Materi](Basic/1_introduction.py) |
-| 02 | Tipe data | Memahami apa itu tipe data | [Materi](Basic/2_tipe_data) |
-| 03 | Variabel | Memahami apa itu variabel | [Materi](Basic/3_variabel) |
-| 04 | Operasi | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python | [Materi](Basic/4_operator) |
-| 05 | String | Memahami String | [Materi](Basic/5_string) |
-| 06 | Input dan Output | Memahami cara mengambil input dari user | [Materi](Basic/6_input_output) |
-| 07 | Pengkondisian | Memahami salah satu dari inti dari membuat pemograman yaitu melakukan pengkondisian | [Materi](Basic/7_logika_percabangan) |
-| 08 | Perulangan | Memahami inti kedua dari pemograman yaitu melakukan perulangan | [Materi](Basic/8_perulangan) |
-| 09 | Fungsi | Mengenal konsep fungsi dalam teknik pemograman | [Materi](Basic/9_fungsi) |
-| 10 | List dan Tuple | Memahami konsep list dan tuple secara mendalam | [Materi](Basic/11_list_tuple) |
-| 11 | Manipulasi String | Memahami cara memanipulasi sebuah string | [Materi](Basic/12_manipulasi_string) |
-| 12 | Exception | Memahami konsep exception pada python | [Materi](Basic/13_exception) |
-| 13 | Module | Memahami cara mengimport sebuah module pada python | [Materi](Basic/14_module) |
-| 14 | Datetime | Mengenal module datetime pada python | [Materi](Basic/15_python_datetime) |
-| 15 | Math | Mengenal module math pada python | [Materi](Basic/16_python_math) |
+| 01 | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program | [Materi](Basic/01_introduction) |
+| 02 | Tipe data | Memahami apa itu tipe data dan memahami cara penggunaannya | [Materi](Basic/02_tipe_data) |
+| 03 | Variabel | Memahami apa itu variabel dan memahami cara penggunaannya | [Materi](Basic/03_variable) |
+| 04 | Operasi | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python | [Materi](Basic/04_operator) |
+| 05 | String | Memahami apa itu string dan memahami cara penggunaannya | [Materi](Basic/05_string) |
+| 06 | Input dan Output | Memahami cara mengambil input dari user dan cara untuk mencetak input dari user | [Materi](Basic/06_input_output) |
+| 07 | Pengkondisian | Memahami salah satu dari inti dari membuat pemograman yaitu melakukan pengkondisian | [Materi](Basic/07_logika_percabangan) |
+| 08 | Perulangan | Memahami inti kedua dari pemograman yaitu melakukan perulangan | [Materi](Basic/08_perulangan) |
+| 09 | Fungsi | Mengenal konsep fungsi dalam teknik pemograman | [Materi](Basic/09_fungsi) |
+| 10 | List dan Tuple | Memahami konsep list dan tuple secara mendalam | [Materi](Basic/10_list_tuple) |
+| 11 | Manipulasi String | Memahami cara memanipulasi sebuah string | [Materi](Basic/11_manipulasi_string) |
+| 12 | Exception | Memahami konsep exception pada python | [Materi](Basic/12_exception) |
+| 13 | Module | Memahami cara mengimport sebuah module pada python | [Materi](Basic/13_module) |
+| 14 | Datetime | Mengenal module datetime pada python | [Materi](Basic/14_python_datetime) |
+| 15 | Math | Mengenal module math pada python | [Materi](Basic/15_python_math) |
 
 Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
 Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming]()
