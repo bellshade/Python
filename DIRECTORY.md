@@ -68,6 +68,7 @@
   * 24 Casting Tipe Data
     * [Casting Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/24_casting_tipe_data/casting_tipe_data.py)
   * [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
+  * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/Basic/dict_comprehension.py)
   * [List Comprehension](https://github.com/bellshade/Python/blob/main/Basic/list_comprehension.py)
 
 ## Algorithm
@@ -211,7 +212,6 @@
   * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
-  * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/other/dict_comprehension.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
   * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
