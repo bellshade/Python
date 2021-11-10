@@ -19,9 +19,8 @@ def faktor_prima(n: int) -> list[int]:
         if n % i:
             i += 1
         else:
-            n //= 1
+            n //= i
             faktor.append(i)
-
     if n > 1:
         faktor.append(n)
     return faktor
@@ -30,4 +29,4 @@ def faktor_prima(n: int) -> list[int]:
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod(verbose=True)
+    doctest.testmod()
