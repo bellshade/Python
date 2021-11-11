@@ -41,7 +41,7 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 
 | Langkah |              Topik               |                                  Target Pembelajaran                                  |            Materi Rujukan            |
 | :-----: | :------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------: |
-|   01    | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |  [Materi](Basic/01_introduction.py)   |
+|   01    | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |  [Materi](Basic/01_introduction)   |
 |   02    |            Tipe data             |                              Memahami apa itu tipe data                               |     [Materi](Basic/02_tipe_data)      |
 |   03    |             Variabel             |                               Memahami apa itu variabel                               |      [Materi](Basic/03_variabel)      |
 |   04    |             Operasi              | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python |      [Materi](Basic/04_operator)      |
