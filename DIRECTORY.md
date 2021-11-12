@@ -184,6 +184,7 @@
 ## Math
   * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
+  * [Angka Proth](https://github.com/bellshade/Python/blob/main/math/angka_proth.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
