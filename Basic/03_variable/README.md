@@ -79,4 +79,4 @@ python memiliki beberapa peraturan dalam penulisan sebuah variabel agar mengikut
 
 pada python penggunaan variabel disarankan menggunakan ``snake_case`` untuk mengikuti style bawaan dari python
 
-[Materi Selanjutnya](../4_operator)
+[Materi Selanjutnya](../04_operator)
