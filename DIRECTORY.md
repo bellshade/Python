@@ -51,12 +51,12 @@
   * 17 Inheritance
     * [Inheritance Python](https://github.com/bellshade/Python/blob/main/Basic/17_inheritance/inheritance_python.py)
   * 18 Akses Modifikasi
-    * Private
-      * [Private](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/private/private.py)
-    * Protected
-      * [Protected](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/protected/protected.py)
-    * Public
-      * [Public](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/public/public.py)
+    * 01 Public
+      * [Public](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/01_public/public.py)
+    * 02 Private
+      * [Private](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/02_private/private.py)
+    * 03 Protected
+      * [Protected](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/03_protected/protected.py)
   * 19 Iterator
     * [Iterator](https://github.com/bellshade/Python/blob/main/Basic/19_iterator/iterator.py)
   * 20 Lambda
