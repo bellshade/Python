@@ -119,6 +119,7 @@
   * Matrix
     * [Inverse Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/inverse_matrix.py)
     * [Matrix Class](https://github.com/bellshade/Python/blob/main/algorithm/matrix/matrix_class.py)
+    * [Matrix Operation](https://github.com/bellshade/Python/blob/main/algorithm/matrix/matrix_operation.py)
     * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/rotate_matrix.py)
     * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/searching_in_sorted_matrix.py)
     * [Sherman Morison](https://github.com/bellshade/Python/blob/main/algorithm/matrix/sherman_morison.py)
