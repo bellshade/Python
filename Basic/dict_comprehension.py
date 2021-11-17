@@ -1,3 +1,11 @@
+# Dictionary comprehension adalah
+# Sebuah metode atau cara untuk membuat dictionary menggunakan for loop
+
+# Syntax Dictionary Comprehension
+# {key : value for vars in iterable}
+
+# Kelebihan menggunakan Dictionary Comprehension adalah mampu menulis koding dengan elegan
+
 # Membuat Dictionary
 angka = dict()
 
