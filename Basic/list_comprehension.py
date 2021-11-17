@@ -1,3 +1,9 @@
+# List Comprehension
+# adalah metode untuk menambahkan anggota dari suatu list melalui for loop
+
+# Syntax dari List Comprehension adalah
+# [expression for item in iterable]
+
 # Original List
 
 original = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
