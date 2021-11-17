@@ -32,3 +32,5 @@ contoh yang implementasi dari bahasa pemograman python adalah
 - pembuatan game seperti battlefield 2
 - pengembangan web seperti django atau flask (library)
 - pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+
+[Materi Selanjutnya](../02_tipe_data)

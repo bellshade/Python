@@ -38,3 +38,5 @@ else:
     print("gunakan pakaian renang")
 ```
 contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika selain dari cuaca hujan dan cerah maka menampilkan ``gunakan pakaian renang``
+
+[Materi Selanjutnya](../08_perulangan)

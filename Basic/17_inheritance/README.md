@@ -42,3 +42,5 @@ informasi:
 - ``data.tampilkan()``
 
     memanggil fungsi dari tampilkan dari kelas ``Panggil()``.kemudian menampilkan berupa variabel dari parent class atau kelas induk dari ``Merk`` yang berisi value berupa ``calvin klein``
+
+[Materi Selanjutnya](../18_akses_modifikasi/public)

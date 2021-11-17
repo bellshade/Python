@@ -191,3 +191,4 @@ angka_saya = 10 = 0000 1010
 a >> 1 = 0000 0101 = 5
 ```
 
+[Materi Selanjutnya](../05_string)

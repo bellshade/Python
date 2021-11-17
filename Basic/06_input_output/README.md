@@ -88,3 +88,5 @@ hasil esekusi diatas akan menyebabkan error karena ``class`` merupaakan salah sa
 - while
 - with
 - yield
+
+[Materi Selanjutnya](../07_logika_percabangan)

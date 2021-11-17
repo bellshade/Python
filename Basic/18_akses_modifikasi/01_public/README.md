@@ -17,3 +17,5 @@ print("Umur saya adalah ", objek_kelas.umur_saya)
 ```
 
 Dalam program di atas, ``nama_saya`` dan ``umur_saya`` adalah anggota data publik dan metode ``tampil_nama()`` adalah fungsi anggota publik dari kelas ``NamaSaya``. Data anggota kelas ``NamaSaya`` ini dapat diakses dari mana saja dalam program.
+
+[Materi Selanjutnya](../02_private)

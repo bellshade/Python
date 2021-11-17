@@ -30,6 +30,6 @@ print(kata_pertama[0])
 # contoh
 print(len(kata_pertama))
 
-# kita juga mengecek kata khusus dalam sebuah string
+# kita juga dapat mengecek kata khusus dalam sebuah string
 # contoh
 print("indonesia" in kata_saya)

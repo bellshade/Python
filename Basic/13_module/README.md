@@ -67,3 +67,4 @@ Output:
 18
 5.0
 ```
+[Materi Selanjutnya](../14_python_datetime)

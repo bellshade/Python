@@ -121,3 +121,5 @@ Output:
 
 ## Referensi
 Informasi lebih lanjut tentang penggunaan modul `math` ini, silahkan mengunjungi dokumentasi resmi dari Python [di sini](https://docs.python.org/3.9/library/math.html)
+
+[Materi Selanjutnya](../16_class)

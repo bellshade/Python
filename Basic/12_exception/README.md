@@ -140,3 +140,5 @@ Kesalahan : unsupported operand type(s) for /: 'int' and 'str'
 Baris ini selalu dieksekusi
 ```
 Karena terdapat kesalahan di dalam `try`, maka ditangani di dalam `except`. Kemudian, baris kode yang ada di dalam `finally` juga dieksekusi.
+
+[Materi Selanjutnya](../13_module)

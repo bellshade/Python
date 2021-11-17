@@ -154,3 +154,5 @@ for key_luar in range(2, 5):
 print(kuadrat)
 
 ```
+
+[Materi Selanjutnya](../11_manipulasi_string)

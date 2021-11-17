@@ -211,3 +211,5 @@ print(pangkat3(3))
 
 
 <a href="https://github.com/bellshade/Python/blob/task/fungsi/Basic/fungsi/fungsi.py">Bellshade Python Function</a>
+
+[Materi Selanjutnya](../10_list_tuple)

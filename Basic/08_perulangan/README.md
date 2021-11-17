@@ -129,3 +129,5 @@ sementara for loop adalah looping yang melakukan sesuatu berdasarkan "keanggotaa
 
 <a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/while_loop.py">while loop</a><br>
 <a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/for_loop.py">for loop</a>
+
+[Materi Selanjutnya](../09_fungsi)

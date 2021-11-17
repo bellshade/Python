@@ -36,3 +36,5 @@ Sub adalah sebuah fungsi dimana fungsi tersebut mengganti sequences yang kita ca
 Search adalah sebuah fungsi dimana fungsi tersebut mencari object yang kita inginkan pada kata yang akan kita eksekusi
 ## 4. Split
 Split adalah sebuah fungsi dimana fungsi itu memecah / membagi kalimat yang akan dieksekusi berdasarkan sebuah pola
+
+[Materi Selanjutnya](../22_scope)

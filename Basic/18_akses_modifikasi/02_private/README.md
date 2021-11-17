@@ -39,3 +39,5 @@ Traceback (most recent call last):
     pekerja1.__menampilkan()
 AttributeError: 'PekerjaTambang' object has no attribute '__menampilkan'
 ```
+
+[Materi Selanjutnya](../03_protected)

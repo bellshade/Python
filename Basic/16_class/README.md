@@ -60,3 +60,4 @@ if __name__ == "__main__":
      hewan = Hewan("sapi", "Mooo")
     print(f" {hewan.nama_hewan} bersuara :{hewan.suara}")
 ```
+[Materi Selanjutnya](../17_inheritance)

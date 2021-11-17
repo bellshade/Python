@@ -33,3 +33,5 @@ print(next(test_iter))
 ```
 
 untuk lebih jelasnya kamu bisa lihat [disini](iterator.py)
+
+[Materi Selanjutnya](../20_lambda)

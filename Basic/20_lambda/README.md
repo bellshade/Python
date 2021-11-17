@@ -43,3 +43,5 @@ li = [i for i in range(10)]
 beyond_five = list(filter(lambda x: (x > 5), li))
 print(beyond_five)
 ```
+
+[Materi Selanjutnya](../21_regex)

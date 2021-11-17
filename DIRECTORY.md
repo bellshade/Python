@@ -51,12 +51,12 @@
   * 17 Inheritance
     * [Inheritance Python](https://github.com/bellshade/Python/blob/main/Basic/17_inheritance/inheritance_python.py)
   * 18 Akses Modifikasi
-    * Private
-      * [Private](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/private/private.py)
-    * Protected
-      * [Protected](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/protected/protected.py)
-    * Public
-      * [Public](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/public/public.py)
+    * 01 Public
+      * [Public](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/01_public/public.py)
+    * 02 Private
+      * [Private](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/02_private/private.py)
+    * 03 Protected
+      * [Protected](https://github.com/bellshade/Python/blob/main/Basic/18_akses_modifikasi/03_protected/protected.py)
   * 19 Iterator
     * [Iterator](https://github.com/bellshade/Python/blob/main/Basic/19_iterator/iterator.py)
   * 20 Lambda
@@ -121,6 +121,7 @@
   * Matrix
     * [Inverse Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/inverse_matrix.py)
     * [Matrix Class](https://github.com/bellshade/Python/blob/main/algorithm/matrix/matrix_class.py)
+    * [Matrix Operation](https://github.com/bellshade/Python/blob/main/algorithm/matrix/matrix_operation.py)
     * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/rotate_matrix.py)
     * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/searching_in_sorted_matrix.py)
     * [Sherman Morison](https://github.com/bellshade/Python/blob/main/algorithm/matrix/sherman_morison.py)
@@ -186,13 +187,16 @@
 ## Math
   * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
+  * [Angka Proth](https://github.com/bellshade/Python/blob/main/math/angka_proth.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
+  * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
+  * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Recursion Power](https://github.com/bellshade/Python/blob/main/math/recursion_power.py)
@@ -201,6 +205,7 @@
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
   * [Sylvester Sequence](https://github.com/bellshade/Python/blob/main/math/sylvester_sequence.py)
+  * [Teorema Pytaghoras](https://github.com/bellshade/Python/blob/main/math/teorema_pytaghoras.py)
   * [Trapezoid](https://github.com/bellshade/Python/blob/main/math/trapezoid.py)
   * [Triplet Sum](https://github.com/bellshade/Python/blob/main/math/triplet_sum.py)
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)

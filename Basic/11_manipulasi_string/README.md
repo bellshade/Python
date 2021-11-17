@@ -179,3 +179,5 @@ berikut tabel method pada string
 | translate()    | Mengembalikan string yang sudah ditranslasi                                                   |
 | upper()        | Mengubah string menjadi huruf Kapital                                                         |
 | zfill()        | Mengisi string dengan angka 0 sebanyak jumlah yang ditentukan di awal string                  |
+
+[Materi Selanjutnya](../12_exception)

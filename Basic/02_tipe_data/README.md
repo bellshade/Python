@@ -114,3 +114,5 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         angka_saya = memoryview(bytes(12))
         angka_saya1 = memoryview(bytes(1212))
         ```
+
+[Materi Selanjutnya](../03_variable)
