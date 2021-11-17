@@ -4,7 +4,7 @@
 # Syntax Dictionary Comprehension
 # {key : value for vars in iterable}
 
-# Kelebihan menggunakan Dictionary Comprehension adalah 
+# Kelebihan menggunakan Dictionary Comprehension adalah
 # mampu menulis koding dengan elegan
 
 # Membuat Dictionary
