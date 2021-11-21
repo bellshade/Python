@@ -1,17 +1,27 @@
-# Bilangan Prima adalah Bilangan yang habis dibagi
-# oleh bilangan itu sendiri dan bilangan 1
-def is_prime(num):
-    # Mengecek apakah num merupakan bilangan negatif dan dibawah 2
-    if num < 2:
+from math import sqrt
+
+
+def is_prime(num: int) -> str:
+    if num == 2:
+        return "Bilangan Prima"
+
+    if num < 2 or num % 2 == 0:
         return "Bukan Bilangan Prima"
-    # Perulangan disini dimulai dari 2 dikarenakan
-    # bilangan prima dimulai dari 2 dan seterusnya
-    for i in range(2, num, 1):
-        # Jika num habis dibagi oleh i maka bilangan tersebut bukan Bilangan prima
+
+    for i in range(3, int(sqrt(num)), 2):
         if num % i == 0:
             return "Bukan Bilangan Prima"
+
     return "Bilangan Prima"
 
 
-print(is_prime(20))  # output "Bukan Bilangan Prima"
-print(is_prime(5))  # output "Bilangan Prima"
+if __name__ == "__main__":
+    # basic tests
+    print(is_prime(1))
+    print(is_prime(2))
+    print(is_prime(3))
+    print(is_prime(4))
+    print(is_prime(5))
+
+    # custom tests
+    # print(is_prime(1234))
