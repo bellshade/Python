@@ -33,4 +33,9 @@ contoh yang implementasi dari bahasa pemograman python adalah
 - pengembangan web seperti django atau flask (library)
 - pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
 
+```python
+print("hello bellshade")
+print("apa kabar ?")
+```
+
 [Materi Selanjutnya](../02_tipe_data)
