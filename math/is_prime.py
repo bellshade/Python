@@ -1,6 +1,6 @@
 # Bilangan Prima adalah Bilangan yang habis dibagi
 # oleh bilangan itu sendiri dan bilangan 1
-def isPrime(num):
+def is_prime(num):
     # Mengecek apakah num merupakan bilangan negatif dan dibawah 2
     if num < 2:
         return "Bukan Bilangan Prima"
@@ -13,5 +13,5 @@ def isPrime(num):
     return "Bilangan Prima"
 
 
-print(isPrime(20))  # output "Bukan Bilangan Prima"
-print(isPrime(5))  # output "Bilangan Prima"
+print(is_prime(20))  # output "Bukan Bilangan Prima"
+print(is_prime(5))  # output "Bilangan Prima"
