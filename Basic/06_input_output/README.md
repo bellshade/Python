@@ -89,4 +89,6 @@ hasil esekusi diatas akan menyebabkan error karena ``class`` merupaakan salah sa
 - with
 - yield
 
+video penjelasan tentang operator input output = [Belajar python dasar - mengambil input data dari user](https://www.youtube.com/watch?v=Ar1xxIsyuvI&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=8)
+
 [Materi Selanjutnya](../07_logika_percabangan)

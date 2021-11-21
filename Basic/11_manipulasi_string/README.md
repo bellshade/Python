@@ -180,4 +180,6 @@ berikut tabel method pada string
 | upper()        | Mengubah string menjadi huruf Kapital                                                         |
 | zfill()        | Mengisi string dengan angka 0 sebanyak jumlah yang ditentukan di awal string                  |
 
+video penjelasan tentang manipulasi string = [Belajar python dasar - manipulasi string](https://www.youtube.com/watch?v=ORda-LwrEwE&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=18)
+
 [Materi Selanjutnya](../12_exception)

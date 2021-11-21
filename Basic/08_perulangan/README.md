@@ -130,4 +130,8 @@ sementara for loop adalah looping yang melakukan sesuatu berdasarkan "keanggotaa
 <a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/while_loop.py">while loop</a><br>
 <a href="https://github.com/bellshade/Python/blob/task/loop/Basic/looping/for_loop.py">for loop</a>
 
+video penjelasan tentang looping (for) = [Belajar dasar python - for loop (perulangan)](https://www.youtube.com/watch?v=Z4qfMhx4XzQ&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=25)
+
+video penjelasan tentang looping (while) = [Belajar dasar python - while loop (perulangan)](https://www.youtube.com/watch?v=ZupffvoCChQ&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=26)
+
 [Materi Selanjutnya](../09_fungsi)

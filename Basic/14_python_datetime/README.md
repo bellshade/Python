@@ -92,4 +92,6 @@ Jika dieksekusi kode di atas, maka hasilnya adalah `"Umur saya adalah 23 tahun 3
 ## Referensi
 Hal-hal lebih lanjut tentang modul tanggal dan waktu (_datetime_) ini dapat mengunjungi [dokumentasi](https://docs.python.org/3.9/library/datetime.html) berikut
 
+video penjelasan tentang modul datetime = [Belajar python dasar - mengenal modul datetime](https://www.youtube.com/watch?v=n9vTAmq3GHE&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=21)
+
 [Materi Selanjutnya](../15_python_math)

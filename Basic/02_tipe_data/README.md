@@ -115,4 +115,6 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         angka_saya1 = memoryview(bytes(1212))
         ```
 
+video penjelasan tentang tipe data = [Belajar python dasar - mengenal tipe data data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
+
 [Materi Selanjutnya](../03_variable)
