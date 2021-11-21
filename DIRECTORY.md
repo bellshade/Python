@@ -221,5 +221,8 @@
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
+## Struktur Data
+  * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
+
 ## Web Programming
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)
