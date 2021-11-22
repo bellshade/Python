@@ -12,6 +12,7 @@
     * [Operator Keanggotaan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_keanggotaan.py)
     * [Operator Logika](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_logika.py)
     * [Operator Penugasan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_penugasan.py)
+    * [Operator Penugasan Ekspresi](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_penugasan_ekspresi.py)
     * [Operator Perbandingan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_perbandingan.py)
   * 05 String
     * [String Python](https://github.com/bellshade/Python/blob/main/Basic/05_string/string_python.py)
