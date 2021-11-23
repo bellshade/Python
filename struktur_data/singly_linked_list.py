@@ -5,6 +5,7 @@ class Node:
     penunjuk untuk node selanjutnya dan properti val
     sebagai properti yang menampung nilai pada node
     """
+
     def __init__(self, val=None):
         self.next = None
         self.val = val
@@ -15,6 +16,7 @@ class SingleLinkedList:
     Class SingleLinkedList digunakan untuk membuat single linked list
     dari kumpulan node
     """
+
     def __init__(self):
         """
         Constructor __init__ digunakan  untuk menginisialisasi
@@ -59,7 +61,7 @@ class SingleLinkedList:
         new_node.next = temp.next
         temp.next = new_node
         # mengosongkan node temp
-        temp = None
+        temp = None  # lgtm [py/unused-local-variable]
 
     def delete_head(self):
         """
@@ -115,6 +117,7 @@ class SingleLinkedList:
 
 if __name__ == "__main__":
     import doctest
+
     linked_list = SingleLinkedList()
     linked_list.insert(Node(5))
     linked_list.insert(Node(3))
