@@ -3,10 +3,7 @@ from math import ceil
 
 
 class PaginationHelper:
-    """
-    Sebuah class yang berisi utilitas-utilitas untuk
-    membantu dalam pagination.
-    """
+    # Sebuah class yang berisi utilitas-utilitas untuk membantu dalam pagination.
 
     def __init__(self, collection: list[Any], items_per_page):
         """
