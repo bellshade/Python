@@ -20,20 +20,24 @@ Python dibuat dan dikembangkan oleh Guido van Rossum, programmer yang berasal da
 Python adalah bahasa pemograman multi paradigma, pemrogramaan berorientasi objek dan pemograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemgoraman fungsional. 
 
 Kelebihan diatara python antara lain:
-- syntax yang sederhana
 - mudah digunakan untuk menulis di perangkat lunak terbaru
 - mudah untuk diajarkan
 - mendukung __iot__ (__internet of things__)
 - mudah dipahami
-- mudah didapatkan, karena mudah diinstal, Python juga termasuk __multiplatform__
-- merupakan salah satu bahasa pemrograman yang populer pada tahun 2016-2021
+- serta mudah didapatkan, karena mudah diinstal, python juga termasuk __multiplatform__
 
 Contoh yang implementasi dari bahasa pemograman python adalah:
-- komputasi ilmiah dan numerik contohnya seperti Scipy
-- aplikasi bisnis seperti Tryton
-- pembuatan game seperti Battlefield 2
-- pengembangan web seperti Django atau Flask (library)
-- pengembangan dari situs web dan layanan sperti Dropbox, Buzzfeed dan Uber
+- komputasi ilmiah dan numerik contohnya seperti scipy
+- aplikasi bisnis seperti tryton
+- pembuatan game seperti battlefield 2
+- pengembangan web seperti django atau flask (library)
+- pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+
+```python
+print("hello bellshade")
+print("apa kabar ?")
+```
   
-Contoh kode untuk output "Hello World!":
-```print("Hello World!")```
+Pengenalan Python juga bisa dicek di [video ini.](https://www.youtube.com/watch?v=iA8lLwmtKQM&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=1)  
+
+[Materi Selanjutnya](../02_tipe_data)
