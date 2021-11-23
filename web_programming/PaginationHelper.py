@@ -5,7 +5,7 @@ from math import ceil
 class PaginationHelper:
     # Sebuah class yang berisi utilitas-utilitas untuk membantu dalam pagination.
 
-    def __init__(self, collection: list[Any], items_per_page):
+    def __init__(self, collection: list[Any], items_per_page: int):
         """
         Constructor class ini mengambil 2 parameter:
         1. `collection`. List berisi item-item yang ingin di
@@ -46,7 +46,7 @@ class PaginationHelper:
         """
         return ceil(self.item_count() / self.items_per_page)
 
-    def page_item_count(self, page_index):
+    def page_item_count(self, page_index: int) -> int:
         """
         Method untuk mengembalikan total item yang ada di
         halaman tertentu berdasarkan parameter `page_index`
