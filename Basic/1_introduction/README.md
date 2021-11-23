@@ -40,4 +40,4 @@ print("apa kabar ?")
   
 Pengenalan Python juga bisa dicek di [video ini.](https://www.youtube.com/watch?v=iA8lLwmtKQM&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=1)  
 
-[Materi Selanjutnya](../02_tipe_data)
+[Materi Selanjutnya](../02_tipe_data) 
