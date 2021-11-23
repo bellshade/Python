@@ -27,11 +27,11 @@ Kelebihan diatara python antara lain:
 - serta mudah didapatkan, karena mudah diinstal, python juga termasuk __multiplatform__
 
 Contoh yang implementasi dari bahasa pemograman python adalah:
-- komputasi ilmiah dan numerik contohnya seperti scipy
-- aplikasi bisnis seperti tryton
-- pembuatan game seperti battlefield 2
-- pengembangan web seperti django atau flask (library)
-- pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+- komputasi ilmiah dan numerik contohnya seperti Scipy
+- aplikasi bisnis seperti Tryton
+- pembuatan game seperti Battlefield 2
+- pengembangan web seperti Django atau Flask (library)
+- pengembangan dari situs web dan layanan sperti Dropbox, Buzzfeed dan Uber
 
 ```python
 print("hello bellshade")
