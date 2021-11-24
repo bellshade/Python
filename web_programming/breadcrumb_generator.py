@@ -23,9 +23,14 @@ def parse_path(url: str) -> str:
     """, re.VERBOSE)
 
     # mengambil path dari url
-    path = path_pattern.search(url).group(1) or ''
+    path = path_pattern.findall(url)
 
-    return f"{path}/"
+    # jika path kosong, maka akan mengembalikan '/'
+    if len(path) == 0:
+        return "/"
+
+    # jika path tidak kosong, maka akan mengembalikan path + "/"
+    return f"{path[0]}/"
 
 
 def generate_anchor_tag(url: str, description: str) -> str:
