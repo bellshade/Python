@@ -129,21 +129,24 @@ def generate_breadcrumb(url: str, separator: str) -> str:
     path = parse_path(url)
 
     # filter akhiran index.* dari path
-    path = re.sub(r"index\.?.*$", '', path).split('/')
-    if path[-1] == '':
-        path.pop()
+    path = re.sub(r"index\.?.*$", '', path)
+
+    # split path menjadi list
+    pathList = path.split('/')
+    if pathList[-1] == '':
+        pathList.pop()
 
     # generate tag anchor dari awal sampai dengan
-    # elemen kedua terakhir dari path
-    for i in range(len(path[:-1])):
-        url = '/'.join(path[:i + 1])
-        desc = generate_description(path[i])
+    # elemen kedua terakhir dari pathList
+    for i in range(len(pathList[:-1])):
+        url = '/'.join(pathList[:i + 1])
+        desc = generate_description(pathList[i])
         anchor = generate_anchor_tag(url, desc)
 
         result.append(anchor)
 
-    # generate tag span dengan elemen terakhir dari path
-    span = generate_span_tag(generate_description(path[-1]))
+    # generate tag span dengan elemen terakhir dari pathList
+    span = generate_span_tag(generate_description(pathList[-1]))
     result.append(span)
 
     # return hasil join tag anchor dengan separator
