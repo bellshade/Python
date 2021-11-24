@@ -231,5 +231,5 @@
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
 
 ## Web Programming
-  * [Paginationhelper](https://github.com/bellshade/Python/blob/main/web_programming/PaginationHelper.py)
+  * [Pagination Helper](https://github.com/bellshade/Python/blob/main/web_programming/pagination_helper.py)
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)
