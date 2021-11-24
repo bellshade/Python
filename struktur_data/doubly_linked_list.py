@@ -54,7 +54,6 @@ class DoublyLinkedList:
 
         if self.linked_list_head is None:
             self.insert_head(new_node)
-            pass  # lgtm [py/unnecessary-pass]
         else:
             temp = self.linked_list_head
             while temp.next is not None:
