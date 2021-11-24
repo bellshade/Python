@@ -106,7 +106,7 @@ def generate_description(slug: str) -> str:
         return slug.replace("-", " ").upper()
 
 
-def generate_breadcrumb(url, separator):
+def generate_breadcrumb(url: str, separator: str) -> str:
     """
     Fungsi yang menerima input berupa string url dan separator
     dan mengembalikan string yang berisi navigasi breadcrumb.
