@@ -54,7 +54,7 @@ class DoublyLinkedList:
 
         if self.linked_list_head is None:
             self.insert_head(new_node)
-            pass
+            pass  # lgtm [py/unnecessary-pass]
         else:
             temp = self.linked_list_head
             while temp.next is not None:
@@ -89,7 +89,7 @@ class DoublyLinkedList:
         self.linked_list_head = temp.next
         self.linked_list_head.prev = None
         # mengosongkan head linked list
-        temp = None
+        temp = None  # lgtm [py/unused-local-variable]
 
     def delete_tail(self):
 
