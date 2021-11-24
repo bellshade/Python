@@ -1,5 +1,5 @@
-from typing import Any
 from math import ceil
+from typing import Any
 
 
 class PaginationHelper:
@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
     doctest.testmod()
 
-    helper = PaginationHelper(['a', 'b', 'c', 'd', 'e', 'f'], 4)
+    helper = PaginationHelper(["a", "b", "c", "d", "e", "f"], 4)
 
     # basic tests
     print(helper.collection)
