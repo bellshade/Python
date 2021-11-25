@@ -16,11 +16,14 @@ def parse_path(url: str) -> str:
     >>> parse_path("https://www.github.com/sebuah-slug-yang-panjang-sekali")
     '/sebuah-slug-yang-panjang-sekali/'
     """
-    path_pattern = re.compile(r"""
+    path_pattern = re.compile(
+        r"""
         (?:https?://)?          # filter skema http:// atau https://
         (?:[^/]+)               # filter lokasi domain
         ([^\.\?#]+)?\??         # masukkan path kedalam capture group 1
-    """, re.VERBOSE)
+    """,
+        re.VERBOSE,
+    )
 
     # mengambil path dari url
     path = path_pattern.findall(url)
@@ -129,17 +132,17 @@ def generate_breadcrumb(url: str, separator: str) -> str:
     path = parse_path(url)
 
     # filter akhiran index.* dari path
-    path = re.sub(r"index\.?.*$", '', path)
+    path = re.sub(r"index\.?.*$", "", path)
 
     # split path menjadi list
-    pathList = path.split('/')
-    if pathList[-1] == '':
+    pathList = path.split("/")
+    if pathList[-1] == "":
         pathList.pop()
 
     # generate tag anchor dari awal sampai dengan
     # elemen kedua terakhir dari pathList
     for i in range(len(pathList[:-1])):
-        url = '/'.join(pathList[:i + 1])
+        url = "/".join(pathList[: i + 1])
         desc = generate_description(pathList[i])
         anchor = generate_anchor_tag(url, desc)
 
@@ -159,20 +162,27 @@ def main(args=None):
     doctest.testmod()
 
     # basic tests
-    print(generate_breadcrumb("youtube.com", " > ") ==
-          '<span class="active">HOME</span>')
+    print(
+        generate_breadcrumb("youtube.com", " > ") == '<span class="active">HOME</span>'
+    )
 
-    print(generate_breadcrumb("https://github.com/harmonify/index.html", " > ") ==
-          '<a href="/">HOME</a> > <span class="active">HARMONIFY</span>')
+    print(
+        generate_breadcrumb("https://github.com/harmonify/index.html", " > ")
+        == '<a href="/">HOME</a> > <span class="active">HARMONIFY</span>'
+    )
 
-    print(generate_breadcrumb("facebook.com/sebuah-slug-yang-panjang-sekali", " / ") ==
-          '<a href="/">HOME</a> / <span class="active">SSYPS</span>')
+    print(
+        generate_breadcrumb("facebook.com/sebuah-slug-yang-panjang-sekali", " / ")
+        == '<a href="/">HOME</a> / <span class="active">SSYPS</span>'
+    )
 
     # custom tests
-    print(generate_breadcrumb("websiteku.com/services/api/basic", " | ") ==
-          '<a href="/">HOME</a> | <a href="/services">SERVICES</a> | ' +
-          '<a href="/services/api">API</a> | <span class="active">BASIC</span>')
+    print(
+        generate_breadcrumb("websiteku.com/services/api/basic", " | ")
+        == '<a href="/">HOME</a> | <a href="/services">SERVICES</a> | '
+        + '<a href="/services/api">API</a> | <span class="active">BASIC</span>'
+    )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
