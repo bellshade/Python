@@ -43,6 +43,10 @@ def rgb_to_hex(r: int, g: int, b: int) -> str:
         elif x > 255:
             x = 255
 
+        # f-string specifier yang digunakan:
+        # '0' : padding '0' di depan string yang dihasilkan sesuai dengan width
+        # '2' : width atau panjang string yang dihasilkan
+        # 'X' : format int x menjadi hex yang telah di upper case
         result += f"{x:02X}"
 
     return result
