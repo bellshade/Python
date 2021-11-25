@@ -116,4 +116,4 @@ Dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         ```python
         angka_saya = memoryview(bytes(12))
         angka_saya1 = memoryview(bytes(1212))
-        ```
+        ``` 
