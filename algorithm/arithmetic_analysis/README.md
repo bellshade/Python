@@ -12,3 +12,5 @@ list dari penerapan arithmetic analysis
 - [newton method](newton_method.py)
 - [newton raphson](newton_raphson.py)
 - [secant method](secant_method.py)
+
+Materi Selanjutnya: [Backtracking](../backtracking)
