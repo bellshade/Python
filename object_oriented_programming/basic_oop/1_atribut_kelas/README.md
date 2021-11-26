@@ -67,3 +67,6 @@ janis = Pelajar("janis aneira", 22)
 print(janis.deksripsi())
 ```
 ``deskripsi()`` mengembalikan string yang menampilkan nama dan usia
+
+
+Materi Selanjutnya: Coming Soon

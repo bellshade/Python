@@ -95,3 +95,6 @@ kita skearang memiliki objek ``Pelajar`` pada ``0x7ff3b8e41640``, rangkaian huru
 pertama == kedua
 False
 ```
+
+
+Materi Selanjutnya: [Atribut Kelas](../1_atribut_kelas)
