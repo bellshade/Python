@@ -171,9 +171,9 @@
     * [Koch](https://github.com/bellshade/Python/blob/main/implementation/fractal/koch.py)
     * [Mandelbrot](https://github.com/bellshade/Python/blob/main/implementation/fractal/mandelbrot.py)
     * [Sierpinski Triangle](https://github.com/bellshade/Python/blob/main/implementation/fractal/sierpinski_triangle.py)
-  * Geodesy Engineering
-    * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/implementation/geodesy_engineering/ellipsodial_distance.py)
-    * [Haversine](https://github.com/bellshade/Python/blob/main/implementation/geodesy_engineering/haversine.py)
+  * Geodesy Egineering
+    * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/ellipsodial_distance.py)
+    * [Haversine](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/haversine.py)
   * Linear Algebra
     * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/conjugate_gradient.py)
     * [Polynom For Point](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/polynom_for_point.py)
@@ -219,13 +219,13 @@
     * 1 Atribut Kelas
       * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/1_atribut_kelas/atribut_kelas.py)
 
-## Others
-  * [Palindrom](https://github.com/bellshade/Python/blob/main/others/Palindrom.py)
-  * [Anagramcheck](https://github.com/bellshade/Python/blob/main/others/anagramCheck.py)
-  * [Date To Weekday](https://github.com/bellshade/Python/blob/main/others/date_to_weekday.py)
-  * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/others/doomsday_alg.py)
-  * [Power Dac](https://github.com/bellshade/Python/blob/main/others/power_dac.py)
-  * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/others/tower_of_hanoi.py)
+## Other
+  * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
+  * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
+  * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
+  * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
+  * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
+  * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Struktur Data
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
