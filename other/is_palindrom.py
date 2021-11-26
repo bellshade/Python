@@ -1,8 +1,13 @@
-# Palindrom adalah kata yang dapat
-# dibaca dari depan maupun belakang
-def is_palindrom(x):
-    # Pengecekan apakah huruf didepan dan belakang itu sama
-    return x == x[::-1]
+def is_palindrom(x: str) -> bool:
+    normalized = x.lower().replace(" ", "")
+    
+    return normalized == normalized[::-1]
 
-print(is_palindrom("katak"))  # output "True/Palindrom"
-print(is_palindrom("label"))  # output "False/Bukan Palindrom"
+def main(args=None):
+    print(is_palindrom("katak"))            # output "True"
+    print(is_palindrom("label"))            # output "False"
+    print(is_palindrom("Kasur ini rusak"))  # output "True"
+
+
+if __name__ == '__main__':
+    main()
