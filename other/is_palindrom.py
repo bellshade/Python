@@ -14,9 +14,12 @@ def is_palindrom(x: str) -> bool:
     >>> is_palindrom("Kasur ini rusak")
     True
     """
+    # Mengubah string `x` menjadi lowercase dan menghilangkan spasi
     normalized = x.lower().replace(" ", "")
-    
+
+    # Membandingkan string `normalized` dengan `normalized` yang telah dibalik
     return normalized == normalized[::-1]
+
 
 def main(args=None):
     import doctest
