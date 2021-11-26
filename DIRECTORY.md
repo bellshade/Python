@@ -220,16 +220,19 @@
       * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/1_atribut_kelas/atribut_kelas.py)
 
 ## Other
-  * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
+  * [Is Palindrom](https://github.com/bellshade/Python/blob/main/other/is_palindrom.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
+  * [Rgb To Hex](https://github.com/bellshade/Python/blob/main/other/rgb_to_hex.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Struktur Data
+  * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
 
 ## Web Programming
+  * [Breadcrumb Generator](https://github.com/bellshade/Python/blob/main/web_programming/breadcrumb_generator.py)
   * [Pagination Helper](https://github.com/bellshade/Python/blob/main/web_programming/pagination_helper.py)
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)

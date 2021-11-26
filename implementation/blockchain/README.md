@@ -5,3 +5,6 @@ Blockchain adalah teknologi baru yang dikembangkan untuk sistem penyimpanan data
 
 Jenis data yang digunakan pada teknologi ini bergantung pada tujuan *blockchain* itu sendiri. Contohnya, dalam bitcoin data blok berisikan seluruh detail transaksi, mulai dari jumlah koin, pengirim, hingga penerima.
 <br>(Sumber : https://www.akseleran.co.id/blog/blockchain-adalah/)
+
+
+Materi Selanjutnya: [Celular Automata](../celular_automata)

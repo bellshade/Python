@@ -1,4 +1,5 @@
-# Basic objek oriented programming
+# Basic object oriented programming
+Mulai Dari Sini: [Definisi Kelas](basic_oop/0_definisi_kelas)
 
 bahasa pemograman muncul terus menerus, dan begitu pula metodologi yang berbebda.Pemograman berorientasi objek adalah salah satu metodologi yang telah menjadi sangat populer selamat beberapa tahun terakhir.
 
@@ -36,3 +37,5 @@ Polimorfisme berarti banyak bentuk. Artinya, suatu hal atau tindakan hadir dalam
 
 inti dari pemograman python adalah objek dan OOP. namun kita tidak perlu membatasi diri untuk menggunakan OOP dengan mengatur kode anda ke dalam kelas. OOP menambah keseluruhan filosofi desain python dan mendorong cara pemograman yang bersih dan pragmatis. OOP juga memungkinkan dalam menulis program yang lebih besar dan kompleks.
 
+
+Topik Selanjutnya: [Others](../others)

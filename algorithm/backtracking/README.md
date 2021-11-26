@@ -6,3 +6,5 @@ Algoritma rekursi merupakan algoritma yang memanggil dirinya sendiri secara beru
 Backtracking tidaklah berguna untuk menyelesaikan permasalahaan seperti menentukan sebuah nilai yang diberikan pada sebuah tabel yang tidak beraturan. Akan tetapi ketika diaplikasikan, backtracking biasanya lebih cepat bila dibandingkan proses pemecahan masalah brute force yang mana harus mencoba semua kandidat kemungkinannya.
 
 Sebagai salah satu algoritma yang banyak digunakan oleh para programmer. Backtracking merupakan sebuah alat yang penting untuk dapat menyelesaikan permasalahan pemenuhan terbatas, seperti teka – teki silang, aritmatika verbal, sudoku dan berbagai macam puzzle sejenisnya. Algoritma ini juga dapat digunakan untuk menyelesaikan permasalahan komputasional seperti memecahkan kata sandi atau password pada suatu program, membuat sistem kerja atau mekanisme kerja dari suatu video game, ataupun sistem dasar dari suatu simulasi komputer terhadap permasalahan di dunia nyata.
+
+Materi Selanjutnya: [Boolean Algebra](../boolean_algebra)
