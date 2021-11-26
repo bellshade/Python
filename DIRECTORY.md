@@ -69,9 +69,9 @@
   * 24 Casting Tipe Data
     * [Casting Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/24_casting_tipe_data/casting_tipe_data.py)
   * 25 List And Dict Comprehension
+    * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/Basic/25_list_and_dict_comprehension/dict_comprehension.py)
     * [List Comprehension](https://github.com/bellshade/Python/blob/main/Basic/25_list_and_dict_comprehension/list_comprehension.py)
   * [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
-  * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/Basic/dict_comprehension.py)
 
 ## Algorithm
   * Arithmetic Analysis
