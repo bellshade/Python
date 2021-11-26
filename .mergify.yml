@@ -7,6 +7,7 @@ pull_request_rules:
     actions:
       merge:
         method: squash
+
   - name: python label
     conditions:
       - files~=\.py$
@@ -15,6 +16,7 @@ pull_request_rules:
         add:
           - python files
           - request tim python untuk review
+
   - name: markdown label
     conditions:
       - files~=\.md$
@@ -22,15 +24,7 @@ pull_request_rules:
       label:
         add:
           - markdown files
-          - request docs team untuk review
-  - name: review docs team untuk file markdown
-    conditions:
-      - label=markdown files
-    actions:
-      request_reviews:
-        teams:
-          - "@bellshade/docs-team"
-
+        
   - name: review docs team untuk file markdown
     conditions:
       - label=python files

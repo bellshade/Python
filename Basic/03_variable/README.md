@@ -79,4 +79,6 @@ python memiliki beberapa peraturan dalam penulisan sebuah variabel agar mengikut
 
 pada python penggunaan variabel disarankan menggunakan ``snake_case`` untuk mengikuti style bawaan dari python
 
+video penjelasan tentang variabel = [Belajar python dasar - mengenal variabel](https://www.youtube.com/watch?v=gxmTFXfrMzk&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=5)
+
 [Materi Selanjutnya](../04_operator)

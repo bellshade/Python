@@ -39,4 +39,8 @@ else:
 ```
 contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika selain dari cuaca hujan dan cerah maka menampilkan ``gunakan pakaian renang``
 
+video penjelasan tentang logika percabangan (elif) = [Belajar python dasar - elif statement](https://www.youtube.com/watch?v=ICowoqcLp4E&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=23)
+
+video penjelasan tentang logika percabangan (elif else) = [Belajar python dasar - if dan else statement](https://www.youtube.com/watch?v=rF8rh40z_X0&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=22)
+
 [Materi Selanjutnya](../08_perulangan)

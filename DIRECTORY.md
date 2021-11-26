@@ -12,6 +12,7 @@
     * [Operator Keanggotaan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_keanggotaan.py)
     * [Operator Logika](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_logika.py)
     * [Operator Penugasan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_penugasan.py)
+    * [Operator Penugasan Ekspresi](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_penugasan_ekspresi.py)
     * [Operator Perbandingan](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_perbandingan.py)
   * 05 String
     * [String Python](https://github.com/bellshade/Python/blob/main/Basic/05_string/string_python.py)
@@ -193,6 +194,7 @@
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
+  * [Is Prime](https://github.com/bellshade/Python/blob/main/math/is_prime.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
@@ -214,14 +216,25 @@
   * [Volume](https://github.com/bellshade/Python/blob/main/math/volume.py)
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
+## Object Oriented Programming
+  * Basic Oop
+    * 1 Atribut Kelas
+      * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/1_atribut_kelas/atribut_kelas.py)
+
 ## Other
   * [Palindrom](https://github.com/bellshade/Python/blob/main/other/Palindrom.py)
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
-  * [Isprime](https://github.com/bellshade/Python/blob/main/other/isPrime.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
+  * [Rgb To Hex](https://github.com/bellshade/Python/blob/main/other/rgb_to_hex.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
+## Struktur Data
+  * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
+  * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
+
 ## Web Programming
+  * [Breadcrumb Generator](https://github.com/bellshade/Python/blob/main/web_programming/breadcrumb_generator.py)
+  * [Pagination Helper](https://github.com/bellshade/Python/blob/main/web_programming/pagination_helper.py)
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)

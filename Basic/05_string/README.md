@@ -50,4 +50,6 @@ print(len(kata_pertama))
 print("indonesia" in kata_saya)
 ```
 
+video penjelasan tentang string = [Belajar python dasar - pengenalan string](https://www.youtube.com/watch?v=fhAEh1Z9YuY&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=16)
+
 [Materi Selanjutnya](../06_input_output)
