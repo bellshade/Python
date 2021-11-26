@@ -74,12 +74,9 @@ def rgb_to_hex_v2(r: int, g: int, b: int) -> str:
     >>> rgb_to_hex_v2(150, 0, 180)
     '9600B4'
     """
-    return "".join([
-        "00" if x <= 0
-        else "FF" if x >= 255
-        else f"{x:02X}"
-        for x in (r, g, b)
-    ])
+    return "".join(
+        ["00" if x <= 0 else "FF" if x >= 255 else f"{x:02X}" for x in (r, g, b)]
+    )
 
 
 def main(args=None):
@@ -88,16 +85,16 @@ def main(args=None):
     doctest.testmod()
 
     # basic test
-    print(rgb_to_hex(0, 0, 0))        # returns 000000
-    print(rgb_to_hex(1, 2, 3))        # returns 010203
+    print(rgb_to_hex(0, 0, 0))  # returns 000000
+    print(rgb_to_hex(1, 2, 3))  # returns 010203
     print(rgb_to_hex(255, 255, 255))  # returns FFFFFF
     print(rgb_to_hex(-10, 255, 300))  # returns 00FFFF
-    print(rgb_to_hex(150, 0, 180))    # returns 9600B4
+    print(rgb_to_hex(150, 0, 180))  # returns 9600B4
 
     # custom test
     # aktifkan baris berikutnya untuk menjalankan custom test
     # print(rgb_to_hex(*[int(input()) for _ in range(3)]))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
