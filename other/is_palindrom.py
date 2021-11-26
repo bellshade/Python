@@ -27,8 +27,8 @@ def main(args=None):
     doctest.testmod()
 
     # basic tests
-    print(is_palindrom("katak"))            # output "True"
-    print(is_palindrom("label"))            # output "False"
+    print(is_palindrom("katak"))  # output "True"
+    print(is_palindrom("label"))  # output "False"
     print(is_palindrom("Kasur ini rusak"))  # output "True"
 
     # custom tests
@@ -36,5 +36,5 @@ def main(args=None):
     # print(is_palindrom(input('Masukkan kata: ')))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
