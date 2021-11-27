@@ -3,6 +3,11 @@ import json
 
 
 def get_random_quote():
+    # Fungsi ini akan mengambil quote secara random dari API Quotable
+    # dan mengembalikan quote yang diambil.
+    #
+    # Link repository API Quotable:
+    # https://github.com/lukePeavey/quotable
     url = "https://api.quotable.io/random"
     r = requests.get(url)
     quote = json.loads(r.text)
