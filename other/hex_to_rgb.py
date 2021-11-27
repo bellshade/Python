@@ -3,6 +3,20 @@ def hex_to_rgb(hex_color):
     Fungsi ini menerima inputan berupa string hexadecimal
     dan mengembalikan hasilnya dalam bentuk tuple (r, g, b).
 
+    Alur proses:
+    * Deklarasi variabel `hex_string` dengan nilai `hex_color` yang telah
+        di bersihkan dari tanda #.
+    * Mengecek apakah panjang string `hex_string` sama dengan 3
+        * Jika benar, maka setiap karakter di dalam string `hex_string`
+            diulang 2 kali
+        * Jika salah, maka lanjutkan
+    * Mengecek apakah panjang string `hex_string` tidak sama dengan 6
+        * Jika benar, maka raise ValueError
+        * Jika salah, maka lanjutkan
+    * Looping `i` untuk setiap 2 karakter dari string `hex_string`
+        untuk mengubahnya menjadi basis decimal.
+    * Kembalikan hasil dalam bentuk tuple (r, g, b)
+
     Contoh:
     >>> hex_to_rgb('#000000')
     (0, 0, 0)
