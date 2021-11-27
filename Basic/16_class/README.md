@@ -60,4 +60,7 @@ if __name__ == "__main__":
      hewan = Hewan("sapi", "Mooo")
     print(f" {hewan.nama_hewan} bersuara :{hewan.suara}")
 ```
+
+Teman-teman bisa belajar lebih lanjut seputar class [di sini](https://www.youtube.com/watch?v=upngNSC9FU8&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=3)  dan method [di sini](https://www.youtube.com/watch?v=DE-h_oR8Nmo&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=4)
+
 [Materi Selanjutnya](../17_inheritance)

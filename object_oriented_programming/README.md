@@ -37,5 +37,6 @@ Polimorfisme berarti banyak bentuk. Artinya, suatu hal atau tindakan hadir dalam
 
 inti dari pemograman python adalah objek dan OOP. namun kita tidak perlu membatasi diri untuk menggunakan OOP dengan mengatur kode anda ke dalam kelas. OOP menambah keseluruhan filosofi desain python dan mendorong cara pemograman yang bersih dan pragmatis. OOP juga memungkinkan dalam menulis program yang lebih besar dan kompleks.
 
+Teman-teman bisa belajar lebih lanjut tentang dasar-dasar Object Oriented Programming [di sini](https://www.youtube.com/watch?v=1PjHsUnOkes&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=1)
 
 Topik Selanjutnya: [Others](../others)
