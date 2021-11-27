@@ -190,5 +190,10 @@ contoh dari **bitwise right**
 angka_saya = 10 = 0000 1010
 a >> 1 = 0000 0101 = 5
 ```
+Teman-teman bisa mempelajari lebih lanjut tentang operator di link berikut 
+1. [Operator Aritmatika](https://www.youtube.com/watch?v=gxmTFXfrMzk&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=5)
+2. [Operator Perbandingan](https://www.youtube.com/watch?v=Kv_lDWq8kCc&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=11)
+3. [Operator Logika](https://www.youtube.com/watch?v=Sl7zqPpC2VI&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=12)
+4. [Operator Bitwise](https://www.youtube.com/watch?v=-VrqfCGwr88&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=14)
 
 [Materi Selanjutnya](../05_string)
