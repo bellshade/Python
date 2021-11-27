@@ -217,8 +217,8 @@
 
 ## Object Oriented Programming
   * Basic Oop
-    * 1 Atribut Kelas
-      * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/1_atribut_kelas/atribut_kelas.py)
+    * 01 Atribut Kelas
+      * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/01_atribut_kelas/atribut_kelas.py)
 
 ## Other
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
