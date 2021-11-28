@@ -1,5 +1,6 @@
-import requests
 import json
+
+import requests
 
 
 def get_random_quote():
@@ -20,12 +21,12 @@ def main():
     quote = get_random_quote()
 
     # clear screen
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
     print(f"\n\n{quote['content']} - {quote['author']}")
 
-    if input("\n\nKetik 'y' untuk coba lagi: ") == 'y':
+    if input("\n\nKetik 'y' untuk coba lagi: ") == "y":
         main()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
