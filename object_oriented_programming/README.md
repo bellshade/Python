@@ -40,4 +40,3 @@ inti dari pemograman python adalah objek dan OOP. namun kita tidak perlu membata
 Teman-teman bisa belajar lebih lanjut tentang dasar-dasar Object Oriented Programming [di sini](https://www.youtube.com/watch?v=1PjHsUnOkes&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=1)
 
 Topik Selanjutnya: [Definisi kelas](0_definisi_kelas)
-
