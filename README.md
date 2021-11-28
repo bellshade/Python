@@ -60,7 +60,7 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 |   16    |               kelas              |                           Mengenal kelas pada python                                  |    [Materi](Basic/16_class)          |
 
 Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
-Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming]()
+Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_oriented_programming/README.md)
 
 ## 🎓 Topik Lanjutan 🎓
 
