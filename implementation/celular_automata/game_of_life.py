@@ -10,8 +10,10 @@
 # seolah olah dengan reproduksi (repopulasi)
 
 from __future__ import annotations
+
 import random
 import sys
+
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap
