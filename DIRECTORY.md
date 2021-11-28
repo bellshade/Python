@@ -140,6 +140,7 @@
     * [Diophantine Equation](https://github.com/bellshade/Python/blob/main/implementation/blockchain/diophantine_equation.py)
     * [Modular Division](https://github.com/bellshade/Python/blob/main/implementation/blockchain/modular_division.py)
   * Celular Automata
+    * [Nagel Schrekenberg](https://github.com/bellshade/Python/blob/main/implementation/celular_automata/nagel_schrekenberg.py)
     * [One Dimensional](https://github.com/bellshade/Python/blob/main/implementation/celular_automata/one_dimensional.py)
   * Chiper
     * [Affine](https://github.com/bellshade/Python/blob/main/implementation/chiper/affine.py)
