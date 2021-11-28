@@ -35,6 +35,7 @@
 # https://en.wikipedia.org/wiki/Nagel%E2%80%93Schreckenberg_model
 
 from __future__ import annotations
+
 from random import randint, random
 
 
