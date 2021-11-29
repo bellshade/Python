@@ -5,6 +5,8 @@
 
 name: python testing
 on:
+  # target dari branch yang akan di pull request
+  # atau di commit langsung
   push:
     branches: [ main ]
   pull_request:
@@ -12,28 +14,42 @@ on:
 
 jobs:
   build:
+    # untuk build terdapat 3 environment os
+    # macOS, windows, linux
     runs-on: ubuntu-latest
     steps:
+      # menggunakan checkout untuk cek kode
     - uses: actions/checkout@v2
+      # menggunakan environment python versi 3.9
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+      # testing bash dengan perintah echo
     - name: salam
       run: |
         echo "Halo!"
         echo "Mulai testing..."
         echo "harap tunggu sebentar... :)"
+      # install requirement yang diperlukan
+      # sebelum testing semua kode
+      # bisa dilihat requirement yang dibutuhkan
+      # pada file 'requirements.txt'
     - name: Install dependencies
       run: |
         echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
         pip install -r requirements.txt -r dev-requirements.txt
+      # memformat kode secara otomatis dengan black
+      # tujuannya agar kode lebih mudah dibaca
     - name: Format otomatis
       run: |
         echo "Mulai format otomatis"
         isort . --profile=black
         black .
+      # ketika sudah di format maka kode akan mengcommit kembali
+      # dan commit akan otomatis menggunakan github bot yang sudah tersedia
+      # disini kondisi jika file tersebut ada perubahan maka akan di format
     - name: Cek modifikasi file
       id: git-check
       run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
@@ -46,22 +62,30 @@ jobs:
         git pull
         git commit -am "style: format otomatis dengan black dan isort"
         git push
+      # test python dengan menggunakan pytest dengan perintah lanjutan
+      # yaitu document testing
     - name: Test Python
       run: |
         echo "Mulai Jalankan testing docstring"
         pytest . --doctest-modules --ignore=Basic/
+      # test lint python jika black gagal reformat kode
     - name: Test Lint Python
       run: |
         echo "Mulai Jalankan testing flake8"
         flake8 .
+      # mypy adalah unit testing diluar dari official python
+      # yang berfungsi jika mengecek kode apakah terdapat kode
+      # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
     - name: Test mypy
       run: |
         echo "Mulai Jalankan testing mypy"
         mypy .
+      # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
     - name: Test coverage
       run: |
         echo "Mulai testing coverage"
         coverage run --source . -m pytest --doctest-modules --ignore=Basic/
+      # membuat report untuk upload ke codecoverage
     - name: Hasil coverage
       run: |
         echo "Laporan coverage"
