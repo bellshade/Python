@@ -224,6 +224,10 @@
   * Basic Oop
     * 01 Atribut Kelas
       * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/01_atribut_kelas/atribut_kelas.py)
+  * Intermediate
+    * Encapsulation
+      * [Encapsulation](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation.py)
+      * [Encapsulation2](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation2.py)
 
 ## Other
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
