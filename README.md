@@ -4,11 +4,11 @@
   WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br>
   <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
   <img alt="Visitor Badge" src="https://visitor-badges.glitch.me?username=bellshade&repo=python&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg">
-  <img src="https://img.shields.io/github/license/bellshade/Python?style=for-the-badge">
-  <img src="https://img.shields.io/lgtm/grade/python/github/bellshade/PythonAlgorithm?label=Code%20Quality&style=for-the-badge">
-  <img src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=code%20factor&style=for-the-badge">
-  <img src="https://img.shields.io/github/workflow/status/bellshade/Python/python%20testing?label=python%20testing&style=for-the-badge">
-  <img src="https://img.shields.io/circleci/build/github/bellshade/Python/main?label=Circle%20CI&style=for-the-badge"><br>
+  <img alt="badge lisensi" src="https://img.shields.io/github/license/bellshade/python?logo=github&style=for-the-badge">
+  <img alt="badge lgtm" src="https://img.shields.io/lgtm/grade/python/github/bellshade/Python?label=code%20quality&logo=LGTM&style=for-the-badge">
+  <img alt="badge codefactor" src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=codefactor%20grade&logo=codefactor&style=for-the-badge">
+  <img alt="badge unitesting github"src="https://img.shields.io/github/workflow/status/bellshade/python/python%20testing?logo=github&style=for-the-badge">
+  <img alt="badge circle ci" src="https://img.shields.io/circleci/build/github/bellshade/Python/main?label=circle%20ci&logo=circle&logoColor=white&style=for-the-badge"><br>
   <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv" width=300 height=200> <br>
 </p>
 
@@ -60,7 +60,7 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 |   16    |               kelas              |                           Mengenal kelas pada python                                  |    [Materi](Basic/16_class)          |
 
 Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
-Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming]()
+Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_oriented_programming/README.md)
 
 ## 🎓 Topik Lanjutan 🎓
 

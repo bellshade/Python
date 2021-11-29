@@ -1,7 +1,11 @@
 # list set operasi fuzzy
 # https://en.wikipedia.org/wiki/Fuzzy_set_operations
 import numpy as np
-import skfuzzy as fuzz
+
+try:
+    import skfuzzy as fuzz
+except ImportError:
+    fuzz = None
 
 if __name__ == "__main__":
     # buat universe dengan meggunakan linspace()

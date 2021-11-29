@@ -1,30 +1,54 @@
 pull_request_rules:
+  # membuat requirement dari automerge dengan sistem
+  # ketika workflow build passed maka akan dicentang
+  # ketika target pull request ke main maka akan dicentang
+  # ketika dikasih label 'ready-to-merge' akan dicentang
+
+  # ketika requirement telah terpenuhi maka bot akan bekerja
+  # dan pull request secara otomatis akan merge
   - name: ci testing kalo sukses ke squash dengan label
     conditions:
       - check-success=build
       - base=main
       - label=ready-to-merge
     actions:
+      # menambahkan komentar jika sudah di merge
+      comment:
+        message: terima kasih atas kontribusinya @{{author}}!
+      # menambahkan label jika sudah di merge
+      label:
+        add: 
+          - sudah dirieview!
+      # metode sistem dari automerge
       merge:
         method: squash
 
+  # membuat label dengan kondisi jika di dalam pull request
+  # terdapat file python
   - name: python label
     conditions:
       - files~=\.py$
     actions:
+      # menambahkan label 'python files'
+      # dan label 'request tim python untuk review'
       label:
         add:
           - python files
           - request tim python untuk review
 
+  # membuat label dengan kondisi jika di dalam pull request
+  # terdapat file markdown
   - name: markdown label
     conditions:
       - files~=\.md$
     actions:
+      #  menambahkan label 'markdown files'
       label:
         add:
           - markdown files
-        
+  
+  # membuat sistem bot me mention python team untuk meriview
+  # dari pull request dengan kondisi jika terdapat file python
   - name: review docs team untuk file markdown
     conditions:
       - label=python files

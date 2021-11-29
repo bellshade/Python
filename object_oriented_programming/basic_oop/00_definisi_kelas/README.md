@@ -97,4 +97,4 @@ False
 ```
 
 
-Materi Selanjutnya: [Atribut Kelas](../1_atribut_kelas)
+Materi Selanjutnya: [Atribut Kelas](../01_atribut_kelas)

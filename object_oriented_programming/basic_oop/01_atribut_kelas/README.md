@@ -69,4 +69,4 @@ print(janis.deksripsi())
 ``deskripsi()`` mengembalikan string yang menampilkan nama dan usia
 
 
-Materi Selanjutnya: Coming Soon
+Materi Selanjutnya: [mewarisi kelas](../02_mewarisi_kelas)
