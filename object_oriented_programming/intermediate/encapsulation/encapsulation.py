@@ -11,6 +11,7 @@ class Motor:
     def jalan(self):
         print("jalan dengan kecepatan {} km".format(self.__kecepatan))
 
+
 # membuat objek dari class Motor
 matic = Motor()
 matic.jalan()

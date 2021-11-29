@@ -10,6 +10,7 @@ class Motor:
     def gantiKecepatan(self, kecepatan_sekarang):
         self.__kecepatan = kecepatan_sekarang
 
+
 matic = Motor()
 matic.jalan()
 
