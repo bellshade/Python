@@ -1,87 +1,46 @@
+# Dasar - Dasar Python
+
 <p align="center">
   <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv" width=300 height=200>
 </p>
 
-[![discord](https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge)](http://discord.gg/S4rrXQU)
-![license](https://img.shields.io/github/license/bellshade/Python?style=for-the-badge)
-![code_quality](https://img.shields.io/lgtm/grade/python/github/bellshade/PythonAlgorithm?label=Code%20Quality&style=for-the-badge)
-![codefac_quality](https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=code%20factor&style=for-the-badge)
-![python_build](https://img.shields.io/github/workflow/status/bellshade/Python/python%20testing?label=python%20testing&style=for-the-badge)
-![circleCI](https://img.shields.io/circleci/build/github/bellshade/Python/main?label=Circle%20CI&style=for-the-badge)
 
-Repositori ini berisi kumpulan source code struktur data, algoritma, analisis matematika dan sebagainya yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
+Untuk kamu yang ingin belajar bahasa pemrograman Python, berikut urutan basic untuk pemula yang ingin belajar dari bahasa pemograman Python. **Disarankan belajar sesuai list berikut**.
 
-## Peraturan dan Pedoman Kontribusi
-Dipersilahkan bila ingin melakukan open pull requets atau kontribusi pada repositori **Python**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada ``CONTRIBUTING.md``.
+1. [Introduction](01_introduction)
+2. [Data Types](02_tipe_data)
+3. [Variabel](03_variable)
+4. [Operator](04_operator)
+5. [String](05_string)
+6. [Input / Output](06_input_output)
+7. [Logika](07_logika_percabangan)
+8. [Perulangan](08_perulangan)
+9. [Fungsi](09_fungsi)
+10. [List dan Tuple](10_list_tuple)
+11. [Manipulasi String](11_manipulasi_string)
+12. [Exception](12_exception)
+13. [Modul](13_module)
+14. [Tanggal dan Waktu (Datetime)](14_python_datetime)
+15. [Fungsi Matematika](15_python_math)
+16. [Kelas](16_class)
+17. [Turunan](17_inheritance)
+18. [Akses Modifikasi](18_akses_modifikasi)
+19. [Iterator](19_iterator)
+20. [Lambda](20_lambda)
+21. [Regex](21_regex)
+22. [Scope](22_scope)
+23. [Kalkulator dengan Fungsi](23_kalkulator_dengan_fungsi)
+24. [Casting Tipe Data](24_casting_tipe_data)
 
-# Bellshade Python
-> Part of Bellshade Project, managed by [WPU Discord Community](http://discord.gg/S4rrXQU) <br>
-> WPU Community is a software developer forum initiated by [Mr. Sandhika Galih](https://www.youtube.com/c/WebProgrammingUNPAS)
+## Install python pada perangkat
 
-Repositori ini berisi kumpulan berbagai macam *source code* struktur data, algoritma, analisis matematika, dan sebagainya yang diimplementasikan dengan menggunakan bahasa pemrograman Python.
+- Windows
 
+    Untuk penginstalan python dan dipasangkan pada Visual Studio Code bisa melihat link [disini](https://www.youtube.com/watch?v=OSmaWPSgvTQ&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=2).
 
-## Singkat Tentang Python
-
-python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. peimilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
-
-python adalah bahasa pemograman multi paaradigma, pemogramaan berorientasi objek dan pemograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemgoraman fungsional. 
-
-kelebihan diatara python antara lain
-- mudah digunakan untuk menulis di perangkat lunak terbaru
-- mudah untuk diajarkan
-- mendukung __iot__ (__internet of things__)
-- mudah dipahami
-- serta mudah didapatkan, karena mudah diinstal, python juga termasuk __multiplatform__
-
-contoh yang implementasi dari bahasa pemograman python adalah
-- komputasi ilmiah dan numerik contohnya seperti scipy
-- aplikasi bisnis seperti tryton
-- pembuatan game seperti battlefield 2
-- pengembangan web seperti django atau flask (library)
-- pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
-
-### Baru Belajar? Mulai dari [sini](Basic) 🌟
-Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming dasar dahulu. Silahkan ikuti alur belajar berikut untuk mempelajari dasar - dasar pemograman langsung menggunakan Python
-
-| Langkah | Topik | Target Pembelajaran | Materi Rujukan |
-| :-----------: | :----------------------------------------: |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| 01 | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program | [Materi](Basic/1_introduction.py) |
-| 02 | Tipe data | Memahami apa itu tipe data | [Materi](Basic/2_tipe_data) |
-| 03 | Variabel | Memahami apa itu variabel | [Materi](Basic/3_variabel) |
-| 04 | Operasi | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python | [Materi](Basic/4_operator) |
-| 05 | String | Memahami String | [Materi](Basic/5_string) |
-| 06 | Input dan Output | Memahami cara mengambil input dari user | [Materi](Basic/6_input_output) |
-| 07 | Pengkondisian | Memahami salah satu dari inti dari membuat pemograman yaitu melakukan pengkondisian | [Materi](Basic/7_logika_percabangan) |
-| 08 | Perulangan | Memahami inti kedua dari pemograman yaitu melakukan perulangan | [Materi](Basic/8_perulangan) |
-| 09 | Fungsi | Mengenal konsep fungsi dalam teknik pemograman | [Materi](Basic/9_fungsi) |
-| 10 | List dan Tuple | Memahami konsep list dan tuple secara mendalam | [Materi](Basic/11_list_tuple) |
-| 11 | Manipulasi String | Memahami cara memanipulasi sebuah string | [Materi](Basic/12_manipulasi_string) |
-| 12 | Exception | Memahami konsep exception pada python | [Materi](Basic/13_exception) |
-| 13 | Module | Memahami cara mengimport sebuah module pada python | [Materi](Basic/14_module) |
-| 14 | Datetime | Mengenal module datetime pada python | [Materi](Basic/15_python_datetime) |
-| 15 | Math | Mengenal module math pada python | [Materi](Basic/16_python_math) |
-
-Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
-Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming]()
-
-## 🎓 Topik Lanjutan 🎓
-Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma *Object Oriented Programming*, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka.
-01. [Algoritma Struktur Data](/algorithm)
-02. [Web Programming](/web_programming)
-
-## Quick Access
-Semua *script* yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
-- [basic](Basic/README.md)
-- [algoritma](algorithm)
-- [implementasi](implementation)
-- [web programming](web_programming)
-- [implementasi matematika](math)
-
-## 🤩 Ayo ikut kami dan berkontribusi! 🤩 
-Bantuan kalian diperlukan Agar Bellshade dapat lebih jauh lagi membantu anak-anak Indonesia belajar *programming*, kita butuh tenaga kalian!
-> "Dengan Bellshade, aku jadi bisa *ngoding*! Terima kasih Bellshade!"
-
-Kami sangat senang bila kalian ingin melakukan kontribusi pada repositori **Python** ini. Tapi, sebelum itu, silahkan baca terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang telah kami siapkan. Terima kasih! 
-
-Untuk informasi lebih lanjut, mari gabung dalam komunitas [Discord Channel WPU](http://discord.gg/S4rrXQU)
+- Linux / macOS
+    
+    Untuk penginstalan, python sudah menyediakan pada Linux dan macOS dengan membuka terminal dan memberikan perintah.
+    ```
+    python3 --version
+    ```
