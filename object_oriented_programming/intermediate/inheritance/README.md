@@ -2,32 +2,40 @@
 
 Inheritance/pewarisan adalah salah satu dari konsep Object Oriented Programming yang membahas mengenai bagaimana suatu kelas bisa menggunakan atribut dan fungsi dari kelas yang lain, penggunaan atribut dan fungsi ini bersifat 'mewarisi'. Manfaatnya adalah dari keterhubungan antar kelas ini kita dapat mengetahui kegunaan suatu kelas atas kelas yang lain dan sebagainya.
 
-Contohnya seperti ini: Terdapat blueprint sebuah mobil yang memiliki property seperti: 
-nama = "Honda Civic"
-warna = "Hitam"
-jenis = "Sedan"
-ukuran ban = "18 Inci". 
+Konsep Inheritance/pewarisan juga berhubungan dengan konsep abstract class. Abstract class adalah kelas yang tidak memiliki implementasi pada method-nya dalam kata lain method-nya bersifat abstrak, sehingga kelas turunannya yang harus mengimplementasikan method tersebut. Contoh kelas abstrak: kelas Mobil yang memiliki atribut "nama" dan "jenis", lalu memiliki method "akselerasi"
 
-Lalu memiliki method seperti:
+Berikut contoh dari konsep Inheritance/pewarisan: Terdapat sebuah kelas mobil Civic yang memiliki property seperti berikut: 
+nama = "Honda Civic"
+jenis = "Sedan"
+
+Lalu memiliki method seperti berikut:
 - akselerasi 0-100 km/jam membutuhkan waktu selama 10 detik
 
-kita dapat membuat mobil yang lebih baik performanya dengan menggunakan blueprint yang sudah ada di atas dengan sedikit menambah kemampuan akselerasinya menjadi 7 detik, misalkan.
+kita dapat membuat mobil yang lebih baik performanya dengan menggunakan blueprint yang sudah ada di atas dengan menambah kemampuannya sehingga kemampuan akselerasinya menjadi 7 detik, misalkan seperti berikut:
 nama = "Honda Civic Type R"
-warna = "Putih"
 jenis = "Sedan"
-ukuran ban = "20 Inci". 
 
-Lalu memiliki behaviour seperti:
+Lalu memiliki method seperti berikut:
 - akselerasi 0-100 km/jam membutuhkan waktu selama 7 detik
+
+Contoh kelas abstrak:
+```python
+class Mobil:
+    def __init__(self):
+        self.nama = None
+        self.jenis = None
+
+    def akselerasi:
+        pass
+```
 
 Contoh pada program seperti berikut (parent class):
 ```python
 class Civic:
     def __init__(self):
+        super().__init__()
         self.nama = "Honda Civic"
-        self.warna = "Hitam"
         self.jenis = "Sedan"
-        self.ukuran_ban = "20 Inci"
     
     def akselerasi(self):
         print("Akselerasi 0-100 KM/Jam dalam 10 detik! NGENGGG~")
@@ -39,13 +47,11 @@ class CivicTypeR(Civic):
     def __init__(self):
         super().__init__()
         self.nama = "Honda Civic Type R"
-        self.warna = "Putih"
-        self.ukuran_ban = "20 Inci"
     
     def akselerasi(self):
         print("Akselerasi 0-100 KM/Jam dalam 7 detik! BRRMMM~")
 ```
 
-Perhatikan pada kelas CivicTypeR, property seperti nama, warna, dan ukuran_ban, lalu method akselerasi() diganti valuenya sedangkan property jenis tidak diganti karena CivicTypeR masih merupakan mobil berjenis sedan.
+Perhatikan pada kelas CivicTypeR, atribut nama dan method akselerasi() diganti valuenya sedangkan property jenis tidak diganti karena CivicTypeR masih merupakan mobil berjenis sedan.
 
 ```super().__init__()``` digunakan untuk mewarisi semua yang ada pada kelas induknya.
