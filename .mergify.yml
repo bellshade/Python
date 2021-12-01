@@ -27,7 +27,10 @@ pull_request_rules:
   # terdapat file python
   - name: python label
     conditions:
-      - files~=\.py$
+      - or:
+        - body~=(?m)^\[X\] Saya menambah algoritma terbaru.
+        - body~=(?m)^\[X\] Saya membperbaiki algoritma yang sudah ada.
+        - files~=\.py$
     actions:
       # menambahkan label 'python files'
       # dan label 'request tim python untuk review'
@@ -40,7 +43,10 @@ pull_request_rules:
   # terdapat file markdown
   - name: markdown label
     conditions:
-      - files~=\.md$
+      - or:
+        - body~=(?m)^\[X\] Saya menambah algoritma terbaru.
+        - body~=(?m)^\[X\] Saya membperbaiki algoritma yang sudah ada.
+        - files~=\.md$
     actions:
       #  menambahkan label 'markdown files'
       label:
