@@ -209,6 +209,7 @@
   * [Segmented Sieve](https://github.com/bellshade/Python/blob/main/math/segmented_sieve.py)
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
+  * [Softmax](https://github.com/bellshade/Python/blob/main/math/softmax.py)
   * [Sum Geometric Progression](https://github.com/bellshade/Python/blob/main/math/sum_geometric_progression.py)
   * [Sylvester Sequence](https://github.com/bellshade/Python/blob/main/math/sylvester_sequence.py)
   * [Teorema Pytaghoras](https://github.com/bellshade/Python/blob/main/math/teorema_pytaghoras.py)
