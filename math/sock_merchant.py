@@ -1,6 +1,7 @@
 # solusi dari problem maths hackerrank sockmerchank
 
 from __future__ import annotations
+
 from collections import Counter
 
 
