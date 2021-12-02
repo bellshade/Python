@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 
 
 class Mobil(ABC):
-
     @abstractmethod
     def akselerasi(self):
         # jika diberikan implementasi maka akan memunculkan TypeError
@@ -14,14 +13,12 @@ class Mobil(ABC):
 
 
 class MPV(Mobil, ABC):
-
     def __init__(self):
         self.__jenis = "MPV"
         print(f"Jenis: {self.__jenis}")
 
 
 class Xpander(MPV):
-
     def __init__(self):
         super().__init__()
         self.__nama = "Mitsubishi Xpander"
