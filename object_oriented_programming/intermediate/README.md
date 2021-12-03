@@ -3,9 +3,9 @@
 pada materi intermediate, disini akan membahas tentang dari
 
 - [Enkapsulasi](encapsulation)
-- [abstraksi](abstract)
+- [abstraksi](abstraksi)
 - [inheritance](inheritance)
-- [polimorfis](polymorphism)
+- [polimorfis](polimorfis)
 
 untuk mencapai materi diatas tersebut dibutuhkan persyaratan yaitu mempelajari basic dari objek oriented programming yang bisa dilihat [disini](../basic_oop)
 
