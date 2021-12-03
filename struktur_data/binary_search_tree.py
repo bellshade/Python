@@ -29,7 +29,7 @@ class BinarySearchTree:
         # 1. Append data pada node
         # 2. Traverse ke kiri
         # 3. Traverse ke kanan
-        arr.append(self.data)
+        arr.append(self.data) # lgtm [py/modification-of-default-value]
         if self.left is not None:
             self.left.preorder(arr)
         if self.right is not None:
@@ -43,7 +43,7 @@ class BinarySearchTree:
         # 3. Traverse ke kanan
         if self.left is not None:
             self.left.inorder(arr)
-        arr.append(self.data)
+        arr.append(self.data) # lgtm [py/modification-of-default-value]
         if self.right is not None:
             self.right.inorder(arr)
         return arr
@@ -57,7 +57,7 @@ class BinarySearchTree:
             self.left.postorder(arr)
         if self.right is not None:
             self.right.postorder(arr)
-        arr.append(self.data)
+        arr.append(self.data) # lgtm [py/modification-of-default-value]
         return arr
 
 
