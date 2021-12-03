@@ -71,3 +71,5 @@ matic.jalan()
 matic.gantiKecepatan(60)
 matic.jalan()
 ```
+
+materi selanjutnya: [inheritance](../inheritance)

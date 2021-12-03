@@ -34,3 +34,5 @@ class Xpander(Mobil):
     def deakselerasi(self):
         print("Mobil semakin melambat!")
 ```
+
+materi selanjutnya: [enkapsulasi](../encapsulation)

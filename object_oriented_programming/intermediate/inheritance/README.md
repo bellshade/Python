@@ -55,3 +55,5 @@ class CivicTypeR(Civic):
 Perhatikan pada kelas CivicTypeR, atribut nama dan method akselerasi() diganti valuenya sedangkan property jenis tidak diganti karena CivicTypeR masih merupakan mobil berjenis sedan.
 
 ```super().__init__()``` digunakan untuk mewarisi semua yang ada pada kelas induknya.
+
+materi selanjutnya: [polimorfisme](../polimorfis)
