@@ -249,6 +249,7 @@
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Struktur Data
+  * [Binary Search Tree](https://github.com/bellshade/Python/blob/main/struktur_data/binary_search_tree.py)
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
 
