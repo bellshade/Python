@@ -5,6 +5,7 @@
 # https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
 from __future__ import annotations
+
 import math
 
 
