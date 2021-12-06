@@ -207,6 +207,7 @@
   * [Recursion Power](https://github.com/bellshade/Python/blob/main/math/recursion_power.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
   * [Segmented Sieve](https://github.com/bellshade/Python/blob/main/math/segmented_sieve.py)
+  * [Sieve Of Eratosthenes](https://github.com/bellshade/Python/blob/main/math/sieve_of_eratosthenes.py)
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
   * [Sock Merchant](https://github.com/bellshade/Python/blob/main/math/sock_merchant.py)
