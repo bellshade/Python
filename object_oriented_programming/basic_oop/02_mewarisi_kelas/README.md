@@ -10,4 +10,5 @@ kita mungkin mewarisi warna rambut dari ibu anda. ini adalah atribut yang anda m
 
 kit juga mewarisi, dalam arti tertentu, bahasa kita dari rang tua kita. jika orang tua kita berbicara bahasa inggris. maka kita juga akan berbicara bahasa inggris. sekarang bayangkan kita memutuskan untuk belajar bahasa kedua. seperti bahasa jerman. dalam hal ini anda telah memperluas atribut anda karena kita telah menbahkan atribut yang tidak dimiliki orang tua kita.
 
+materi selanjutnya: [intermediate oop](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/README.md)
 

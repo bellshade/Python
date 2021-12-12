@@ -201,14 +201,18 @@
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
+  * [Proth Number](https://github.com/bellshade/Python/blob/main/math/proth_number.py)
   * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Recursion Power](https://github.com/bellshade/Python/blob/main/math/recursion_power.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
   * [Segmented Sieve](https://github.com/bellshade/Python/blob/main/math/segmented_sieve.py)
+  * [Sieve Of Eratosthenes](https://github.com/bellshade/Python/blob/main/math/sieve_of_eratosthenes.py)
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
+  * [Sock Merchant](https://github.com/bellshade/Python/blob/main/math/sock_merchant.py)
+  * [Softmax](https://github.com/bellshade/Python/blob/main/math/softmax.py)
   * [Sum Geometric Progression](https://github.com/bellshade/Python/blob/main/math/sum_geometric_progression.py)
   * [Sylvester Sequence](https://github.com/bellshade/Python/blob/main/math/sylvester_sequence.py)
   * [Teorema Pytaghoras](https://github.com/bellshade/Python/blob/main/math/teorema_pytaghoras.py)
@@ -224,6 +228,17 @@
   * Basic Oop
     * 01 Atribut Kelas
       * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/01_atribut_kelas/atribut_kelas.py)
+  * Intermediate
+    * Abstraksi
+      * [Abstraksi](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/abstraksi/abstraksi.py)
+    * Encapsulation
+      * [Encapsulation](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation.py)
+      * [Encapsulation2](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation2.py)
+    * Inheritance
+      * [Inheritance](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/inheritance/inheritance.py)
+    * Polimorfis
+      * [Polimorfisme Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/polimorfis/polimorfisme_kelas.py)
+      * [Polimorfisme Sederhana](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/polimorfis/polimorfisme_sederhana.py)
 
 ## Other
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
@@ -236,6 +251,7 @@
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Struktur Data
+  * [Binary Search Tree](https://github.com/bellshade/Python/blob/main/struktur_data/binary_search_tree.py)
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
 
