@@ -91,3 +91,5 @@ if __name__ == "__main__":
 
     images = generate_image(GLIDER, 16)
     images[0].save("hasil.gif", save_all=True, append_images=images[1:])
+
+    doctest.testmod(verbose=True)
