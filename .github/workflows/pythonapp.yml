@@ -8,9 +8,9 @@ on:
   # target dari branch yang akan di pull request
   # atau di commit langsung
   push:
-    branches: [ main ]
+    branches: [ python3.10-final ]
   pull_request:
-    branches: [ main ]
+    branches: [ python3.10-final ]
 
 jobs:
   build:
@@ -21,10 +21,10 @@ jobs:
       # menggunakan checkout untuk cek kode
     - uses: actions/checkout@v2
       # menggunakan environment python versi 3.9
-    - name: Set up Python 3.9
+    - name: Set up Python 3.10
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9
+        python-version: 3.10
       # testing bash dengan perintah echo
     - name: salam
       run: |
@@ -39,7 +39,7 @@ jobs:
       run: |
         echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
-        pip install -r requirements.txt -r dev-requirements.txt
+        pip install -r requirements.txt black pytest coverage mypy isort flake8
       # memformat kode secara otomatis dengan black
       # tujuannya agar kode lebih mudah dibaca
     - name: Format otomatis
