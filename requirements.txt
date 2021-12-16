@@ -13,6 +13,6 @@ requests
 sklearn
 statsmodels
 sympy
-tensorflow
+# tensorflow (tidak tersedia)
 types-requests
 xgboost
