@@ -1,6 +1,6 @@
 from __future__ import annotation
-from typing import List
 
+from typing import List
 
 
 def PascalTriangle(n: int) -> List[List[int]]:
