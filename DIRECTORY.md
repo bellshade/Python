@@ -127,6 +127,7 @@
     * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/rotate_matrix.py)
     * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/searching_in_sorted_matrix.py)
     * [Sherman Morison](https://github.com/bellshade/Python/blob/main/algorithm/matrix/sherman_morison.py)
+    * [Spiral Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/spiral_matrix.py)
   * Networking Flow
     * [Ford Fulkerson](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/ford_fulkerson.py)
     * [Minimum Cut](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/minimum_cut.py)
