@@ -97,7 +97,7 @@ app.config['MYSQL_DB'] = 'contohdatabase'
 ```
 Baik setelah semua disesuaikan, kalian dapat menjalankan file python tersebut, untuk megakses API dapat melakukan seperti pada contoh.
 
-![Get users](/image/getuser.gif)
+![Get users](/flask_api/image/getuser.gif)
 
 ### 📀 Menampilkan data dari database berdasarkan userid.
 Untuk menampilkan data kita dapat menggunakan metode costume url yang telah kita buat sebelumnya, kalian dapat melihat pada [APP][app], dimana userid akan kita kirimkan sebagai parameter dalam url.
