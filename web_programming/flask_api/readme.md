@@ -97,27 +97,27 @@ app.config['MYSQL_DB'] = 'contohdatabase'
 ```
 Baik setelah semua disesuaikan, kalian dapat menjalankan file python tersebut, untuk megakses API dapat melakukan seperti pada contoh.
 
-![Get users](/flask_api/image/getuser.gif)
+![Get users](/web_programming/flask_api/image/getuser.gif)
 
 ### 📀 Menampilkan data dari database berdasarkan userid.
 Untuk menampilkan data kita dapat menggunakan metode costume url yang telah kita buat sebelumnya, kalian dapat melihat pada [APP][app], dimana userid akan kita kirimkan sebagai parameter dalam url.
 
-![Get user by userid](/image/getuserbyuserid.gif)
+![Get user by userid](/web_programming/flask_api/image/getuserbyuserid.gif)
 
 ### 📕 Menambahkan data ke database
 Kemudian kita akan menambahkan data ke database sesuai tabel, kalian dapat mengecek pada [APP][app] bagian menambahkan data, untuk menambahkan data kita perlu mendapatkan data yang kita kirim, kita dapat menggunakan fungsi ```request.form``` atau ```request.form.get```, setelah itu data tersebut akan kita masukan ke dalam query menyimpan. Untuk method yang kita gunakan adalah POST.
 
-![Add Data](/image/adddata.gif)
+![Add Data](/web_programming/flask_api/image/adddata.gif)
 
 ### 📖 Mengupdate data
 Setelah menampilkan dan menambahkan data, kita dapat mengupdate data menggunakan API, langkahnya sama dengan menambahkan data, namun query dan data yang kita kirimkan berbeda karena tentunya kita membutuhkan primary key untuk menentukan data mana yang kita update. Kalian bisa melihat contoh pada [APP][app].
 
-![Update Data](/image/updatedata.gif)
+![Update Data](/web_programming/flask_api/image/updatedata.gif)
 
 ### 🗑️ Menghapus data
 Selain menambahkan dan mengupdate data kita juga dapat menghapus data, menghapus data prinsipnya sama dengan menampilkan data, method yang kita gunakan adalah delete.
 
-![Update Data](/image/deletedata.gif)
+![Update Data](/web_programming/flask_api/image/deletedata.gif)
 
 ## 😃 Penutupan
 Setelah melihat dan mengikuti contoh project rest api menggunakan flask di atas dapat diambil kesimpulan bahwa nantinya kita dapat membuat banyak sekali fungsi yang lebih komplek menggunakan rest api, selain itu karena kita menggunakan bahasa pemrograman python, project yang akan kita kembangkan dapat menggunakan semua package python yang tetunya powerful untuk suatu bahasa pemrograman yang mudah dipahami sebagai backend.
