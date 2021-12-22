@@ -122,13 +122,13 @@ Selain menambahkan dan mengupdate data kita juga dapat menghapus data, menghapus
 ## 😃 Penutupan
 Setelah melihat dan mengikuti contoh project rest api menggunakan flask di atas dapat diambil kesimpulan bahwa nantinya kita dapat membuat banyak sekali fungsi yang lebih komplek menggunakan rest api, selain itu karena kita menggunakan bahasa pemrograman python, project yang akan kita kembangkan dapat menggunakan semua package python yang tetunya powerful untuk suatu bahasa pemrograman yang mudah dipahami sebagai backend.
 
-[helloworld]: /contoh/helloworld.py
-[costumeurl]: /contoh/costumeurl.py
+[helloworld]: /web_programming/flask_api/contoh/helloworld.py
+[costumeurl]: /web_programming/flask_api/contoh/costumeurl.py
 [postman]: https://www.postman.com/downloads/?utm_source=postman-home
-[contohdatabase]: /user.sql
-[castumeurlvariable]: /contoh/costumeurlvariable.py
-[costumemethod]: /contoh/costmemethod.py
-[app]: /contoh/main.py
+[contohdatabase]: /web_programming/flask_api/user.sql
+[castumeurlvariable]: /web_programming/flask_api/contoh/costumeurlvariable.py
+[costumemethod]: /web_programming/flask_api/contoh/costmemethod.py
+[app]: /web_programming/flask_api/contoh/main.py
 [flaskmysql]: https://flask-mysqldb.readthedocs.io/en/latest/
 [test1]: http://127.0.0.1:2020/
 [test2]: http://127.0.0.1:2020/costumeurl
