@@ -202,6 +202,7 @@
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
+  * [Prime Number Library](https://github.com/bellshade/Python/blob/main/math/prime_number_library.py)
   * [Proth Number](https://github.com/bellshade/Python/blob/main/math/proth_number.py)
   * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
