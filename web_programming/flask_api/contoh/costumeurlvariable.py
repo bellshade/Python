@@ -8,7 +8,8 @@ app = Flask(__name__)
 # API resource routes
 @app.route("/<string:nama>/", methods=["GET", "POST"])
 def costumeurl(nama):
-    return "Hallo " + nama
+    value = "Hallo " + nama
+    return value
 
 
 # Api running di localhost dengan port 2020
