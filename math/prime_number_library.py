@@ -1,11 +1,4 @@
-from sympy import isprime
-from sympy import primerange
-from sympy import randprime
-from sympy import primepi
-from sympy import prime
-from sympy import prevprime
-from sympy import nextprime
-
+from sympy import isprime, nextprime, prevprime, prime, primepi, primerange, randprime
 
 # Mengecek apakah sebuah nilai adalah bilangan prima
 print("Apakah 10 angka prima?", isprime(10))
