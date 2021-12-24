@@ -12,8 +12,8 @@ Repositori ini dibuat untuk contoh dasar pembuatan Rest API menggunakan Python d
     - [Instalasi Database](#-instalasi-database)
     - [Hello World](#-hello-world)
     - [Membuat URL](#-membuat-url)
-    - [Costume URL menggunakan variable](#-costume-url-menggunakan-variabel)
-    - [Costume Method](#%EF%B8%8F-costume-method)
+    - [Custom URL menggunakan variable](#-custom-url-menggunakan-variabel)
+    - [Custom Method](#%EF%B8%8F-custom-method)
     - Menampilkan Data
         - [Menampilkan data dari database](#-menampilkan-data-dari-database)
         - [Menanmpilkan data dari database berdasarkan userid](#-menampilkan-data-dari-database-berdasarkan-userid)
@@ -79,13 +79,13 @@ dalam file tersebut kalian perlu mengimport flask kemudian jalankan dan buka ip 
 kalian akan melihat return text 'Hello World', mudah dipahami bukan saat kita membuka ip tersebut flask akan mencari function dan menampilkan return langsung ke halaman browser kalian.
 
 ### 🔗 Membuat URL
-Selanjutnya kalian dapat membuat costume url sendiri, kalian dapat melihat contoh di file [Costume Url][costumeurl], dalam file tersebut, kita dapat membuka dengan /costumeurl [Test][test2].
+Selanjutnya kalian dapat membuat custom url sendiri, kalian dapat melihat contoh di file [Custom Url][customurl], dalam file tersebut, kita dapat membuka dengan /customurl [Test][test2].
 
-### 🔗 Costume URL menggunakan variabel
-Bagaimana jika URL yang kalian buat bersifat dinamis atau selalu berubah ?, tenang kalian juga dapat membuat costume url menggunakan variabel, kalian dapat melihat contoh pada file [Costume Url Variable][castumeurlvariable].
+### 🔗 Custom URL menggunakan variabel
+Bagaimana jika URL yang kalian buat bersifat dinamis atau selalu berubah ?, tenang kalian juga dapat membuat custom url menggunakan variabel, kalian dapat melihat contoh pada file [custom Url Variable][castumeurlvariable].
 
-### ⌨️ Costume method
-Ada beberapa method dalam berinterkasi dengan API, seperti yang dijelaskan di atas, dalam bagian ini kita dapat mengecek method yang dikirimkan [Method][costumemethod].
+### ⌨️ Custom method
+Ada beberapa method dalam berinterkasi dengan API, seperti yang dijelaskan di atas, dalam bagian ini kita dapat mengecek method yang dikirimkan [Method][custommethod].
 
 ### 💿 Menampilkan data dari database
 Baik setelah kita membahas dasar pembuatan API, kita dapat langsung mencoba untuk menampilkan data yang kita simpan dalam database dengan menggunakan format output json. Pertama buka file contoh [APP][app], disana kita dapat mengubah user dan database yang akan kita akses (dalam kasus ini kita menggunakan database [contoh database][contohdatabase]).
@@ -100,7 +100,7 @@ Baik setelah semua disesuaikan, kalian dapat menjalankan file python tersebut, u
 ![Get users](/web_programming/flask_api/image/getuser.gif)
 
 ### 📀 Menampilkan data dari database berdasarkan userid.
-Untuk menampilkan data kita dapat menggunakan metode costume url yang telah kita buat sebelumnya, kalian dapat melihat pada [APP][app], dimana userid akan kita kirimkan sebagai parameter dalam url.
+Untuk menampilkan data kita dapat menggunakan metode custom url yang telah kita buat sebelumnya, kalian dapat melihat pada [APP][app], dimana userid akan kita kirimkan sebagai parameter dalam url.
 
 ![Get user by userid](/web_programming/flask_api/image/getuserbyuserid.gif)
 
@@ -123,14 +123,14 @@ Selain menambahkan dan mengupdate data kita juga dapat menghapus data, menghapus
 Setelah melihat dan mengikuti contoh project rest api menggunakan flask di atas dapat diambil kesimpulan bahwa nantinya kita dapat membuat banyak sekali fungsi yang lebih komplek menggunakan rest api, selain itu karena kita menggunakan bahasa pemrograman python, project yang akan kita kembangkan dapat menggunakan semua package python yang tetunya powerful untuk suatu bahasa pemrograman yang mudah dipahami sebagai backend.
 
 [helloworld]: /web_programming/flask_api/contoh/helloworld.py
-[costumeurl]: /web_programming/flask_api/contoh/costumeurl.py
+[customurl]: /web_programming/flask_api/contoh/customurl.py
 [postman]: https://www.postman.com/downloads/?utm_source=postman-home
 [contohdatabase]: /web_programming/flask_api/user.sql
-[castumeurlvariable]: /web_programming/flask_api/contoh/costumeurlvariable.py
-[costumemethod]: /web_programming/flask_api/contoh/costmemethod.py
+[castumeurlvariable]: /web_programming/flask_api/contoh/customurlvariable.py
+[custommethod]: /web_programming/flask_api/contoh/costmemethod.py
 [app]: /web_programming/flask_api/contoh/main.py
 [flaskmysql]: https://flask-mysqldb.readthedocs.io/en/latest/
 [test1]: http://127.0.0.1:2020/
-[test2]: http://127.0.0.1:2020/costumeurl
+[test2]: http://127.0.0.1:2020/customurl
 [xampp]: https://www.apachefriends.org/index.html
 [laragon]: https://laragon.org/
