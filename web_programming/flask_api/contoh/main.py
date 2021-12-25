@@ -25,7 +25,7 @@ mysql.init_app(app)
 # Mendapatkan dan menampilkan data semua user
 class UserList(Resource):
     # Method for get all users
-    def get(self):
+    def get():
         try:
             conn = mysql.connect()
             cursor = conn.cursor()
@@ -46,7 +46,7 @@ class UserList(Resource):
 # Mendapatkan dan menampilkan data user berdasarkan id
 class User(Resource):
     # Method to get user by id
-    def get(self, user_id):
+    def get(user_id):
         try:
             conn = mysql.connect()
             cursor = conn.cursor()
@@ -66,7 +66,7 @@ class User(Resource):
 
 # Menambahkan data User
 class AddUser(Resource):
-    def post(self):
+    def post():
         # Method for create new user
         try:
             conn = mysql.connect()
@@ -94,7 +94,7 @@ class AddUser(Resource):
 # Mengupdate data user berdasarkan id
 class Update(Resource):
     # Method to edit / update
-    def put(self, user_id):
+    def put(user_id):
         try:
             conn = mysql.connect()
             cursor = conn.cursor()
@@ -138,7 +138,7 @@ class Update(Resource):
 # Menghapus data user berdasarkan id
 class Delete(Resource):
     # Method to delete
-    def delete(self, user_id):
+    def delete(user_id):
         try:
             conn = mysql.connect()
             cursor = conn.cursor()
