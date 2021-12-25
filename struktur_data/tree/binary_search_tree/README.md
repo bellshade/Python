@@ -43,4 +43,65 @@ Misalkan kita ingin membangun *BST* dengan nilai sebagai berikut : `4, 5, 3, 7`.
 ![BST Insertion Example](img/bst_insertion.png)
 
 ### Traversal
-*Traversal* adalah cara untuk mengunjungi *node* pada *tree*
+*Traversal* adalah cara untuk mengunjungi *node* pada *tree*. Pada *binary search tree*, ada 3 cara untuk melakukan *traversal*, yaitu *preorder*, *inorder*, dan *postorder*. Ketiga *traversal* berikut dibedakan berdasarkan urutan pengunjungan dari *root node* sebagai berikut.
+
+1. *Preorder*\
+Algoritma *preorder* adalah sebagai berikut:
+    1. Kunjungi *root node*
+    2. Kunjungi *left subtree*
+    3. Kunjungi *right subtree*
+
+2. *Inorder*\
+Algoritma *preorder* adalah sebagai berikut:
+    1. Kunjungi *left subtree*
+    2. Kunjungi *root node*
+    3. Kunjungi *right subtree*
+
+3. *Postorder*\
+Algoritma *postorder* adalah sebagai berikut:
+    1. Kunjungi *left subtree*
+    2. Kunjungi *right subtree*
+    3. Kunjungi *root node*
+
+Kode di bawah ini adalah implementasi dari ketiga jenis *traversal* di atas
+```
+    def preorder(self, arr: list = []):
+        # Algoritma preorder adalah sebagai berikut:
+        # 1. Append data pada node
+        # 2. Traverse ke kiri
+        # 3. Traverse ke kanan
+        arr.append(self.data)
+        if self.left is not None:
+            self.left.preorder(arr)
+        if self.right is not None:
+            self.right.preorder(arr)
+        return arr
+
+    def inorder(self, arr: list = []):
+        # Algoritma inorder adalah sebagai berikut:
+        # 1. Traverse ke kiri
+        # 2. Append data pada node
+        # 3. Traverse ke kanan
+        if self.left is not None:
+            self.left.inorder(arr)
+        arr.append(self.data)
+        if self.right is not None:
+            self.right.inorder(arr)
+        return arr
+
+    def postorder(self, arr: list = []):
+        # Algoritma postorder adalah sebagai berikut:
+        # 1. Traverse ke kiri
+        # 2. Traverse ke kanan
+        # 3. Append data pada node
+        if self.left is not None:
+            self.left.postorder(arr)
+        if self.right is not None:
+            self.right.postorder(arr)
+        arr.append(self.data)
+        return arr
+```
+Sebagai contoh, misalkan kita punya *binary search tree* sebagai berikut
+| *Preorder* | *Inorder*                                        | *Postorder*                                                                                                                          |
+|-------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![](img/preorder.png)    | ![](img/inorder.png) | ![](img/postorder.png) |
