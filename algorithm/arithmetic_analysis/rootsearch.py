@@ -32,8 +32,7 @@ def root_search(
         f0 = f1
         x1 = x0 + dx
         f1 = f(x1)
-    else:
-        return x0, x1
+    return x0, x1
 
 
 def incremental_root_search(
@@ -63,7 +62,7 @@ def incremental_root_search(
     ...
     ValueError: Akar tidak ditemukan pada interval tersebut
     """
-    for i in range(n):
+    for _ in range(n):
         dx = (x1 - x0) / 10.0
         x0, x1 = root_search(f, x0, x1, dx)
     x = (x0 + x1) / 2.0
