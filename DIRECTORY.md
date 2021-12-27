@@ -83,6 +83,7 @@
     * [Newton Forward Interpolation](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_forward_interpolation.py)
     * [Newton Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_method.py)
     * [Newton Raphson](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_raphson.py)
+    * [Rootsearch](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/rootsearch.py)
     * [Secant Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/secant_method.py)
   * Backtracking
     * [Coloring](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/coloring.py)
