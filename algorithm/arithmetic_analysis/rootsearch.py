@@ -1,12 +1,11 @@
-from numpy import sign
 from typing import Callable, Tuple
+
+from numpy import sign
 
 
 def root_search(
-        f: Callable[[float], float],
-        a: float,
-        b: float,
-        dx: float) -> Tuple[float, float]:
+    f: Callable[[float], float], a: float, b: float, dx: float
+) -> Tuple[float, float]:
     # Fungsi untuk menghitung nilai akar dari sebuah persamaan non linear
     # satu variable. Ide dasarnya adalah jika f(a) dan f(b) punya tanda yang berbeda
     # (f(a) positif, f(b) negatif atau sebaliknya),
@@ -34,10 +33,8 @@ def root_search(
 
 
 def incremental_root_search(
-        f: Callable[[float], float],
-        x0: float,
-        x1: float,
-        n: int) -> float:
+    f: Callable[[float], float], x0: float, x1: float, n: int
+) -> float:
     """
     Secara iteratif mencari nilai akar berdasarkan fungsi root_search.
     Secara intuitif, semakin besar nilai n, semakin akurat nilai akar yang didapatkan.
@@ -78,7 +75,7 @@ def equation(x: float) -> float:
     return x ** 3 - 10.0 * x ** 2 + 5.0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
