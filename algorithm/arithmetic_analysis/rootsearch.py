@@ -7,19 +7,17 @@ def root_search(
         a: float,
         b: float,
         dx: float) -> Tuple[float, float]:
-    """
-    Fungsi untuk menghitung nilai akar dari sebuah persamaan non linear
-    satu variable. Ide dasarnya adalah jika f(a) dan f(b) punya tanda yang berbeda
-    (f(a) positif, f(b) negatif atau sebaliknya),
-    maka setidaknya ada 1 akar di interval [a, b].
-
-    Parameter:
-    f   -- persamaan yang akan dihitung nilai akarnya (function)
-    a   -- batas bawah interval (float)
-    b   -- batas atas interval (float)
-    dx  -- lebar bins (besar interval yang digunakan untuk membagi suatu
-            area di bawah kurva persamaan f.
-    """
+    # Fungsi untuk menghitung nilai akar dari sebuah persamaan non linear
+    # satu variable. Ide dasarnya adalah jika f(a) dan f(b) punya tanda yang berbeda
+    # (f(a) positif, f(b) negatif atau sebaliknya),
+    # maka setidaknya ada 1 akar di interval [a, b].
+    #
+    # Parameter:
+    # f   -- persamaan yang akan dihitung nilai akarnya (function)
+    # a   -- batas bawah interval (float)
+    # b   -- batas atas interval (float)
+    # dx  -- lebar bins (besar interval yang digunakan untuk membagi suatu
+    #         area di bawah kurva persamaan f.
     x0 = a
     f0 = f(a)
     x1 = a + dx
@@ -71,14 +69,12 @@ def incremental_root_search(
 
 
 def equation(x: float) -> float:
-    """
-    Berisi persamaan polinomial yang akan dicari akarnya.
-    Bilangan basis berupa float. Bilangan pangkat (eksponen) berupa bilangan bulat.
-    Persamaan di bawah dapat diganti-ganti.
-
-    Pada kasus ini:
-    f(x) = x^3 - 10x^2 + 5
-    """
+    # Berisi persamaan polinomial yang akan dicari akarnya.
+    # Bilangan basis berupa float. Bilangan pangkat (eksponen) berupa bilangan bulat.
+    # Persamaan di bawah dapat diganti-ganti.
+    #
+    # Pada kasus ini:
+    # f(x) = x^3 - 10x^2 + 5
     return x ** 3 - 10.0 * x ** 2 + 5.0
 
 
