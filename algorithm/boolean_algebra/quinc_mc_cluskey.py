@@ -5,6 +5,7 @@
 # https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm
 
 from __future__ import annotations
+
 from typing import Sequence
 
 
