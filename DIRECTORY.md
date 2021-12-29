@@ -83,6 +83,7 @@
     * [Newton Forward Interpolation](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_forward_interpolation.py)
     * [Newton Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_method.py)
     * [Newton Raphson](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/newton_raphson.py)
+    * [Rootsearch](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/rootsearch.py)
     * [Secant Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/secant_method.py)
   * Backtracking
     * [Coloring](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/coloring.py)
@@ -127,6 +128,7 @@
     * [Rotate Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/rotate_matrix.py)
     * [Searching In Sorted Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/searching_in_sorted_matrix.py)
     * [Sherman Morison](https://github.com/bellshade/Python/blob/main/algorithm/matrix/sherman_morison.py)
+    * [Spiral Matrix](https://github.com/bellshade/Python/blob/main/algorithm/matrix/spiral_matrix.py)
   * Networking Flow
     * [Ford Fulkerson](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/ford_fulkerson.py)
     * [Minimum Cut](https://github.com/bellshade/Python/blob/main/algorithm/networking_flow/minimum_cut.py)
@@ -202,6 +204,7 @@
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
+  * [Prime Number Library](https://github.com/bellshade/Python/blob/main/math/prime_number_library.py)
   * [Proth Number](https://github.com/bellshade/Python/blob/main/math/proth_number.py)
   * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
@@ -252,9 +255,11 @@
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
 
 ## Struktur Data
-  * [Binary Search Tree](https://github.com/bellshade/Python/blob/main/struktur_data/binary_search_tree.py)
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
+  * Tree
+    * Binary Search Tree
+      * [Binary Search Tree](https://github.com/bellshade/Python/blob/main/struktur_data/tree/binary_search_tree/binary_search_tree.py)
 
 ## Web Programming
   * [Breadcrumb Generator](https://github.com/bellshade/Python/blob/main/web_programming/breadcrumb_generator.py)
