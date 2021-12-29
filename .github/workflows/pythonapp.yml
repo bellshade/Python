@@ -89,5 +89,5 @@ jobs:
     - name: Hasil coverage
       run: |
         echo "Laporan coverage"
-        coverage report -m
+        python -m coverage report -m
         
