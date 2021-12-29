@@ -81,13 +81,13 @@ jobs:
         echo "Mulai Jalankan testing mypy"
         mypy .
       # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
-    - name: Test coverage
-      run: |
-        echo "Mulai testing coverage"
-        coverage run --source . -m pytest --doctest-modules --ignore=Basic/
-      # membuat report untuk upload ke codecoverage
-    - name: Hasil coverage
-      run: |
-        echo "Laporan coverage"
-        python -m coverage report -m
+    # - name: Test coverage
+    #   run: |
+    #     echo "Mulai testing coverage"
+    #     coverage run --source . -m pytest --doctest-modules --ignore=Basic/
+    #   # membuat report untuk upload ke codecoverage
+    # - name: Hasil coverage
+    #   run: |
+    #     echo "Laporan coverage"
+    #     python -m coverage report -m
         
