@@ -71,7 +71,7 @@ jobs:
     - name: Test Python
       run: |
         echo "Mulai Jalankan testing docstring"
-        pytest . --doctest-modules --ignore=Basic/
+        pytest . --doctest-modules --ignore=Basic/ --cov-report=term-missing:skip-covered
       # test lint python jika black gagal reformat kode
     - name: Test Lint Python
       run: |
