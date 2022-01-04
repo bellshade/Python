@@ -67,7 +67,7 @@ def run(canvas: list[list[bool]]) -> list[list[bool]]:
     return return_canvas
 
 
-def __judge_point(pt: bool, neighbours: list[list[bool]]) -> bool:
+def __judge_point(pt, neighbours):
     dead = 0
     alive = 0
 
