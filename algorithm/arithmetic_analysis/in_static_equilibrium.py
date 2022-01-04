@@ -3,7 +3,7 @@ Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
 from __future__ import annotations
 
-import numpy as np
+from numpy import array, cos,cross, ndarray, radians, sin
 
 
 def polar_force(
@@ -18,15 +18,11 @@ def polar_force(
     [-9.999987317275394, 0.01592652916486828]
     """
     if radian_mode:
-        return [magnitude * np.cos(angle), magnitude * np.sin(angle)]
-    return [
-        magnitude * np.cos(np.radians(angle)),
-        magnitude * np.sin(np.radians(angle)),
-    ]
-
+        return [magnitude * cos(angle), magnitude * sin(angle)]
+    return [magnitude * cos(radians(angle)), mgnitude * sin(radians(angle))]
 
 def in_static_equilibrium(
-    forces: np.ndarray, location: np.ndarray, eps: float = 10 ** -1
+    forces: ndarray, location: ndarray, eps: float = 10 ** -1
 ) -> bool:
     """
     Menentukan apakah sistem berada dalam kesetimbangan statis.
@@ -37,29 +33,29 @@ def in_static_equilibrium(
     >>> in_static_equilibrium(force, location)
     False
     """
-    moments: np.ndarray = np.cross(location, forces)
-    sum_moments: float = np.sum(moments)
+    moments: ndarray = cross(location, forces)
+    sum_moments: float = sum(moments)
     return abs(sum_moments) < eps
 
 
 if __name__ == "__main__":
-    forces = np.array(
+    forces = array(
         [polar_force(718.4, 180 - 30), polar_force(879.54, 45), polar_force(100, -90)]
     )
 
-    location = np.array([[0, 0], [0, 0], [0, 0]])
+    location = array([[0, 0], [0, 0], [0, 0]])
     assert in_static_equilibrium(forces, location)
-    forces = np.array(
+    forces = array(
         [
             polar_force(30 * 9.81, 15),
             polar_force(215, 180 - 45),
             polar_force(264, 90 - 30),
         ]
     )
-    location = np.array([[0, 0], [0, 0], [0, 0]])
+    location = array([[0, 0], [0, 0], [0, 0]])
     assert in_static_equilibrium(forces, location)
-    forces = np.array([[0, -2000], [0, -1200], [0, 15600], [0, -12400]])
-    location = np.array([[0, 0], [6, 0], [10, 0], [12, 0]])
+    forces = array([[0, -2000], [0, -1200], [0, 15600], [0, -12400]])
+    location = array([[0, 0], [6, 0], [10, 0], [12, 0]])
     assert in_static_equilibrium(forces, location)
 
     import doctest
