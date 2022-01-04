@@ -76,10 +76,10 @@ jobs:
       # mypy adalah unit testing diluar dari official python
       # yang berfungsi jika mengecek kode apakah terdapat kode
       # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
-    - name: Test mypy
-      run: mypy --ignore-missing-imports
+    
+    - name: Test mypy 
+      run: mypy --ignore-missing-imports --exclude '(implementation/linear_algebra)/$' .'
       # FIXME : kendala error beberapa directory mypy
-        --exclude '(implementation/linear_algebra)/$' .'
       # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
     - name: Test coverage
       run: |
