@@ -63,6 +63,7 @@ def conjugate_gradient(
     """
     assert np.shape(spd_matrix)[0] == np.shape(spd_matrix)[1]
     assert np.shape(load_vector)[0] == np.shape(spd_matrix)[0]
+    assert is_matrix_spd(spd_matrix)
 
     x0 = np.zeros((np.shape(load_vector)[0], 1))
     r0 = np.copy(load_vector)
