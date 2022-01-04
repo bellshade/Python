@@ -82,7 +82,7 @@ jobs:
       # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
     
     - name: Test mypy 
-      run: mypy --ignore-missing-imports --install-types --non-iteractive .
+      run: mypy --ignore-missing-imports --install-types --non-interactive .
       # FIXME : kendala error beberapa directory mypy
       # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
     - name: Test coverage
