@@ -12,8 +12,9 @@ def polar_force(
     """
     Menghitung force pada suatu sistem dengan menggunakan matriks
     rotasi dan magnitudenya.
+    polar 10, 45 = 7.0710678118654755, 7.071067811865475
     >>> polar_force(10, 45)
-    [7.0710678118654755, 7.071067811865475]
+    [7.071067811865477, 7.0710678118654755]
     >>> polar_force(10, 3.14, radian_mode=True)
     [-9.999987317275394, 0.01592652916486828]
     """
