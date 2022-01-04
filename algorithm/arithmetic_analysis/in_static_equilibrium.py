@@ -1,14 +1,14 @@
 """
 Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
-from __future__ import annotations
+from typing import List
 
-from numpy import array, cos, cross, ndarray, radians, sin
+from numpy import array, cos,cross, ndarray, radians, sin
 
 
 def polar_force(
     magnitude: float, angle: float, radian_mode: bool = False
-) -> list[float]:
+) -> List[float]:
     """
     Menghitung force pada suatu sistem dengan menggunakan matriks
     rotasi dan magnitudenya.
@@ -20,7 +20,6 @@ def polar_force(
     if radian_mode:
         return [magnitude * cos(angle), magnitude * sin(angle)]
     return [magnitude * cos(radians(angle)), magnitude * sin(radians(angle))]
-
 
 def in_static_equilibrium(
     forces: ndarray, location: ndarray, eps: float = 10 ** -1
