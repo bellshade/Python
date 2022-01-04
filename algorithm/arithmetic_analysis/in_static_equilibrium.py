@@ -9,13 +9,10 @@ from numpy import array, cos, cross, ndarray, radians, sin
 def polar_force(
     magnitude: float, angle: float, radian_mode: bool = False
 ) -> List[float]:
-    """
-    Menghitung force pada suatu sistem dengan menggunakan matriks
-    rotasi dan magnitudenya.
-    polar 10, 45 = 7.0710678118654755, 7.071067811865475
-    >>> polar_force(10, 3.14, radian_mode=True)
-    [-9.999987317275394, 0.01592652916486828]
-    """
+    # Menghitung force pada suatu sistem dengan menggunakan matriks
+    # rotasi dan magnitudenya.
+    # polar 10, 45 = 7.0710678118654755, 7.071067811865475
+    # polar 10, 3.14, True = -9.999987317275394, 0.01592652916486828
     if radian_mode:
         return [magnitude * cos(angle), magnitude * sin(angle)]
     return [magnitude * cos(radians(angle)), magnitude * sin(radians(angle))]
