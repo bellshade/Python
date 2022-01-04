@@ -42,8 +42,8 @@ def create_spd_matrix(dimension: int) -> Any:
 def conjugate_gradient(
     spd_matrix,
     load_vector,
-    max_iterations = 1000,
-    tol = 1e-8,
+    max_iterations=1000,
+    tol=1e-8,
 ):
     """
     return solusi linear sistem np.dot(spd_matrix, x) = b
