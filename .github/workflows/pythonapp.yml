@@ -86,8 +86,11 @@ jobs:
         echo "Mulai testing coverage"
         coverage run --source . -m pytest --doctest-modules --ignore=Basic/
       # membuat report untuk upload ke codecoverage
-    - name: Hasil coverage
-      run: |
-        echo "Laporan coverage"
-        coverage report -m
+
+    #  kendala server github tidak respon pada coverage
+    #  untuk sementara dinonaktifkan
+    # - name: Hasil coverage
+    #   run: |
+    #     echo "Laporan coverage"
+    #     coverage report -m
         
