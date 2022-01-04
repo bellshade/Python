@@ -3,7 +3,7 @@ Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
 from __future__ import annotations
 
-from numpy import array, cos, cross, ndarray, radians, sin
+from numpy import array, cos,cross, ndarray, radians, sin
 
 
 def polar_force(
@@ -19,8 +19,7 @@ def polar_force(
     """
     if radian_mode:
         return [magnitude * cos(angle), magnitude * sin(angle)]
-    return [magnitude * cos(radians(angle)), mgnitude * sin(radians(angle))]
-
+    return [magnitude * cos(radians(angle)), magnitude * sin(radians(angle))]
 
 def in_static_equilibrium(
     forces: ndarray, location: ndarray, eps: float = 10 ** -1
@@ -29,8 +28,8 @@ def in_static_equilibrium(
     Menentukan apakah sistem berada dalam kesetimbangan statis.
     Periksa apakah suatu sistem dalam keadaan setimbang.
     Dibutuhkan dua objek numpy.array.
-    >>> force = np.array([[1, 1], [-1, 2]])
-    >>> location = np.array([[1, 0], [10, 0]])
+    >>> force = array([[1, 1], [-1, 2]])
+    >>> location = array([[1, 0], [10, 0]])
     >>> in_static_equilibrium(force, location)
     False
     """
