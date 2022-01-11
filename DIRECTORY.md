@@ -262,6 +262,7 @@
 
 ## Web Programming
   * [Breadcrumb Generator](https://github.com/bellshade/Python/blob/main/web_programming/breadcrumb_generator.py)
+  * [Emisi Co2](https://github.com/bellshade/Python/blob/main/web_programming/emisi_co2.py)
   * [Get Random Quote](https://github.com/bellshade/Python/blob/main/web_programming/get_random_quote.py)
   * [Pagination Helper](https://github.com/bellshade/Python/blob/main/web_programming/pagination_helper.py)
   * [Statik Corona](https://github.com/bellshade/Python/blob/main/web_programming/statik_corona.py)
