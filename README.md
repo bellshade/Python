@@ -66,9 +66,10 @@ Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_orie
 
 Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka. 
 
-01. [Algoritma Struktur Data](/algorithm) 
+01. [Struktur Data](/struktur_data) 
 
 02. [Web Programming](/web_programming)
+
 
 ## ⚡ Quick Access ⚡
 
@@ -77,6 +78,15 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Basic](Basic/README.md)
 - [Algoritma](algorithm)
 - [Implementasi](implementation)
+  - [Blockchain](implementation/blockchain)
+  - [Celular automata](implementasi/celular_automata)
+  - [Chiper](implementation/chiper)
+  - [Compression](implementation/compression)
+  - [Electro](implementation/electro)
+  - [File transfer](implementation/file_transfer)
+  - [Fractal](implementation/fractal)
+  - [Geodesy](implementation/geodesy_programming)
+  - [Physics](implementation/physics)
 - [Web Programming](web_programming)
 - [Implementasi Matematika](math)
 
