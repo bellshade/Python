@@ -192,7 +192,6 @@
 
 ## Math
   * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
-  * [Pascaltriangle](https://github.com/bellshade/Python/blob/main/math/PascalTriangle.py)
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Angka Proth](https://github.com/bellshade/Python/blob/main/math/angka_proth.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
@@ -203,6 +202,7 @@
   * [Is Prime](https://github.com/bellshade/Python/blob/main/math/is_prime.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
+  * [Pascal Triangle](https://github.com/bellshade/Python/blob/main/math/pascal_triangle.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
   * [Prime Number Library](https://github.com/bellshade/Python/blob/main/math/prime_number_library.py)
   * [Proth Number](https://github.com/bellshade/Python/blob/main/math/proth_number.py)
