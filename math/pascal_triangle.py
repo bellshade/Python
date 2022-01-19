@@ -1,5 +1,3 @@
-from __future__ import annotation
-
 from typing import List
 
 
