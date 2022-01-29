@@ -201,6 +201,7 @@
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
   * [Is Prime](https://github.com/bellshade/Python/blob/main/math/is_prime.py)
+  * [Iteration Power](https://github.com/bellshade/Python/blob/main/math/iteration_power.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Pascal Triangle](https://github.com/bellshade/Python/blob/main/math/pascal_triangle.py)
