@@ -7,6 +7,7 @@
 # jika data ke 1 lebih besar, maka tukar posisi ke data 2
 # kemudian data yang lebih besar dibandingkan dengand data 3
 
+
 def bubble_sort(collection):
     """
     contoh
