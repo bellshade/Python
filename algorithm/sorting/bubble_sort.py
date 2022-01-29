@@ -32,7 +32,6 @@ def bubble_sort(collection):
 
 if __name__ == "__main__":
     import doctest
-    import time
 
     doctest.testmod(verbose=True)
 
