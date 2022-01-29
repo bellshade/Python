@@ -12,7 +12,7 @@ def iteration_power(number: int, exp: int) -> int:
     1
     """
     result = 1
-    for i in range(exp):
+    for _ in range(exp):
         result *= number
     return result
 
