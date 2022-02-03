@@ -10,6 +10,7 @@
 # kemudian data yang lebih besar dibandingkan dengand data 3
 # urutan data mengikuti urutan ASCII
 
+
 def bubble_sort_ascii(collection: list) -> list:
     """
     contoh
@@ -36,7 +37,7 @@ if __name__ == "__main__":
 
     doctest.testmod(verbose=True)
 
-    data = [4, 'a', 2, 'd', 'b', 'c', '$', '5']
+    data = [4, "a", 2, "d", "b", "c", "$", "5"]
     unsorted = [item for item in data]
     print(f"data yang belum di sorting adalah {unsorted}")
     print(f"data yang sudah di sorting {bubble_sort_ascii(unsorted)}")
