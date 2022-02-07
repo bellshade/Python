@@ -12,7 +12,7 @@ Algoritma untuk melakukan *insert* pada *BST* adalah sebagai berikut:
 3. Periksa apakah *pointer* kiri dan *pointer* kanan kosong. Jika kosong lakukan *insert* pada *pointer* tersebut, dan jika tidak lakukan *insert* secara rekursif.
 
 Berikut adalah implementasi dari algoritma di atas.
-```
+```python
 class BinarySearchTree:
     # method __init__ digunakan untuk membangun Node
     def __init__(self, data: int = None):
@@ -64,7 +64,7 @@ Algoritma *postorder* adalah sebagai berikut:
     3. Kunjungi *root node*
 
 Kode di bawah ini adalah implementasi dari ketiga jenis *traversal* di atas
-```
+```python
     def preorder(self, arr: list = []):
         # Algoritma preorder adalah sebagai berikut:
         # 1. Append data pada node
