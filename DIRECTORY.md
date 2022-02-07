@@ -262,6 +262,8 @@
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
   * Tree
+    * Avl Tree
+      * [Avl Tree](https://github.com/bellshade/Python/blob/main/struktur_data/tree/avl_tree/avl_tree.py)
     * Binary Search Tree
       * [Binary Search Tree](https://github.com/bellshade/Python/blob/main/struktur_data/tree/binary_search_tree/binary_search_tree.py)
 
