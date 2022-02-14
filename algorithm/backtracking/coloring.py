@@ -4,8 +4,6 @@
 # Wikipedia: https://en.wikipedia.org/wiki/Graph_coloring
 
 from typing import List
-
-
 def coloring(neighbours: List[int], colored_vertices: List[int], color: int) -> bool:
     """
     Untuk setiap pemeriksaan apakah kendala pewarna terpenuhi
