@@ -14,7 +14,7 @@ import numpy as np
 # metode untuk mencari solusi sistem persamaan linear
 def jacobi_iteration_method(
     coefficient_matrix: np.ndarray,
-    constant_matrix: np.ndarry,
+    constant_matrix: np.ndarray,
     init_val: list,
     iterations: int,
 ) -> list[float]:
