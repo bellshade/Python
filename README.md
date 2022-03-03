@@ -79,7 +79,7 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Algoritma](algorithm)
 - [Implementasi](implementation)
   - [Blockchain](implementation/blockchain)
-  - [Celular automata](implementasi/celular_automata)
+  - [Celular automata](implementation/celular_automata)
   - [Chiper](implementation/chiper)
   - [Compression](implementation/compression)
   - [Electro](implementation/electro)
