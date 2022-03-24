@@ -1,11 +1,10 @@
 # fetching covid 19 dari wordlmeters menggunakan lxml
-
 from collections import namedtuple
 
-import request
+import requests
 from lxml import html  # type: ignore
 
-data_covid = namedtuple("covid_data", "cases death recover")
+covid_data = namedtuple("covid_data", "cases deaths recovered")
 
 
 def covid_stats(url: str = "https://www.worldometers.info/coronavirus/") -> covid_data:
