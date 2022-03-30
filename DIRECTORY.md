@@ -184,6 +184,8 @@
   * Geodesy Egineering
     * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/ellipsodial_distance.py)
     * [Haversine](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/haversine.py)
+  * Graphic
+    * [Bezier Curve](https://github.com/bellshade/Python/blob/main/implementation/graphic/bezier_curve.py)
   * Linear Algebra
     * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/conjugate_gradient.py)
     * [Polynom For Point](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/polynom_for_point.py)
