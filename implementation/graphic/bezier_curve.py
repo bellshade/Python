@@ -5,6 +5,7 @@
 # digunakan juga dalam mengendalikan animasi.
 
 from __future__ import annotations
+
 from scipy.special import comb  # type: ignore
 
 

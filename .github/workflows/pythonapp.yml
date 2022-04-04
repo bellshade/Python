@@ -40,7 +40,6 @@ jobs:
       # bisa dilihat requirement yang dibutuhkan
       # pada file 'requirements.txt'
     - name: Install dependencies
-      if: always()
       run: |
         echo "Mulai jalankan install requirement"
         python -m pip install --upgrade pip
