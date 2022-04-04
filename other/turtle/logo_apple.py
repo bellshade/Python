@@ -1,4 +1,4 @@
-import turtle as t
+import turtle as t  # type: ignore
 
 
 def gambar():
