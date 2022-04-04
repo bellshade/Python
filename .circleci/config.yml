@@ -37,13 +37,13 @@ jobs:
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: install requirements
-          command: pip install -r requirements.txt
+          command: pip install -r requirements.txt || true
       - run:
           name: install flake8
-          command: pip install flake8
+          command: pip install flake8 || true
       - run:
           name: install pytest
-          command: pip install pytest
+          command: pip install pytest || true
       - run:
           name: lint flake8 testing
           command: flake8 . --ignore=E203,W503,W504 --max-complexity=25 --max-line-length=88
