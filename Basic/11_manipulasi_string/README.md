@@ -41,7 +41,7 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
         ```python
         print(kata[0])
         ```
-    
+
     - mengambil 3 karakter dari string
         ```python
         priint(kata[0:3])
@@ -49,12 +49,12 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
         ```python
         print(kata{:3})
         ```
-    
+
     - mengambil 3 karakter terakhir dari string
         ```python
         print(kata[-3:])
         ```
-    
+
 - mengulang sebanyak dari string
     ```python
     # mengulang sebanyak 100 kali
@@ -93,7 +93,7 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
     kata = "memasak"
     print("saya belajar " + kata)
     ```
-    
+
     - join
         menambahkan karakter di setiap karakter
         ```python
@@ -105,10 +105,10 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
 
     - ``kata.isalnum()``
         cek kata tersebut mengandung alphanumerik atau tidak
-    
+
     - ``kata.isalpha()``
         cek kata tersebut mengandung alphabet
-        
+
     - ``kata.isdigit()``
         cek apakah kata mengandung digit atau angka
 
@@ -117,19 +117,19 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
 
     - ``kata.isupper()``
         cek apakah kata mengandung huruf kapital
-    
+
     - ``kata.islower()``
         cek apakah kata mengandung kata huruf kecil
-    
+
     - ``kata.isspace()``
         cek apakah kata mengandung spasi atau tidak
 
     - ``kata.endswith('karakter')``
         cek apakah kata mengandung karakter tersebut atau tidak pada akhir
-    
+
     - ``kata.startswith('karakter')``
         cek apakah kata mengandung karakter terseub atau tidak pada awal
-        
+
 berikut tabel method pada string
 
 | Method         | Penjelasan                                                                                    |

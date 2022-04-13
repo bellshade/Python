@@ -157,11 +157,11 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila
 - `feat:` untuk menambah algoritma atau tambahan lainnya;
 - `fix:` untuk mengubah algoritma yang sudah ada atau memperbaiki;
 - `docs:` untuk mengubah atau membuat dokumentasi;
-- `add:` untuk menambah algoritma atau tambahan lainnya (opsional); 
+- `add:` untuk menambah algoritma atau tambahan lainnya (opsional);
 
 Catatan: pesan commit harus menjelaskan perubahan secara singkat.
 
-Contoh: 
+Contoh:
 - &#9746; feat: test_x.py
 - &#9745; feat: tambah unittest untuk algoritma x
 

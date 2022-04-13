@@ -26,7 +26,7 @@ data.tampilkan()
 informasi:
 - ``class Merk(object)``
     merupakan parent utama dari inheritance dengan mendeklarasikan variabel nama dengan value ``"calvin klein"``
-    
+
 - ``class Panggil(Merk)``
     merupakan child parent yang memanggil parent class utama
 
@@ -38,7 +38,7 @@ informasi:
 
 - ``data = Panggil()``
     deklarasi variabel baru dengan memanggil kelas ``Panggil()``
-    
+
 - ``data.tampilkan()``
 
     memanggil fungsi dari tampilkan dari kelas ``Panggil()``.kemudian menampilkan berupa variabel dari parent class atau kelas induk dari ``Merk`` yang berisi value berupa ``calvin klein``

@@ -17,7 +17,7 @@ pull_request_rules:
         message: terima kasih atas kontribusinya @{{author}}!
       # menambahkan label jika sudah di merge
       label:
-        add: 
+        add:
           - sudah dirieview!
       # metode sistem dari automerge
       merge:
@@ -52,7 +52,7 @@ pull_request_rules:
       label:
         add:
           - markdown files
-  
+
   # membuat sistem bot me mention python team untuk meriview
   # dari pull request dengan kondisi jika terdapat file python
   - name: review docs team untuk file markdown

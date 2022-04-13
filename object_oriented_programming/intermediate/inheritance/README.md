@@ -4,7 +4,7 @@ Inheritance/pewarisan adalah salah satu dari konsep Object Oriented Programming 
 
 Konsep Inheritance/pewarisan juga berhubungan dengan konsep abstract class. Abstract class adalah kelas yang tidak memiliki implementasi pada method-nya dalam kata lain method-nya bersifat abstrak, sehingga kelas turunannya yang harus mengimplementasikan method tersebut. Contoh kelas abstrak: kelas Mobil yang memiliki atribut "nama" dan "jenis", lalu memiliki method "akselerasi"
 
-Berikut contoh dari konsep Inheritance/pewarisan: Terdapat sebuah kelas mobil Civic yang memiliki property seperti berikut: 
+Berikut contoh dari konsep Inheritance/pewarisan: Terdapat sebuah kelas mobil Civic yang memiliki property seperti berikut:
 nama = "Honda Civic"
 jenis = "Sedan"
 
@@ -36,7 +36,7 @@ class Civic:
         super().__init__()
         self.nama = "Honda Civic"
         self.jenis = "Sedan"
-    
+
     def akselerasi(self):
         print("Akselerasi 0-100 KM/Jam dalam 10 detik! NGENGGG~")
 ```
@@ -47,7 +47,7 @@ class CivicTypeR(Civic):
     def __init__(self):
         super().__init__()
         self.nama = "Honda Civic Type R"
-    
+
     def akselerasi(self):
         print("Akselerasi 0-100 KM/Jam dalam 7 detik! BRRMMM~")
 ```

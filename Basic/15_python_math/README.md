@@ -94,7 +94,7 @@ Output:
 ```
 
 ## Eksponen dan Logaritma
-Eksponen merupakan perpangkatan x terhadap y yang dinotasikan sebagai $x^y$. Sedangkan logaritma merupakan kebalikan dari perpangkatan, dengan bilangan pokok b dan basis a yang dinotasikan sebagai $^a\log_b$. Contoh, jika $5^3$ maka hasilnya 125. Jika diubah dalam bentuk logaritma, maka $^5\log_{125}$ hasilnya adalah 3. 
+Eksponen merupakan perpangkatan x terhadap y yang dinotasikan sebagai $x^y$. Sedangkan logaritma merupakan kebalikan dari perpangkatan, dengan bilangan pokok b dan basis a yang dinotasikan sebagai $^a\log_b$. Contoh, jika $5^3$ maka hasilnya 125. Jika diubah dalam bentuk logaritma, maka $^5\log_{125}$ hasilnya adalah 3.
 
 Contoh diatas, dapat dilakukan menggunakan modul bantuan `math`. Beberapa fungsi dasar eksponen dan logaritma yang disediakan adalah sebagai berikut.
 - `math.sqrt(x)` : Memperoleh hasil akar kuadrat dari bilangan `x` ($\sqrt x$)

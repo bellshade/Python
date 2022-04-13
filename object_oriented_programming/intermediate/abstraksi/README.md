@@ -7,7 +7,7 @@ Contoh kelas abstrak:
 from abc import ABC, abstractmethod
 
 class Mobil(ABC):
-    
+
     @abstractmethod
     def akselerasi(self):
         pass
@@ -22,12 +22,12 @@ Lalu untuk mengimplementasikan method yang ada harus dilakukan oleh kelas turuna
 Contohnya seperti ini:
 ```python
 class Xpander(Mobil):
-    
+
     def __init__(self):
         self.__nama = "Mitsubishi Xpander"
         self.__jenis = "MPV"
         print(f"Nama: {self.__nama}\nJenis: {self.__jenis}")
-    
+
     def akselerasi(self):
         print("Mobil semakin cepat!")
 

@@ -56,12 +56,12 @@ class AVL_Tree(object):
         # dapatkan faktor dari keseimbangan tree
         seimbang = self.getSeimbang(root)
 
-        # jika node tidak seimbang 
+        # jika node tidak seimbang
         # maka lakukan 4 struktur logika
         # logika 1 - kiri kiri
         if seimbang > 1 and kunci < root.kiri.val:
             return self.rotasi_kanan(root)
-        
+
         # logika 2 - kanan kanan
         if seimbang < -1 and kunci > root.kanan.val:
             return self.rotasi_kiri(root)
@@ -127,7 +127,7 @@ class AVL_Tree(object):
         # nilai 0
         if not root:
             return 0
-        
+
         return root.tinggi
 
     def getSeimbang(self, root):

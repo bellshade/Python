@@ -81,7 +81,7 @@ from math import pi
 class Bentuk:
     def __init__(self, nama):
         self.nama = nama
-    
+
     def area(self):
         pass
 
@@ -101,7 +101,7 @@ class Persegi:
 
     def info(self):
         return "persegi memiliki sudut masing-masing 90 derajat"
-    
+
 
 class Lingkaran(Persegi):
     def __init__(self, jari):
@@ -132,7 +132,7 @@ contoh lain
 class Kakaktua:
     def terbang(self):
         print("kakaktua bisa terbang")
-    
+
     def berenang(self):
         print("kakaktua tidak bisa berenang")
 

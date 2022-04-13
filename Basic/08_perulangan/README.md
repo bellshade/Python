@@ -30,7 +30,7 @@ while b >= 1:
     b -= 1
 ```
 
-dimana kondisinya adalah, apabila variable b yang awalnya 5, masih lebih besar atau sama dengan 1, apabila variable b sudah menyentuh angka 0, 
+dimana kondisinya adalah, apabila variable b yang awalnya 5, masih lebih besar atau sama dengan 1, apabila variable b sudah menyentuh angka 0,
 maka loop statement otomatis tidak akan bekerja
 
 bisakah kita menghentikan proses looping ditengah statement yang masih memenuhi persyaratan ? tentu bisa dong !!

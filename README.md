@@ -64,9 +64,9 @@ Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_orie
 
 ## 🎓 Topik Lanjutan 🎓
 
-Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka. 
+Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka.
 
-01. [Struktur Data](/struktur_data) 
+01. [Struktur Data](/struktur_data)
 
 02. [Web Programming](/web_programming)
 

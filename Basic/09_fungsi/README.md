@@ -46,7 +46,7 @@ contohnya
 def triangle(alas,tinggi):
     hasil = (alas * tinggi)/2
     return hasil
-    
+
 print(triangle(2,3))
 ```
 
@@ -76,7 +76,7 @@ Yang tak terbatas di python function adalah argument yang dapat kita inputkan, "
 def unlimited(*args):
     for item in args:
         print(item)
-        
+
 unlimited(1,2,3,4)
 unlimited([1,2],[3,4])
 ```
@@ -92,7 +92,7 @@ contohnya ?
 def unlimitedkeyword(**infinite):
     for key, value in infinite.items():
         print("index {} memiliki nilai {}".format(key,value))
-        
+
 unlimitedkeyword(a=2,b=1,c=3)
 unlimitedkeyword(fname="Harry",lname="Potter")
 ```
@@ -129,7 +129,7 @@ def faktorial(n):
     >>> faktorial(6)
     720
     """
-    
+
     #base case
     if n == 0 or n == 1:
         return 1

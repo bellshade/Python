@@ -7,7 +7,7 @@ cuaca = "hujan"
 if cuaca == "hujan":
     print("gunakan payung")
 ```
-contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika cuaca hujan maka akan menggunakan payung, dan bagaimana jika value dari ``"hujan"`` kita ganti dengan cerah?. 
+contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika cuaca hujan maka akan menggunakan payung, dan bagaimana jika value dari ``"hujan"`` kita ganti dengan cerah?.
 
 jika kita mengganti variabelnya dari ``cuaca = "hujan"``, maka program tidak menghasilkan apapun karena tidak membuat sebuah fungsi atau operator apapun jika ``cerah``, maka untuk membuat fungsi atau operator logika agar dapat mengambil data value berupa ``jika cerah maka tidak menggunakan payung``.
 
@@ -19,7 +19,7 @@ if cuaca == "hujan":
 elif cuaca == "cerah":
     print("tidak menggunakan payung")
 ```
-contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika cuaca cerah maka tidak menggunakan payung, dan bagaimana jika value dari ``"cerah"``, ``"hujan"`` kita ganti dengan bebas?. 
+contoh diatas merupakan contoh sederhana dari logika percabangan dimana jika cuaca cerah maka tidak menggunakan payung, dan bagaimana jika value dari ``"cerah"``, ``"hujan"`` kita ganti dengan bebas?.
 
 ```python
 # membuat variabel dari cuaca

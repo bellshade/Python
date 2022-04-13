@@ -7,8 +7,6 @@ name: python testing
 on:
   # target dari branch yang akan di pull request
   # atau di commit langsung
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -21,7 +19,7 @@ jobs:
       # menggunakan checkout untuk cek kode
     - uses: actions/checkout@v2
       # menggunakan environment python versi 3.9
-    - name: Set up Python 3.9
+    - name: Set up Python 3.10
       uses: actions/setup-python@v2
       with:
         python-version: "3.10"
@@ -80,8 +78,8 @@ jobs:
       # mypy adalah unit testing diluar dari official python
       # yang berfungsi jika mengecek kode apakah terdapat kode
       # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
-    
-    - name: Test mypy 
+
+    - name: Test mypy
       run: mypy --ignore-missing-imports --install-types --non-interactive .
       # FIXME : kendala error beberapa directory mypy
       # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
@@ -97,4 +95,4 @@ jobs:
     #   run: |
     #     echo "Laporan coverage"
     #     coverage report -m
-        
+

@@ -14,7 +14,7 @@ Pada *binary tree*, ada beberapa terminologi yang harus kita pahami, diantaranya
 Berikut ini, ilustrasi dari terminologi di atas
 
 ![Struktur Binary Search Tree](img/Ilustrasi_BST.png)\
-Keterangan : 
+Keterangan :
 1. *Node* 1 adalah *root node*
 2. *Node* 2 adalah *parent node* untuk *node* 4 dan 5. *Node* 2 juga berperan sebagai *internal node*
 3. *Node* 4 dan 5 adalah *child node* dari *node* 2

@@ -49,7 +49,7 @@ print(nama)
 python memiliki beberapa peraturan dalam penulisan sebuah variabel agar mengikuti standar dari python dengan persayaratan dalam membuat variabel adalah
 
 1. menggunakan kata tanpa didahuli dengan angka
-    
+
     **contoh benar**
     ```python
     nama = "bob"

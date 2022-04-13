@@ -19,7 +19,7 @@ class PekerjaTambang:
         # memangakses private objek
         print("Nama: ",self.__nama)
         print("Jabatan: ",self.__jabatan)
-    
+
     # fungsi yang bersifat publik
 
     def menampilkan_data(self):

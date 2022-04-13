@@ -39,7 +39,7 @@ Untuk kamu yang ingin belajar bahasa pemrograman python, berikut urutan basic un
     Untuk penginstalan python dan dipasangkan pada visual studio code bisa melihat link [disini](https://www.youtube.com/watch?v=OSmaWPSgvTQ&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=2)
 
 - Linux / macOS
-    
+
     untuk penginstalan, python sudah menyediakan pada linux dan macOS dengan membuka terminal dan memberikan perintah
     ```
     python3 --version

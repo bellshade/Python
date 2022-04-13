@@ -3,7 +3,7 @@
 dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam pemograman variabel dapat memberikan beberapa tipe data value yang sangat berguna dalam menentukan hasil dan operasi pada pemograman, tipe data melingkupi
 
 - berupa text
-    
+
     - ``str``
 
         merupakan salah satu tipe data yang berupa string, berfungsi untuk menghasilkan tipe data string seperti huruf abjad atau simbol lain
@@ -37,7 +37,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         angka_kompleks_saya = complex(1.5)
         angka_teman_saya = complex(2j)
         ```
-    
+
 - berupa urutan (sekuensial)
 
     - ``list``
@@ -51,10 +51,10 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
     - ``tuple``
 
         tipe data tuple adalah tipe data koleksi yang berisi beberap value yang terdapat dalam satu variabel. perbedaan diantara keduanya adalah
-        
+
         - tipe data tuple jika diberi value, maka tipe data tersebut tidak dapat diubah kembali
         - tipe data tuple menggunakan tutup kurung biasa ``()``
-        
+
         ```python
         nama_siswa = ('buzz', 'andy', 'woody')
         nilai = (12, 13, 14)
@@ -70,7 +70,7 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         ```
 
     - ``frozenset``
-        
+
         Tipe data frozenset adalah tipe data koleksi yang mirip dengan set, yang membedakannya dengan set adalah elemen pada frozenset tidak dapat dirubah setelah frozenset dibuat
 
         ```python
@@ -99,13 +99,13 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         angka_saya = bytes(12)
         angka_saya1 = bytes(300)
         ```
-    
+
     - ``bytearray``
         merupakan seubah object tipe data yang berisikan array byte tunggal yang tidak dapat dirubah
         ```python
         angka_saya = bytearray(12)
         ```
-    
+
     - ``memoryview``
         memmoryview adalah cara aman untuk mengekspos protokol buffer dengan python. ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan.
 

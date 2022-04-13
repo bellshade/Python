@@ -137,10 +137,10 @@ elif x is not y:
     print("Tidak sama")
 ```
 Hasil:
-``` 
+```
 >> Tidak sama
 ```
-Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama. 
+Karena nilai dari variabel `x` dan `y` tidak memilki nilai dan memori yang sama.
 
 `contoh 2`
 ```python
@@ -150,7 +150,7 @@ else:
     print("Ini adalah integer")
 ```
 Hasil:
-``` 
+```
 >> Ini adalah integer
 ```
 Karena tipe data yang digunakan pada variabel `y` adalah `integer`, bukan string ataupun tipe data lainnya.
@@ -159,7 +159,7 @@ berikut tabel dari operasi identitas.
 |   Operator    |                      Penjelasan                                               |
 |---------------|-------------------------------------------------------------------------------|
 |      is       | Mengembalikan nilai True jika nilai yang disebutkan memiliki objek dan memori yang sama        |
-|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak memiliki objek dan memori yang sama  |git 
+|    is not     | Mengembalikan nilai True jika nilai yang disebutkan tidak memiliki objek dan memori yang sama  |git
 
 
 ## operator bitwise
@@ -190,7 +190,7 @@ contoh dari **bitwise right**
 angka_saya = 10 = 0000 1010
 a >> 1 = 0000 0101 = 5
 ```
-Teman-teman bisa mempelajari lebih lanjut tentang operator di link berikut 
+Teman-teman bisa mempelajari lebih lanjut tentang operator di link berikut
 1. [Operator Aritmatika](https://www.youtube.com/watch?v=gxmTFXfrMzk&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=5)
 2. [Operator Perbandingan](https://www.youtube.com/watch?v=Kv_lDWq8kCc&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=11)
 3. [Operator Logika](https://www.youtube.com/watch?v=Sl7zqPpC2VI&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=12)

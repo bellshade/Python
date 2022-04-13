@@ -54,7 +54,7 @@ metode instance adalah fungsi yang didefinisikan di dalam kelas dan hanya dapat 
 ```python
 class Pelajar:
     jenis_kelas = "bahasa"
-    
+
     def __init__(self, nama, umur):
         self.nama = nama
         self.umur = umur

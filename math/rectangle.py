@@ -48,7 +48,7 @@ if __name__ == "__main__":
         """
         Test Function
         """
-        return x ** 2
+        return x**2
 
     print(rectangle(f, 0, 2))
 

@@ -51,13 +51,13 @@ Ketiga hal di atas ditulis dengan notasi *comprehension* sebagai berikut :
 ## List Comprehension
 Kita dapat membangun list menggunakan *comprehension*. Kita memiliki *template* untuk list comprehension, seperti kode yang ditunjukkan di bawah :
 
-```python 
+```python
 list_comprehension = [x for x in interable]
 ```
 
 Iterable di atas bisa saja elemen dari list lain, atau fungsi bawaan seperti ```range()```.
 
-Sebagai contoh, kita ingin membuat list yang berisikan bilangan genap dari 1 sampai 10. Dengan menggunakan list comprehension, kita dapat menuliskan kode tersebut sebagai berikut : 
+Sebagai contoh, kita ingin membuat list yang berisikan bilangan genap dari 1 sampai 10. Dengan menggunakan list comprehension, kita dapat menuliskan kode tersebut sebagai berikut :
 
 ```python
 genap = [x for x in range(11) if x % 2 == 0]
@@ -100,11 +100,11 @@ print(matriks)
 Pada kode di atas, terdapat dua buah list comprehension. List comprehension pertama ditunjukkan oleh ```[i for i in range (3)]```, sedangkan list comprehension kedua ditunjukkan oleh ```[ ... for i in range (5)]```. List comprehension pertama akan menghasilkan baris dengan elemen tiap baris adalah ```[0, 1, 2]```, dan list comprehension kedua akan menghasilkan 5 buah kolom.
 
 ## Dictionary Comprehension
-Sama seperti list comprehension, kita juga dapat membangun sebuah dictionary menggunakan dictionary comprehension. Hanya saja, kita harus ingat, bahwa dictionary merupakan *key - value pair*, artinya kita mengakses elemen dictionary menggunakan *key* pada dictionary tersebut. 
+Sama seperti list comprehension, kita juga dapat membangun sebuah dictionary menggunakan dictionary comprehension. Hanya saja, kita harus ingat, bahwa dictionary merupakan *key - value pair*, artinya kita mengakses elemen dictionary menggunakan *key* pada dictionary tersebut.
 
 Kita memiliki *template* untuk dictionary comprehension, seperti kode yang ditunjukkan di bawah :
 
-```python 
+```python
 dict_comprehension = {k:v for (k,v) in dict.items()}
 ```
 
@@ -112,7 +112,7 @@ dict_comprehension = {k:v for (k,v) in dict.items()}
 
 Contoh di bawah ini adalah membangun dictionary pemangkatan 2 pada tiap *value* dictionary menggunakan dictionary comprehension.
 
-```python 
+```python
 awal = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5}
 akhir = {k: v**2 for (k, v) in awal.items()}
 # menghasilkan {'1': 1, '2': 4, '3': 9, '4': 16, '5': 25}
@@ -122,7 +122,7 @@ print(akhir)
 
 Sama seperti list comprehension, kita juga bisa menggunakan condition dalam dictionary comprehension. Contoh di bawah ini akan menghasilkan ```ganjil``` jika *key* bernilai ganjil dan sebaliknya.
 
-```python 
+```python
 awal = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5}
 akhir = {k: ('ganjil' if v % 2 != 0 else 'genap') for (k, v) in awal.items()}
 # menghasilkan {'1': 'ganjil', '2': 'genap', '3': 'ganjil', '4': 'genap', '5': 'ganjil'}
@@ -132,7 +132,7 @@ print(akhir)
 
 Kemudian, sama dengan list comprehension, kita juga bisa menggunakan dictionary comprehension di dalam dictionary comprehension, atau biasa kita sebut nested dictionary comprehension. Kode di bawah ini akan memangkatkan ```key_luar``` sebanyak ```key_dalam``` kali.
 
-```python 
+```python
 kuadrat = {
     key_luar:
         {key_dalam: key_luar ** key_dalam for key_dalam in range(1, 5)}
@@ -145,7 +145,7 @@ print(kuadrat)
 
 Kode di atas ekuivalen dengan kode di bawah.
 
-```python 
+```python
 kuadrat = dict()
 for key_luar in range(2, 5):
     kuadrat[key_luar] = {key_dalam: key_luar ** key_dalam for key_dalam in range(1,5)}

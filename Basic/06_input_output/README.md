@@ -79,7 +79,7 @@ hasil esekusi diatas akan menyebabkan error karena ``class`` merupaakan salah sa
 - is
 - lambda
 - nonlocal
-- not 
+- not
 - or
 - pass
 - raise

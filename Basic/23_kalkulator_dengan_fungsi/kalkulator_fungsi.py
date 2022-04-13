@@ -31,7 +31,7 @@ def pangkat(angka1: float, angka2: float) -> float:
     >>> pangkat(3.0, 2.0)
     9.0
     """
-    return angka1 ** angka2
+    return angka1**angka2
 
 
 def bagi(angka1: float, angka2: float) -> float:

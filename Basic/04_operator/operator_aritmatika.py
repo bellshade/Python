@@ -35,7 +35,7 @@ print(20 * 5)
 print(100 % 5)
 
 # operator perpangkatan
-print(4 ** 2)
+print(4**2)
 
 # operator floor division
 # mengambil nilai utama dari suatu pembagian
