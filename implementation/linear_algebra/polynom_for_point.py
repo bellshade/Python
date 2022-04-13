@@ -1,6 +1,3 @@
-from typing import List
-
-
 def points_to_polynomial(coordinates: list[list[int]]) -> str:
     """
     koordinat matriks dua dimensi: [[x, y], [x, y], ...]

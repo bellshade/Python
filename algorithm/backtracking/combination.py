@@ -2,8 +2,6 @@
 # nomor dari 1 ... n. Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(C(n,k)) yaitu O(n pilih k) = O((n!/(k! * (n - k)!)))
 
-from typing import List
-
 
 def generate_combination(n: int, k: int) -> list[list[int]]:
     """

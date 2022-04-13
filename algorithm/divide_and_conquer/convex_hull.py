@@ -8,7 +8,7 @@
 # 1. Algoritma brute-force yang berjalan di O(n^3)
 # 2. Algoritma bagi-dan-taklukkan yang berjalan di O(n log(n))
 
-from typing import Iterable, List, Set, Union
+from typing import Iterable
 
 
 class Point:

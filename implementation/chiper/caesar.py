@@ -1,5 +1,4 @@
 from string import ascii_letters
-from typing import Optional
 
 
 def encrypt(input_string: str, key: int, alphabet: str | None = None) -> str:

@@ -1,6 +1,3 @@
-from typing import Tuple
-
-
 def modular_division(a: int, b: int, n: int) -> int:
     """
     Algoritma yang efisien untuk membagi b dengan modulo n.

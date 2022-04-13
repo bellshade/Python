@@ -10,8 +10,6 @@
 # kita mundur dan menempatkan nomor lain dalam sel itu dan ulangi proses ini.
 
 
-from typing import List, Optional, Tuple
-
 Matrix = list[list[int]]
 
 initial_grid: Matrix = [

@@ -1,7 +1,5 @@
 # https://en.wikipedia.org/wiki/Diophantine_equation
 
-from typing import Tuple
-
 
 def diophantine(a: int, b: int, c: int) -> tuple[float, float]:
     """

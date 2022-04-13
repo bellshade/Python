@@ -1,7 +1,7 @@
 """
 Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
-from typing import List
+
 
 from numpy import array, cos, cross, ndarray, radians, sin
 

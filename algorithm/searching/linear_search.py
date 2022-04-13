@@ -16,11 +16,7 @@ https://en.wikipedia.org/wiki/Linear_search
 """
 from __future__ import annotations
 
-from typing import TypeVar
-
 from _types import SizedIndexable
-
-T = TypeVar("T")
 
 
 def linear_search(

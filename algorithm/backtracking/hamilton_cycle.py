@@ -6,8 +6,6 @@
 # 'masalah jalur Hamiltonian', yang NP-complete.
 # Wikipedia: https://en.wikipedia.org/wiki/Hamiltonian_path
 
-from typing import List
-
 
 def connect(
     graph: list[list[int]], next_ver: int, current_ind: int, path: list[int]

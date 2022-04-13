@@ -3,8 +3,6 @@
 # sedemikian rupa sehingga tidak ada simpul yang berdekatan yang diberi warna yang sama
 # Wikipedia: https://en.wikipedia.org/wiki/Graph_coloring
 
-from typing import List
-
 
 def coloring(neighbours: list[int], colored_vertices: list[int], color: int) -> bool:
     """

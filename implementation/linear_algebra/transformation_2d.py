@@ -2,7 +2,6 @@
 # kode untuk matriks refleksi, proyeksi, penskalaan, dan rotasi 2D.
 
 from math import cos, sin
-from typing import List
 
 
 def scaling(scaling_factor: float) -> list[list[float]]:

@@ -1,5 +1,5 @@
 # type: ignore[arg-type]
-from typing import Callable
+
 
 import numpy as np
 

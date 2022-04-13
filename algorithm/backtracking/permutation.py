@@ -4,12 +4,10 @@
 # Kompleksitas waktu: O(n! * n),
 # di mana n menyatakan panjang barisan yang diberikan.
 
-from typing import List, Union
-
 
 def generate_permutation(sequence: list[int | str]) -> None:
     """
-    >>> from typing import List, Union
+    >>>  , Union
     >>> sequence: List[Union[int, str]] = [3, 1, 2, 4]
     >>> generate_permutation(sequence)
     [3, 1, 2, 4]

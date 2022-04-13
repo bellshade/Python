@@ -6,8 +6,6 @@
 
 from __future__ import annotations
 
-from typing import Sequence
-
 
 def compare_string(string1: str, string2: str) -> str:
     """

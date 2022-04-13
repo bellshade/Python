@@ -1,5 +1,3 @@
-from typing import Callable, Tuple
-
 from numpy import sign
 
 

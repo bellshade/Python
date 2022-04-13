@@ -4,8 +4,6 @@
 # Kompleksitas waktu: O(2^n),
 # di mana n menyatakan panjang barisan yang diberikan.
 
-from typing import Any, List
-
 
 def generate_subsequence(sequence: list[Any]) -> None:
     """

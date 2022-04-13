@@ -8,7 +8,9 @@ from __future__ import annotations
 
 import itertools
 import string
-from typing import Generator, Iterable
+
+import Generator
+import Iterable
 
 
 def chunker(seq: Iterable[str], size: int) -> Generator[tuple[str, ...], None, None]:

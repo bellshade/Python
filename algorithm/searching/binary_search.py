@@ -27,8 +27,6 @@ https://en.wikipedia.org/wiki/Binary_search_algorithm
 """
 from __future__ import annotations
 
-from typing import Any, Protocol, TypeVar
-
 from _types import SizedIndexable
 
 
