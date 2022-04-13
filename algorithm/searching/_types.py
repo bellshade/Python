@@ -1,10 +1,6 @@
 from __future__ import annotations
 
-import Iterable
-import overload
-import Protocol
-import runtime_checkable
-import TypeVar
+from typing import Iterable, Protocol, TypeVar, overload, runtime_checkable
 
 T = TypeVar("T")
 

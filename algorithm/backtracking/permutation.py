@@ -3,42 +3,14 @@
 # Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(n! * n),
 # di mana n menyatakan panjang barisan yang diberikan.
+from __future__ import annotations
 
 
-def generate_permutation(sequence: list[int | str]) -> None:
-    """
-    >>>  , Union
-    >>> sequence: List[Union[int, str]] = [3, 1, 2, 4]
-    >>> generate_permutation(sequence)
-    [3, 1, 2, 4]
-    [3, 1, 4, 2]
-    [3, 2, 1, 4]
-    [3, 2, 4, 1]
-    [3, 4, 1, 2]
-    [3, 4, 2, 1]
-    [1, 3, 2, 4]
-    [1, 3, 4, 2]
-    [1, 2, 3, 4]
-    [1, 2, 4, 3]
-    [1, 4, 3, 2]
-    [1, 4, 2, 3]
-    [2, 3, 1, 4]
-    [2, 3, 4, 1]
-    [2, 1, 3, 4]
-    [2, 1, 4, 3]
-    [2, 4, 3, 1]
-    [2, 4, 1, 3]
-    [4, 3, 1, 2]
-    [4, 3, 2, 1]
-    [4, 1, 3, 2]
-    [4, 1, 2, 3]
-    [4, 2, 3, 1]
-    [4, 2, 1, 3]
-    """
-    state_space_tree(sequence, [], 0, [0 for i in range(len(sequence))])
+def generate_all_permutaions(sequence: list[int | str]) -> None:
+    create_state_space_tree(sequence, [], 0, [0 for i in range(len(sequence))])
 
 
-def state_space_tree(
+def create_state_space_tree(
     sequence: list[int | str],
     current_sequence: list[int | str],
     index: int,
@@ -58,7 +30,7 @@ def state_space_tree(
         if not index_used[i]:
             current_sequence.append(sequence[i])
             index_used[i] = True
-            state_space_tree(sequence, current_sequence, index + 1, index_used)
+            create_state_space_tree(sequence, current_sequence, index + 1, index_used)
             current_sequence.pop()
             index_used[i] = False
 

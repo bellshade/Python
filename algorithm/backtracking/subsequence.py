@@ -3,24 +3,12 @@
 # Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(2^n),
 # di mana n menyatakan panjang barisan yang diberikan.
+from __future__ import annotations
+
 from typing import Any
 
 
-def generate_subsequence(sequence: list[Any]) -> None:
-    """
-    >>> seq: List[Any] = [3, 1, 2, 4]
-    >>> seq.clear()
-    >>> seq.extend(["A", "B", "C"])
-    >>> generate_subsequence(seq)
-    []
-    ['C']
-    ['B']
-    ['B', 'C']
-    ['A']
-    ['A', 'C']
-    ['A', 'B']
-    ['A', 'B', 'C']
-    """
+def generate_all_subsequences(sequence: list[Any]) -> None:
     create_state_space_tree(sequence, [], 0)
 
 
@@ -49,8 +37,8 @@ if __name__ == "__main__":
     import doctest
 
     seq: list[Any] = [3, 1, 2, 4]
-    generate_subsequence(seq)
+    generate_all_subsequences(seq)
     seq.clear()
     seq.extend(["A", "B", "C"])
-    generate_subsequence(seq)
+    generate_all_subsequences(seq)
     doctest.testmod()
