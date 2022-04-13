@@ -3,6 +3,7 @@
 # Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(2^n),
 # di mana n menyatakan panjang barisan yang diberikan.
+from typing import Any
 
 
 def generate_subsequence(sequence: list[Any]) -> None:

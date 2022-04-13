@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 import os
-
-import Iterator
+from typing import Iterator
 
 URL_BASE = "https://github.com/bellshade/Python/blob/main"
 

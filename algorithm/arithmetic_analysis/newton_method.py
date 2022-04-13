@@ -1,5 +1,5 @@
 # metode newton https://en.wikipedia.org/wiki/Newton%27s_metho
-
+from typing import Callable
 
 function_real = Callable[[float], float]
 

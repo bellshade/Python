@@ -1,3 +1,5 @@
+from typing import Callable
+
 from numpy import sign
 
 

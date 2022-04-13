@@ -13,6 +13,8 @@
 
 from __future__ import annotations
 
+from typing import Any
+
 
 def count_inversion_bf(arr: list[int]) -> int:
     """

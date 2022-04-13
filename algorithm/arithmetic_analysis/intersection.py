@@ -1,4 +1,5 @@
 import math
+from typing import Callable
 
 
 def intersection(function: Callable[[float], float], num1: float, num2: float) -> float:
