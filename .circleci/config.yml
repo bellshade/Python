@@ -47,6 +47,3 @@ jobs:
       - run:
           name: lint flake8 testing
           command: flake8 . --ignore=E203,W503,W504 --max-complexity=25 --max-line-length=88
-      - run:
-          name: Run tests with pytesting
-          command: pytest . --doctest-modules --ignore=Basic/
