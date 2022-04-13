@@ -79,7 +79,7 @@ class Point:
 
 
 def _construct_points(
-    list_of_tuples: list[Point] | list[list[float]] | Iterable[list[float]]
+    list_of_tuples: list[Point] | list[list[float]] | Iterable[list[float]],
 ) -> list[Point]:
     """
     membangun daftar poin dari objek angka seperti array
