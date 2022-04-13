@@ -1,5 +1,5 @@
 # kelas induk
-class Siswa(object):
+class Siswa:
     # __init__ sebagai constructor
     def __init__(self, nama, kelas, jenis_kelamin):
         self.nama = nama

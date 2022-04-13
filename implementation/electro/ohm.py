@@ -1,7 +1,7 @@
 from typing import Dict
 
 
-def ohm(voltage: float, current: float, resistance: float) -> Dict[str, float]:
+def ohm(voltage: float, current: float, resistance: float) -> dict[str, float]:
     """
     Terapkan Hukum Ohm, pada dua nilai listrik yang diberikan,
     yang dapat berupa tegangan, arus,

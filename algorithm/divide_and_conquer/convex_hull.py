@@ -79,8 +79,8 @@ class Point:
 
 
 def _construct_points(
-    list_of_tuples: Union[List[Point], List[List[float]], Iterable[List[float]]]
-) -> List[Point]:
+    list_of_tuples: list[Point] | list[list[float]] | Iterable[list[float]]
+) -> list[Point]:
     """
     membangun daftar poin dari objek angka seperti array
 
@@ -110,7 +110,7 @@ def _construct_points(
     []
     """
 
-    points: List[Point] = []
+    points: list[Point] = []
     if list_of_tuples:
         for p in list_of_tuples:
             if isinstance(p, Point):
@@ -126,7 +126,7 @@ def _construct_points(
     return points
 
 
-def _validate_input(points: Union[List[Point], List[List[float]]]) -> List[Point]:
+def _validate_input(points: list[Point] | list[list[float]]) -> list[Point]:
     """
     memvalidasi instance input sebelum algoritma convex-hull menggunakannya
 
@@ -204,7 +204,7 @@ def _det(a: Point, b: Point, c: Point) -> float:
     return det
 
 
-def convex_hull_bf(points: List[Point]) -> List[Point]:
+def convex_hull_bf(points: list[Point]) -> list[Point]:
     """
     Membangun lambung cembung dari satu set poin
     2D menggunakan algoritma brute force.
@@ -263,7 +263,7 @@ def convex_hull_bf(points: List[Point]) -> List[Point]:
     return sorted(convex_set)
 
 
-def convex_hull_recursive(points: List[Point]) -> List[Point]:
+def convex_hull_recursive(points: list[Point]) -> list[Point]:
     """
     Membangun lambung cembung dari satu set poin
     2D menggunakan strategi membagi-dan-menaklukkan
@@ -311,7 +311,7 @@ def convex_hull_recursive(points: List[Point]) -> List[Point]:
 
 
 def _construct_hull(
-    points: List[Point], left: Point, right: Point, convex_set: Set[Point]
+    points: list[Point], left: Point, right: Point, convex_set: set[Point]
 ) -> None:
     if points:
         extreme_point = None
@@ -334,7 +334,7 @@ def _construct_hull(
             _construct_hull(candidate_points, extreme_point, right, convex_set)
 
 
-def convex_hull_melkman(points: List[Point]) -> List[Point]:
+def convex_hull_melkman(points: list[Point]) -> list[Point]:
     """
     Membangun lambung cembung dari satu set titik 2D menggunakan algoritma melkman.
     Algoritma ini bekerja dengan menyisipkan

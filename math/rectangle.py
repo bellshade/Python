@@ -28,13 +28,13 @@ def rectangle(
         n = 100
         x = np.linspace(a, b, n)
         dx = x[1] - x[0]
-        L0 = sum([dx * func(i, *args, **kwargs) for i in x])
+        L0 = sum(dx * func(i, *args, **kwargs) for i in x)
         err = 1
         while err > eps:
             n += 1
             x = np.linspace(a, b, n)
             dx = x[1] - x[0]
-            L1 = sum([dx * func(i, *args, **kwargs) for i in x])
+            L1 = sum(dx * func(i, *args, **kwargs) for i in x)
             err = np.abs(L1 - L0) / np.abs(L1)
             L0 = L1
     except Exception:

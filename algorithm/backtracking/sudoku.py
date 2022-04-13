@@ -12,7 +12,7 @@
 
 from typing import List, Optional, Tuple
 
-Matrix = List[List[int]]
+Matrix = list[list[int]]
 
 initial_grid: Matrix = [
     [3, 0, 6, 5, 0, 8, 4, 0, 0],
@@ -59,7 +59,7 @@ def safe(grid: Matrix, row: int, col: int, num: int) -> bool:
     return True
 
 
-def find_empty_location(grid: Matrix) -> Optional[Tuple[int, int]]:
+def find_empty_location(grid: Matrix) -> tuple[int, int] | None:
     """
     Fungsi ini menemukan lokasi kosong sehingga
     kita dapat menetapkan nomor untuk baris dan kolom tertentu.
@@ -72,7 +72,7 @@ def find_empty_location(grid: Matrix) -> Optional[Tuple[int, int]]:
     return None
 
 
-def sudoku(grid: Matrix) -> Optional[Matrix]:
+def sudoku(grid: Matrix) -> Matrix | None:
     """
     Mengambil grid yang terisi sebagian
     dan mencoba untuk menetapkan nilai ke semua lokasi

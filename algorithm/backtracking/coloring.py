@@ -6,7 +6,7 @@
 from typing import List
 
 
-def coloring(neighbours: List[int], colored_vertices: List[int], color: int) -> bool:
+def coloring(neighbours: list[int], colored_vertices: list[int], color: int) -> bool:
     """
     Untuk setiap pemeriksaan apakah kendala pewarna terpenuhi
     Jika salah satu dari kegagalan, kendala return False
@@ -25,7 +25,7 @@ def coloring(neighbours: List[int], colored_vertices: List[int], color: int) -> 
 
 
 def util_color(
-    graph: List[List[int]], max_color: int, colored_vertices: List[int], index: int
+    graph: list[list[int]], max_color: int, colored_vertices: list[int], index: int
 ) -> bool:
     """
     alur :
@@ -70,7 +70,7 @@ def util_color(
     return False
 
 
-def color(graph: List[List[int]], max_color: int) -> List[int]:
+def color(graph: list[list[int]], max_color: int) -> list[int]:
     """
     Fungsi pembungkus untuk memanggil subrutin yang disebut util_color
     yang akan mengembalikan True atau False.

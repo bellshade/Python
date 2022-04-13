@@ -4,7 +4,7 @@ class Hewan:
         self.suara = suara
 
     def __repr__(self):
-        return "kucing {} bersuara {}".format(self.nama_hewan, self.suara)
+        return f"kucing {self.nama_hewan} bersuara {self.suara}"
 
 
 if __name__ == "__main__":

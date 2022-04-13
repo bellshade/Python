@@ -5,7 +5,7 @@ class Motor:
         self.__kecepatan = 120
 
     def jalan(self):
-        print("jalan dengan kecepatan {} km".format(self.__kecepatan))
+        print(f"jalan dengan kecepatan {self.__kecepatan} km")
 
     def gantiKecepatan(self, kecepatan_sekarang):
         self.__kecepatan = kecepatan_sekarang

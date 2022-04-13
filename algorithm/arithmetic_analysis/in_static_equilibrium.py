@@ -8,7 +8,7 @@ from numpy import array, cos, cross, ndarray, radians, sin
 
 def polar_force(
     magnitude: float, angle: float, radian_mode: bool = False
-) -> List[float]:
+) -> list[float]:
     # Menghitung force pada suatu sistem dengan menggunakan matriks
     # rotasi dan magnitudenya.
     # polar 10, 45 = 7.0710678118654755, 7.071067811865475

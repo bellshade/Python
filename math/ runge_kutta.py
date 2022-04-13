@@ -2,7 +2,7 @@
 import numpy as np
 
 
-def runge_kutta(f: float, y0: int, x0: float, h: float, x_end: float) -> float:
+def runge_kutta(f, y0, x0, h, x_end):
     """
     Hitung solusi numerik pada
     setiap langkah ke ODE f(x, y) menggunakan RK4

@@ -5,7 +5,7 @@ from numpy import sign
 
 def root_search(
     f: Callable[[float], float], a: float, b: float, dx: float
-) -> Tuple[float, float]:
+) -> tuple[float, float]:
     # Fungsi untuk menghitung nilai akar dari sebuah persamaan non linear
     # satu variable. Ide dasarnya adalah jika f(a) dan f(b) punya tanda yang berbeda
     # (f(a) positif, f(b) negatif atau sebaliknya),

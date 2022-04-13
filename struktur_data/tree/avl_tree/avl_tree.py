@@ -1,4 +1,4 @@
-class TreeNode(object):
+class TreeNode:
     def __init__(self, val):
         self.val = val
         self.kiri = None
@@ -6,7 +6,7 @@ class TreeNode(object):
         self.tinggi = 1
 
 
-class AVL_Tree(object):
+class AVL_Tree:
     # membuat fungsi rekursif untuk memasukkan
     # kunci ke subtree di root dengan node dan return
     # root baru dari sub tree
@@ -104,7 +104,7 @@ class AVL_Tree(object):
         if not root:
             return 0
 
-        print("{0} ".format(root.val), end="")
+        print(f"{root.val} ", end="")
         self.preOrder(root.kiri)
         self.preOrder(root.kanan)
 

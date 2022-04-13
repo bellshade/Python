@@ -65,7 +65,7 @@ unlimited([1, 2], [3, 4])
 
 def unlimitedkeyword(**infinite):
     for key, value in infinite.items():
-        print("index {} memiliki nilai {}".format(key, value))
+        print(f"index {key} memiliki nilai {value}")
 
 
 unlimitedkeyword(a=2, b=1, c=3)

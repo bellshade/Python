@@ -9,7 +9,7 @@ class Motor:
     # membuat fungsi untuk memanggil variabel
     # dari kecepatan
     def jalan(self):
-        print("jalan dengan kecepatan {} km".format(self.__kecepatan))
+        print(f"jalan dengan kecepatan {self.__kecepatan} km")
 
 
 # membuat objek dari class Motor

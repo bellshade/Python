@@ -1,7 +1,7 @@
 from typing import List
 
 
-def PascalTriangle(n: int) -> List[List[int]]:
+def PascalTriangle(n: int) -> list[list[int]]:
     """Fungsi untuk mendapatkan segitiga pascal sebanyak n-baris
 
     Args:

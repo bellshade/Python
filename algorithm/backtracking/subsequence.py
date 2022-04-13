@@ -7,7 +7,7 @@
 from typing import Any, List
 
 
-def generate_subsequence(sequence: List[Any]) -> None:
+def generate_subsequence(sequence: list[Any]) -> None:
     """
     >>> seq: List[Any] = [3, 1, 2, 4]
     >>> seq.clear()
@@ -26,7 +26,7 @@ def generate_subsequence(sequence: List[Any]) -> None:
 
 
 def create_state_space_tree(
-    sequence: List[Any], current_subsequence: List[Any], index: int
+    sequence: list[Any], current_subsequence: list[Any], index: int
 ) -> None:
     """
     membuat state_space_tree untuk beralih melalui setiap
@@ -49,7 +49,7 @@ def create_state_space_tree(
 if __name__ == "__main__":
     import doctest
 
-    seq: List[Any] = [3, 1, 2, 4]
+    seq: list[Any] = [3, 1, 2, 4]
     generate_subsequence(seq)
     seq.clear()
     seq.extend(["A", "B", "C"])

@@ -1,7 +1,7 @@
 from typing import List
 
 
-def points_to_polynomial(coordinates: List[List[int]]) -> str:
+def points_to_polynomial(coordinates: list[list[int]]) -> str:
     """
     koordinat matriks dua dimensi: [[x, y], [x, y], ...]
     jumlah poin yang ingin gunakan
@@ -55,12 +55,12 @@ def points_to_polynomial(coordinates: List[List[int]]) -> str:
 
     if check == 1:
         count_of_line = 0
-        matrix: List[List[float]] = []
+        matrix: list[list[float]] = []
         # put the x and x to the power values in a matrix
         while count_of_line < x:
             count_in_line = 0
             a = coordinates[count_of_line][0]
-            count_line: List[float] = []
+            count_line: list[float] = []
             while count_in_line < x:
                 count_line.append(a ** (x - (count_in_line + 1)))
                 count_in_line += 1
@@ -69,7 +69,7 @@ def points_to_polynomial(coordinates: List[List[int]]) -> str:
 
         count_of_line = 0
         # put the y values into a vector
-        vector: List[float] = []
+        vector: list[float] = []
         while count_of_line < x:
             vector.append(coordinates[count_of_line][1])
             count_of_line += 1
@@ -94,7 +94,7 @@ def points_to_polynomial(coordinates: List[List[int]]) -> str:
 
         count = 0
         # make solutions
-        solution: List[str] = []
+        solution: list[str] = []
         while count < x:
             solution.append(str(vector[count] / matrix[count][count]))
             count += 1
@@ -103,7 +103,7 @@ def points_to_polynomial(coordinates: List[List[int]]) -> str:
         solved = "f(x)="
 
         while count < x:
-            remove_e: List[str] = solution[count].split("E")
+            remove_e: list[str] = solution[count].split("E")
             if len(remove_e) > 1:
                 solution[count] = remove_e[0] + "*10^" + remove_e[1]
             solved += "x^" + str(x - (count + 1)) + "*" + str(solution[count])

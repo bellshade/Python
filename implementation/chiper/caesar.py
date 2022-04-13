@@ -2,7 +2,7 @@ from string import ascii_letters
 from typing import Optional
 
 
-def encrypt(input_string: str, key: int, alphabet: Optional[str] = None) -> str:
+def encrypt(input_string: str, key: int, alphabet: str | None = None) -> str:
     """
     Mengkodekan string yang diberikan dengan sandi caesar
     dan mengembalikan kode yang disandikan pesan
@@ -27,7 +27,7 @@ def encrypt(input_string: str, key: int, alphabet: Optional[str] = None) -> str:
     return result
 
 
-def decrypt(input_string: str, key: int, alphabet: Optional[str] = None) -> str:
+def decrypt(input_string: str, key: int, alphabet: str | None = None) -> str:
     """
     Mendekode string teks sandi yang diberikan
     dan mengembalikan teks biasa yang didekodekan

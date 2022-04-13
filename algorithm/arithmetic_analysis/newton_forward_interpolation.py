@@ -21,7 +21,7 @@ def ucal(u: float, p: int) -> float:
 
 def setcal() -> None:
     n = int(input("masukkan jumlah nilai: "))
-    y: List[List[float]] = []
+    y: list[list[float]] = []
     for i in range(n):
         y.append([])
     for i in range(n):

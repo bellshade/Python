@@ -10,7 +10,7 @@ from typing import List
 
 
 def connect(
-    graph: List[List[int]], next_ver: int, current_ind: int, path: List[int]
+    graph: list[list[int]], next_ver: int, current_ind: int, path: list[int]
 ) -> bool:
     """
     Memeriksa apakah mungkin untuk menambahkan
@@ -41,7 +41,7 @@ def connect(
     return not any(vertex == next_ver for vertex in path)
 
 
-def set_hamilton_cycle(graph: List[List[int]], path: List[int], curr_ind: int) -> bool:
+def set_hamilton_cycle(graph: list[list[int]], path: list[int], curr_ind: int) -> bool:
     """
     kode base:
     1. cek jika mengecek semua sudut
@@ -97,7 +97,7 @@ def set_hamilton_cycle(graph: List[List[int]], path: List[int], curr_ind: int) -
     return False
 
 
-def hamilton_cycle(graph: List[List[int]], start_index: int = 0) -> List[int]:
+def hamilton_cycle(graph: list[list[int]], start_index: int = 0) -> list[int]:
     r"""
     fungsi untuk memanggil subrutin yang disebut set_hamilton_cycle,
     yang akan mengembalikan array simpul yang menunjukkan siklus hamiltonian
