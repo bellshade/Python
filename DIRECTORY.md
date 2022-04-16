@@ -263,6 +263,10 @@
   * Turtle
     * [Logo Apple](https://github.com/bellshade/Python/blob/main/other/turtle/logo_apple.py)
 
+## Regular Expression
+  * 00 Pengenalan Regex
+    * [Contoh Regex](https://github.com/bellshade/Python/blob/main/regular_expression/00_pengenalan_regex/contoh_regex.py)
+
 ## Struktur Data
   * [Doubly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/doubly_linked_list.py)
   * [Singly Linked List](https://github.com/bellshade/Python/blob/main/struktur_data/singly_linked_list.py)
