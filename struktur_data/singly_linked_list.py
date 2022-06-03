@@ -99,6 +99,20 @@ class SingleLinkedList:
             temp = temp.next
         temp.next = temp.next.next
 
+    def is_val_exist(self, val):
+        
+        # Method is_val_exist digunakan untuk memastikan 
+        # apakah value tertentu terdapat dalam linked list
+
+        if self.linked_list_head is not None:
+            temp = self.linked_list_head
+            while temp is not None:
+                if temp.val == val:
+                    return print("Value " + str(val) + " Ada di dalam linked list")
+                temp = temp.next
+            return print("Value " + str(val) + " Tidak Ada di dalam linked list")
+
+
     def print_linked_list(self):
 
         # Method print_linked_list berfungsi untuk mencetak linked list
@@ -118,6 +132,8 @@ if __name__ == "__main__":
     linked_list.insert(Node(5))
     linked_list.insert(Node(3))
     linked_list.insert(Node(4))
+    linked_list.is_val_exist(7)
+    linked_list.is_val_exist(5)
     # menghasilkan 5 -> 3 -> 4
     linked_list.print_linked_list()
     linked_list.insert_after(3, Node(6))
