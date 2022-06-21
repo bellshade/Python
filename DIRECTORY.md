@@ -142,6 +142,9 @@
     * [Bubble Sort Ascii](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort_ascii.py)
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
 
+## Algoritma Genetika
+  * [Basic String](https://github.com/bellshade/Python/blob/main/algoritma_genetika/basic_string.py)
+
 ## Implementation
   * Blockchain
     * [Chinese Remainder](https://github.com/bellshade/Python/blob/main/implementation/blockchain/chinese_remainder.py)
