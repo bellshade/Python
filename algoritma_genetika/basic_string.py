@@ -3,6 +3,7 @@
 # bekerja
 
 from __future__ import annotations
+
 import random
 
 # ukuran populasi maksimum. lebih besar bisa lebih
@@ -22,16 +23,17 @@ MUTATION_PROBABILITY = 0.4
 # diperlukan oleh algoritma
 random.seed(random.randint(0, 1000))
 
+
 def basic(target: str, genes: list[str], debug: bool = True) -> tuple[int, int, str]:
     """
-    verifikasi bahwa target tidak mengandung gen selain yang ada di 
+    verifikasi bahwa target tidak mengandung gen selain yang ada di
     dalam variabel gen
     >>> from string import ascii_lowercase
     >>> basic("doctest", ascii_lowercase, debug=False)[2]
     'doctest'
     """
 
-    # verifikasi bahwa jika N_POPULATION lebih besar dari N_SELECTED    
+    # verifikasi bahwa jika N_POPULATION lebih besar dari N_SELECTED
     if N_POPULATION < N_SELECTED:
         raise ValueError(f"{N_POPULATION} harus lebih besar dari {N_SELECTED}")
 
@@ -42,12 +44,12 @@ def basic(target: str, genes: list[str], debug: bool = True) -> tuple[int, int, 
         raise ValueError(
             f"{not_in_genes_list} tidak dalam list gen, evolusi tidak menyatu"
         )
-    
+
     # membuat random populasi string
     population = []
     for _ in range(N_POPULATION):
-        population.append("".join([random.choice(genes) for in raange(len(target))]))
-    
+        population.append("".join([random.choice(genes) for i in range(len(target))]))
+
     # log untuk menampilkan kerja dari algoritma
     generation, population = 0, 0
 
@@ -76,7 +78,7 @@ def basic(target: str, genes: list[str], debug: bool = True) -> tuple[int, int, 
         population_score = sorted(population_score, key=lambda x: x[1], reverse=True)
         if population_score[0][0] == target:
             return (generation, total_population, population_score[0][0])
-        
+
         # cetak hasil terbaik tiap 10 generasi
         # hanya untuk mengetahui bahwa algoritma berfungsi
         if debug and generation % 10 == 0:
@@ -134,18 +136,15 @@ def basic(target: str, genes: list[str], debug: bool = True) -> tuple[int, int, 
             if len(population) >= N_POPULATION:
                 break
 
+
 if __name__ == "__main__":
-    target_str = (
-        "contoh sederhana dari algoritma genetika"
-    )
-    
+    target_str = "contoh sederhana dari algoritma genetika"
+
     genes_list = list(
         " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklm"
         "nopqrstuvwxyz.,;!?+-*#@^'èéòà€ù=)(&%$£/\\"
     )
 
     print(
-        "\nGenerasi: %s\nTotal populasi: %s\nTarget: %s"
-        % basic(target_str, genes_list)
+        "\nGenerasi: %s\nTotal populasi: %s\nTarget: %s" % basic(target_str, genes_list)
     )
-
