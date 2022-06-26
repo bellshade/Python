@@ -8,7 +8,7 @@
   <img alt="badge lgtm" src="https://img.shields.io/lgtm/grade/python/github/bellshade/Python?label=code%20quality&logo=LGTM&style=for-the-badge">
   <img alt="badge codefactor" src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=codefactor%20grade&logo=codefactor&style=for-the-badge">
   <img alt="badge unitesting github"src="https://img.shields.io/github/workflow/status/bellshade/python/python%20testing?logo=github&style=for-the-badge">
-  <img alt="badge circle ci" src="https://img.shields.io/circleci/build/github/bellshade/Python/main?label=circle%20ci&logo=circle&logoColor=white&style=for-the-badge"><br>
+  <br>
   <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv" width=300 height=200> <br>
 </p>
 
