@@ -170,6 +170,8 @@
     * [Burrows Wheeler](https://github.com/bellshade/Python/blob/main/implementation/compression/burrows_wheeler.py)
     * [Huffman](https://github.com/bellshade/Python/blob/main/implementation/compression/huffman.py)
     * [Lempel Ziv](https://github.com/bellshade/Python/blob/main/implementation/compression/lempel_ziv.py)
+  * Computer Vision
+    * [Klasifikasi Cnn](https://github.com/bellshade/Python/blob/main/implementation/computer_vision/klasifikasi_cnn.py)
   * Electro
     * Conversion
       * [Binary To Decimal](https://github.com/bellshade/Python/blob/main/implementation/electro/conversion/binary_to_decimal.py)
