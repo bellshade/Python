@@ -45,5 +45,5 @@ jobs:
           name: install pytest
           command: pip install pytest || true
       - run:
-          name: lint flake8 testing
-          command: flake8 . --ignore=E203,W503,W504 --max-complexity=25 --max-line-length=88
+          name: pytest circle
+          command: pytest . --doctest-modules --ignore=Basic/ --cov-report=term-missing:skip-covered
