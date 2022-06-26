@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 
 if __name__ == "__main__":
-     Initialising the CNN
+    # install cnn
     classifier = models.Sequential()
 
     # Tahap 1 - membuat konvolusi
@@ -76,4 +76,3 @@ if __name__ == "__main__":
         prediction = "Normal"
     if result[0][0] == 1:
         prediction = "Abnormalitas terdeteksi"
-    
