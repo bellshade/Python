@@ -4,6 +4,7 @@
 # - tingkat bunga per tahun
 # - tahun untuk membayar kembali pinjaman
 
+
 def angsuran(pinjaman: float, bunga: float, bayar_kembali: int) -> float:
     """
     rumus
@@ -22,7 +23,7 @@ def angsuran(pinjaman: float, bunga: float, bayar_kembali: int) -> float:
     if bayar_kembali <= 0 or not isinstance(bayar_kembali, int):
         raise Exception("tahun pembayaran harus integer > 0")
 
-    pinjaman_bul= bunga / 12
+    pinjaman_bul = bunga / 12
     jumlah_pembayaran = bayar_kembali * 12
 
     return (
@@ -31,6 +32,7 @@ def angsuran(pinjaman: float, bunga: float, bayar_kembali: int) -> float:
         * (1 + pinjaman_bul) ** jumlah_pembayaran
         / ((1 + pinjaman_bul) ** jumlah_pembayaran - 1)
     )
+
 
 if __name__ == "__main__":
     import doctest
