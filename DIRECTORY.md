@@ -182,6 +182,8 @@
   * File Transfer
     * [Receive File](https://github.com/bellshade/Python/blob/main/implementation/file_transfer/receive_file.py)
     * [Send File](https://github.com/bellshade/Python/blob/main/implementation/file_transfer/send_file.py)
+  * Finansial
+    * [Angsuran](https://github.com/bellshade/Python/blob/main/implementation/finansial/angsuran.py)
   * Fractal
     * [Koch](https://github.com/bellshade/Python/blob/main/implementation/fractal/koch.py)
     * [Mandelbrot](https://github.com/bellshade/Python/blob/main/implementation/fractal/mandelbrot.py)
