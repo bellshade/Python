@@ -1,6 +1,9 @@
-## tipe data
+## Tipe Data
 
-dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam pemograman variabel dapat memberikan beberapa tipe data value yang sangat berguna dalam menentukan hasil dan operasi pada pemograman, tipe data melingkupi
+Tipe data adalah klasifikasi data. Tipe data menentukan jenis sebuah variabel.
+Variabel sendiri adalah sebuah wadah untuk menyimpan data.
+
+Beberapa tipe data dalam Python:
 
 - berupa text
 
@@ -115,6 +118,6 @@ dalam pemograman, tipe data adalah salah satu konsep yang sangat penting, dalam 
         angka_saya1 = memoryview(bytes(1212))
         ```
 
-video penjelasan tentang tipe data = [Belajar python dasar - mengenal tipe data data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
+Video penjelasan tentang tipe data = [Belajar python dasar - mengenal tipe data data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
 
 [Materi Selanjutnya](../03_variable)
