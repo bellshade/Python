@@ -1,12 +1,14 @@
-## list
-list digunakan untuk menyimpan data yang banyak dengan hanya satu variable, list menggunakan square bracket atau kurung petak, contoh.
+# List
+List digunakan untuk menyimpan data yang banyak dengan hanya satu variable, list menggunakan square bracket atau kurung petak (`[]`). Contoh:
+
 ```python
 nama_hewan = ["sapi", "gajah", "ayam", "bebek"]
 print(nama_hewan)
 ```
-list memiliki index, index dimulai dari 0, dan index kedua dimulai dari angka 1
 
-kelebihan antara dari list adalah
+List memiliki index, index dimulai dari 0, dan index kedua dimulai dari angka 1.
+
+Kelebihan antara dari list adalah
 
 - bisa dirubah
     list bisa dirubah dengan dengan cara
@@ -22,14 +24,16 @@ kelebihan antara dari list adalah
     print(nama_hewan)
     ```
 
-## tuple
-list digunakan untuk menyimpan data yang banyak dengan menggunakan satu variabel. tuple menggunakan round bracket atau kurung bulat, tuple adalah salah satu tipe data yang **tidak dapat dirubah**,contoh.
+# Tuple
+Tuple mirip dengan list, kecuali datanya tidak bisa diubah lagi. Tuple menggunakan round bracket atau kurung bulat (`()`). Contoh:
+
 ```python
 nama_hewan = ("ikan", "gajah", "sapi", "paus")
 print(nama_hewan)
 ```
 
-buat tuple dengan hanya satu item di dalamnya, jangan lupa menggunakan koma
+Vuat tuple dengan hanya satu item di dalamnya, jangan lupa menggunakan koma (`,`):
+
 ```python
 nama_hewan = ("sapi",)
 print(nama_hewan)
@@ -38,7 +42,7 @@ print(nama_hewan)
 # Comprehension
 Kita juga dapat membuat/membangun list atau dictionary menggunakan *comprehension*. *Comprehension* memanfaatkan *loop* untuk membangun list atau dictionary. Dengan *comprehension*, kita dapat membuat list dengan kode yang lebih ringkas.
 
-Dalam menggunakan *comprehension*, ada 3 hal yang harus kita perhatikan, yakni :
+Dalam menggunakan *comprehension*, ada 3 hal yang harus kita perhatikan, yakni:
 
 1. Output
 2. Loop
@@ -49,7 +53,7 @@ Ketiga hal di atas ditulis dengan notasi *comprehension* sebagai berikut :
  Penjelasan diolah dari [freecodecamp](https://www.freecodecamp.org/news/list-comprehension-in-python/)
 
 ## List Comprehension
-Kita dapat membangun list menggunakan *comprehension*. Kita memiliki *template* untuk list comprehension, seperti kode yang ditunjukkan di bawah :
+Kita dapat membangun list menggunakan *comprehension*. Kita memiliki *template* untuk list comprehension, seperti kode yang ditunjukkan di bawah:
 
 ```python
 list_comprehension = [x for x in interable]
