@@ -1,6 +1,7 @@
-# operator digunakan untuk menjalankan operasi
-# antara kedua variabel atau value
-# contoh
+""" operator digunakan untuk menjalankan operasi
+antara kedua variabel atau value
+contoh
+"""
 
 
 angka = 20

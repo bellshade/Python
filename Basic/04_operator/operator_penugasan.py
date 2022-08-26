@@ -1,7 +1,6 @@
-# Operator penugasan (Assignment Operator) digunakan untuk
-# menetapkan nilai suatu variable
+""" Operator penugasan (Assignment Operator) digunakan untuk
+menetapkan nilai suatu variable
 
-"""
 Operator Penugasan terdiri dari:
 
     |   Operator    |   Example     |  Sama Dengan  |

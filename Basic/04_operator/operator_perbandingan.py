@@ -1,7 +1,7 @@
-# Operator Perbandingan (Comparison Operator) digunakan untuk
-# Membadingkan antara dua nilai
-
-# contoh
+""" Operator Perbandingan (Comparison Operator) digunakan untuk
+Membadingkan antara dua nilai
+contoh
+"""
 
 # Variable
 a = 5
