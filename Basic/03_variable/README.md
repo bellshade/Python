@@ -84,6 +84,53 @@ Python memiliki beberapa peraturan dalam penulisan sebuah variabel. Peraturan te
 
 Pada Python, penggunaan variabel disarankan menggunakan ``snake_case``.
 
+## keywords yang tidak bisa digunakan pada python
+
+Ada beberapa kata yang dilarang untuk digunakan sebagai nama variabel. Contoh penggunaan kata yang dilarang pada Python:
+
+```python
+class sma_saya = "bahasa"
+print(sma_saya)
+```
+
+Hasil esekusi diatas akan menyebabkan error karena ``class`` merupaakan salah satu nama fungsi dari python.
+
+Kata/keywords yang dilarang:
+
+- False
+- None
+- True
+- and
+- as
+- assert
+- break
+- class
+- continue
+- def
+- del
+- elif
+- else
+- except
+- finally
+- for
+- from
+- global
+- if
+- import
+- in
+- is
+- lambda
+- nonlocal
+- not
+- or
+- pass
+- raise
+- try
+- return
+- while
+- with
+- yield
+
 video penjelasan tentang variabel = [Belajar python dasar - mengenal variabel](https://www.youtube.com/watch?v=gxmTFXfrMzk&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=5)
 
 [Materi Selanjutnya](../04_operator)
