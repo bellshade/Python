@@ -2,32 +2,37 @@
 
 Fungsi adalah sebuah blok kode yang berjalan ketika ingin digunakan.
 
-Contoh
+Contoh:
+
 ```python
 def hello():
     print('Hello !')
 ```
 
-Apabila kita ingin meng-gunakan fungsi tersebut kita tinggal command:
+Apabila kita ingin meng-gunakan fungsi tersebut kita bisa memanggilnya dengan:
+
 ```python
 hello()
 ```
 
-Lantas, apakah kita bisa memasukkan input ke dalam fungsi? Tentu bisa
-input yang kita kirimkan ke dalam fungsi disebut sebagai Argument, seperti apa contohnya?
+Lantas, apakah kita bisa memasukkan input ke dalam fungsi?
+Tentu bisa input yang kita kirimkan ke dalam fungsi disebut sebagai argument, seperti apa contohnya?
 
 ```python
 def hello(nama):
     print('Hello '+str(nama)+' !')
 ```
 
-Apabila kita ingin memakai fungsi tersebut dan memasukkan argument kita cukup mengetikkan
+Apabila kita ingin memakai fungsi tersebut dan memasukkan argument kita cukup mengetikkan:
+
 ```python
 hello('Bellshade')
 ```
 
-Apa kita cuma bisa memasukkan satu argument saja? Jawabannya, tentunya ga dong, kita bisa memasukkan lebih dari satu argument!
-contohnya
+Kita bisa memasukkan lebih dari satu argument!
+
+Contohnya:
+
 ```python
 def triangle(alas,tinggi):
     hasil = (alas * tinggi)/2
@@ -35,13 +40,16 @@ def triangle(alas,tinggi):
 ```
 
 Dan kita pun akan memakai fungsi segitiga kita:
+
 ```python
 triangle(2,3)
 ```
 
-Next, pembahasan kita tentang ```return```, Apa itu return ? Return adalah sebuah function keyword yang mengembalikan nilai dan juga sekaligus "mengakhiri" function itu sendiri.
+## Return
+Return adalah sebuah function keyword yang mengembalikan nilai dan juga sekaligus "mengakhiri" function itu sendiri.
 
-contohnya
+Contohnya:
+
 ```python
 def triangle(alas,tinggi):
     hasil = (alas * tinggi)/2
@@ -52,10 +60,11 @@ print(triangle(2,3))
 
 Return pada koding di atas, mengakhiri function dari triangle, jadi kita tidak bisa lagi melakukan command apapun yang lewat dari line `return hasil`.
 
-Next, kita akan bahas sesuatu yang disebut, `default argument`, apa tu ? default argument terjadi apabila kita mendefault / mengatur nilai default dari sebuah argument, misalnya:
+
+## Default argument
+Default argument terjadi apabila kita mendefault/mengatur nilai default dari sebuah argument, misalnya:
 
 ```python
-
 def salam(waktu="Pagi"):
     greet = "Selamat " + str(waktu)
     return greet
@@ -69,8 +78,12 @@ print(salam()) # Selamat Pagi
 Di sini kita melakukan default value terhadap argument dari waktu menjadi "Pagi", jadi apabila kita memanggil ```salam()```,
 maka itu tidak akan menimbulkan error, karena sudah ada default valuenya, dan default value juga bersifat `flexibel` dimana masih bisa diubah menjadi, 'Siang', 'Malam', dan lainnya.
 
-Next kita akan bicara tentang suatu konsep yang menarik, yaitu, `Unlimited` atau `Infinite`, dimana artinya adalah, tak terbatas, apa yang tak terbatas?
-Yang tak terbatas di python function adalah argument yang dapat kita inputkan, "caranya begimane tuh ya ? pake infinity stone ga ?", berikut caranya:
+
+## Unlimited atau Infinite
+`Unlimited` atau `Infinite` artinya adalah tak terbatas, apa yang tak terbatas?
+Yang tak terbatas di python function adalah argument yang dapat kita inputkan.
+
+Contohnya:
 
 ```python
 def unlimited(*args):
@@ -86,7 +99,7 @@ Contoh dari unlimited nya adalah, pada command pertama, kita memasukkan 4 parame
 Last, but not least, unlimited keyword argument, dimana kita memberi tahu bahwa argument kita ini memiliki key, atau kunci, hal ini sama dengan dictionary
 di mana pada unlimited keyword argument, python memakai prinsip dictionary, sementara pada unlimited argument, python mengadopsi konsep tuple.
 
-contohnya ?
+Contohnya:
 
 ```python
 def unlimitedkeyword(**infinite):
@@ -100,8 +113,10 @@ unlimitedkeyword(fname="Harry",lname="Potter")
 Di mana pada command pertama, kita memasukkan 3 parameter dengan masing-masing key a,b,c dan value 1,2,3.
 Dan pada command kedua, kita memasukkan 2 parameter dengan masing-masing key yaitu fname dan lname dengan value Harry, Potter.
 
-# Fungsi Rekursi
-## Definisi Fungsi Rekursi
+
+## Fungsi Rekursi
+
+### Definisi Fungsi Rekursi
 Fungsi yang dapat memanggil dirinya sendiri dinamakan fungsi rekursi. Beberapa permasalahan dalam algoritma dan struktur data menggunakan
 rekursi sebagai solusi penyelesaian, misalnya, dalam struktur data *linked list* atau *tree*. Perhatikan fungsi ```recursion``` di bawah:
 
@@ -141,7 +156,7 @@ def faktorial(n):
 Visualisasi dari proses rekursi di atas adalah sebagai berikut
 ![gini](https://user-images.githubusercontent.com/64145699/136579744-7c573f70-a0d8-4e43-b265-d4a66ebfc6a0.png)
 
-## Rekursi Versus Loop
+### Rekursi Versus Loop
 Sebenarnya, beberapa permasalahan dalam pemrograman bisa diselesaikan menggunakan *loop* biasa daripada menggunakan rekursi, seperti pada kasus faktorial di atas. Kode untuk menghitung nilai faktorial menggunakan *loop* ditunjukkan pada kode di bawah ini:
 
 ```python
@@ -165,8 +180,10 @@ Jawabannya : **tidak**. Sebab, beberapa permasalahan dalam algoritma dan struktu
 
 Contoh lain dari penyelesaian masalah menggunakan rekursi dapat dilihat di file ```recursion_example.py``` yang ada di repositori.
 
-# Closure
-## Definisi Closure
+
+## Closure
+
+### Definisi Closure
 Kita bisa mendefinisikan fungsi di dalam fungsi. Di Python, teknik ini disebut sebagai *closure* atau *nested function*. *Closure* dapat mengakses variabel yang tidak berada di dalam *scope* fungsi tersebut. Variabel ini biasa disebut *nonlocal variable*. *Closure* juga dapat mengembalikan fungsi layaknya fungsi rekursi. Fungsi ```outerFunc()``` di bawah ini mendemonstrasikan bagaimana *closure* bekerja:
 
 ```python
