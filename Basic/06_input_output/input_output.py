@@ -2,6 +2,8 @@
 # memasukkan variabel secara dinamis
 # output digunakan untuk
 # contoh
+
+
 nama = "joes"
 print(nama)
 

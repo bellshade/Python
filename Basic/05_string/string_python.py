@@ -4,6 +4,7 @@
 # "Hello World" sama dengan 'hello world'
 # 'hello world' sama dengan "hello world"
 
+
 kata_pertama = "warung"
 
 # bisa juga menggunakan multi string

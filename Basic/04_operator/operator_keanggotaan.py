@@ -1,9 +1,7 @@
-"""
-Operator Keanggotaan (Membership Operator) adalah operator
-yang memvalidasi anggota dari sebuah objek iterable
+# Operator Keanggotaan (Membership Operator) adalah operator
+# yang memvalidasi anggota dari sebuah objek iterable
+# contoh:
 
-contoh:
-"""
 
 X = [1, 2, "3", 4, "lima"]
 

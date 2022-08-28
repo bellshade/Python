@@ -1,9 +1,8 @@
-"""Tipe data pada Python adalah:
-tipe text yaitu str (string)
-tipe angka yaitu int, float, dan complex
-tipe data majemuk yaitu list, tuple, set, dan range
-tipe data map yaitu dict
-"""
+# Tipe data pada Python adalah:
+# tipe text yaitu str (string)
+# tipe angka yaitu int, float, dan complex
+# tipe data majemuk yaitu list, tuple, set, dan range
+# tipe data map yaitu dict
 
 # type() digunakan untuk memeriksa tipe data pada variabel
 

@@ -1,9 +1,9 @@
-"""
-Operator Identitas adalah operator yang digunakan
-untuk membandingkan suatu object. Jika object bernilai sama
-dan memiliki memori yang sama, maka akan mengembalikan nilai True.
-contoh:
-"""
+# Operator Identitas adalah operator yang digunakan
+# untuk membandingkan suatu object. Jika object bernilai sama
+# dan memiliki memori yang sama, maka akan mengembalikan nilai True.
+# contoh:
+
+
 # variabel
 x = 3
 y = 7
