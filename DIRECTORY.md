@@ -3,8 +3,8 @@
   * 02 Tipe Data
     * [Tipe Data](https://github.com/bellshade/Python/blob/main/Basic/02_tipe_data/tipe_data.py)
   * 03 Variable
-    * [Variable](https://github.com/bellshade/Python/blob/main/Basic/03_variable/Variable.py)
     * [String Variable](https://github.com/bellshade/Python/blob/main/Basic/03_variable/string_variable.py)
+    * [Variable](https://github.com/bellshade/Python/blob/main/Basic/03_variable/variable.py)
   * 04 Operator
     * [Operator Aritmatika](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_aritmatika.py)
     * [Operator Bitwise](https://github.com/bellshade/Python/blob/main/Basic/04_operator/operator_bitwise.py)
