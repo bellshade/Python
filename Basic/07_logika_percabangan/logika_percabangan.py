@@ -1,5 +1,7 @@
 # membuat variabel dari cuaca
 # dan membuat value "cerah"
+
+
 cuaca = "cerah"
 # logika jika cuaca hujan
 if cuaca == "hujan":

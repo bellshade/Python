@@ -1,10 +1,8 @@
-"""
-operator logika (Logical Operator) digunakan untuk
-menggabungkan pernyataan kondisional
+# operator logika (Logical Operator) digunakan untuk
+# menggabungkan pernyataan kondisional
+# bingung?
+# mari kita buat contohnya
 
-bingung?
-mari kita buat contohnya
-"""
 
 # variabel
 X = 5

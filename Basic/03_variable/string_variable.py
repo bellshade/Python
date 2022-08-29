@@ -1,6 +1,6 @@
 # String dalam Python diidentifikasi
 # sebagai serangkaian karakter yang berdekatan
-# yangdiwakili dalam tanda kutip.
+# yang diwakili dalam tanda kutip.
 
 pesan = "saya pergi ke pasar"
 

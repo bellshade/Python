@@ -1,10 +1,10 @@
 # Python
 
 <p align="center">
-  <img src="https://glints.com/id/lowongan/wp-content/uploads/2021/08/python.org_.png">
+  <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png">
 <p>
 
-Selamat datang di basic pemrograman Python. Disini kalian dapat memulai pertama kali mencoba pemrograman Python. Python sendiri
+Selamat datang di pemrograman Python dasar. Disini kalian dapat memulai pertama kali mencoba pemrograman Python.
 
 ## Daftar Isi
 
@@ -15,23 +15,22 @@ Selamat datang di basic pemrograman Python. Disini kalian dapat memulai pertama 
 
 ## Gambaran Singkat Tentang Bahasa Pemrograman Python
 
-Python dibuat dan dikembangkan oleh guido van rossum, programmer yang berasal dari belanda. Python dibuat dengan menggunakan bahasa pemrograman C sebagai basisnya. pemilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __moth python flying circus__ yang merupakan acara sirkus favorit dari guido.
+Python dibuat dan dikembangkan oleh [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), programmer yang berasal dari Belanda. Python dibuat dengan menggunakan bahasa pemrograman C sebagai basisnya. Pemilihan nama Python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama __Monty Python’s Flying Circus__ yang merupakan acara sirkus favorit dari Guido.
 
-python adalah bahasa pemograman multi paaradigma, pemogramaan berorientasi objek dan pemograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemgoraman fungsional.
+Python adalah bahasa pemograman multiparadigma, yaitu mendukum pemogramaan berorientasi objek, pemograman terstruktur dan pemgoraman fungsional.
 
-kelebihan diatara python antara lain
-- mudah digunakan untuk menulis di perangkat lunak terbaru
-- mudah untuk diajarkan
-- mendukung __iot__ (__internet of things__)
-- mudah dipahami
-- serta mudah didapatkan, karena mudah diinstal, python juga termasuk __multiplatform__
+Kelebihan Python antara lain:
+- mudah untuk dipelajari,
+- mudah digunakan,
+- mendukung __iot__ (__internet of things__),
+- __multiplatform__, artinya dapat dijalan di berbagai jenis sistem.
 
-contoh yang implementasi dari bahasa pemograman python adalah
-- komputasi ilmiah dan numerik contohnya seperti scipy
-- aplikasi bisnis seperti tryton
-- pembuatan game seperti battlefield 2
-- pengembangan web seperti django atau flask (library)
-- pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+Contoh yang implementasi dari bahasa pemograman Python adalah:
+- komputasi ilmiah dan numerik contohnya seperti [SciPy](https://scipy.org/),
+- aplikasi bisnis seperti [Tryton](https://www.tryton.org/),
+- pembuatan game seperti [Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2),
+- pengembangan web seperti [Django](https://www.djangoproject.com) atau [Flask](https://flask.palletsprojects.com),
+- pengembangan dari situs web dan layanan sperti [Dropbox](https://www.dropbox.com), [BuzzFeed](https://www.buzzfeed.com) dan [Uber](https://www.uber.com).
 
 ```python
 print("hello bellshade")
