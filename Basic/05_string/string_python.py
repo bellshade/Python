@@ -9,9 +9,9 @@ kata_pertama = "warung"
 
 # bisa juga menggunakan multi string
 # bisa menggunakan 3 tanda petik dua atau satu
-kata_saya = """indonesia adalah negara yang indah
+kata_saya = """Indonesia adalah negara yang indah
 berada di bawah garis khatulistiwa
-aku cinta indonesia
+aku cinta Indonesia
 """
 
 # print(kata_pertama)
@@ -33,4 +33,4 @@ print(len(kata_pertama))
 
 # kita juga dapat mengecek kata khusus dalam sebuah string
 # contoh
-print("indonesia" in kata_saya)
+print("Indonesia" in kata_saya)

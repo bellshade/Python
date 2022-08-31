@@ -32,7 +32,7 @@ pekerja1 = PekerjaTambang("James", "Research")
 pekerja1.menampikan_data()
 ```
 
-variabel dari ``__nama``, ``__jabatan`` adalah salah satu variabel yang hanya bisa diakses di dalam kelas (termasuk fungsi dari ``__menampilkan``, ini hanya bisa diakses di dalam kelas ``PekerjaTambang``), sementara fungsi ``menampilkan_data`` bisa diakses di luar atau di dalam kelas dikarenakan bersifat publik sehingga bisa diakses dari luar dengan membuat objek dan menampilkan hasil dari fungsi private yaitu ``__menampilkan``. jika kita menambahkan kode lagi dibawah dengan memanggil fungsi dari ``__menampilkan`` makan akan terjadi error karena kelas tersebut bersifat private. contoh error yang dihasilkan adalah
+Variabel dari ``__nama``, ``__jabatan`` adalah salah satu variabel yang hanya bisa diakses di dalam kelas (termasuk fungsi dari ``__menampilkan``, ini hanya bisa diakses di dalam kelas ``PekerjaTambang``), sementara fungsi ``menampilkan_data`` bisa diakses di luar atau di dalam kelas dikarenakan bersifat publik sehingga bisa diakses dari luar dengan membuat objek dan menampilkan hasil dari fungsi private yaitu ``__menampilkan``. Jika kita menambahkan kode lagi di bawah dengan memanggil fungsi dari ``__menampilkan`` makan akan terjadi error karena kelas tersebut bersifat private. Contoh error yang dihasilkan adalah:
 ```
 Traceback (most recent call last):
   File "file_saya.py", line x, in <module>

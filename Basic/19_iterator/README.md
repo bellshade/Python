@@ -1,8 +1,10 @@
-Iterator adalah objek yang berisi sesuatu yang bisa dihitung atau *iterable*
+# Iterator
 
-objek *iterable* adalah String, List, Tuple, Set, Dictionary
+Iterator adalah objek yang berisi sesuatu yang bisa dihitung atau *iterable*.
 
-contoh dari penggunaan iterator
+Objek *iterable* adalah String, List, Tuple, Set, Dictionary.
+
+contoh dari penggunaan iterator:
 ```py
 nama_maintainer = ("majed", "permen", "kelvin", "hen")
 show = iter(nama_maintainer)

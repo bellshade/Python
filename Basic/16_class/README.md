@@ -16,15 +16,15 @@ Ada 3 jenis metode class, yaitu:
 
 - instance method
 
-metode ini harus memiliki parameter self, yang berguna untuk mengakses atribut objek, untuk menggunakannya harus melalui objek.
+Metode ini harus memiliki parameter self, yang berguna untuk mengakses atribut objek, untuk menggunakannya harus melalui objek.
 
 - classmethod
 
-metode ini menggunakan deokrator @classmethod dan harus memiliki parameter cls, yang berguna untuk mengakses atributnya, untuk menggunakannya dapat langsung dari kelasnya tanpa menggunakan objek.
+Metode ini menggunakan deokrator @classmethod dan harus memiliki parameter cls, yang berguna untuk mengakses atributnya, untuk menggunakannya dapat langsung dari kelasnya tanpa menggunakan objek.
 
 - staticmethod
 
-metode ini menggunakan dekorator @staticmethod, metode ini sama seperti classmethod namun tidak perlu menggunakan parameter wajib
+Metode ini menggunakan dekorator @staticmethod, metode ini sama seperti classmethod namun tidak perlu menggunakan parameter wajib.
 
 ## Konstruktor dan Destruktor
 
@@ -45,7 +45,7 @@ contoh:
 __add__, __repr__, __len__
 ```
 
-contoh penggunaan dari dunder method
+contoh penggunaan dari dunder method:
 ```python
 class Hewan:
     def __init__(self, nama_hewan, suara):

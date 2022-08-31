@@ -5,15 +5,15 @@ Ada kalanya ketika kita akan melakukan perhitungan numerik yang teknis atau sain
 import math
 ```
 
-Kali ini, kita akan menggunakan beberapa fungsi yang sering digunakan untuk melakukan operasi fungsi matematis yang dasar
+Kali ini, kita akan menggunakan beberapa fungsi yang sering digunakan untuk melakukan operasi fungsi matematis yang dasar.
 
 ## Nilai Konstanta
-Konstanta merupakan nilai tetap yang ditemukan ilmuan setelah melalui serangkaian proses penelitian. Terdapat nilai konstanta yang disediakan oleh modul python, yaitu:
-- `math.pi` : Nilai konstanta dari $\pi$ = 3.141592... dengan nilai yang lebih presisi. Nilai ini biasanya digunakan untuk konversi satuan radian ke derajat, menghitung keliling dan luas lingkaran, volume bola, volume tabung, dan lain sebagainya
-- `math.e` : Nilai konstanta dari _e_ = 2.71828... dengan nilai yang lebih presisi. Dapat disebut juga sebagai konstanta Euler. Nilai ini biasanya digunakan untuk perhitungan bunga bank, menghitung jumlah penduduk suatu negara, mengukur peluruhan unsur radioaktif, dan lain sebagainya
-- `math.tau` : Nilai konstanta yang setara dengan 2 kali dari nilai $\pi$, yaitu $\tau$ = 6.283185..., untuk mengetahui lebih lanjut tentang bilangan ini, tonton video dari Vi Hart berikut [Pi is (still) Wrong](https://www.youtube.com/watch?v=jG7vhMMXagQ)
-- `math.inf` : Merupakan nilai positif tak terhingga (_infinity_). Untuk nilai negatif tak terhingga, gunakan `-math.inf`
-- `math.nan` : Merupakan nilai yang bukan merupakan angka (_not a number/NaN_). Ini ekuivalen dengan `float('nan')`
+Konstanta merupakan nilai tetap yang ditemukan ilmuan setelah melalui serangkaian proses penelitian. Terdapat nilai konstanta yang disediakan oleh modul Python, yaitu:
+- `math.pi` : Nilai konstanta dari $\pi$ = 3.141592... dengan nilai yang lebih presisi. Nilai ini biasanya digunakan untuk konversi satuan radian ke derajat, menghitung keliling dan luas lingkaran, volume bola, volume tabung, dan lain sebagainya.
+- `math.e` : Nilai konstanta dari _e_ = 2.71828... dengan nilai yang lebih presisi. Dapat disebut juga sebagai konstanta Euler. Nilai ini biasanya digunakan untuk perhitungan bunga bank, menghitung jumlah penduduk suatu negara, mengukur peluruhan unsur radioaktif, dan lain sebagainya.
+- `math.tau` : Nilai konstanta yang setara dengan 2 kali dari nilai $\pi$, yaitu $\tau$ = 6.283185..., untuk mengetahui lebih lanjut tentang bilangan ini, tonton video dari Vi Hart berikut [Pi is (still) Wrong](https://www.youtube.com/watch?v=jG7vhMMXagQ).
+- `math.inf` : Merupakan nilai positif tak terhingga (_infinity_). Untuk nilai negatif tak terhingga, gunakan `-math.inf`.
+- `math.nan` : Merupakan nilai yang bukan merupakan angka (_not a number/NaN_). Ini ekuivalen dengan `float('nan')`.
 
 ```python
 import math
@@ -38,8 +38,8 @@ nan
 
 ## Pembulatan
 Nilai bilangan desimal (_float_) dapat dibulatkan baik ke atas maupun ke bawah. Modul `math` menyediakan fungsi untuk melakukan itu, yaitu:
-- `math.floor(x)` : Sesuai dengan namanya (_floor_=lantai), fungsi ini untuk membulatkan bilangan ke bawah, dimana `x` adalah tipe data _float_. Contoh nilai 14.8 akan dibulatkan ke bawah menjadi 14
-- `math.ceil(x)` : Sesuai dengan namanya (_ceil_=langit atau genteng), fungsi ini untuk membulatkan bilangan ke atas, dimana `x` adalah tipe data _float_. Contoh nilai 14.3 akan dibulatkan ke atas menjadi 15
+- `math.floor(x)` : Sesuai dengan namanya (_floor_ = lantai), fungsi ini untuk membulatkan bilangan ke bawah, dimana `x` adalah tipe data _float_. Contoh nilai 14.8 akan dibulatkan ke bawah menjadi 14.
+- `math.ceil(x)` : Sesuai dengan namanya (_ceil_ = langit atau genteng), fungsi ini untuk membulatkan bilangan ke atas, dimana `x` adalah tipe data _float_. Contoh nilai 14.3 akan dibulatkan ke atas menjadi 15.
 
 ```python
 import math
@@ -55,11 +55,11 @@ Output:
 ```
 
 ## Konversi Satuan Sudut
-Sudut dapat dikonversikan dari satuan derajat ke radian, maupun sebaliknya. Fungsi yang digunakan adalah `degrees()` dan `radians()`
-- `math.degrees(x)` : Mengkonversikan sudut dari `x` radian ke derajat
-- `math.radians(x)` : Mengkonversikan sudut dari `x` derajat ke radian
+Sudut dapat dikonversikan dari satuan derajat ke radian, maupun sebaliknya. Fungsi yang digunakan adalah `degrees()` dan `radians()`.
+- `math.degrees(x)` : Mengkonversikan sudut dari `x` radian ke derajat.
+- `math.radians(x)` : Mengkonversikan sudut dari `x` derajat ke radian.
 
-Nilai konstanta dari `pi` (pada penjelasan sebelumnya tentang "Nilai Konstanta") diperlukan untuk melakukan konversi satuan sudut dari radian ke derajat. Seperti diketahui, besar sudut dari 2 $\pi$ radian = 360 derajat, maka jika ingin melakukan konversi dari nilai 2 $\pi$ radian dan outputnya 360 derajat, gunakan konstanta dari `pi` tersebut. Berikut contoh penggunaan dari fungsi `degrees()` dan `radians()`
+Nilai konstanta dari `pi` (pada penjelasan sebelumnya tentang "Nilai Konstanta") diperlukan untuk melakukan konversi satuan sudut dari radian ke derajat. Seperti diketahui, besar sudut dari 2 $\pi$ radian = 360 derajat, maka jika ingin melakukan konversi dari nilai 2 $\pi$ radian dan outputnya 360 derajat, gunakan konstanta dari `pi` tersebut. Berikut contoh penggunaan dari fungsi `degrees()` dan `radians()`.
 
 ```python
 import math
