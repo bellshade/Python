@@ -96,8 +96,7 @@ unlimited([1,2],[3,4])
 
 Contoh dari unlimited nya adalah, pada command pertama, kita memasukkan 4 parameter, command kedua, kita memasukkan 2 parameter.
 
-Last, but not least, unlimited keyword argument, di mana kita memberi tahu bahwa argument kita ini memiliki key, atau kunci, hal ini sama dengan dictionary
-di mana pada unlimited keyword argument, python memakai prinsip dictionary, sementara pada unlimited argument, python mengadopsi konsep tuple.
+Last, but not least, unlimited keyword argument, dimana kita memberi tahu bahwa argument kita ini memiliki key, atau kunci, hal ini sama dengan dictionary dimana pada unlimited keyword argument, python memakai prinsip dictionary, sementara pada unlimited argument, python mengadopsi konsep tuple.
 
 Contohnya:
 

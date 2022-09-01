@@ -1,10 +1,10 @@
-# python turtle
+# Python turtle
 
 Turtle adalah package python yang digunakan untuk mengenalkan tentang pemograman kepada anak-anak dengan cara mengoding dan kemudian menghasilkan gambar yang indah.
 
 Di folder ini terdapat berbagai macam source code dari package turtle yagn menghasilkan gambar yang indah.
 
-contoh dari pytho turtle yang membentuk matahari
+Contoh dari python turtle yang membentuk matahari:
 
 ```python
 from turtle import *

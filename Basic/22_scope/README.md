@@ -34,7 +34,7 @@ myfunc()
 
 ## Global Scope
 Sebuah variabel yang dibuat di bagian utama kode python adalah *Global Variable* yang termasuk *Global Scope*
-variabel global dapat digunakan dimanapun
+variabel global dapat digunakan di manapun
 
 Contoh:
 ```
@@ -50,7 +50,7 @@ print(x)
 
 ### Menamai Variabel
 Jika kamu menamai suatu variabel `x` di global scope dan kamu juga menamai variabel lainnya dengan `x`,
-maka python akan memisahkan variabel tersebut menjadi dua variabel yang berbeda
+maka python akan memisahkan variabel tersebut menjadi dua variabel yang berbeda.
 
 Contoh:
 ```py

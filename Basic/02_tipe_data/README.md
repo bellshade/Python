@@ -45,7 +45,7 @@ Beberapa tipe data dalam Python:
 
     - ``list``
 
-        Tipe data list adalah tipe data koleksi yang berisi beberapa value yang terdapat dalam satu variabel. List menggunakan kurung kotak ``[ ]``
+        Tipe data list adalah tipe data koleksi yang berisi beberapa value yang terdapat dalam satu variabel. List menggunakan kurung kotak ``[ ]``.
         ```python
         nama_siswa = ['woody', 'buzz', 'andy']
         nilai_siswa = [12, 13, 14]
@@ -53,10 +53,10 @@ Beberapa tipe data dalam Python:
 
     - ``tuple``
 
-        Tipe data tuple adalah tipe data koleksi yang berisi beberap value yang terdapat dalam satu variabel. Perbedaan diantara keduanya adalah
+        Tipe data tuple adalah tipe data koleksi yang berisi beberap value yang terdapat dalam satu variabel. Perbedaan di antara keduanya adalah:
 
-        - tipe data tuple jika diberi value, maka tipe data tersebut tidak dapat diubah kembali
-        - tipe data tuple menggunakan tutup kurung biasa ``()``
+        - tipe data tuple jika diberi value, maka tipe data tersebut tidak dapat diubah kembali.
+        - tipe data tuple menggunakan tutup kurung biasa ``()``.
 
         ```python
         nama_siswa = ('buzz', 'andy', 'woody')
@@ -65,7 +65,7 @@ Beberapa tipe data dalam Python:
 
     - ``set``
 
-        Tipe data set adalah tipe data koleksi yang elemennya dapat dirubah, tidak terurut, dan bersifat unik. Sesuai dengan namanya, tipe data set memiliki operasi matematika himpunan seperti gabungan, irisan, selisih, dan lain-lain. Set menggunakan kurung kurawal ``{}``
+        Tipe data set adalah tipe data koleksi yang elemennya dapat dirubah, tidak terurut, dan bersifat unik. Sesuai dengan namanya, tipe data set memiliki operasi matematika himpunan seperti gabungan, irisan, selisih, dan lain-lain. Set menggunakan kurung kurawal ``{}``.
 
         ```python
         nama_siswa = {'buzz', 'andy', 'woody'}

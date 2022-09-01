@@ -93,7 +93,7 @@ def _construct_points(
 
     Return
     --------
-    points: daftar di mana setiap item bertipe Point. Ini hanya berisi objek
+    points: daftar dimana setiap item bertipe Point. Ini hanya berisi objek
     yang dapat diubah menjadi Point.
 
     Contoh

@@ -1,10 +1,10 @@
 # Enkapsulasi dengan python
 
-enkapsulasi adalah satu konsep dasar dalam pemograman berorientas objek (oop). ini menggambarkan ide membungkus data dan metode yang bekerja pada data dalam satu unit. menemaptkan pembatasan dalam mengases variabel dan metode secara langsung dan dapat mencegah modifikasi data yang tidak sengaja. untuk mencegah perubahan yang tidak disengaja, variabel objek hanya dapat diubah dengan metode objek. jenis variabel tersbut dikenal sebagai **variabel privat**
+Enkapsulasi adalah satu konsep dasar dalam pemograman berorientas objek (oop). Ini menggambarkan ide membungkus data dan metode yang bekerja pada data dalam satu unit, menemapatkan pembatasan dalam mengases variabel dan metode secara langsung dan dapat mencegah modifikasi data yang tidak sengaja. Untuk mencegah perubahan yang tidak disengaja, variabel objek hanya dapat diubah dengan metode objek. jenis variabel tersbut dikenal sebagai **variabel privat**.
 
-## anggota yang dilindungi
+## Anggota yang dilindungi
 
-anggota yang dilindungi adalah anggota kelas yang tidak dapta diakses dari luar kelas tetapi dapat diakses dari dalam keas dan subkelasnya. untuk mencapai ini dengan python, cukup konvens dengan mengawali nama anggota dengan satu bawah ``_``
+Anggota yang dilindungi adalah anggota kelas yang tidak dapta diakses dari luar kelas tetapi dapat diakses dari dalam keas dan subkelasnya. Untuk mencapai ini dengan python, cukup konvens dengan mengawali nama anggota dengan satu bawah ``_``
 
 ```python
 class Motor:
@@ -24,9 +24,9 @@ motor_matic.hidupkanMotor()
 # motor_matric.__updatePart()
 ```
 
-variabel juga bisa menggunakan akses privat yang dapat berguna dalam beberapa tujuan. variabel privat hanya dapat diubah di dalam metode kelas dan tidak di luar kelas
+Variabel juga bisa menggunakan akses privat yang dapat berguna dalam beberapa tujuan. Variabel privat hanya dapat diubah di dalam metode kelas dan tidak di luar kelas.
 
-objek dapat menyimpan data penting untuk aplikasi kita dan kita tidak ingin data tersebut dapat diubah dari manapun dalam kode
+Objek dapat menyimpan data penting untuk aplikasi kita dan kita tidak ingin data tersebut dapat diubah dari manapun dalam kode.
 
 ```python
 class Motor:
@@ -49,7 +49,7 @@ matic.__kecepatan = 300
 matic.jalan()
 ```
 
-jika ingin merubah value dari private member dari kelas kita bisa menambahkan fungsi untuk meengganti serta memodifikasi dari member yang private
+Jika ingin merubah value dari private member dari kelas kita bisa menambahkan fungsi untuk meengganti serta memodifikasi dari member yang private.
 ```python
 class Motor:
     __kecepatan = 0

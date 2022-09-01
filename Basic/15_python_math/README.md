@@ -1,6 +1,6 @@
 # Fungsi Matematika (_math_)
 
-Ada kalanya ketika kita akan melakukan perhitungan numerik yang teknis atau saintifik. Perhitungan tersebut seperti trigonometri, eksponen, logaritma, pembulatan bilangan, dan lain sebagainya. Bahasa pemrograman Python menyediakan sebuah standar pustaka (_standard library_) yang memungkinkan kita untuk melakukan operasi perhitungan tersebut. Modul tersebut adalah `math`, di mana terdapat fungsi-fungsi matematis yang dapat digunakan. Gunakan keyword `import` untuk menggunakan modul tersebut.
+Ada kalanya ketika kita akan melakukan perhitungan numerik yang teknis atau saintifik. Perhitungan tersebut seperti trigonometri, eksponen, logaritma, pembulatan bilangan, dan lain sebagainya. Bahasa pemrograman Python menyediakan sebuah standar pustaka (_standard library_) yang memungkinkan kita untuk melakukan operasi perhitungan tersebut. Modul tersebut adalah `math`, dimana terdapat fungsi-fungsi matematis yang dapat digunakan. Gunakan keyword `import` untuk menggunakan modul tersebut.
 ```python
 import math
 ```

@@ -32,9 +32,9 @@ Berikut table dari operator aritmatika:
 | -------- | ------------- | ----------------- |
 | +        | penambahan    | a + b             |
 | -        | pengurangan   | a - b             |
-| \*       | perkalian     | a \* b            |
+| *        | perkalian     | a * b             |
 | /        | pembagian     | a / b             |
-| \*\*     | perpangkatan  | a \*\* b          |
+| *  *     | perpangkatan  | a ** b            |
 | %        | modulus       | a % b             |
 | //       | floor         | a // b            |
 

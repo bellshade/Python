@@ -2,7 +2,7 @@
 *Binary tree* (*BST*) adalah struktur data yang berbentuk nonlinier yang membentuk struktur seperti pohon dan terbentuk dari sekumpulan *node*. Pada *binary tree*, properti dari *node* berisi data, *pointer left*, dan *pointer right* (kita akan melihat kegunaan dari ketiga properti ini nanti!). Pada *binary tree*, sebuah *parent node* hanya boleh memiliki maksimal dua buah *child node*.
 
 ## Terminologi Pada *Tree*
-Pada *binary tree*, ada beberapa terminologi yang harus kita pahami, diantaranya:
+Pada *binary tree*, ada beberapa terminologi yang harus kita pahami, di antaranya:
 
 1. Node : Merupakan titik yang membentuk sebuah *tree*
 2. Root : Merupakan *node* yang terletak paling atas pada *tree*
@@ -28,7 +28,7 @@ Secara umum, **tinggi dari sebuah *tree* diukur dari *root node* ke *leaf node* 
 **Kedalaman dari sebuah *binary tree* diukur dari *root node* ke *node* yang ditentukan**. Pada *Tree A*, kedalaman dari *node 2* adalah 1 satuan, dan kedalaman dari *node 3* adalah 2 satuan. Sedangkan pada *Tree B*, kedalaman dari *node 2* dan *node 3* sama-sama 1 satuan.
 
 ## Ragam *Tree*
-Terdapat beberapa ragam *binary tree*, diantaranya :
+Terdapat beberapa ragam *binary tree*, di antaranya :
 
 1. Full Binary Tree\
     Merupakan *binary tree* yang memiliki **dua** atau **tidak sama sekali** *child node*\
@@ -44,12 +44,12 @@ Terdapat beberapa ragam *binary tree*, diantaranya :
     ![Degenerate Binary Tree](img/degenerate_bt.png)
 
 ## Perbedaan *Binary Tree* Dan *Binary Search Tree*
-Walau sekilas terlihat mirip, ternyata ada perbedaan antara *binary tree* dengan *binary search tree*, diantaranya:
+Walau sekilas terlihat mirip, ternyata ada perbedaan antara *binary tree* dengan *binary search tree*, di antaranya:
 | **Pembeda** | **Binary Tree**                                                                                                          | **Binary Sarch Tree**                                                                                                                          |
 |-------------|--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Struktur    | Tidak ada aturan ketika melakukan *insert* pada *tree*                                                                   | Nilai *node* pada *subtree* sebelah kiri selalu lebih kecil dari pada nilai *node* pada *subtree* sebelah kanan ketika kita melakukan *insert* |
 | Operasi     | Layaknya *linked list*, *binary tree* juga memiliki operasi *insert*, *delete*, juga *search*                            | Operasi yang dimiliki sama seperti *binary tree*, hanya saja performa pada *binary search tree* lebih optimal karena sudah tersturktur.        |
-| Jenis       | Ada beberapa jenis dari *binary tree*, diantaranya *full binary tree*, *complete binary tree*, dan *perfect binary tree* | Ada beberapa jenis dari *binary search tree*, diantaranya *AVL tree*, *red black tree*, dan *T tree*                                           |
+| Jenis       | Ada beberapa jenis dari *binary tree*, di antaranya *full binary tree*, *complete binary tree*, dan *perfect binary tree* | Ada beberapa jenis dari *binary search tree*, di antaranya *AVL tree*, *red black tree*, dan *T tree*                                           |
 
 Referensi :
 1. https://www.upgrad.com/blog/5-types-of-binary-tree/

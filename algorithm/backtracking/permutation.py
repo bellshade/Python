@@ -2,7 +2,7 @@
 # dari urutan yang diberikan.
 # Kami menggunakan backtracking untuk memecahkan masalah ini.
 # Kompleksitas waktu: O(n! * n),
-# di mana n menyatakan panjang barisan yang diberikan.
+# dimana n menyatakan panjang barisan yang diberikan.
 from __future__ import annotations
 
 
