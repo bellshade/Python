@@ -6,7 +6,7 @@ def diophantine(a: int, b: int, c: int) -> tuple[float, float]:
     Persamaan Diophantine : Diberikan bilangan bulat a,b,c
     ( setidaknya satu dari a dan b != 0),
     persamaan diophantine a*x + b*y = c
-    memiliki solusi (di mana x dan y adalah bilangan bulat)
+    memiliki solusi (dimana x dan y adalah bilangan bulat)
     jika gcd(a,b) membagi c.
     >>> diophantine(10,6,14)
     (-7.0, 14.0)

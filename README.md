@@ -40,9 +40,9 @@ Contoh implementasi dari bahasa pemrograman python adalah
 
 Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming dasar dahulu. Silahkan ikuti alur belajar berikut untuk mempelajari dasar - dasar pemograman langsung menggunakan Python
 
-| Langkah |              Topik               |                                  Target Pembelajaran                                  |            Materi Rujukan            |
-| :-----: | :------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------: |
-|   01    | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |  [Materi](Basic/01_introduction)   |
+| Langkah |              Topik               |                                  Target Pembelajaran                                  |            Materi Rujukan             |
+| :-----: | :------------------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------: |
+|   01    | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |    [Materi](Basic/01_introduction)    |
 |   02    |            Tipe data             |                              Memahami apa itu tipe data                               |     [Materi](Basic/02_tipe_data)      |
 |   03    |             Variabel             |                               Memahami apa itu variabel                               |      [Materi](Basic/03_variable)      |
 |   04    |             Operasi              | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python |      [Materi](Basic/04_operator)      |
@@ -51,13 +51,13 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 |   07    |          Pengkondisian           |  Memahami salah satu dari inti dari membuat pemograman yaitu melakukan pengkondisian  | [Materi](Basic/07_logika_percabangan) |
 |   08    |            Perulangan            |            Memahami inti kedua dari pemograman yaitu melakukan perulangan             |     [Materi](Basic/08_perulangan)     |
 |   09    |              Fungsi              |                    Mengenal konsep fungsi dalam teknik pemograman                     |       [Materi](Basic/09_fungsi)       |
-|   10    |          List dan Tuple          |                    Memahami konsep list dan tuple secara mendalam                     |    [Materi](Basic/10_list_tuple)     |
-|   11    |        Manipulasi String         |                       Memahami cara memanipulasi sebuah string                        | [Materi](Basic/11_manipulasi_string) |
-|   12    |            Exception             |                         Memahami konsep exception pada python                         |     [Materi](Basic/12_exception)     |
-|   13    |              Module              |                  Memahami cara mengimport sebuah module pada python                   |      [Materi](Basic/13_module)       |
-|   14    |             Datetime             |                         Mengenal module datetime pada python                          |  [Materi](Basic/14_python_datetime)  |
-|   15    |               Math               |                           Mengenal module math pada python                            |    [Materi](Basic/15_python_math)    |
-|   16    |               kelas              |                           Mengenal kelas pada python                                  |    [Materi](Basic/16_class)          |
+|   10    |          List dan Tuple          |                    Memahami konsep list dan tuple secara mendalam                     |     [Materi](Basic/10_list_tuple)     |
+|   11    |        Manipulasi String         |                       Memahami cara memanipulasi sebuah string                        | [Materi](Basic/11_manipulasi_string)  |
+|   12    |            Exception             |                         Memahami konsep exception pada python                         |     [Materi](Basic/12_exception)      |
+|   13    |              Module              |                  Memahami cara mengimport sebuah module pada python                   |       [Materi](Basic/13_module)       |
+|   14    |             Datetime             |                         Mengenal module datetime pada python                          |  [Materi](Basic/14_python_datetime)   |
+|   15    |               Math               |                           Mengenal module math pada python                            |    [Materi](Basic/15_python_math)     |
+|   16    |              kelas               |                              Mengenal kelas pada python                               |       [Materi](Basic/16_class)        |
 
 Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
 Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_oriented_programming/README.md)
@@ -66,10 +66,9 @@ Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_orie
 
 Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka.
 
-01. [Struktur Data](/struktur_data)
+1.  [Struktur Data](/struktur_data)
 
-02. [Web Programming](/web_programming)
-
+2.  [Web Programming](/web_programming)
 
 ## ⚡ Quick Access ⚡
 

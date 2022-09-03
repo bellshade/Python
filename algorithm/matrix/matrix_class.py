@@ -4,7 +4,7 @@
 class Matrix:
     """
     Objek matriks yang dihasilkan dari array 2D
-    di mana setiap elemen adalah array yang mewakili
+    dimana setiap elemen adalah array yang mewakili
     berturut-turut.
     Baris dapat berisi tipe int atau float.
     Operasi umum dan informasi tersedia.

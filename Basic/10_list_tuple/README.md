@@ -8,17 +8,17 @@ print(nama_hewan)
 
 List memiliki index, index dimulai dari 0, dan index kedua dimulai dari angka 1.
 
-Kelebihan antara dari list adalah
+Kelebihan dari list adalah:
 
-- bisa dirubah
-    list bisa dirubah dengan dengan cara
+- Bisa dirubah
+    list bisa dirubah dengan dengan cara:
     ```python
     nama_hewan = ["sapi", "gajah", "ayam", "bebek"]
     nama_hewan[1] = "kucing"
     print(nama_hewan)
     ```
-- menerima duplikasi
-    list juga duplikasi item, sebagai contoh
+- Menerima duplikasi
+    list juga duplikasi item, sebagai contoh:
     ```python
     nama_hewan = ["ikan", "singa", "ikan", "sapi"]
     print(nama_hewan)
@@ -32,7 +32,7 @@ nama_hewan = ("ikan", "gajah", "sapi", "paus")
 print(nama_hewan)
 ```
 
-Vuat tuple dengan hanya satu item di dalamnya, jangan lupa menggunakan koma (`,`):
+Untuk tuple dengan hanya satu item di dalamnya menggunakan koma (`,`) karena jika tidak menggunakan koma akan dianggap sebagai string. Contoh:
 
 ```python
 nama_hewan = ("sapi",)

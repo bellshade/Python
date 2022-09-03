@@ -46,7 +46,7 @@ nama = input("masukkan nama ")
 print("di variabel nama sekarang adalah ", nama)
 ```
 
-Maka output yang keluar adalah
+Maka output yang keluar adalah:
 
 ```bash
 arfy

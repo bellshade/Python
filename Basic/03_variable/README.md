@@ -17,7 +17,7 @@ print(angka_saya)
 
 ## Assign variabel
 
-Kita bisa assing variable dengan variabel lainnya agar mudah unduk mendklarasikan sebuah nilai yang sama dengan variabel yang berbeda, sebagai contoh:
+Kita bisa assing variable dengan variabel lainnya agar mudah untuk mendeklarasikan sebuah nilai yang sama dengan variabel yang berbeda, sebagai contoh:
 
 ```python
 angka_saya = 200
@@ -53,7 +53,7 @@ print(nama)
 
 Python memiliki beberapa peraturan dalam penulisan sebuah variabel. Peraturan tersebut adalah:
 
-1. menggunakan kata tanpa didahuli dengan angka:
+1. Menggunakan kata tanpa didahuli dengan angka:
 
     **contoh benar**
     ```python
@@ -63,7 +63,7 @@ Python memiliki beberapa peraturan dalam penulisan sebuah variabel. Peraturan te
     ```python
     1nama = "bob"
     ```
-2. menggunakan underscore (garis bawah) jika ingin menggunakan kata yang panjang:
+2. Menggunakan underscore (garis bawah) jika ingin menggunakan kata yang panjang:
 
     **contoh yang benar**
     ```python
@@ -73,18 +73,18 @@ Python memiliki beberapa peraturan dalam penulisan sebuah variabel. Peraturan te
     ```python
     12angka_saya = 12
     ```
-3. variabel pada python bersifat sensitif, penggunaan huruf besar dan kecil sangat diperhatikan:
+3. Variabel pada python bersifat sensitif, penggunaan huruf besar dan kecil sangat diperhatikan:
 
     contoh
     ```python
     Nama_saya = "james"
     nama_saya = "james"
     ```
-    contoh diatas akan menghasilkan 2 nama karena variabel tersebut secara kalimat sama tapi secara penulisan berbeda, python memperhatikan hal ini.
+    contoh diatas akan menghasilkan 2 nama karena variabel tersebut secara kalimat sama tapi secara penulisan berbeda, Python memperhatikan hal ini.
 
 Pada Python, penggunaan variabel disarankan menggunakan ``snake_case``.
 
-## keywords yang tidak bisa digunakan pada python
+## Keywords yang tidak bisa digunakan pada python
 
 Ada beberapa kata yang dilarang untuk digunakan sebagai nama variabel. Contoh penggunaan kata yang dilarang pada Python:
 
@@ -93,7 +93,7 @@ class sma_saya = "bahasa"
 print(sma_saya)
 ```
 
-Hasil esekusi diatas akan menyebabkan error karena ``class`` merupaakan salah satu nama fungsi dari python.
+Hasil esekusi diatas akan menyebabkan error karena ``class`` merupakan salah satu nama fungsi dari Python.
 
 Kata/keywords yang dilarang:
 

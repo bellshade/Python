@@ -1,14 +1,14 @@
 # Stack
 
-Stack atau tumpukan adalah struktur data linier yang menyimpan item dengan cara _Last in/first out_ (``LIFO`` ) atau _fist in/last out_. di stack, elemen baru ditambahkn di satu ujung elemen dihapus dari ujung itu saja. operasi penyisipan dan penghapusan sering disebut push dan pop
+Stack atau tumpukan adalah struktur data linier yang menyimpan item dengan cara _Last in/first out_ (``LIFO`` ) atau _fist in/last out_. Di stack, elemen baru ditambahkn di satu ujung elemen dihapus dari ujung itu saja. Operasi penyisipan dan penghapusan sering disebut push dan pop.
 
-## implementasi
+## Implementasi
 
-ada berbagai cara di mana stack dapat diimplementasikan dengan python.
+Ada berbagai cara dimana stack dapat diimplementasikan dengan Python.
 
-## implementasi menggunakan list
+### Implementasi menggunakan list
 
-daftar struktur data bawaan python dapat digunakan sebagai tumpukan. alih alih ``push()``, ``append()`` digunakan untuk menambahkan elemen ke bagian atas tumpukan sementara ``pop()`` menghapus elemen dalam urutan ``LIFO``. sayangnya list ini memiliki kukurangan, masalah terbesarnya dalah ia dapat mengalami masalah kecepatan seiring dengan pertumbuhannya. item dalam list disimpan bersebelahan dengan memori, jika tumpukan tumbuh lebih besar dari blok memori yang saat ini menampungnya, maka python perlu melakukan beberapa alokasi memori. ini dapat menyebabkan beberapa panggilan ``append()`` memakan wwaktu lebih lama daripada yang lain.
+Daftar struktur data bawaan python dapat digunakan sebagai tumpukan. Alih alih ``push()``, ``append()`` digunakan untuk menambahkan elemen ke bagian atas tumpukan sementara ``pop()`` menghapus elemen dalam urutan ``LIFO``. Sayangnya list ini memiliki kukurangan, masalah terbesarnya dalah ia dapat mengalami masalah kecepatan seiring dengan pertumbuhannya. Item dalam list disimpan bersebelahan dengan memori, jika tumpukan tumbuh lebih besar dari blok memori yang saat ini menampungnya, maka python perlu melakukan beberapa alokasi memori. Ini dapat menyebabkan beberapa panggilan ``append()`` memakan waktu lebih lama daripada yang lain.
 
 ```py
 stack = []

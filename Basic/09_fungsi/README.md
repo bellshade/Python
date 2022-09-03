@@ -9,7 +9,7 @@ def hello():
     print('Hello !')
 ```
 
-Apabila kita ingin meng-gunakan fungsi tersebut kita bisa memanggilnya dengan:
+Apabila kita ingin menggunakan fungsi tersebut kita bisa memanggilnya dengan:
 
 ```python
 hello()
@@ -96,8 +96,7 @@ unlimited([1,2],[3,4])
 
 Contoh dari unlimited nya adalah, pada command pertama, kita memasukkan 4 parameter, command kedua, kita memasukkan 2 parameter.
 
-Last, but not least, unlimited keyword argument, dimana kita memberi tahu bahwa argument kita ini memiliki key, atau kunci, hal ini sama dengan dictionary
-di mana pada unlimited keyword argument, python memakai prinsip dictionary, sementara pada unlimited argument, python mengadopsi konsep tuple.
+Last, but not least, unlimited keyword argument, dimana kita memberi tahu bahwa argument kita ini memiliki key, atau kunci, hal ini sama dengan dictionary dimana pada unlimited keyword argument, python memakai prinsip dictionary, sementara pada unlimited argument, python mengadopsi konsep tuple.
 
 Contohnya:
 
@@ -126,10 +125,10 @@ def recursion(param):
 ```
 
 Kita harus memperhatikan dua hal ketika berurusan dengan rekursi:
-1. *Base Case*      : *Base Case* berfungsi untuk mengentikan proses rekursi. Kita harus jeli ketika mendefinisikan *base case*, sebab tiap
+1. __*Base Case*__      : *Base Case* berfungsi untuk mengentikan proses rekursi. Kita harus jeli ketika mendefinisikan *base case*, sebab tiap
 permasalahan memiliki *base case* yang berbeda. Salah mendefinisikan *base case* dapat berakhir dengan *infinite recursion*. *Base Case* biasanya
 didefinisikan ketika ```n = 0``` atau ```n = 1```.
-2. Proses Rekursi   : Proses rekursi merupakan solusi penyederhanaan dari masalah yang besar menjadi subpermasalahan yang lebih kecil. Sama seperti
+2. __Proses Rekursi__   : Proses rekursi merupakan solusi penyederhanaan dari masalah yang besar menjadi subpermasalahan yang lebih kecil. Sama seperti
 *base case*, proses rekursi setiap permasalahan berbeda-beda.
 
 Contoh fungsi rekursi adalah faktorial. Faktorial merupakan perkalian mundur suatu bilangan positif yang kurang lebih atau sama dengan *n*. Faktorial dilambangkan dengan ```n!```. Faktorial 0 atau ```0!``` bernilai 1. Nilai faktorial suatu bilangan positif dapat dihitung menggunakan proses rekursi yang ditunjukkan pada fungsi ```faktorial(n)``` di bawah:
@@ -178,7 +177,7 @@ Jika kita meng-```input``` variabel *n* dengan nilai 5, kita akan mendapatkan ``
 **Jadi, daripada memikirkan base case dan proses rekursi, lebih baik kita menggunakan loop biasa ketika menghadapi permasalahan yang melibatkan proses iterasi?**
 Jawabannya : **tidak**. Sebab, beberapa permasalahan dalam algoritma dan struktur data menggunakan pendekatan rekursi sebagai penyelesaian masalah. Hal ini disebabkan penyelesaian permasalahan menggunakan *loop* atau iterasi biasa tidak intuitif untuk permasalahan tersebut. Contoh solusi yang kurang intuitif dari permasalahan pada algoritma dan struktur data adalah ketika kita ingin meng-*insert* *node* pada *linked list* atau menambahkan *node* pada *tree*. Setidaknya sampai tulisan ini dibuat, penulis belum mendapatkan penyelesaian untuk menambahkan *node* pada kedua struktur data di atas menggunakan pendekatan iterasi biasa.
 
-Contoh lain dari penyelesaian masalah menggunakan rekursi dapat dilihat di file ```recursion_example.py``` yang ada di repositori.
+Contoh lain dari penyelesaian masalah menggunakan rekursi dapat dilihat pada file ```recursion_example.py``` yang ada di repositori.
 
 
 ## Closure
@@ -227,6 +226,8 @@ print(pangkat3(3))
 ```
 
 
-<a href="https://github.com/bellshade/Python/blob/task/fungsi/Basic/fungsi/fungsi.py">Bellshade Python Function</a>
+<a href="https://github.com/bellshade/Python/blob/main/Basic/09_fungsi/fungsi.py">Bellshade Python Function</a>
+<a href="https://github.com/bellshade/Python/blob/main/Basic/09_fungsi/recursion_example.py">Bellshade Python Recursion</a>
+
 
 [Materi Selanjutnya](../10_list_tuple)

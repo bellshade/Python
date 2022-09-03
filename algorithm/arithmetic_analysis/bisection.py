@@ -3,7 +3,7 @@ from typing import Callable
 
 def bisection(function: Callable[[float], float], a: float, b: float) -> float:
     """
-    menemukan di mana fungsi menjadi 0 dalam [a,b] menggunakan bolzano
+    menemukan dimana fungsi menjadi 0 dalam [a,b] menggunakan bolzano
     >>> bisection(lambda x: x ** 3 - 1, -5, 5)
     1.0000000149011612
     >>> bisection(lambda x: x ** 3 - 1, 2, 1000)

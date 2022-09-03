@@ -34,7 +34,7 @@ while b >= 1:
 
 Apabila variable b yang awalnya 5, masih lebih besar atau sama dengan 1, apabila variable b sudah menyentuh angka 0, maka loop statement otomatis tidak akan bekerja.
 
-Bisakah kita menghentikan proses looping ditengah statement yang masih memenuhi persyaratan?
+Bisakah kita menghentikan proses looping di tengah statement yang masih memenuhi persyaratan?
 Tentu bisa dong!
 
 Yaitu denga menggunakan keyword ```break```. Contohnya:
@@ -49,7 +49,7 @@ while c <= 5:
     c += 1
 ```
 
-Apabila nilai variable `c` masih ada dibawah atau sama dengan `5` maka proses loop bisa dilakukan, tetapi, jika nilai `c` sudah di angka `3`, kita melakukan proses ```break```, atau berhenti. Jadi kita menghentikan loop nya meskipun hasil statement loop nya masih benar.
+Apabila nilai variable `c` masih ada di bawah atau sama dengan `5` maka proses loop bisa dilakukan, tetapi, jika nilai `c` sudah di angka `3`, kita melakukan proses ```break```, atau berhenti. Jadi kita menghentikan loop nya meskipun hasil statement loop nya masih benar.
 
 Terus, bisa diskip ga sih suatu bilangan? Bisa dong, kita memakai statement ```continue```, contohnya:
 
@@ -102,7 +102,7 @@ for item in angka:
         break
 ```
 
-Meskipun statement dari `break` for loop ini beda dengan while loop, makna nya sama saja, kalau item nya udah di angka 3, break aja, atau selesaikan aja.
+Meskipun statement dari `break` for loop ini beda dengan while loop, maknanya sama saja, kalau itemnya udah di angka 3, break aja, atau selesaikan aja.
 
 apa di for loop ada ```continue```? pastinyaa:
 

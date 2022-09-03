@@ -1,37 +1,37 @@
-# manipulasi string
+# Manipulasi string
 
-pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesuai dengan kebutuhan yang diinginkan
+Pada Python kita bisa merubah dan memanipulasi string yang sudah ada agar sesuai dengan kebutuhan yang diinginkan.
 
 
-- mengakses salah satu karakter dari string
+- Mengakses salah satu karakter dari string
 
     ```python
     nama_saya = "zoelfikrie"
     print(nama_saya[0])
     ```
 
-- menghitung semua karakter string
+- Menghitung semua karakter string
 
     ```python
     nama_saya = "athallamajed"
     print(len(nama_saya))
     ```
 
-- menghitung jumlah suatu huruf dari karakter
+- Menghitung jumlah suatu huruf dari karakter
 
     ```python
     nama_saya = "carl loghmatten"
     print(nama_saya.count("l"))
     ```
 
-- menghitung jumlah spasi pada string
+- Menghitung jumlah spasi pada string
 
     ```python
     kalimat = "program belajar indonesia"
     print(kalimat.count(' '))
     ```
 
-- memotong karakter
+- Memotong karakter
 
     ```
     kata = "indonesia programming"
@@ -55,13 +55,13 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
         print(kata[-3:])
         ```
 
-- mengulang sebanyak dari string
+- Mengulang sebanyak dari string
     ```python
     # mengulang sebanyak 100 kali
     print("indonesia" * 100)
     ```
 
-- mengubah kata dari string
+- Mengubah kata dari string
 
     ```python
     kata = "belajar memasak"
@@ -77,7 +77,7 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
 | ``capitalize()`` | mengubah awalan huruf utama menjadi kapital | ``kata.capitalize()`` |
 | ``swapcase()``| mengubah setiap awalan kata kalimat menjadi huruf kecil | ``kata.swapcase()``|
 
-- membalikkan string
+- Membalikkan string
 
     ```python
     kata = "bellshade python"
@@ -87,7 +87,7 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
     print(' '.join(reversed(kata)))
     ```
 
-- penggabungan string
+- Penggabungan string
 
     ```python
     kata = "memasak"
@@ -101,7 +101,7 @@ pada python kita bisa merubah, dan memanipulasi string yang sudah ada agar sesua
         print("x".join(kata))
         ```
 
-- pengecekan
+- Pengecekan
 
     - ``kata.isalnum()``
         cek kata tersebut mengandung alphanumerik atau tidak
