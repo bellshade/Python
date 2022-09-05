@@ -29,12 +29,12 @@ Regular Expression adalah sekumpulan karakter yang membentuk suatu pola pencaria
 
 # E. Reguler Expression Function
 ## 1. Findall
-Findall adalah sebuah fungsi dimana fungsi tersebut mengembalikan kecocokan antara sequences atau pola yang kita inginkan dengan text yang akan dicari
+Findall adalah sebuah fungsi dimana fungsi tersebut mengembalikan kecocokan antara sequences atau pola yang kita inginkan dengan text yang akan dicari.
 ## 2. Sub
-Sub adalah sebuah fungsi dimana fungsi tersebut mengganti sequences yang kita cari dengan sequences / kata baru
+Sub adalah sebuah fungsi dimana fungsi tersebut mengganti sequences yang kita cari dengan sequences / kata baru.
 ## 3. Search
-Search adalah sebuah fungsi dimana fungsi tersebut mencari object yang kita inginkan pada kata yang akan kita eksekusi
+Search adalah sebuah fungsi dimana fungsi tersebut mencari object yang kita inginkan pada kata yang akan kita eksekusi.
 ## 4. Split
-Split adalah sebuah fungsi dimana fungsi itu memecah / membagi kalimat yang akan dieksekusi berdasarkan sebuah pola
+Split adalah sebuah fungsi dimana fungsi itu memecah / membagi kalimat yang akan dieksekusi berdasarkan sebuah pola.
 
 [Materi Selanjutnya](../22_scope)

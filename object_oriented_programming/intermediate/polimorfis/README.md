@@ -1,38 +1,38 @@
-# polimorfisme
+# Polimorfisme
 
-kata polimofisme berarti memiliki banyak bentik. dalam pemograman, polimorfisme berarti nama fungsi yang sama (tetapi tanda tangan yangb berbeda) digunakan untuk jenis yang berbeda
+Kata polimofisme berarti memiliki banyak bentuk. Dalam pemograman, polimorfisme berarti nama fungsi yang sama (tetapi tanda tangan yang berbeda) digunakan untuk jenis yang berbeda.
 
-## polimorfisme sebagai operator penjumlahan
+## Polimorfisme sebagai operator penjumlahan
 
-kita tahu bahwa ``+`` operator digunakan secara luas dalam program python. tapu tidak memiliki penggunaan tunggal.untuk tipe data integer, ``+`` operator digunakan untuk melakukan operasi penjumlahan aritmatika
+Kita tahu bahwa ``+`` operator digunakan secara luas dalam program python. Tapi tidak memiliki penggunaan tunggal. Untuk tipe data integer, ``+`` operator digunakan untuk melakukan operasi penjumlahan aritmatika.
 ```python
 angka1 = 12
 angka3 = 200
 print(angka1 + angka2)
 ```
-demikian pula untuk tipe data string, ``+`` operator digunkana untuk melakukan penggabungan
+Demikian pula untuk tipe data string, ``+`` operator digunkana untuk melakukan penggabungan.
 ```python
 pesan1 = "python"
 pesan2 = "bellshade"
 print(pesan1+" "+pesan2)
 ```
-ini adalah salah satu dari polimorfimse yang paling sederhana pada python
+Ini adalah salah satu dari polimorfimse yang paling sederhana pada python.
 
-## fungsi polimorfisme di python
+## Fungsi polimorfisme di python
 
-ada beberapa fungsi dalam python yang kompatibel untuk dijalankan dengan beberapa tipe data
+Ada beberapa fungsi dalam python yang kompatibel untuk dijalankan dengan beberapa tipe data.
 
-salah satu fungsi tersebut adalah ``len()``, salah satu fungsi yang bisa berjalan di banyak tipe data.
+Salah satu fungsi tersebut adalah ``len()``, salah satu fungsi yang bisa berjalan di banyak tipe data.
 ```python
 print(len("bellshade python"))
-print(len(["python", "programming", "indonesia"]))
-print(len({"nama": "anne", "negara": "russia"}))
+print(len(["python", "programming", "Indonesia"]))
+print(len({"nama": "anne", "negara": "Russia"}))
 ```
-disini kita dapat melihat bahwa banyak tipe data seperti ``string``, ``list``, ``tuple``, ``set`` dan ``dictionary`` bekerja dengan fungsi ``len()``. namun, kita dapat melihat bahwa itu mengembalikan informasi spesifik tentang tipe data tertentu.
+Di sini kita dapat melihat bahwa banyak tipe data seperti ``string``, ``list``, ``tuple``, ``set`` dan ``dictionary`` bekerja dengan fungsi ``len()``. Namun, kita dapat melihat bahwa itu mengembalikan informasi spesifik tentang tipe data tertentu.
 
-## kelas polimorfisme dengan python
+## Kelas polimorfisme dengan python
 
-kita dapat menggunakan konsep polimorfisme saat membuat metode kelas karena python memungknkan kelas yang berbeda memiliki metode dengan nama yang sama. kemudian kita dapat menggeneralisasi pemanggilan metode ini dengan mengabaikan bojke yang sedang kita kerjakan.
+Kita dapat menggunakan konsep polimorfisme saat membuat metode kelas karena python memungknkan kelas yang berbeda memiliki metode dengan nama yang sama. Kemudian kita dapat menggeneralisasi pemanggilan metode ini dengan mengabaikan bojke yang sedang kita kerjakan.
 
 ```python
 class Kucing:
@@ -68,11 +68,11 @@ for hewan in (kucing_saya, harimau_saya):
     hewan.suaranya()
 ```
 
-disni kita telah membuat dua kelas ``kucing`` dan ``harimau``. mereka berbagi struktur yagn sama dan memiliki nama metode yang sama ``info()`` dan ``suaranya()``, namun perhatikan bahwa kita belum membuat superclass umum atau menautkan kelas bersama sama dengan cara apapun, meski begitu, kita dapat megnemas dua objek berbeda ini ke dalam sebuah ``tuple`` dan mengulanginya menggunan persamaan ``hewan``. hal ini dimungkinkan karena polimorfisme.
+Di sini kita telah membuat dua kelas ``kucing`` dan ``harimau``. Mereka berbagi struktur yagn sama dan memiliki nama metode yang sama ``info()`` dan ``suaranya()``, namun perhatikan bahwa kita belum membuat superclass umum atau menautkan kelas bersama sama dengan cara apapun, meski begitu kita dapat mengemas dua objek berbeda ini ke dalam sebuah ``tuple`` dan mengulanginya menggunan persamaan ``hewan``. Hal ini dimungkinkan karena polimorfisme.
 
-## polimorfisme dan warisan
+## Polimorfisme dan warisan
 
-sperti dalam bahasa pemograman lain, kelas anak dalam python juga mewarisi metode dan atribut dari kelas induk. kita dapat mendifinisikan ulang metode dan atribut tertentu agar sesua dengan kelas anak, yang dikenal sebagi **metode overriding**. polimorfisme memungkinkan kita untuk mengakses metode dan atribut yang diganti ini yang memiliki nama yabg sama dengan kelas induknya.
+Seperti dalam bahasa pemograman lain, kelas anak dalam python juga mewarisi metode dan atribut dari kelas induk. Kita dapat mendifinisikan ulang metode dan atribut tertentu agar sesua dengan kelas anak, yang dikenal sebagi **metode overriding**. Polimorfisme memungkinkan kita untuk mengakses metode dan atribut yang diganti ini yang memiliki nama yang sama dengan kelas induknya.
 
 ```python
 from math import pi
@@ -121,13 +121,13 @@ print(a.info())
 print(a.area())
 ```
 
-disini kita dapat melihat bahwa metode ``__str__()``, yang belum di override di kelas anak, digunakan dari kelas induk.
+Di sini kita dapat melihat bahwa metode ``__str__()``, yang belum di override di kelas anak, digunakan dari kelas induk.
 
-karena polimorfisme, interpreter python secara otomatis mengenali bahwa ``info()``  metode untuk objek ``a`` (kelas ``persegi``) diganti. jadi, ia menggunakan yang didefinisikan di kelas anak.
+Karena polimorfisme, interpreter python secara otomatis mengenali bahwa ``info()``  metode untuk objek ``a`` (kelas ``persegi``) diganti. Jadi, ia menggunakan yang didefinisikan di kelas anak.
 
-di sisi lain, karena ``info()`` metode untuk objek ``B`` tidak ditimpa, itu digunakan dari induk ``Bentuk``
+Di sisi lain, karena ``info()`` metode untuk objek ``B`` tidak ditimpa, itu digunakan dari induk ``Bentuk``.
 
-contoh lain
+contoh lain:
 ```python
 class Kakaktua:
     def terbang(self):

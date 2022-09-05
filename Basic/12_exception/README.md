@@ -1,7 +1,7 @@
 # Exceptions (Eksepsi)
-Saat melakukan pemrograman di bahasa _python_, pasti sebagian besar _developer_ pernah mengalami kesalahan ketika mengeksekusi sebuah program yang dikenal dengan sebutan _error_. Hal ini terjadi karena ada kesalahan dalam menuliskan sintaks yang membuat program tersebut berhenti dan memunculkan pesan kesalahan (_error_) tersebut. Beberapa contoh kesalahan yang biasa kita lakukan ketika memprogram bahasa _python_ diantaranya:
+Saat melakukan pemrograman di bahasa _Python_, pasti sebagian besar _developer_ pernah mengalami kesalahan ketika mengeksekusi sebuah program yang dikenal dengan sebutan _error_. Hal ini terjadi karena ada kesalahan dalam menuliskan sintaks yang membuat program tersebut berhenti dan memunculkan pesan kesalahan (_error_) tersebut. Beberapa contoh kesalahan yang biasa kita lakukan ketika memprogram bahasa _Python_ diantaranya:
 
-- Pernyataan `if` atau `for` yang tidak diikuti dengan tanda titik dua
+- Pernyataan `if` atau `for` yang tidak diikuti dengan tanda titik dua.
   ```python
   >>> if True
     File "<stdin>", line 1
@@ -10,7 +10,7 @@ Saat melakukan pemrograman di bahasa _python_, pasti sebagian besar _developer_ 
   SyntaxError: invalid syntax
   ```
 
-- Penggunaan tanda kurung yang salah
+- Penggunaan tanda kurung yang salah.
   ```python
   >>> print('contoh penulisan yang salah'))
     File "<stdin>", line 1
@@ -20,7 +20,7 @@ Saat melakukan pemrograman di bahasa _python_, pasti sebagian besar _developer_ 
   ```
 
 _Error_ juga dapat terjadi saat program berjalan (_runtime_) yang disebut dengan eksepsi (_exception_). Beberapa contoh eksepsi yang biasa ditemukan adalah sebagai berikut:
-- `ZeroDivisionError` : suatu bilangan numerik tidak dapat dibagi dengan nol
+- `ZeroDivisionError` : suatu bilangan numerik tidak dapat dibagi dengan nol.
   ```python
   >>> 2 / 0
   Traceback (most recent call last):
@@ -28,7 +28,7 @@ _Error_ juga dapat terjadi saat program berjalan (_runtime_) yang disebut dengan
   ZeroDivisionError: division by zero
   ```
 
-- `TypeError` : operasi aritmatika pada tipe data yang tidak sesuai, misalkan tidak dapat melakukan operasi penjumlahan antara _integer_ dengan _string_
+- `TypeError` : operasi aritmatika pada tipe data yang tidak sesuai, misalkan tidak dapat melakukan operasi penjumlahan antara _integer_ dengan _string_.
   ```python
   >>> 5 + "5"
   Traceback (most recent call last):
@@ -36,7 +36,7 @@ _Error_ juga dapat terjadi saat program berjalan (_runtime_) yang disebut dengan
   TypeError: unsupported operand type(s) for +: 'int' and 'str'
   ```
 ## Exeption Handling (Penanganan Eksepsi)
-Seperti yang sudah diketahui di awal bahwa terjadinya _error_ atau _exception_ menyebabkan program terhenti. Untuk mengantisipasi hal ini, _python_ menyediakan penanganan kesalahan tersebut menggunakan pernyataan `try` dan `except`. Letakkan baris program yang memiliki kemungkinan _error_ di dalam blok `try`. Bila terjadi error di dalam blok `try`, tangani di dalam blok `except`. Struktur penulisan kodenya adalah sebagai berikut.
+Seperti yang sudah diketahui di awal bahwa terjadinya _error_ atau _exception_ menyebabkan program terhenti. Untuk mengantisipasi hal ini, _Python_ menyediakan penanganan kesalahan tersebut menggunakan pernyataan `try` dan `except`. Letakkan baris program yang memiliki kemungkinan _error_ di dalam blok `try`. Bila terjadi error di dalam blok `try`, tangani di dalam blok `except`. Struktur penulisan kodenya adalah sebagai berikut.
 ```python
 try:
     # eksekusi baris ini jika tidak ada kesalahan (error)
@@ -53,7 +53,7 @@ except:
     # tangani error di sini
     print('Bilangan tidak dapat dibagi dengan nol')
 ```
-Pada contoh di atas, sebelum masuk ke dalam blok `except`, alangkah baiknya diikuti dengan jenis eksepsi yang ingin ditangani. Karena bisa saja terdapat lebih dari satu jenis eksepsi yang berbeda untuk ditangani. Pada contoh di atas, untuk menangani untuk eksepsi `ZeroDivisionError`, maka penulisan kodenya sebagai berikut.
+Pada contoh di atas, sebelum masuk ke dalam blok `except`, alangkah baiknya diikuti dengan jenis eksepsi yang ingin ditangani. Karena bisa saja terdapat lebih dari satu jenis eksepsi yang berbeda untuk ditangani. Pada contoh di atas, untuk menangani untuk eksepsi `ZeroDivisionError`, maka penulisan kodenya sebagai berikut:
 ```python
 try:
     # karena pembaginya adalah nol, maka tangani error di except
@@ -64,7 +64,7 @@ except ZeroDivisionError:
     print('Bilangan tidak dapat dibagi dengan nol')
 ```
 
-Jika kita ingin menangani lebih dari satu eksepsi, maka jenis eksepsi yang ingin disebutkan menggunakan tuple. Contoh, jika ingin menangani `ZeroDivisionError` dan `TypeError`, maka struktur penulisannya menjadi sebagai berikut.
+Jika kita ingin menangani lebih dari satu eksepsi, maka jenis eksepsi yang ingin disebutkan menggunakan tuple. Contoh, jika ingin menangani `ZeroDivisionError` dan `TypeError`, maka struktur penulisannya menjadi sebagai berikut:
 ```python
 try:
     # lakukan sesuatu
@@ -72,7 +72,7 @@ except (ZeroDivisionError, TypeError):
     # tangani error di sini
 ```
 
-Eksepsi dapat ditangani menggunakan lebih dari satu blok `except`. Dari contoh kasus di atas, dapat dikembangkan sebagai berikut.
+Eksepsi dapat ditangani menggunakan lebih dari satu blok `except`. Dari contoh kasus di atas, dapat dikembangkan sebagai berikut:
 ```python
 try:
     hasil = 5 / "2"
@@ -85,7 +85,7 @@ except TypeError:
     print("Kedua bilangan berbeda tipe")
 ```
 
-Selain itu, kita dapat menampilkan pesan kesalahan atau eksepsi bawaan _python_ dengan menambahkan _alias_ menggunakan kata kunci `as` setelah jenis eksepsinya. Kemudian cetak pesan kesalahan dengan _alias_ tersebut menggunakan `print()`. Contoh penulisannya sebagai berikut.
+Selain itu, kita dapat menampilkan pesan kesalahan atau eksepsi bawaan _Python_ dengan menambahkan _alias_ menggunakan kata kunci `as` setelah jenis eksepsinya. Kemudian cetak pesan kesalahan dengan _alias_ tersebut menggunakan `print()`. Contoh penulisannya sebagai berikut.
 ```python
 # Bentuk 1
 try:

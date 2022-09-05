@@ -1,5 +1,5 @@
 ## Definisi
-*Binary search tree* (*BST*) adalah salah satu ragam dari *binary tree* yang memiliki karakteristik di mana nilai pada *node* sebelah kiri selalu lebih kecil dari *node* sebelah kanan. Dua *tree* di bawah merupakan ilustrasi dari *binary search tree*.
+*Binary search tree* (*BST*) adalah salah satu ragam dari *binary tree* yang memiliki karakteristik dimana nilai pada *node* sebelah kiri selalu lebih kecil dari *node* sebelah kanan. Dua *tree* di bawah merupakan ilustrasi dari *binary search tree*.
 ![Binary Search tree Example](img/bst_example.png)
 
 ## Operasi Pada *Binary Search Tree*
@@ -101,7 +101,7 @@ Kode di bawah ini adalah implementasi dari ketiga jenis *traversal* di atas
         arr.append(self.data)
         return arr
 ```
-Sebagai contoh, misalkan kita punya *binary search tree* sebagai berikut
+Sebagai contoh, misalkan kita punya *binary search tree* sebagai berikut:
 | *Preorder* | *Inorder*                                        | *Postorder*                                                                                                                          |
 |-------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](img/preorder.png)    | ![](img/inorder.png) | ![](img/postorder.png) |

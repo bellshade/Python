@@ -1,11 +1,11 @@
-# inheritance
+# Inheritance
 Warisan memungkinkan kita untuk mendefinisikan kelas yang mewarisi semua metode dan properti dari kelas lain.
 
 Kelas induk adalah kelas yang diwarisi, juga disebut kelas dasar.
 
 Kelas anak adalah kelas yang mewarisi dari kelas lain, juga disebut kelas turunan.
 
-contoh
+contoh:
 
 ```python
 class Merk(object):
@@ -25,10 +25,10 @@ data.tampilkan()
 
 informasi:
 - ``class Merk(object)``
-    merupakan parent utama dari inheritance dengan mendeklarasikan variabel nama dengan value ``"calvin klein"``
+    Merupakan parent utama dari inheritance dengan mendeklarasikan variabel nama dengan value ``"calvin klein"``
 
 - ``class Panggil(Merk)``
-    merupakan child parent yang memanggil parent class utama
+    Merupakan child parent yang memanggil parent class utama
 
     - ``Merk.__init__(self)``
         merupakan konstruktor pemanggil parent class atau kelas induk
@@ -37,11 +37,11 @@ informasi:
         memanggil dari variabel dari parent class atau kelas induk yang berupa ``self.nama`` yang berisi value string (``calvin klein``)
 
 - ``data = Panggil()``
-    deklarasi variabel baru dengan memanggil kelas ``Panggil()``
+    Deklarasi variabel baru dengan memanggil kelas ``Panggil()``
 
 - ``data.tampilkan()``
 
-    memanggil fungsi dari tampilkan dari kelas ``Panggil()``.kemudian menampilkan berupa variabel dari parent class atau kelas induk dari ``Merk`` yang berisi value berupa ``calvin klein``
+    Memanggil fungsi dari tampilkan dari kelas ``Panggil()``, kemudian menampilkan berupa variabel dari parent class atau kelas induk dari ``Merk`` yang berisi value berupa ``calvin klein``
 
 Teman-teman bisa belajar lebih lanjut tentang inheritance [di sini](https://www.youtube.com/watch?v=G6fmTwxx8rw&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=12), super method [di sini](https://www.youtube.com/watch?v=pjHk9CrB1JE&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=13), dan override [di sini](https://www.youtube.com/watch?v=sYKhxqcDu3w&list=PLZS-MHyEIRo7ab0-EveSvf4CLdyOECMm0&index=14)
 

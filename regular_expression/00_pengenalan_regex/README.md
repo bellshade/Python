@@ -4,9 +4,9 @@ RegEx, atau ekspresi reguler, adalah urutan karakter yang membentuk pola pencari
 
  RegEx dapat digunakan untuk memeriksa apakah string berisi pola pencarian yang ditentukan.
 
- python memliki module regex yang disebut dengan ``re`` yang dapat digunakan untuk bekerja dengan ekspresi reguler
+ Python memliki module regex yang disebut dengan ``re`` yang dapat digunakan untuk bekerja dengan ekspresi reguler.
 
- contoh penggunaan regex untuk melihat apakah sebuah string dimulai dengan kata _saya_ dan diakhiri dengan _bellshade_
+ Contoh penggunaan regex untuk melihat apakah sebuah string dimulai dengan kata _saya_ dan diakhiri dengan _bellshade_
 
  ```python
 import re

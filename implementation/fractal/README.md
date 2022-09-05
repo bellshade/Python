@@ -1,5 +1,5 @@
 ## Fractal
 
-fractal adalah pola yang tidak pernah berakhir. fraktal adalah pol kompleks tak terhingga yang serup diri di seluruh skala yang berbed. mereka dibuat dengan mengulangi proses sederhana berulang-ulang dalam lingkarn umpan balik yang berkejelanjutan.
+Fractal adalah pola yang tidak pernah berakhir. Fraktal adalah pola kompleks tak terhingga yang serup diri di seluruh skala yang berbeda. Mereka dibuat dengan mengulangi proses sederhana berulang-ulang dalam lingkaran umpan balik yang berkejelanjutan.
 
 Materi Selanjutnya: [Geodesy Engineering](../geodesy_engineering)

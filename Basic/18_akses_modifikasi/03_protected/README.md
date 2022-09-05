@@ -1,4 +1,4 @@
-# protected access
+# Protected access
 
 Anggota kelas yang dideklarasikan protected hanya dapat diakses oleh kelas turunannya. Anggota data dari suatu kelas dinyatakan terlindungi dengan menambahkan satu simbol underscore ``_`` sebelum anggota data dari kelas tersebut.
 
@@ -39,6 +39,6 @@ pekerja1 = Pekerja("james", "driller")
 pekerja1.menampilkan()
 ```
 
-di atas, ``_nama``, ``_jabaran`` adalah anggota data yang protected dan metode ```_menampilkan()``` adalah metode yang dilindungi dari  kelas ``Pekerja``. Metode ``menampilkan()`` adalah fungsi anggota publik dari kelas ``Pekerja()`` yang diturunkan dari kelas ``PekerjaTambang``, metode ``menampilkan()`` di kelas ``Pekerja`` mengakses data anggota kelas ``PekerjaTambang`` yang protected.
+Di atas, ``_nama``, ``_jabaran`` adalah anggota data yang protected dan metode ```_menampilkan()``` adalah metode yang dilindungi dari  kelas ``Pekerja``. Metode ``menampilkan()`` adalah fungsi anggota publik dari kelas ``Pekerja()`` yang diturunkan dari kelas ``PekerjaTambang``, metode ``menampilkan()`` di kelas ``Pekerja`` mengakses data anggota kelas ``PekerjaTambang`` yang protected.
 
 [Materi Selanjutnya](../../19_iterator)

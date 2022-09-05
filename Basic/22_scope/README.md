@@ -1,11 +1,11 @@
 # Pengertian
-sebuah variabel hanya dapat diakses didalam wilayah dia dibuat, inilah yang disebut dengan *Scope*
+Scope adalah sebuah variabel hanya dapat diakses didalam wilayah dia dibuat, inilah yang disebut dengan *Scope*.
 
 # Jenis-Jenis Scope
 
 ## Local Scope
 Sebuah variabel yang dibuat di dalam sebuah fungsi termasuk *Local Scope* dari fungsi tersebut
-dan hanya dapat digunakan didalam fungsi tersebut
+dan hanya dapat digunakan didalam fungsi tersebut.
 
 Contoh:
 ```py
@@ -34,7 +34,7 @@ myfunc()
 
 ## Global Scope
 Sebuah variabel yang dibuat di bagian utama kode python adalah *Global Variable* yang termasuk *Global Scope*
-variabel global dapat digunakan dimanapun
+variabel global dapat digunakan di manapun
 
 Contoh:
 ```
@@ -49,8 +49,8 @@ print(x)
 
 
 ### Menamai Variabel
-jika kamu menamai suatu variabel `x` di global scope dan kamu juga menamai variabel lainnya dengan `x`,
-maka python akan memisahkan variabel tersebut menjadi dua variabel yang berbeda
+Jika kamu menamai suatu variabel `x` di global scope dan kamu juga menamai variabel lainnya dengan `x`,
+maka python akan memisahkan variabel tersebut menjadi dua variabel yang berbeda.
 
 Contoh:
 ```py
@@ -67,7 +67,7 @@ print(x)
 ```
 
 ## Global Keyword
-jika kamu ingin membuat atau mengganti variabel tapi hanya bisa di *local scope*, kamu bisa menggunakan keyword global
+Jika kamu ingin membuat atau mengganti variabel tapi hanya bisa di *local scope*, kamu bisa menggunakan keyword global.
 
 Contoh:
 ```py
