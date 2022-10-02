@@ -7,11 +7,12 @@ assignees: ''
 
 ---
 
-## description
+## Description
 <!-- jelaskan masalah kamu secara detail -->
 
-## saya menggunakan
-OS : ``Linux / Windows / MacOS``
+## Saya Menggunakan
+<!-- Ganti sesuai yang digunakan. -->
+OS : ``Linux / Windows / MacOS``  
 Python: ``version``
 
 ## tambahan lainnya
