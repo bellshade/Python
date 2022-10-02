@@ -20,6 +20,7 @@
   - [ByteArray | `bytearray`](#13)
   - [MemoryView | `memoryview`](#14)
 - [Video penjelasan tentang tipe data](#15)
+- [Praktikum](#16)
 
 <a id="2"><h3>Pendahuluan</h3></a>
 
@@ -151,12 +152,16 @@ Beberapa tipe data dalam Python:
     angka_saya1 = memoryview(bytes(1212))
     ```
 
-<a id="15">Video penjelasan tentang tipe data</a>
+<a id="15"><h3>Video penjelasan tentang tipe data</h3></a>
 
 <center>
 
 [![sdfssadasd](https://img.youtube.com/vi/b3X0CH98Y9g/0.jpg)](https://youtu.be/b3X0CH98Y9g?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
 
 </center>
+
+<a id="16"><h3>Praktikum</h3></a>
+
+Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](../02_tipe_data/tipe_data.py)
 
 <a href="../03_variable">Materi Selanjutnya ▶</a>
