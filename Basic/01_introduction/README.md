@@ -17,7 +17,7 @@ Selamat datang di pemrograman Python dasar. Di sini kalian dapat memulai serta m
 
 Python dibuat dan dikembangkan oleh [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), programmer yang berasal dari Belanda. Python dibuat dengan menggunakan bahasa pemrograman C sebagai basisnya. Pemilihan nama Python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama **Monty Python’s Flying Circus** yang merupakan acara sirkus favorit dari Guido.
 
-Python adalah bahasa pemograman multiparadigma, yaitu mendukung pemograman berorientasi objek, pemograman terstruktur dan pemgoraman fungsional.
+Python adalah bahasa pemograman multiparadigma, yaitu mendukung pemograman berorientasi objek, pemograman terstruktur, dan pemgoraman fungsional.
 
 Kelebihan Python antara lain:
 
@@ -28,11 +28,11 @@ Kelebihan Python antara lain:
 
 Contoh implementasi dari bahasa pemograman Python adalah:
 
-- komputasi ilmiah dan numerik contohnya seperti <a href="https://scipy.org/" target="_blank">SciPy</a>,
-- aplikasi bisnis seperti <a href="https://www.tryton.org/" target="_blank">Tryton</a>,
-- pembuatan game seperti <a href="https://en.wikipedia.org/wiki/Battlefield_2" target="_blank">Battlefield 2</a>,
-- pengembangan web seperti <a href="https://www.djangoproject.com" target="_blank">Django</a> atau <a href="https://flask.palletsprojects.com" target="_blank">Flask</a>,
-- pengembangan dari situs web dan layanan sperti <a href="https://www.dropbox.com" target="_blank">Dropbox</a>, <a href="https://www.buzzfeed.com" target="_blank">BuzzFeed</a> dan <a href="https://www.uber.com" target="_blank">Uber</a>.
+- Komputasi ilmiah dan numerik contohnya seperti [SciPy](https://scipy.org/),
+- Aplikasi bisnis seperti [Tryton](https://www.tryton.org/),
+- Pembuatan game seperti [Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2),
+- Pengembangan web seperti [Django](https://www.djangoproject.com) atau [Flask](https://flask.palletsprojects.com),
+- Pengembangan dari situs web dan layanan sperti [Dropbox](https://www.dropbox.com), [BuzzFeed](https://www.buzzfeed.com) dan [Uber](https://www.uber.com).
 
 ```python
 print("hello bellshade")
