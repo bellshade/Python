@@ -34,6 +34,8 @@ Contoh implementasi dari bahasa pemograman Python adalah:
 - Pengembangan web seperti [Django](https://www.djangoproject.com) atau [Flask](https://flask.palletsprojects.com),
 - Pengembangan dari situs web dan layanan sperti [Dropbox](https://www.dropbox.com), [BuzzFeed](https://www.buzzfeed.com) dan [Uber](https://www.uber.com).
 
+<a id="3"><h2>Contoh `Hello World` pada python</h2></a>
+
 ```python
 print("hello bellshade")
 print("apa kabar ?")
