@@ -4,7 +4,7 @@
   <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png">
 <p>
 
-Selamat datang di pemrograman Python dasar. Disini kalian dapat memulai pertama kali mencoba pemrograman Python.
+Selamat datang di pemrograman Python dasar. Di sini kalian dapat memulai serta mencoba pertama kali pemrograman Python.
 
 <a id="1"><h2>Daftar Isi</h2></a>
 
@@ -21,10 +21,10 @@ Python adalah bahasa pemograman multiparadigma, yaitu mendukung pemograman beror
 
 Kelebihan Python antara lain:
 
-- mudah untuk dipelajari,
-- mudah digunakan,
-- mendukung **iot** (**internet of things**),
-- **multiplatform**, artinya dapat dijalan di berbagai jenis sistem.
+- Mudah untuk dipelajari,
+- Mudah digunakan,
+- Mendukung **iot** (**internet of things**),
+- **Multiplatform**, artinya dapat dijalan di berbagai jenis sistem.
 
 Contoh implementasi dari bahasa pemograman Python adalah:
 
