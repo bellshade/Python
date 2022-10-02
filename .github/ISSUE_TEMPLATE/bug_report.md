@@ -7,17 +7,18 @@ assignees: slowy07
 
 ---
 
-**Masalah**
-Jelaskan masalah kamu disini
+## Masalah
+<!-- jelaskan masalah kamu secara detail -->
 
-**Screenshots atau contoh error**a
-kamu bisa copy dan paste contoh errornya disini atau mngirim screenshot
+## Screenshots atau contoh error
+<!-- copy paste contoh errornya disini atau kirim screenshot dengan copy paste gambar -->
 ```
 pesan error
 ```
 
-**Desktop (please complete the following information):**
- - OS: ``linux/windows/macOS```
+## Desktop (please complete the following information):
+<!-- Ganti sesuai yang digunakan. -->
+ - OS: ``linux/windows/macOS``
  - Python: ``version``
 
 
