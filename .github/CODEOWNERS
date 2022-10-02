@@ -6,4 +6,10 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-*       @athallahmaajid @KelvinMulyawan @dimascapella @hendri-27 @slowy07
+
+# Commenting instead of deleting these users in the legacy file
+# to fix the current errors.
+# @KelvinMulyawan - since this user could not be found on GitHub
+# @hendri-27 - since this user didn't appear to have write access
+# according to the bellshade/Python contributions graphs
+*       @athallahmaajid @dimascapella @slowy07
