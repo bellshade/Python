@@ -1,3 +1,5 @@
+<a href="../01_introduction">◀ Materi Sebelumnya</a>
+
 ## Tipe Data
 
 <a id="1"><h3>Daftar Isi</h3></a>
@@ -155,10 +157,6 @@ Beberapa tipe data dalam Python:
 
 [![sdfssadasd](https://img.youtube.com/vi/b3X0CH98Y9g/0.jpg)](https://youtu.be/b3X0CH98Y9g?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
 
-[Belajar python dasar - mengenal tipe data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
-
 </center>
-
-<a href="../01_introduction">◀ Materi Sebelumnya</a>
 
 <a href="../03_variable">Materi Selanjutnya ▶</a>
