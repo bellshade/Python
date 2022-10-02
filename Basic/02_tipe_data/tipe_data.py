@@ -5,7 +5,6 @@
 # tipe data map yaitu dict
 
 # type() digunakan untuk memeriksa tipe data pada variabel
-# '\n' digunakan untuk menambahkan baris baru
 
 # contoh tipe data str
 teks_string = "Halo dunia!"
