@@ -17,6 +17,7 @@
   - [Bytes | `bytes`](#12)
   - [ByteArray | `bytearray`](#13)
   - [MemoryView | `memoryview`](#14)
+- [Video penjelasan tentang tipe data](#15)
 
 <a id="2"><h3>Pendahuluan</h3></a>
 
@@ -148,16 +149,16 @@ Beberapa tipe data dalam Python:
     angka_saya1 = memoryview(bytes(1212))
     ```
 
-Video penjelasan tentang tipe data = [Belajar python dasar - mengenal tipe data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
+<a id="15">Video penjelasan tentang tipe data</a>
 
-<iframe 
-  width="853" 
-  height="480" 
-  src="https://www.youtube.com/embed/b3X0CH98Y9g?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY" 
-  title="Belajar Python [Dasar] - 05 - Tipe Data" frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<center>
 
-<a href="../03_variable" style="float:left">◀ Materi Sebelumnya</a>
+[![sdfssadasd](https://img.youtube.com/vi/b3X0CH98Y9g/0.jpg)](https://youtu.be/b3X0CH98Y9g?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
 
-<a href="../03_variable" style="float:right">Materi Selanjutnya ▶</a>
+[Belajar python dasar - mengenal tipe data](https://www.youtube.com/watch?v=b3X0CH98Y9g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=6)
+
+</center>
+
+<a href="../01_introduction">◀ Materi Sebelumnya</a>
+
+<a href="../03_variable">Materi Selanjutnya ▶</a>
