@@ -8,8 +8,6 @@
 
 <a id="1"><h2>Daftar Isi</h2></a>
 
----
-
 - Tipe Data
   - [Daftar Isi](#1)
   - [Pendahuluan](#2)
@@ -29,8 +27,6 @@
 - [Praktikum](#16)
 
 <a id="2"><h2>Pendahuluan</h2></a>
-
----
 
 Tipe data adalah klasifikasi data. Tipe data menentukan jenis sebuah variabel.
 **Variabel sendiri adalah sebuah wadah untuk menyimpan data.** Dalam penulisannya, python menganut paham `dynamic typing` yang mana dalam membuat variabel kita tidak harus menuliskan tipe datanya pula. Hal tersebut sejalan dengan tujuan python dikembangkan untuk memudahkan keterbacaan kode dan memprioritaskan pengembangan konsep dalam lebih sedikit baris kode
@@ -162,8 +158,6 @@ Beberapa tipe data dalam Python:
 
 <a id="15"><h2>Video penjelasan tentang tipe data</h2></a>
 
----
-
 <center>
 
 [![sdfssadasd](https://img.youtube.com/vi/b3X0CH98Y9g/0.jpg)](https://youtu.be/b3X0CH98Y9g?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
@@ -171,8 +165,6 @@ Beberapa tipe data dalam Python:
 </center>
 
 <a id="16"><h2>Praktikum</h2></a>
-
----
 
 Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](../02_tipe_data/tipe_data.py)
 
