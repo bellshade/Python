@@ -1,10 +1,6 @@
 <a href="../01_introduction">◀ Materi Sebelumnya</a>
 
-<center>
-
-# Tipe Data
-
-</center>
+<h1 style="text-align:center">Daftar Isi</h1>
 
 <a id="1"><h2>Daftar Isi</h2></a>
 
