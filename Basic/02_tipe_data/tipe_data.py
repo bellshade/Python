@@ -8,7 +8,7 @@
 
 # contoh tipe data str
 teks_string = "Halo dunia!"
-teks_string_2 = 'halo dunia!'
+teks_string_2 = "halo dunia!"
 print(teks_string)
 print(teks_string_2)
 print(type(teks_string))
