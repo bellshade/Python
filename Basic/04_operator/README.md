@@ -320,16 +320,11 @@ Berikut tabel dari operasi identitas:
 
 ---
 
-- Operator Aritmatika
-  [![sdfssadasd](https://img.youtube.com/vi/RoDGGTWbKK4/0.jpg)](https://youtu.be/RoDGGTWbKK4?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
-- Operator Penugasan
-  [![sdfssadasd](https://img.youtube.com/vi/49KDyhzgCmA/0.jpg)](https://www.youtube.com/watch?v=49KDyhzgCmA&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=15)
-- Operator Perbandingan
-  [![sdfssadasd](https://img.youtube.com/vi/Kv_lDWq8kCc/0.jpg)](https://www.youtube.com/watch?v=Kv_lDWq8kCc&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=11)
-- Operator Logika
-  [![sdfssadasd](https://img.youtube.com/vi/Sl7zqPpC2VI/0.jpg)](https://www.youtube.com/watch?v=Sl7zqPpC2VI&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=12)
-- Operator Bitwise
-  [![sdfssadasd](https://img.youtube.com/vi/-VrqfCGwr88/0.jpg)](https://www.youtube.com/watch?v=-VrqfCGwr88&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=14)
+[![sdfssadasd](https://img.youtube.com/vi/RoDGGTWbKK4/0.jpg)](https://youtu.be/RoDGGTWbKK4?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY)
+[![sdfssadasd](https://img.youtube.com/vi/49KDyhzgCmA/0.jpg)](https://www.youtube.com/watch?v=49KDyhzgCmA&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=15)
+[![sdfssadasd](https://img.youtube.com/vi/Kv_lDWq8kCc/0.jpg)](https://www.youtube.com/watch?v=Kv_lDWq8kCc&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=11)
+[![sdfssadasd](https://img.youtube.com/vi/Sl7zqPpC2VI/0.jpg)](https://www.youtube.com/watch?v=Sl7zqPpC2VI&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=12)
+[![sdfssadasd](https://img.youtube.com/vi/-VrqfCGwr88/0.jpg)](https://www.youtube.com/watch?v=-VrqfCGwr88&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=14)
 
 <a id="11"><h2>Praktikum</h2></a>
 
