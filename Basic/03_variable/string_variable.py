@@ -5,7 +5,6 @@
 # Dalam membuat variabel string kita dapat
 # menggunakan petik dua ("") / petik satu ('')
 pesan = "saya pergi ke pasar"
-pesan = "saya pergi ke pasar"
 
 # s a y a   p e r g i
 # 0 1 2 3 4 5 5 6 7 8 9
