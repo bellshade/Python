@@ -133,6 +133,8 @@ count_bullet_speed
 └── file_tambahan.py
 ```
 
+**Catatan :** **Tidak boleh merubah-rubah apapun yang terdapat pada file [DIRECTORY.md](DIRECTORY.md) karena akan menggenerate kode secara otoamatis dan dimasukkan kedalam ``DIRECTORY.md``
+
 # *Pull Request*
 
 ***Pull request* yang baik**
@@ -180,3 +182,4 @@ Pull request akan di-*merge* jika:
 - Jika ada tes yang tidak lewat atau gagal, kami akan cek kembali perubahan anda.
 
 Untuk *pull request*, disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan serta selalu berterima kasih. Itu salah satu bentuk tata krama yang baik terhadap sesama *contributor* dan *programmer* lainnya.
+
