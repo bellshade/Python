@@ -6,7 +6,6 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
         types: [python]
-      - id: trailing-whitespace
       - id: requirements-txt-fixer
 
   - repo: https://github.com/psf/black
@@ -21,19 +20,12 @@ repos:
         args:
           - --profile=black
 
-  - repo: https://github.com/asottile/pyupgrade
-    rev: v2.38.2
-    hooks:
-      - id: pyupgrade
-        args:
-          - --py310-plus
-
   - repo: https://github.com/PyCQA/flake8
     rev: 5.0.4
     hooks:
       - id: flake8
         args:
-          - --ignore=E203,W503
+          - --ignore=E203,W503,F401,W504,F821,F841
           - --max-complexity=25
           - --max-line-length=100
 
@@ -43,13 +35,6 @@ repos:
       - id: mypy
         args:
           - --ignore-missing-imports
-          - --install-types
           - --non-interactive
         additional_dependencies: [types-requests]
-  - repo: local
-    hooks:
-      - id: validate-filenames
-        name: Validate filenames
-        entry: ./scripts/validate_filenames.py
-        language: script
-        pass_filenames: false
+
