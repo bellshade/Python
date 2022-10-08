@@ -35,6 +35,5 @@ repos:
       - id: mypy
         args:
           - --ignore-missing-imports
-          - --non-interactive
         additional_dependencies: [types-requests]
 
