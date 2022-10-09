@@ -19,7 +19,7 @@ def polar_force(
 
 
 def in_static_equilibrium(
-    forces: ndarray, location: ndarray, eps: float = 10**-1
+    forces: ndarray, location: ndarray, eps: float = 10 ** -1
 ) -> bool:
     """
     Menentukan apakah sistem berada dalam kesetimbangan statis.

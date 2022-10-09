@@ -72,7 +72,7 @@ def equation(x: float) -> float:
     #
     # Pada kasus ini:
     # f(x) = x^3 - 10x^2 + 5
-    return x**3 - 10.0 * x**2 + 5.0
+    return x ** 3 - 10.0 * x ** 2 + 5.0
 
 
 if __name__ == "__main__":

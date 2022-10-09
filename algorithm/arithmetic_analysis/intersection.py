@@ -39,7 +39,7 @@ def intersection(function: Callable[[float], float], num1: float, num2: float) -
             function(x_number2)
             / ((function(x_number2) - function(x_number1)) / (x_number2 - x_number1))
         )
-        if abs(x_number3 - x_number2) < 10**-5:
+        if abs(x_number3 - x_number2) < 10 ** -5:
             return x_number3
         x_number1 = x_number2
         x_number2 = x_number3

@@ -131,14 +131,14 @@ class BodySystem:
                     dif_x = body2.position_x - body1.position_x
                     dif_y = body2.position_y - body1.position_y
 
-                    distance = (dif_x**2 + dif_y**2 + self.softening_factor) ** (
+                    distance = (dif_x ** 2 + dif_y ** 2 + self.softening_factor) ** (
                         1 / 2
                     )
                     force_x += (
-                        self.gravitation_constant * body2.mass * dif_x / distance**3
+                        self.gravitation_constant * body2.mass * dif_x / distance ** 3
                     )
                     force_y += (
-                        self.gravitation_constant * body2.mass * dif_y / distance**3
+                        self.gravitation_constant * body2.mass * dif_y / distance ** 3
                     )
 
             body1.update_velocity(force_x, force_y, delta_time * self.time_factor)

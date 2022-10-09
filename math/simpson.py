@@ -118,7 +118,7 @@ if __name__ == "__main__":
         """
         Test Function
         """
-        return x**4
+        return x ** 4
 
     print(simpson_13(f, 0, 1))
     print(simpson_38(f, 0, 1))

@@ -29,7 +29,7 @@ class Persegi(Bentuk):
 
     # membuat fungsi yang menghitung area
     def area(self):
-        return self.panjang**2
+        return self.panjang ** 2
 
     # membuat fungsi yang menampilkan info
     def info(self):
@@ -46,7 +46,7 @@ class Lingkaran(Bentuk):
 
     # membuat fungsi yang menghitung jari jari
     def area(self):
-        return pi * self.jari**2
+        return pi * self.jari ** 2
 
 
 # membuat objek dari kelas persegi

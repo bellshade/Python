@@ -9,6 +9,8 @@
 # Jika ya, kita Telah memecahkan teki">teka-teki. lain,
 # kita mundur dan menempatkan nomor lain dalam sel itu dan ulangi proses ini.
 
+from __future__ import annotations
+
 
 Matrix = list[list[int]]
 
@@ -38,13 +40,12 @@ no_solution: Matrix = [
 
 
 def safe(grid: Matrix, row: int, col: int, num: int) -> bool:
-    """
-    Fungsi ini memeriksa kisi untuk melihat apakah setiap baris,
-    kolom, dan subgrid 3x3 berisi digit 'n'.
-    Ini mengembalikan False
-    jika tidak 'aman' (digit duplikat ditemukan)
-    pengembalian lain Benar jika 'aman'
-    """
+    # Fungsi ini memeriksa kisi untuk melihat apakah setiap baris,
+    # kolom, dan subgrid 3x3 berisi digit 'n'.
+    # Ini mengembalikan False
+    # jika tidak 'aman' (digit duplikat ditemukan)
+    # pengembalian lain Benar jika 'aman'
+
     for i in range(9):
         if grid[row][i] == num or grid[i][col] == num:
             return False
@@ -58,10 +59,8 @@ def safe(grid: Matrix, row: int, col: int, num: int) -> bool:
 
 
 def find_empty_location(grid: Matrix) -> tuple[int, int] | None:
-    """
-    Fungsi ini menemukan lokasi kosong sehingga
-    kita dapat menetapkan nomor untuk baris dan kolom tertentu.
-    """
+    # Fungsi ini menemukan lokasi kosong sehingga
+    # kita dapat menetapkan nomor untuk baris dan kolom tertentu.
     for i in range(9):
         for j in range(9):
             if grid[i][j] == 0:
@@ -108,9 +107,7 @@ def sudoku(grid: Matrix) -> Matrix | None:
 
 
 def show_solution(grid: Matrix) -> None:
-    """
-    tampilkan solusi Sudoku
-    """
+    # tampilkan solusi Sudoku dari ukuran 9x9
     for row in grid:
         for cell in row:
             print(cell, end=" ")
