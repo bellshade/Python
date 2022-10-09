@@ -1,4 +1,4 @@
-<a href="../03_variable">◀ Materi Sebelumnya</a>
+<a href="../03_variable">[variable] ◀ Materi Sebelumnya</a>
 
 <center>
 
@@ -340,4 +340,4 @@ Klik link dibawah untuk mencoba kode python dari pembahasan kali ini.
 - [Operator Bitwise](operator_bitwise.py)
 - [Operator Keanggotaan](operator_keanggotaan.py)
 
-<a href="../05_string">Materi Selanjutnya ▶</a>
+<a href="../05_string">Materi Selanjutnya ▶ [String]</a>

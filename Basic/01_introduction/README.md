@@ -41,4 +41,4 @@ print("hello bellshade")
 print("apa kabar ?")
 ```
 
-[Materi Selanjutnya ▶](../02_tipe_data)
+[Materi Selanjutnya ▶ [tipe data]](../02_tipe_data)
