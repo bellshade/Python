@@ -11,7 +11,6 @@
 
 from __future__ import annotations
 
-
 Matrix = list[list[int]]
 
 initial_grid: Matrix = [
