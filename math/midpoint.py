@@ -49,7 +49,7 @@ if __name__ == "__main__":
         """
         Test Function
         """
-        return x ** 3
+        return x**3
 
     print(midpoint(f, 0, 1))
 

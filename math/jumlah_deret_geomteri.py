@@ -17,7 +17,7 @@ def jumlah_deret_geometri(utama: int, rasio_umum: int, jumlah: int) -> int:
         return jumlah * utama
 
     # Rumus untuk mencari jumlah n suku dari Progresi Geometris
-    return (utama / (1 - rasio_umum)) * (1 - rasio_umum ** jumlah)
+    return (utama / (1 - rasio_umum)) * (1 - rasio_umum**jumlah)
 
 
 if __name__ == "__main__":
