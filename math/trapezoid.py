@@ -51,7 +51,7 @@ if __name__ == "__main__":
         """
         Test Function
         """
-        return x ** 4
+        return x**4
 
     import doctest
 

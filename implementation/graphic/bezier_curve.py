@@ -41,7 +41,7 @@ class BezierCurve:
         for i in range(len(self.list_of_points)):
             # basis fungsi dari setiap 1
             output_values.append(
-                comb(self.degree, i) * (1 - t) ** (self.degree - i) * (t ** i)
+                comb(self.degree, i) * (1 - t) ** (self.degree - i) * (t**i)
             )
 
         assert round(sum(output_values), 5) == 1

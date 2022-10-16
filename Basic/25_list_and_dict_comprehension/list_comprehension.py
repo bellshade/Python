@@ -20,7 +20,7 @@ print(f"Original Range : {original_dua}")
 
 # Implementasi List Comprehension dengan Pemangkatan (Exponential)
 
-exp_list = [item ** 2 for item in original]
+exp_list = [item**2 for item in original]
 
 print(f"Exponent List : {exp_list}")
 # Output = Exponent List : [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
