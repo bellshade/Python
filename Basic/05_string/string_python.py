@@ -3,6 +3,8 @@
 #  contoh
 # "Hello World" sama dengan 'hello world'
 # 'hello world' sama dengan "hello world"
+# Namun disarankan menggunakan petik dua
+# damlam deklarasi python
 
 
 kata_pertama = "warung"
@@ -34,3 +36,4 @@ print(len(kata_pertama))
 # kita juga dapat mengecek kata khusus dalam sebuah string
 # contoh
 print("Indonesia" in kata_saya)
+print("Indonesia" in "one")
