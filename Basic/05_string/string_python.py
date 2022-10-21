@@ -4,7 +4,7 @@
 # "Hello World" sama dengan 'hello world'
 # 'hello world' sama dengan "hello world"
 # Namun disarankan menggunakan petik dua
-# damlam deklarasi python
+# dalam deklarasi python
 
 
 kata_pertama = "warung"
