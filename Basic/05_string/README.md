@@ -21,7 +21,7 @@
   - [Substring String](#9)
   - [`len()`](#10)
   - [`in` Keyword](#11)
-- [Video Penjelasan Tentang Variabel](#12)
+- [Video Penjelasan Tentang String](#12)
 - [Praktikum](#13)
 
 <a id="2"><h2>Pendahuluan</h2></a>
