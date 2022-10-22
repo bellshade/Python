@@ -1,4 +1,4 @@
-<a href="../01_introduction">◀ Materi Sebelumnya</a>
+<a href="../01_introduction">[Introduction] ◀ Materi Sebelumnya</a>
 
 <center>
 
@@ -168,4 +168,4 @@ Beberapa tipe data dalam Python:
 
 Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](../02_tipe_data/tipe_data.py)
 
-<a href="../03_variable">Materi Selanjutnya ▶</a>
+<a href="../03_variable">Materi Selanjutnya ▶ [variable]</a>

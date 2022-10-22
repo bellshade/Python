@@ -1,4 +1,4 @@
-<a href="../02_tipe_data">◀ Materi Sebelumnya</a>
+<a href="../02_tipe_data">[tipe data] ◀ Materi Sebelumnya</a>
 
 <center>
 
@@ -205,4 +205,4 @@ Kata/keywords yang dilarang:
 
 Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](../03_variable/variable.py)
 
-<a href="../04_operator">Materi Selanjutnya ▶</a>
+<a href="../04_operator">Materi Selanjutnya ▶ [operator]</a>
