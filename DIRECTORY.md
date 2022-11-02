@@ -138,6 +138,7 @@
     * [Binary Search](https://github.com/bellshade/Python/blob/main/algorithm/searching/binary_search.py)
     * [Linear Search](https://github.com/bellshade/Python/blob/main/algorithm/searching/linear_search.py)
   * Sorting
+    * [Bead Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bead_sort.py)
     * [Bubble Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort.py)
     * [Bubble Sort Ascii](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort_ascii.py)
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
