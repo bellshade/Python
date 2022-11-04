@@ -219,7 +219,7 @@ class BinarySearchTree:
             yield from self._preorder_traversal(node.right)
 
 
-class BinarySearchTree(unittest.TestCase):
+class BinarySearchTreeTest(unittest.TestCase):
     @staticmethod
     def _get_binary_search_tree() -> BinarySearchTree:
         r"""
