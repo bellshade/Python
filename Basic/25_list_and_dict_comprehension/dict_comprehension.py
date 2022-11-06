@@ -8,7 +8,7 @@
 # mampu menulis koding dengan elegan
 
 # Membuat Dictionary
-angka = dict()
+angka = dict()  # lgtm [py/multiple-definition]
 
 # Basic Dict Comprehension
 angka = {nilai: nilai * 2 for nilai in range(1, 6)}
@@ -16,7 +16,7 @@ print("Angka : ", angka)
 # Output = Angka :  {1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
 
 # Contoh lainnya pada Dict Comprehension
-pangkat = {key * 2: value**2 for (key, value) in angka.items()}
+pangkat = {key * 2: value ** 2 for (key, value) in angka.items()}
 print("Pangkat Dua: ", pangkat)
 # Output = Pangkat Dua:  {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
 
