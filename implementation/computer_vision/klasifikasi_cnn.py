@@ -4,7 +4,7 @@
 # dataset
 # https://lhncbc.nlm.nih.gov/LHC-publications/pubs/TuberculosisChestXrayImageDataSets.html
 
-import numpy
+import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
 

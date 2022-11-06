@@ -44,32 +44,32 @@ jobs:
         pip install -r requirements.txt -r dev-requirements.txt
       # memformat kode secara otomatis dengan black
       # tujuannya agar kode lebih mudah dibaca
-    - name: Format otomatis
-      run: |
-        echo "Mulai format otomatis"
-        isort . --profile=black
-        black .
+      #- name: Format otomatis
+      #run: |
+      #echo "Mulai format otomatis"
+      #isort . --profile=black
+      #black .
       # ketika sudah di format maka kode akan mengcommit kembali
       # dan commit akan otomatis menggunakan github bot yang sudah tersedia
       # disini kondisi jika file tersebut ada perubahan maka akan di format
-    - name: Cek modifikasi file
-      id: git-check
-      run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
-    - name: Push perubahan
-      if: steps.git-check.outputs.modified == 'ya' && github.event_name == 'push'
-      run: |
-        git config --global user.name 'bellshadebot'
-        git config --global user.email 'bellshade07@gmail.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git pull
-        git commit -am "style: format otomatis dengan black dan isort"
-        git push
+      #- name: Cek modifikasi file
+      #id: git-check
+      #run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
+      #- name: Push perubahan
+      #if: steps.git-check.outputs.modified == 'ya' && github.event_name == 'push'
+      #run: |
+      #git config --global user.name 'bellshadebot'
+      #git config --global user.email 'bellshade07@gmail.com'
+      #git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+      #git pull
+      #git commit -am "style: format otomatis dengan black dan isort"
+      #git push
       # test python dengan menggunakan pytest dengan perintah lanjutan
       # yaitu document testing
-    - name: Test Python
-      run: |
-        echo "Mulai Jalankan testing docstring"
-        pytest . --doctest-modules --ignore=Basic/ --cov-report=term-missing:skip-covered
+      #- name: Test Python
+      #run: |
+      #echo "Mulai Jalankan testing docstring"
+      #pytest . --doctest-modules --ignore=Basic/ --cov-report=term-missing:skip-covered
       # test lint python jika black gagal reformat kode
     - name: Test Lint Python
       run: |
@@ -79,14 +79,15 @@ jobs:
       # yang berfungsi jika mengecek kode apakah terdapat kode
       # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
 
-    - name: Test mypy
-      run: mypy --ignore-missing-imports --install-types --non-interactive .
+      # mypy sudah digunakan dalam pre commit
+        #- name: Test mypy
+        #run: mypy --ignore-missing-imports --install-types --non-interactive .
       # FIXME : kendala error beberapa directory mypy
       # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
-    - name: Test coverage
-      run: |
-        echo "Mulai testing coverage"
-        coverage run --source . -m pytest --doctest-modules --ignore=Basic/
+      #- name: Test coverage
+      #run: |
+      #echo "Mulai testing coverage"
+      #coverage run --source . -m pytest --doctest-modules --ignore=Basic/
       # membuat report untuk upload ke codecoverage
 
     #  kendala server github tidak respon pada coverage
