@@ -313,7 +313,7 @@ class BinarySearchTreeTest(unittest.TestCase):
 
     def test_preorder_taversal(self) -> None:
         t = self._get_binary_search_tree()
-        
+
         preorder_traversal_nodes = [i.label for i in t.preorder_traversal()]
         assert preorder_traversal_nodes == [8, 3, 1, 6, 4, 5, 7, 10, 14, 13]
 
