@@ -306,6 +306,17 @@ class BinarySearchTreeTest(unittest.TestCase):
         with self.assertRaises(Exception):  # noqa: B017
             t.put(1)
 
+    def test_kosong(self) -> None:
+        t = self._get_binary_search_tree()
+        t.kosong()
+        assert t.root is None
+
+    def test_preorder_taversal(self) -> None:
+        t = self._get_binary_search_tree()
+        
+        preorder_traversal_nodes = [i.label for i in t.preorder_traversal()]
+        assert preorder_traversal_nodes == [8, 3, 1, 6, 4, 5, 7, 10, 14, 13]
+
 
 if __name__ == "__main__":
     import doctest
