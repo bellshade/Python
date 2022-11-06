@@ -7,7 +7,7 @@
 # seperti contoh pada lambda luas_persegi dibawah
 # hanya input s, dan satu expresi yaitu, s * s
 
-luas_persegi = lambda s: s ** 2
+luas_persegi = lambda s: s**2
 print(luas_persegi(4))  # 16
 
 # bukti dari lambda bisa menerima multiple argument adalah
