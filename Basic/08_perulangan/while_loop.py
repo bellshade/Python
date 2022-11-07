@@ -33,4 +33,4 @@ while e <= 5:
     e += 1
     break
 else:
-    print("Selamat, looping anda telah selesai !!")
+    print("Selamat, looping anda telah selesai !!")  # lgtm [py/unreachable-statement]

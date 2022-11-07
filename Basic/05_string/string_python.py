@@ -36,4 +36,4 @@ print(len(kata_pertama))
 # kita juga dapat mengecek kata khusus dalam sebuah string
 # contoh
 print("Indonesia" in kata_saya)
-print("Indonesia" in "one")
+print("Indonesia" in "one")  # lgtm [py/comparison-of-constants]
