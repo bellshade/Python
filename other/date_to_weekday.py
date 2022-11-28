@@ -16,9 +16,8 @@ def date_to_weekday(inp_date: str) -> str:
     day, month, year = (int(x) for x in inp_date.split("/"))
     if year % 100 == 0:
         year = "00"
-    new_base_date: str = (
-        f"{day}/{month}/{year%100} 0:0:0"  # lgtm [py/percent-format/wrong-arguments]
-    )
+    year = year % 100
+    new_base_date: str = f"{day}/{month}/{year} 0:0:0"
     date_time_obj: datetime.date = datetime.strptime(new_base_date, "%d/%m/%y %H:%M:%S")
     out_put_day: int = date_time_obj.weekday()
     return day_name[out_put_day]
@@ -26,5 +25,7 @@ def date_to_weekday(inp_date: str) -> str:
 
 if __name__ == "__main__":
     import doctest
+
+    print(date_to_weekday("29/11/2022"))
 
     doctest.testmod()
