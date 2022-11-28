@@ -25,6 +25,7 @@ def date_to_weekday(inp_date: str) -> str:
 
 if __name__ == "__main__":
     import doctest
+
     print(date_to_weekday("29/11/2022"))
 
     doctest.testmod()
