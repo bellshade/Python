@@ -12,6 +12,7 @@
 # - pipa distribusi air
 # - problem pencocokan bipartit
 
+
 def bfs(graph, s, t, parent) -> bool:
     visited = [False] * len(graph)
     queue = []
