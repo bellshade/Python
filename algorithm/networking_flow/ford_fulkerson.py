@@ -1,5 +1,18 @@
-def BFS(graph, s, t, parent) -> bool:
+# ford fulkerson adalah algoritma greedy
+# yang menghitung aliran maksimum dalam jaringan
+# aliran atau dalam grafik
 
+# cara kerja algoritma
+# - inisialisasi aliran di semua sisi ke 0
+# - meskipun ada jalur augmentasi antara sumber dan
+#   sink, tambahkan jalur ke aliran
+# - memperbarui grafik dari sisa
+
+# algoritma ini digunakan dalam
+# - pipa distribusi air
+# - problem pencocokan bipartit
+
+def bfs(graph, s, t, parent) -> bool:
     visited = [False] * len(graph)
     queue = []
     queue.append(s)
@@ -33,7 +46,7 @@ def FordFulkerson(graph, source, sink):
     parent = [-1] * (len(graph))
     max_flow = 0
 
-    while BFS(graph, source, sink, parent):
+    while bfs(graph, source, sink, parent):
         path_flow = float("Inf")
         s = sink
 
