@@ -5,9 +5,7 @@
   <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
   <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=bellshade&repo=python&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg">
   <img alt="badge lisensi" src="https://img.shields.io/github/license/bellshade/python?logo=github&style=for-the-badge">
-  <img alt="badge lgtm" src="https://img.shields.io/lgtm/grade/python/github/bellshade/Python?label=code%20quality&logo=LGTM&style=for-the-badge">
   <img alt="badge codefactor" src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=codefactor%20grade&logo=codefactor&style=for-the-badge">
-  <img alt="badge unitesting github"src="https://img.shields.io/github/workflow/status/bellshade/python/python%20testing?logo=github&style=for-the-badge">
   <br>
   <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv" width=300 height=200> <br>
 </p>
