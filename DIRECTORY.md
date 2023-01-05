@@ -112,6 +112,8 @@
     * [Fuzzy Operation](https://github.com/bellshade/Python/blob/main/algorithm/fuzzy_logic/fuzzy_operation.py)
   * Genetic Algo
     * [Basic String](https://github.com/bellshade/Python/blob/main/algorithm/genetic_algo/basic_string.py)
+  * Machine Learning
+    * [Gradient Descent](https://github.com/bellshade/Python/blob/main/algorithm/machine_learning/gradient_descent.py)
   * Manipulasi Bit
     * [Binary And Operator](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_and_operator.py)
     * [Binary Count Trailing Zero](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_count_trailing_zero.py)
