@@ -3,7 +3,10 @@
   Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> <br>
   WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br>
   <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
+  <!--
+     visitor badge sementara dikomentar karena ada masalah pada saat display
   <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=bellshade&repo=python&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg">
+  --!>
   <img alt="badge lisensi" src="https://img.shields.io/github/license/bellshade/python?logo=github&style=for-the-badge">
   <img alt="badge codefactor" src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=codefactor%20grade&logo=codefactor&style=for-the-badge">
   <br>
