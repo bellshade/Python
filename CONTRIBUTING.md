@@ -18,7 +18,7 @@ Algoritma adalah satu atau lebih fungsi dan/atau kelas yang:
 - memiliki satu atau lebih *input*;
 - melakukan beberapa internal kalkulasi atau manipulasi data;
 - mengembalikan satu atau lebih nilai hasil;
-- memiliki kekurangan minimal (contoh: `print()`,`plot()`,`read()`,`write()`).
+- memiliki kekurangan minimal (contoh: `print()`,`plot()`,`read()`,`write()`) terkecuali jika memperbaiki materi tutorial.
 
 Algoritma harus dikemas sedemikian rupa agar dapat dengan mudah dimasukkan ke dalam program yang lebih besar.
 
@@ -57,7 +57,7 @@ def adding(num1, num2):
     return num1 + num2
 ```
 
-***Docstring* yang buruk:**
+***Docstring* yang kurang baik:**
 
 ```py
 def adding(num1, num2):
@@ -133,13 +133,14 @@ count_bullet_speed
 └── file_tambahan.py
 ```
 
-**Catatan :** **Tidak boleh merubah-rubah apapun yang terdapat pada file [DIRECTORY.md](DIRECTORY.md) karena akan menggenerate kode secara otoamatis dan dimasukkan kedalam ``DIRECTORY.md``
+**Catatan :** **Tidak boleh merubah-rubah apapun yang terdapat pada file [DIRECTORY.md](DIRECTORY.md) karena akan menggenerate daftar file kode secara otoamatis dan dimasukkan kedalam ``DIRECTORY.md``
 
 # *Pull Request*
 
 ***Pull request* yang baik**
 
-Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau implementasi algoritma, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
+Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau implementasi algoritma, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya. Kamu juga bisa menggunakan issue jika kamu ada 
+kendala atau masalah ketika melakukan pull request. Kamu juga bisa bertanya pada forum discord **WPU** dan **Kelas Terbuka** perihal bellshade.
 
 - Lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [*issue*](https://github.com/bellshade/Python/issues).
 - Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/Python/issues) kemudian lakukan *fork* pada repositori kami.
