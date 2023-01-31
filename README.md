@@ -1,12 +1,12 @@
 <p align="center">
   <img width="20%" src="./assets/logo.png"><br/><br/>
-  Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> <br>
+  Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> and <a href="https://discord.gg/eavqxxTU"> Kelas terbuka Discord Community</a> <br>
   WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br>
   <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
   <!--
      visitor badge sementara dikomentar karena ada masalah pada saat display
   <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=bellshade&repo=python&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg">
-  --!>
+  -->
   <img alt="badge lisensi" src="https://img.shields.io/github/license/bellshade/python?logo=github&style=for-the-badge">
   <img alt="badge codefactor" src="https://img.shields.io/codefactor/grade/github/bellshade/Python/main?label=codefactor%20grade&logo=codefactor&style=for-the-badge">
   <br>
@@ -98,4 +98,4 @@ Bantuan kalian diperlukan Agar Bellshade dapat lebih jauh lagi membantu anak-ana
 
 Kami sangat senang bila kalian ingin melakukan kontribusi pada repositori **Python** ini. Tapi, sebelum itu, silahkan baca terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang telah kami siapkan. Terima kasih!
 
-Untuk informasi lebih lanjut, mari gabung dalam komunitas [Discord Channel WPU](http://discord.gg/S4rrXQU)
+Untuk informasi lebih lanjut, mari gabung dalam komunitas [Discord Channel WPU](http://discord.gg/S4rrXQU) dan [Discord Channel Kelas Terbuka](https://discord.gg/eavqxxTU)
