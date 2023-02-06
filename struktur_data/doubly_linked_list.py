@@ -1,5 +1,4 @@
 class Node:
-
     # Class Node digunakan untuk membangun node pada linked list.
     # Node pada doubly linked list pada umumnya mirip dengan
     # node pada singly linked list, hanya saja terdapat sebuah
@@ -13,19 +12,16 @@ class Node:
 
 
 class DoublyLinkedList:
-
     # Class DoublyLinkedList digunakan untuk membuat doubly linked list
     # dari kumpulan node
 
     def __init__(self):
-
         # Constructor __init__ digunakan  untuk menginisialisasi
         # head dari linked list
 
         self.linked_list_head = None
 
     def insert_head(self, new_node):
-
         # Method insert_head digunakan untuk menambah node pada head
         # dari linked list. Method ini menerima argumen new_node yang
         # merupakan class Node.
@@ -41,7 +37,6 @@ class DoublyLinkedList:
             self.linked_list_head = new_node
 
     def insert(self, new_node):
-
         # Method insert digunakan untuk menambahkan node pada linked list.
         # Method ini memiliki parameter new_node di mana parameter ini
         # menerima argumen berupa class Node.
@@ -62,7 +57,6 @@ class DoublyLinkedList:
             new_node.prev = temp
 
     def insert_after(self, target, new_node):
-
         # Method insert_after digunakan untuk menambah node setelah node
         # tertentu. Method ini menerima argumen parameter target_val yang
         # berfungsi sebagai penanda di mana node yang baru akan
@@ -79,7 +73,6 @@ class DoublyLinkedList:
         new_node.prev = temp
 
     def delete_head(self):
-
         # Method delete_head digunakan untuk menghapus head dari
         # linked list
 
@@ -91,7 +84,6 @@ class DoublyLinkedList:
         temp = None  # lgtm [py/unused-local-variable]
 
     def delete_tail(self):
-
         # Method delete_tail digunakan untuk menghapus tail dari
         # linked list
 
@@ -105,7 +97,6 @@ class DoublyLinkedList:
         temp.next = None
 
     def delete_node(self, target):
-
         # Method delete_node berfungsi untuk menghapus sebuah node
         # dari linked list. Method ini menerima argumen target_val, yaitu
         # nilai dari node pada linked list.
@@ -122,7 +113,6 @@ class DoublyLinkedList:
             temp.next.next.prev = temp
 
     def print_linked_list(self):
-
         # Method print_linked_list berfungsi untuk mencetak linked list
 
         result = []
@@ -135,7 +125,6 @@ class DoublyLinkedList:
 
 
 if __name__ == "__main__":
-
     doubly_linked_list = DoublyLinkedList()
     doubly_linked_list.insert(Node(5))
     doubly_linked_list.insert(Node(6))

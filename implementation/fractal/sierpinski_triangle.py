@@ -21,7 +21,6 @@ def get_mid(p1, p2):
 
 
 def triangle(points, depth):
-
     drawing.up()
     drawing.goto(points[0][0], points[0][1])
     drawing.down()
@@ -45,7 +44,6 @@ def triangle(points, depth):
 
 
 if __name__ == "__main__":
-
     drawing = turtle.Turtle()
     # drawing.ht()
     # drawing.speed(5)

@@ -6,7 +6,6 @@ import numpy as np
 def trapezoid(
     func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
-
     """
     Metode integrasi trapesium mengganti bentuk segiempat
     yang sebelumnya digunakan untuk mengintegrasi menjadi

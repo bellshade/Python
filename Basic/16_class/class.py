@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod, abstractproperty
 
 # Kelas abstrak hewan, tidak dapat di-inisialisasi dan hanya berupa instance
 class Hewan(ABC):
-
     # Properti abstrak
     @abstractproperty
     def suara(self):
@@ -17,7 +16,6 @@ class Hewan(ABC):
 
 # Menggunakan pewarisan dari kelas Hewan
 class Kucing(Hewan):
-
     # Mengimplementasikan properti suara
     @property
     def suara(self):

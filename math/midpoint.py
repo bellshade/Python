@@ -6,7 +6,6 @@ import numpy as np
 def midpoint(
     func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
-
     """
     Aturan titik tengah berfungsi mengoptimasi metode segiempat
     Dengan aturan ini, metode segiempat membagi domain integrasi

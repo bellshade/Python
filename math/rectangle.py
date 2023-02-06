@@ -6,7 +6,6 @@ import numpy as np
 def rectangle(
     func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
-
     """
     Metode segi empat adalah metode integrasi paling sederhana.
     Metode ini membagi domain integrasi sebanyak n buah

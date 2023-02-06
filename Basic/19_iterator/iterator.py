@@ -22,7 +22,6 @@ for fruit in fruits:
 
 # iterator juga bisa kita kustomisasi pada class
 class MyNumbers:
-
     # dunder method iter
     def __iter__(self):
         self.fruits = ["apple", "banana", "cherry"]

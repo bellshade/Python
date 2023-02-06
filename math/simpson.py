@@ -9,7 +9,6 @@ import numpy as np
 def simpson_13(
     func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
-
     """
     Metode simpson 1/3 menggunakan
     kurva polinomial ordo 2 untuk melakukan
@@ -51,7 +50,6 @@ def simpson_13(
 def simpson_38(
     func: Callable[..., float], a: float, b: float, eps: float = 0.0001, *args, **kwargs
 ) -> float:
-
     """
     Metode simpson 3/8 menggunakan
     kurva polinomial ordo 3 untuk melakukan

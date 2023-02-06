@@ -76,7 +76,6 @@ def conjugate_gradient(
     iterations = 0
 
     while error > tol:
-
         w = np.dot(spd_matrix, p0)
         alpha = np.dot(r0.T, r0) / np.dot(p0.T, w)
         # update solusi
