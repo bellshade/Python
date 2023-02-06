@@ -16,7 +16,6 @@ def create_state_space_tree(
     index: int,
     index_used: list[int],
 ) -> None:
-
     """
     Membuat pohon ruang untuk iterasi melalui setiap cabang menggunakan DFS.
     Kita tahu bahwa setiap negara memiliki persis len (urutan) - anak-anak indeks.

@@ -15,7 +15,6 @@ class PekerjaTambang:
 
 # kelas turunan dari pekerja tambang
 class Pekerja(PekerjaTambang):
-
     # membuat konstruktor
     def __init__(self, nama, jabatan):
         PekerjaTambang.__init__(self, nama, jabatan)
