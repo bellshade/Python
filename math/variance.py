@@ -6,10 +6,12 @@ def rata_rata(data: list[int]) -> float:
         _sum+=number
     result=_sum/panjang_data
     return round(result,2)
+
 def variance(data:list[int]):
     '''
-    variansi atau dalam bahasa inggris disebut juga disebut variance variance.
-    variansi ini berfungsi untuk mengetahuo keragaman data baik agar mengetahui sifat-sifat serta seberan data
+    variansi atau dalam bahasa inggris disebut juga disebut variance.
+    variansi ini berfungsi untuk menghitung ukuran nilai data agar mengetahui sifat-sifat serta semua titik data
+    dalam kumpulan data
     >>> variance([10,20,20])
         33.3333335
     '''
