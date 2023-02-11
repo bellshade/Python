@@ -19,8 +19,8 @@ def rata_rata(data: list[int | float]) -> float:
 
 def variance(data: list[int | float]) -> float:
     """
-    variansi atau dalam bahasa inggris disebut juga disebut variance.••
-    variansi ini berfungsi untuk menghitung ukuran nilai data agar,••
+    variansi atau dalam bahasa inggris disebut juga disebut variance.
+    variansi ini berfungsi untuk menghitung ukuran nilai data agar,
     mengetahui sifat-sifat serta semua titik data dalam kumpulan data.
     >>> variance([10,20,20])
     33.33
