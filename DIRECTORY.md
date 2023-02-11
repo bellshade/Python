@@ -239,6 +239,7 @@
   * [Two Pointer](https://github.com/bellshade/Python/blob/main/math/two_pointer.py)
   * [Two Sum](https://github.com/bellshade/Python/blob/main/math/two_sum.py)
   * [Ugly Number](https://github.com/bellshade/Python/blob/main/math/ugly_number.py)
+  * [Variance](https://github.com/bellshade/Python/blob/main/math/variance.py)
   * [Volume](https://github.com/bellshade/Python/blob/main/math/volume.py)
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
