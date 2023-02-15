@@ -87,6 +87,7 @@
     * [Rootsearch](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/rootsearch.py)
     * [Secant Method](https://github.com/bellshade/Python/blob/main/algorithm/arithmetic_analysis/secant_method.py)
   * Backtracking
+    * [All Combinations](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/all_combinations.py)
     * [Cari Kata](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/cari_kata.py)
     * [Coloring](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/coloring.py)
     * [Combination](https://github.com/bellshade/Python/blob/main/algorithm/backtracking/combination.py)
