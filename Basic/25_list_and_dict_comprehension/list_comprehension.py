@@ -40,3 +40,16 @@ huruf_awal = [item[0] for item in elemen]
 
 print(f"Huruf Awal : {huruf_awal}")
 # Output = Huruf Awal : ['A', 'A', 'T', 'U']
+
+# Implementasi List Comprehension dengan Nested List
+# Implementasi matriks 3 dimensi
+
+matriks_3_3 = [["X" for _ in range(3)] for _ in range(3)]
+# Output = [['X', 'X', 'X'], ['X', 'X', 'X'], ['X', 'X', 'X']]
+
+# Menggabungkan List Lebih dari satu dimensi
+
+indonesia = [["Kudus", "Solo"], ["Bekasi", "Bogor"], ["Madiun", "Malang"]]
+
+list_kota = [kota for grup_kota in indonesia for kota in grup_kota]
+# Output = ['Kudus', 'Solo', 'Bekasi', 'Bogor', 'Madiun', 'Malang']
