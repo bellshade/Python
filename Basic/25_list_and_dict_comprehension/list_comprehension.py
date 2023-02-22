@@ -20,7 +20,7 @@ print(f"Original Range : {original_dua}")
 
 # Implementasi List Comprehension dengan Pemangkatan (Exponential)
 
-exp_list = [item ** 2 for item in original]
+exp_list = [item**2 for item in original]
 
 print(f"Exponent List : {exp_list}")
 # Output = Exponent List : [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
@@ -49,9 +49,7 @@ matriks_3_3 = [["X" for _ in range(3)] for _ in range(3)]
 
 # Menggabungkan List Lebih dari satu dimensi
 
-indonesia = [["Kudus", "Solo"],
-             ["Bekasi", "Bogor"],
-             ["Madiun", "Malang"]]
+indonesia = [["Kudus", "Solo"], ["Bekasi", "Bogor"], ["Madiun", "Malang"]]
 
 list_kota = [kota for grup_kota in indonesia for kota in grup_kota]
 # Output = ['Kudus', 'Solo', 'Bekasi', 'Bogor', 'Madiun', 'Malang']
