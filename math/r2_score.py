@@ -1,8 +1,7 @@
 import numpy as np
 
 
-def r2_score(y_predict , y_actual):
-
+def r2_score(y_predict, y_actual):
     """
     R2_score adalah ukuran yang digunakan dalam statistik untuk mengukur••
     seberapa baik model regresi cocok dengan data yang diamati••
@@ -23,4 +22,5 @@ def r2_score(y_predict , y_actual):
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
