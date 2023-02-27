@@ -225,6 +225,7 @@
   * [Prime Number Library](https://github.com/bellshade/Python/blob/main/math/prime_number_library.py)
   * [Proth Number](https://github.com/bellshade/Python/blob/main/math/proth_number.py)
   * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
+  * [R2 Score](https://github.com/bellshade/Python/blob/main/math/r2_score.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Recursion Power](https://github.com/bellshade/Python/blob/main/math/recursion_power.py)
