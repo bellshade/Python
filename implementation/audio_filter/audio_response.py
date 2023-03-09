@@ -53,8 +53,8 @@ def tampilan_fase_respon(tipe_filter: TipeFilter, samplerate:int) -> None:
     inputs = [1] + [0] * (ukuran - 1)
     outputs = [tipe_filter.proses(item) for item in inputs]
 
-    filter = [0] * (samplerate - ukuran)
-    outputs += filter
+    filter_response = [0] * (samplerate - ukuran)
+    outputs += filter_response
     output_fft = np.angle(np.fft.fft(outputs))
 
     plt.xlim(24, samplerate / 2 - 1)
