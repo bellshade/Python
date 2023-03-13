@@ -1,4 +1,4 @@
-def median(arr : list) -> int | float:
+def median(arr: list) -> int | float:
     """
     median adalah nilai yang dapat membagi data menjadi dua bagian yang sama.
     dengan kata lain bagaimana cara
@@ -24,7 +24,7 @@ def median(arr : list) -> int | float:
     2
     """
 
-    " mengurutkan dari terkecil ke besar "
+    # mengurutkan dari terkecil ke besar
     arr.sort()
     panjang_data = len(arr)
 
@@ -39,4 +39,5 @@ def median(arr : list) -> int | float:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)

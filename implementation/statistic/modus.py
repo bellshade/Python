@@ -19,10 +19,10 @@ def mode(arr: list[int | float]) -> int | float:
     """
     count = []
     for value in arr:
-        "kita hitung jumlah frekuensi pada setiap value di array tersebut  "
+        # kita hitung jumlah frekuensi pada setiap value di array tersebut
         count.append(arr.count(value))
-    combine = dict(zip(arr , count))
-    memo = [a for a , b in combine.items() if b == max(count)]
+    combine = dict(zip(arr, count))
+    memo = [a for a, b in combine.items() if b == max(count)]
     min_value = memo[0]
     result = None
     for value in memo:
@@ -30,10 +30,11 @@ def mode(arr: list[int | float]) -> int | float:
             min_value = value
     result = min_value
     if result == 1:
-        raise ValueError('nan')
+        raise ValueError("nan")
     return result
 
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
