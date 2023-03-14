@@ -206,6 +206,11 @@
   * Physics
     * [N Body Simulation](https://github.com/bellshade/Python/blob/main/implementation/physics/n_body_simulation.py)
     * [Percepatan](https://github.com/bellshade/Python/blob/main/implementation/physics/percepatan.py)
+  * Statistic
+    * [Median](https://github.com/bellshade/Python/blob/main/implementation/statistic/median.py)
+    * [Modus](https://github.com/bellshade/Python/blob/main/implementation/statistic/modus.py)
+    * [Rata Rata](https://github.com/bellshade/Python/blob/main/implementation/statistic/rata_rata.py)
+    * [Standard Deviasi](https://github.com/bellshade/Python/blob/main/implementation/statistic/standard_deviasi.py)
 
 ## Math
   * [ Runge Kutta](https://github.com/bellshade/Python/blob/main/math/%20runge_kutta.py)
