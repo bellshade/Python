@@ -114,8 +114,6 @@
     * [Fuzzy Operation](https://github.com/bellshade/Python/blob/main/algorithm/fuzzy_logic/fuzzy_operation.py)
   * Genetic Algo
     * [Basic String](https://github.com/bellshade/Python/blob/main/algorithm/genetic_algo/basic_string.py)
-  * Machine Learning
-    * [Gradient Descent](https://github.com/bellshade/Python/blob/main/algorithm/machine_learning/gradient_descent.py)
   * Manipulasi Bit
     * [Binary And Operator](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_and_operator.py)
     * [Binary Count Trailing Zero](https://github.com/bellshade/Python/blob/main/algorithm/manipulasi_bit/binary_count_trailing_zero.py)
@@ -148,6 +146,9 @@
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
 
 ## Implementation
+  * Artificial Intelligence
+    * [Gradient Descent](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/gradient_descent.py)
+    * [Linear Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/linear_regression.py)
   * Audio Filter
     * [Audio Response](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/audio_response.py)
     * [Iir Filter](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/iir_filter.py)
