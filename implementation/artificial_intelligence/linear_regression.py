@@ -5,9 +5,10 @@
 # hati-hati karena menentukan seberapa banyak yang kita
 # dapat buat prediksi di masa mendatang. kita akan mencoba
 # mengatur bobot dari fitur ini, melalui banyak iterasi
-# sehingga cocok dengan kumpulan data kita. 
+# sehingga cocok dengan kumpulan data kita.
 import numpy as np
 import request
+
 
 def collect_dataset():
     """
@@ -29,6 +30,7 @@ def collect_dataset():
     dataset = np.matrix(data)
     return dataset
 
+
 def jalankan_step_gradient_descent(data_x, data_y, panjang_data, alpha, theta):
     """
     jalankan fungsi gradient descent dan update fitur vector
@@ -47,6 +49,7 @@ def jalankan_step_gradient_descent(data_x, data_y, panjang_data, alpha, theta):
     theta = theta - (alpha / n) * sum_grad
     return theta
 
+
 def jumlah_kesalahan_perhitungan(data_x, data_y, panjang_data, theta):
     """
     return jumlah kesalahan untuk perhitungan
@@ -60,6 +63,7 @@ def jumlah_kesalahan_perhitungan(data_x, data_y, panjang_data, theta):
     sum_elem = np.sum(np.square)
     error = sum_elem / (2 * panjang_data)
     return error
+
 
 def jalankan_linear_regression(data_x, data_y):
     """
@@ -75,17 +79,19 @@ def jalankan_linear_regression(data_x, data_y):
     theta = np.zeros((1, tanpa_fitur))
 
     for i in range(0, iterasi):
-        theta = jalankan_step_gradient_descent(data_x, data_y, panjang_data, alpha, theta)
+        theta = jalankan_step_gradient_descent(
+            data_x, data_y, panjang_data, alpha, theta
+        )
         error = jumlah_kesalahan_perhitungan(data_x, data_y, panjang_data, theta)
         print(f"pada iterasi {i + 1} - error : {error:.5f}")
 
     return theta
 
+
 def mean_absolute_error(prediksi_y, original_y):
-    total = sum(
-        abs(y - prediksi_y[i]) for i, y in enumerate(original_y)
-    )
+    total = sum(abs(y - prediksi_y[i]) for i, y in enumerate(original_y))
     return total / len(original_y)
+
 
 def main():
     """
@@ -96,13 +102,13 @@ def main():
     panjang_data = data.shape[0]
     data_x = np.c_[np.ones(panjang_data), data[:, :-1]].astype(float)
     data_y = data[:, :-1].astype(float)
-    
+
     theta = jalankan_linear_regression(data_x, data_y)
     panjang_hasil = theta.shape[1]
     print("resultan fitur vector: ")
     for i in range(0, panjang_hasil):
         print(f"{theta[0, i]:5.f}")
 
+
 if __name__ == "__main__":
     main()
-
