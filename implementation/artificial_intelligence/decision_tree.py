@@ -96,14 +96,14 @@ class DecisionTree:
 
         return
 
-    def prediksi(self, x):
+    def fungsi_prediksi(self, x):
         if self.prediksi is not None:
             return self.prediksi
         elif self.kiri or self.kanan is not None:
             if x >= self.decision_boundary:
-                return self.kanan.prediksi(x)
+                return self.kanan.fungsi_prediksi(x)
             else:
-                return self.kiri.prediksi(x)
+                return self.kiri.fungsi_prediksi(x)
         else:
             print("error: decision tree tidak train")
             return None
@@ -132,7 +132,7 @@ def main():
     tree.train(x, y)
 
     test_kasus = (np.random.rand(10) * 2) - 1
-    prediksi = np.array([tree.prediksi(x) for x in test_kasus])
+    prediksi = np.array([tree.fungsi_prediksi(x) for x in test_kasus])
     error_avg = np.mean((prediksi - test_kasus) ** 2)
 
     print(f"test value {str(test_kasus)}")
