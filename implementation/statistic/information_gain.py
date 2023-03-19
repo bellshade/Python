@@ -30,8 +30,9 @@ def informain_gain(feature_df, label_df, base=None) -> float:
     # Menghitung entropy setiap feature
     child_entropy = 0
     for value in np.unique(feature_df):
-        group_entropy = (entropy(label_df[feature_df == value], base)
-                         * np.sum(feature_df == value))
+        group_entropy = entropy(label_df[feature_df == value], base) * np.sum(
+            feature_df == value
+        )
         child_entropy += group_entropy
 
     # Menghitung information gain

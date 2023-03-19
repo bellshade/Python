@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def entropy(labels , base=None) -> float:
+def entropy(labels, base=None) -> float:
     """
     menghitung entropy dari suatu fitur pada suatu dataset.
 
@@ -25,7 +25,7 @@ def entropy(labels , base=None) -> float:
     >>> entropy(label,base=2)
     0.9967916319816366
     """
-    _ , counts = np.unique(labels , return_counts=True)
+    _, counts = np.unique(labels, return_counts=True)
     probs = counts / len(labels)
     logs = np.log(probs) if base is None else np.log(probs) / np.log(base)
     return np.sum(abs(probs * logs))
@@ -33,4 +33,5 @@ def entropy(labels , base=None) -> float:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)

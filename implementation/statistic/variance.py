@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def variance(arr: np.array , ddof=0) -> float:
+def variance(arr: np.array, ddof=0) -> float:
     """
     variance adalah untuk mengetahui keragaraman data terhadap selisih dari
     rata-rata tersebut
@@ -19,6 +19,9 @@ def variance(arr: np.array , ddof=0) -> float:
     formula = sum((arr - arr.mean()) ** 2) / banyak_data
 
     return formula
-if __name__=="__main__":
+
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
