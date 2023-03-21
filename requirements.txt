@@ -9,8 +9,9 @@ pandas
 pillow
 qiskit
 requests
-# scikit-fuzzy
-sklearn
+scikit-fuzzy
+projectq
+scikit-learn
 statsmodels
 sympy
 tensorflow
