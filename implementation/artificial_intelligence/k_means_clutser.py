@@ -14,11 +14,12 @@
 #   centroid dengan proses perulangan
 # 2. menetapkan setiap titik data ke pusat k terdekat.
 #   titik yang dekat dengan pusat k tertentu
+import warnings
+
 import numpy as np
 import pandas as pd
-import warnings
-from sklearn.metrics import pairwise_distances
 from matplotlib import pyplot as plt
+from sklearn.metrics import pairwise_distances
 
 warnings.filterwarnings("ignore")
 TAG = "K-MEANS-CLUTSER/ "
