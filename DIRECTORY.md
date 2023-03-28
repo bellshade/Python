@@ -196,6 +196,8 @@
     * [Koch](https://github.com/bellshade/Python/blob/main/implementation/fractal/koch.py)
     * [Mandelbrot](https://github.com/bellshade/Python/blob/main/implementation/fractal/mandelbrot.py)
     * [Sierpinski Triangle](https://github.com/bellshade/Python/blob/main/implementation/fractal/sierpinski_triangle.py)
+  * Fuzzy Logic
+    * [Fuzzy Logic](https://github.com/bellshade/Python/blob/main/implementation/fuzzy_logic/fuzzy_logic.py)
   * Geodesy Egineering
     * [Ellipsodial Distance](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/ellipsodial_distance.py)
     * [Haversine](https://github.com/bellshade/Python/blob/main/implementation/geodesy_egineering/haversine.py)
