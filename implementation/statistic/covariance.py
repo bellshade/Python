@@ -5,18 +5,19 @@ import requests
 def dataset_collect():
     collect = requests.get(
         "https://raw.githubusercontent.com/yashLadha/The_Math_of_Intelligence/"
-        "master/Week1/ADRvsRating.csv")
+        "master/Week1/ADRvsRating.csv"
+    )
     line = collect.text.splitlines()
     data = []
     for item in line:
-        item = item.split(',')
+        item = item.split(",")
         data.append(item)
     data.pop(0)
     dataset = np.matrix(data).astype(float)
     return dataset
 
 
-def cov(vector : np.array) -> np.array:
+def cov(vector: np.array) -> np.array:
     """
     covariasi adalah pengukuran untuk hubungan dua variabel
     apabaila ada salah satu variabel meningkat maka variabel lain
@@ -44,6 +45,7 @@ def cov(vector : np.array) -> np.array:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
     df = dataset_collect()
     covariance = cov(df)
