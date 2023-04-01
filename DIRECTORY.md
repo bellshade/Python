@@ -213,6 +213,7 @@
     * [N Body Simulation](https://github.com/bellshade/Python/blob/main/implementation/physics/n_body_simulation.py)
     * [Percepatan](https://github.com/bellshade/Python/blob/main/implementation/physics/percepatan.py)
   * Statistic
+    * [Covariance](https://github.com/bellshade/Python/blob/main/implementation/statistic/covariance.py)
     * [Entropy](https://github.com/bellshade/Python/blob/main/implementation/statistic/entropy.py)
     * [Information Gain](https://github.com/bellshade/Python/blob/main/implementation/statistic/information_gain.py)
     * [Median](https://github.com/bellshade/Python/blob/main/implementation/statistic/median.py)
