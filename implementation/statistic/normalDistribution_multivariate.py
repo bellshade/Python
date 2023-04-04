@@ -10,7 +10,7 @@ def dataset() -> np.array:
     line = respon.text.splitlines()
     data = []
     for item in line:
-        item = item.split(',')
+        item = item.split(",")
         data.append(item)
     data.pop(0)
     dataset = np.matrix(data).astype(float)
@@ -18,7 +18,7 @@ def dataset() -> np.array:
     return dataset
 
 
-def gauss_distribution_multivariate(vector : np.array) -> np.array:
+def gauss_distribution_multivariate(vector: np.array) -> np.array:
     """
     gauss distribusi normal adalah merupakan
     tipe peluang continues bertujuan menciptakan
@@ -36,8 +36,11 @@ def gauss_distribution_multivariate(vector : np.array) -> np.array:
     mean_ = np.mean(vector, axis=0)
     X = vector - mean_
     cov = (X.T @ X) / (n - 1)
-    formula = (1. / np.sqrt((2 * np.pi) ** m * np.linalg.det(cov))
-               * (-0.5 * np.sum(X @ (np.linalg.inv(cov) @ X.T), axis=1)))
+    formula = (
+        1.0
+        / np.sqrt((2 * np.pi) ** m * np.linalg.det(cov))
+        * (-0.5 * np.sum(X @ (np.linalg.inv(cov) @ X.T), axis=1))
+    )
     return formula
 
 

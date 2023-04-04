@@ -10,7 +10,7 @@ def dataset() -> np.array:
     line = respon.text.splitlines()
     data = []
     for item in line:
-        item = item.split(',')
+        item = item.split(",")
         data.append(item)
     data.pop(0)
     dataset = np.matrix(data).astype(float)
@@ -39,6 +39,7 @@ def correlation(matrix: np.array) -> np.array:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
     matrix = dataset()
     print(dataset())
