@@ -151,6 +151,7 @@
     * [Gradient Descent](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/gradient_descent.py)
     * [K Means Clutser](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/k_means_clutser.py)
     * [Linear Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/linear_regression.py)
+    * [Logistic Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/logistic_regression.py)
     * [Lstm](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/lstm.py)
   * Audio Filter
     * [Audio Response](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/audio_response.py)
