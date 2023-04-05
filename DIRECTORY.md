@@ -214,11 +214,13 @@
     * [N Body Simulation](https://github.com/bellshade/Python/blob/main/implementation/physics/n_body_simulation.py)
     * [Percepatan](https://github.com/bellshade/Python/blob/main/implementation/physics/percepatan.py)
   * Statistic
+    * [Correlation](https://github.com/bellshade/Python/blob/main/implementation/statistic/correlation.py)
     * [Covariance](https://github.com/bellshade/Python/blob/main/implementation/statistic/covariance.py)
     * [Entropy](https://github.com/bellshade/Python/blob/main/implementation/statistic/entropy.py)
     * [Information Gain](https://github.com/bellshade/Python/blob/main/implementation/statistic/information_gain.py)
     * [Median](https://github.com/bellshade/Python/blob/main/implementation/statistic/median.py)
     * [Modus](https://github.com/bellshade/Python/blob/main/implementation/statistic/modus.py)
+    * [Normaldistribution Multivariate](https://github.com/bellshade/Python/blob/main/implementation/statistic/normalDistribution_multivariate.py)
     * [Rata Rata](https://github.com/bellshade/Python/blob/main/implementation/statistic/rata_rata.py)
     * [Standard Deviasi](https://github.com/bellshade/Python/blob/main/implementation/statistic/standard_deviasi.py)
     * [Variance](https://github.com/bellshade/Python/blob/main/implementation/statistic/variance.py)
