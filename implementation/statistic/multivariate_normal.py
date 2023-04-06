@@ -10,7 +10,7 @@ def dataset() -> np.array:
     line = respon.text.splitlines()
     data = []
     for item in line:
-        item = item.split(',')
+        item = item.split(",")
         data.append(item)
     data.pop(0)
     dataset = np.matrix(data).astype(float)
@@ -18,7 +18,7 @@ def dataset() -> np.array:
     return dataset
 
 
-def multivariate_normal(vector : np.array, mean=None, cov=None) -> np.array:
+def multivariate_normal(vector: np.array, mean=None, cov=None) -> np.array:
     """
     multivariate_normal adalah merupakan
     tipe peluang continues bertujuan menciptakan
@@ -74,13 +74,16 @@ def multivariate_normal(vector : np.array, mean=None, cov=None) -> np.array:
         mean = np.mean(vector, axis=0)
     if cov is None:
         X = vector - mean
-        cov = (X.T @ X)
+        cov = X.T @ X
     # check apakah vectornya berdimensi 2
     if vector.ndim != 2:
         raise ValueError("Matrixnya harus berdimensi 2")
     _, m = vector.shape
-    formula = (1. / np.sqrt((2 * np.pi) ** m * np.linalg.det(cov))
-               * (-0.5 * np.sum(X @ (np.linalg.inv(cov) @ X.T), axis=1)))
+    formula = (
+        1.0
+        / np.sqrt((2 * np.pi) ** m * np.linalg.det(cov))
+        * (-0.5 * np.sum(X @ (np.linalg.inv(cov) @ X.T), axis=1))
+    )
     output = formula.squeeze()
     return output
 
