@@ -221,6 +221,7 @@
     * [Information Gain](https://github.com/bellshade/Python/blob/main/implementation/statistic/information_gain.py)
     * [Median](https://github.com/bellshade/Python/blob/main/implementation/statistic/median.py)
     * [Modus](https://github.com/bellshade/Python/blob/main/implementation/statistic/modus.py)
+    * [Multivariate Normal](https://github.com/bellshade/Python/blob/main/implementation/statistic/multivariate_normal.py)
     * [Normaldistribution Multivariate](https://github.com/bellshade/Python/blob/main/implementation/statistic/normalDistribution_multivariate.py)
     * [Rata Rata](https://github.com/bellshade/Python/blob/main/implementation/statistic/rata_rata.py)
     * [Standard Deviasi](https://github.com/bellshade/Python/blob/main/implementation/statistic/standard_deviasi.py)
