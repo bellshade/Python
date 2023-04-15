@@ -148,6 +148,7 @@
 ## Implementation
   * Artificial Intelligence
     * [Decision Tree](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/decision_tree.py)
+    * [Fungsi Skoring](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/fungsi_skoring.py)
     * [Gradient Descent](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/gradient_descent.py)
     * [K Means Clutser](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/k_means_clutser.py)
     * [K Nearest Neighbour](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/k_nearest_neighbour.py)
