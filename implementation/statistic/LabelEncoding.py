@@ -42,7 +42,7 @@ class LabelEncoding:
 
 if __name__ == "__main__":
     data = np.array([[1, 2, 1, 2], [1, 2, 2, 1]])
-    df = pd.DataFrame({"S": data[0], "B": data[1]})
+    # df = pd.DataFrame({"S": data[0], "B": data[1]})
     label = LabelEncoding()
     label.fit(data)
     print(label.transform(data))
