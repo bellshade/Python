@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def softmax(array: np.array):
+def softmax(array: np.array) -> None:
     """
     Softmax adalah salah satu fungsi aktivasi yang sering
     digunakan pada jaringan saraf buatan untuk memetakan input ke
