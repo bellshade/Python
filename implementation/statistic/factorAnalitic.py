@@ -62,10 +62,10 @@ class Factor_Analisis:
         eigenvectors = eigenvectors[:, idx]
 
         # Memilih n faktor teratas
-        self.factor_loadings = eigenvectors[:, :self.n_factors]
+        self.factor_loadings = eigenvectors[:, : self.n_factors]
 
         # Menghitung variance yang dijelaskan oleh setiap faktor
-        self.explained_variance = eigenvalues[:self.n_factors] / np.sum(eigenvalues)
+        self.explained_variance = eigenvalues[: self.n_factors] / np.sum(eigenvalues)
 
         return self
 
@@ -79,10 +79,12 @@ class Factor_Analisis:
 
 if __name__ == "__main__":
     import doctest
+
     from sklearn.datasets import load_digits
+
     digits = load_digits()
     X = digits.data
     fa = Factor_Analisis(n_factors=2)
     X_transformed = fa.fit_transform(X)
-    print('bikin sendiri', X_transformed)
+    print("bikin sendiri", X_transformed)
     doctest.testmod(verbose=True)
