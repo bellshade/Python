@@ -220,6 +220,7 @@
     * [Correlation](https://github.com/bellshade/Python/blob/main/implementation/statistic/correlation.py)
     * [Covariance](https://github.com/bellshade/Python/blob/main/implementation/statistic/covariance.py)
     * [Entropy](https://github.com/bellshade/Python/blob/main/implementation/statistic/entropy.py)
+    * [Factoranalitic](https://github.com/bellshade/Python/blob/main/implementation/statistic/factorAnalitic.py)
     * [Information Gain](https://github.com/bellshade/Python/blob/main/implementation/statistic/information_gain.py)
     * [Median](https://github.com/bellshade/Python/blob/main/implementation/statistic/median.py)
     * [Modus](https://github.com/bellshade/Python/blob/main/implementation/statistic/modus.py)
