@@ -67,14 +67,15 @@ class Ridge:
         return error
 
     def score(self, y_actual: np.array, y_predict: np.array) -> float:
-        tss = np.sum((y_actual - np.mean(y_actual))**2)
-        rss = np.sum((y_actual - y_predict)**2)
+        tss = np.sum((y_actual - np.mean(y_actual)) ** 2)
+        rss = np.sum((y_actual - y_predict) ** 2)
         r_squared = 1 - rss / tss
         return r_squared
 
 
 def main():
     import matplotlib.pyplot as plt
+
     X = np.array([[1, 2], [2, 3], [4, 5]])
     y = np.array([[1], [7], [9]])
     print(X)
@@ -85,13 +86,14 @@ def main():
     y_predict = model.transform(X)
     print(y_predict)
     print(model.score(y, y_predict))
-    plt.scatter(X[:, 0], y, color='black')
+    plt.scatter(X[:, 0], y, color="black")
     plt.plot(X[:, 0], y_predict)
-    plt.title('Low-Alpha Ridge on Three Points')
+    plt.title("Low-Alpha Ridge on Three Points")
     plt.show()
 
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
     main()
