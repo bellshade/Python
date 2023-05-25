@@ -1,23 +1,23 @@
 import numpy as np
 
 
-def Z_score(data: np.array) -> np.array :
+def Z_score(data: np.array) -> np.array:
     """
-    Deskripsi:
-    ---
+     Deskripsi:
+     ---
 
-    Z_score atau biasa lebih terkenal dengan Standard scaler
-    nama yang sering jumpai pada memakai library
-    pada sklearn
+     Z_score atau biasa lebih terkenal dengan Standard scaler
+     nama yang sering jumpai pada memakai library
+     pada sklearn
 
-   Param
-    ---
-    :param data: parameter untuk input data bisa dalam bentuk
-                1-D array maupun 2-D array
+    Param
+     ---
+     :param data: parameter untuk input data bisa dalam bentuk
+                 1-D array maupun 2-D array
 
-    Return:
-    :result: yaitu hasi dari input tersebut dengan menggunakan
-            input ouput z_score
+     Return:
+     :result: yaitu hasi dari input tersebut dengan menggunakan
+             input ouput z_score
     """
     x = np.array(data)
     if x.ndim == 1:
@@ -30,8 +30,9 @@ def Z_score(data: np.array) -> np.array :
     return (x - mean_x) / std_x
 
 
-def min_max_normalization(data: np.array, new_min: float = 0.0,
-                          new_max : float = 1.0) -> np.array :
+def min_max_normalization(
+    data: np.array, new_min: float = 0.0, new_max: float = 1.0
+) -> np.array:
     """
     Deskripsi:
     ---
@@ -134,4 +135,5 @@ def log_scaling(data: np.array):
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
