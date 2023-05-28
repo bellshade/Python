@@ -155,6 +155,7 @@
     * [Linear Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/linear_regression.py)
     * [Logistic Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/logistic_regression.py)
     * [Lstm](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/lstm.py)
+    * [Normalization Data Tranform](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/normalization_data_tranform.py)
     * [Rigde Regession](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/rigde_regession.py)
   * Audio Filter
     * [Audio Response](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/audio_response.py)
