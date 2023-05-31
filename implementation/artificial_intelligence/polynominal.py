@@ -2,7 +2,6 @@ import numpy as np
 
 
 class PolynomialRegression:
-
     def __init__(self, degree, learning_rate: float = 0.00001, iterations: int = 10000):
         """
         # PolynomialRegression
@@ -59,8 +58,9 @@ class PolynomialRegression:
         for _ in range(self.iterations):
             h = self.predict(self.X)
             error = h - self.Y
-            self.W = self.W - self.learning_rate * (1 / self.m) * np.dot(X_normalize.T,
-                                                                         error)
+            self.W = self.W - self.learning_rate * (1 / self.m) * np.dot(
+                X_normalize.T, error
+            )
         return self
 
     def fit_tranform(self, X):
@@ -76,4 +76,5 @@ class PolynomialRegression:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
