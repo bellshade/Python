@@ -9,8 +9,8 @@
         secara keseluruhan.
 """
 import numpy as np
-#Kelas DecisionTree mewakili pohon keputusan tunggal di hutan acak.
-#Itu diinisialisasi dengan parameter max_depth (kedalaman maksimum pohon) dan min_samples_leaf (jumlah minimum sampel yang diperlukan untuk membuat simpul daun).#
+
+
 class DecisionTree:
     def __init__(self, max_depth=5, min_samples_leaf=2):
         """
@@ -22,7 +22,7 @@ class DecisionTree:
         self.max_depth = max_depth
         self.min_samples_leaf = min_samples_leaf
         self.tree = {}
-    #Metode fit membangun pohon keputusan secara rekursif dengan memanggil fungsi build_tree.
+
     def fit(self, X, y):
         """
         Metode fit membangun pohon keputusan secara rekursif dengan memanggil
@@ -33,7 +33,7 @@ class DecisionTree:
             kedalaman (_type_):int
         """
         self.tree = self.build_tree(X, y, depth=0)
-    #Fungsi build_tree secara rekursif membagi data berdasarkan fitur dan nilai terbaik, dengan mempertimbangkan perolehan informasi
+
     def build_tree(self, X, y, depth):
         """
         Fungsi build_tree secara rekursif membagi data berdasarkan fitur dan nilai
@@ -94,8 +94,9 @@ class DecisionTree:
             "right": right_tree,
         }
 
-        return {'feature': best_feature, 'value': best_value, 'left': left_tree, 'right': right_tree}
-    #fungsi information_gain menghitung perolehan informasi untuk pemisahan yang diberikan.
+        return {'feature': best_feature, 'value': best_value, 'left': left_tree,
+                'right': right_tree}
+
     def information_gain(self, y, left_indices, right_indices):
         """
         Fungsi information_gain menghitung perolehan informasi untuk pembagian tertentu.
@@ -116,7 +117,7 @@ class DecisionTree:
             left_weight * left_entropy + right_weight * right_entropy
         )
         return gain
-    #fungsi count_entropy menghitung entropi dari sekumpulan label.
+
     def calculate_entropy(self, y):
         """
             fungsi count_entropy menghitung entropi dari sekumpulan label.
@@ -127,7 +128,8 @@ class DecisionTree:
         probabilities = class_counts / len(y)
         entropy = -np.sum(probabilities * np.log2(probabilities + 1e-10))
         return entropy
-    #Metode prediksi memprediksi label untuk sekumpulan sampel input dengan memanggil fungsi predict_sample untuk setiap sampel.
+    # Metode prediksi memprediksi label untuk sekumpulan sampel input.
+    # Dengan memanggil fungsi predict_sample untuk setiap sampel.
 
     def prediksi(self, X):
         """
@@ -140,7 +142,7 @@ class DecisionTree:
             _type_: Larik label 1D (int)
         """
         return np.array([self.predict_sample(x) for x in X])
-    #Fungsi predict_sample menelusuri pohon keputusan untuk menentukan label prediksi untuk satu sampel masukan.
+
     def predict_sample(self, x):
         """
             Fungsi predict_sample menelusuri pohon keputusan untuk menentukan prediksi
@@ -158,8 +160,8 @@ class DecisionTree:
             else:
                 node = node['right']
         return node['label']
-#Kelas RandomForest mewakili ansambel hutan acak.
-#Itu diinisialisasi dengan parameter num_trees (jumlah pohon di hutan), max_depth (kedalaman maksimum setiap pohon), dan min_samples_leaf (jumlah minimum sampel yang diperlukan untuk membuat simpul daun).
+
+
 class RandomForest:
     def __init__(self, num_trees=10, max_depth=5, min_samples_leaf=2):
         """
@@ -174,7 +176,7 @@ class RandomForest:
         self.max_depth = max_depth
         self.min_samples_leaf = min_samples_leaf
         self.trees = []
-    #Metode fit melatih hutan acak dengan membuat pohon keputusan num_trees dan menyesuaikannya pada himpunan bagian acak dari data.
+
     def fit(self, X, y):
         """
         #Metode fit melatih hutan acak dengan membuat pohon keputusan num_trees dan
@@ -190,7 +192,7 @@ class RandomForest:
             indices = np.random.choice(len(X), len(X), replace=True)
             tree.fit(X[indices], y[indices])
             self.trees.append(tree)
-    #Metode prediksi membuat prediksi untuk satu set sampel input dengan menggabungkan prediksi dari setiap pohon dan mengambil suara mayoritas.
+
     def prediksi(self, X):
         """Metode prediksi membuat prediksi untuk sekumpulan sampel input dengan 
         menggabungkan prediksi dari setiap pohon dan mengambil suara mayoritas.
