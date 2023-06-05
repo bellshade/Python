@@ -94,8 +94,12 @@ class DecisionTree:
             "right": right_tree,
         }
 
-        return {'feature': best_feature, 'value': best_value, 'left': left_tree,
-                'right': right_tree}
+        return {
+            "feature": best_feature,
+            "value": best_value,
+            "left": left_tree,
+            "right": right_tree,
+        }
 
     def information_gain(self, y, left_indices, right_indices):
         """
@@ -128,6 +132,7 @@ class DecisionTree:
         probabilities = class_counts / len(y)
         entropy = -np.sum(probabilities * np.log2(probabilities + 1e-10))
         return entropy
+
     # Metode prediksi memprediksi label untuk sekumpulan sampel input.
     # Dengan memanggil fungsi predict_sample untuk setiap sampel.
 
@@ -158,8 +163,8 @@ class DecisionTree:
             if x[node["feature"]] <= node["value"]:
                 node = node["left"]
             else:
-                node = node['right']
-        return node['label']
+                node = node["right"]
+        return node["label"]
 
 
 class RandomForest:
