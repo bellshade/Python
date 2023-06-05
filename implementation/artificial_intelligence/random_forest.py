@@ -194,7 +194,7 @@ class RandomForest:
             self.trees.append(tree)
 
     def prediksi(self, X):
-        """Metode prediksi membuat prediksi untuk sekumpulan sampel input dengan 
+        """Metode prediksi membuat prediksi untuk sekumpulan sampel input dengan
         menggabungkan prediksi dari setiap pohon dan mengambil suara mayoritas.
         argumen:
             X (_type_): Nilai numerik larik 2D
