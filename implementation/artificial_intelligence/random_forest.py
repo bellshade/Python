@@ -125,6 +125,7 @@ class DecisionTree:
         probabilities = class_counts / len(y)
         entropy = -np.sum(probabilities * np.log2(probabilities + 1e-10))
         return entropy
+
     # Metode prediksi memprediksi label untuk sekumpulan sampel input.
     # Dengan memanggil fungsi predict_sample untuk setiap sampel.
 
@@ -155,8 +156,8 @@ class DecisionTree:
             if x[node["feature"]] <= node["value"]:
                 node = node["left"]
             else:
-                node = node['right']
-        return node['label']
+                node = node["right"]
+        return node["label"]
 
 
 class RandomForest:
