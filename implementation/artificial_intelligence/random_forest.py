@@ -94,9 +94,6 @@ class DecisionTree:
             "right": right_tree,
         }
 
-        return {'feature': best_feature, 'value': best_value, 'left': left_tree,
-                'right': right_tree}
-
     def information_gain(self, y, left_indices, right_indices):
         """
         Fungsi information_gain menghitung perolehan informasi untuk pembagian tertentu.
