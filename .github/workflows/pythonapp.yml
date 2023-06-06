@@ -1,99 +1,43 @@
-# doctesting untuk testing python
-# jika pull request fail dengan python testing
-# akan di review oleh contributor
-# jika tidak ada perubahan maka pull request akan ditutup
+name: Python Testing
 
-name: python testing
 on:
-  # target dari branch yang akan di pull request
-  # atau di commit langsung
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-    # untuk build terdapat 3 environment os
-    # macOS, windows, linux
-    runs-on: ubuntu-latest
+    # menjalankan testing dengan 3 os yaitu
+    # linux (ubuntu), windows, dan macOS
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+        # untuk menggunakan arsitektur pada arm dan xx86
+        arm: [x86, arm64]
+
     steps:
-      # menggunakan checkout untuk cek kode
-    - uses: actions/checkout@v2
-      # menggunakan environment python versi 3.9
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.10"
-    - uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt')}}
-      # testing bash dengan perintah echo
-    - name: salam
-      run: |
-        echo "Halo!"
-        echo "Mulai testing..."
-        echo "harap tunggu sebentar... :)"
-      # install requirement yang diperlukan
-      # sebelum testing semua kode
-      # bisa dilihat requirement yang dibutuhkan
-      # pada file 'requirements.txt'
-    - name: Install dependencies
-      run: |
-        echo "Mulai jalankan install requirement"
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt -r dev-requirements.txt
-      # memformat kode secara otomatis dengan black
-      # tujuannya agar kode lebih mudah dibaca
-      #- name: Format otomatis
-      #run: |
-      #echo "Mulai format otomatis"
-      #isort . --profile=black
-      #black .
-      # ketika sudah di format maka kode akan mengcommit kembali
-      # dan commit akan otomatis menggunakan github bot yang sudah tersedia
-      # disini kondisi jika file tersebut ada perubahan maka akan di format
-      #- name: Cek modifikasi file
-      #id: git-check
-      #run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "tidak"; else echo "ya"; fi)
-      #- name: Push perubahan
-      #if: steps.git-check.outputs.modified == 'ya' && github.event_name == 'push'
-      #run: |
-      #git config --global user.name 'bellshadebot'
-      #git config --global user.email 'bellshade07@gmail.com'
-      #git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-      #git pull
-      #git commit -am "style: format otomatis dengan black dan isort"
-      #git push
-      # test python dengan menggunakan pytest dengan perintah lanjutan
-      # yaitu document testing
-      #- name: Test Python
-      #run: |
-      #echo "Mulai Jalankan testing docstring"
-      #pytest . --doctest-modules --ignore=Basic/ --cov-report=term-missing:skip-covered
-      # test lint python jika black gagal reformat kode
-    - name: Test Lint Python
-      run: |
-        echo "Mulai Jalankan testing flake8"
-        flake8 .
-      # mypy adalah unit testing diluar dari official python
-      # yang berfungsi jika mengecek kode apakah terdapat kode
-      # yang bersifat tidak berguna, terlalu rumit, atau kesalahan import
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-      # mypy sudah digunakan dalam pre commit
-        #- name: Test mypy
-        #run: mypy --ignore-missing-imports --install-types --non-interactive .
-      # FIXME : kendala error beberapa directory mypy
-      # mulai test coverage dan menampilkan hasil presentasi scanning dari pytest
-      #- name: Test coverage
-      #run: |
-      #echo "Mulai testing coverage"
-      #coverage run --source . -m pytest --doctest-modules --ignore=Basic/
-      # membuat report untuk upload ke codecoverage
+      - name: Setting python versi 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
 
-    #  kendala server github tidak respon pada coverage
-    #  untuk sementara dinonaktifkan
-    # - name: Hasil coverage
-    #   run: |
-    #     echo "Laporan coverage"
-    #     coverage report -m
+      - name: Cache pip dependecies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt')}}
 
+      - name: Install Dependencies
+        run: |
+          echo "Installing required dependencies"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r dev-requirements.txt
+
+      - name: Python Linting
+        run: |
+          echo "Running flake8 tests"
+          flake8 .
