@@ -240,6 +240,7 @@
   * [Aliquot Sum](https://github.com/bellshade/Python/blob/main/math/aliquot_sum.py)
   * [Angka Proth](https://github.com/bellshade/Python/blob/main/math/angka_proth.py)
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
+  * [Counter](https://github.com/bellshade/Python/blob/main/math/counter.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
   * [Fibonacci](https://github.com/bellshade/Python/blob/main/math/fibonacci.py)
