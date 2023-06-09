@@ -13,8 +13,9 @@ class Counter(dict):
 
     """
 
-    def __init__(self, iterable: Optional[Dict[Any, int]] = None,
-                 **kwargs: int) -> None:
+    def __init__(
+        self, iterable: Optional[Dict[Any, int]] = None, **kwargs: int
+    ) -> None:
         """
         counter ini bisa digunakan dalam bentuk apapun
         baik bentuk sting,list maupun yang lain
@@ -34,7 +35,7 @@ class Counter(dict):
                     for element, count in iterable.items():
                         self[element] = self_get(element, 0) + count
                 else:
-                    dict.update(self,iterable)
+                    dict.update(self, iterable)
             else:
                 self_get = self.get
                 for element in iterable:
@@ -61,4 +62,5 @@ class Counter(dict):
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
