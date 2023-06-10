@@ -15,10 +15,12 @@
 # 2. menetapkan setiap titik data ke pusat k terdekat.
 #   titik yang dekat dengan pusat k tertentu
 import warnings
+from typing import Optional
 
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
+from sklearn import datasets
 from sklearn.metrics import pairwise_distances
 
 warnings.filterwarnings("ignore")
@@ -97,14 +99,19 @@ def plot_heteroginity(heterogenity, k):
 
 
 def kmeans(
-    data, k, inisial_centroid, maxiter=500, var_hitung_heterogenity=None, verbose=False
+    data: np.ndarray,
+    k: int,
+    inisial_centroid: np.ndarray,
+    maxiter: int = 500,
+    var_hitung_heterogenity: Optional[list[float]] = None,
+    verbose: bool = False,
 ):
     centroid = inisial_centroid[:]
     prev_assign_clutser = None
 
     for itr in range(maxiter):
         if verbose:
-            print(itr, end="")
+            print(itr, end=" ")
 
         # buat tugas clutser menggunakan centroid
         # terdekat
@@ -115,9 +122,9 @@ def kmeans(
         # poin yang ditetapkan ke klutser tersebut
         centroid = fixing_centroid(data, k, assign_clutser)
 
-        if (prev_assign_clutser is not None) and (
-            prev_assign_clutser == assign_clutser
-        ).all():
+        if prev_assign_clutser is not None and np.array_equal(
+            prev_assign_clutser, assign_clutser
+        ):
             break
 
         # tampilkan jumlah dari assignment terbaru
@@ -128,16 +135,15 @@ def kmeans(
         if var_hitung_heterogenity is not None:
             skor = hitung_heterogenity(data, k, centroid, assign_clutser)
             var_hitung_heterogenity.append(skor)
+        prev_assign_clutser = assign_clutser.copy()
 
     return centroid, assign_clutser
 
 
 if False:
-    from sklearn import dataset as ds
-
-    dataset = ds.load_iris()
-    k = 3
-    heterogenity = []
+    dataset = datasets.load_iris()
+    k: int = 3
+    heterogenity: list[float] = []
     inisial_centroid = dapatkan_inisial_centroid(dataset["data"], k, seed=0)
     centroid, assign_clutser = kmeans(
         dataset["data"],

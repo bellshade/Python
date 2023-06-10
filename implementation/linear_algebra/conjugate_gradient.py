@@ -1,5 +1,3 @@
-from typing import Any
-
 import numpy as np
 
 
@@ -14,10 +12,10 @@ def is_matrix_spd(matrix: np.ndarray) -> bool:
     >>> is_matrix_spd(set_matrix)
     True
     """
-    assert np.shape(matrix)[0] == np.shape(matrix)[1]
+    assert matrix.shape[0] == matrix.shape[1]
 
     # Jika matriks tidak simetris, exit
-    if np.allclose(matrix, matrix.T) is False:
+    if not np.allclose(matrix, matrix.T):
         return False
 
     # Dapatkan nilai eigen dan
@@ -27,7 +25,7 @@ def is_matrix_spd(matrix: np.ndarray) -> bool:
     return bool(np.all(eigen_value > 0))
 
 
-def create_spd_matrix(dimension: int) -> Any:
+def create_spd_matrix(dimension: int) -> np.ndarray:
     """
     Mengembalikan matriks definit positif
     simetris yang diberi dimensi.
@@ -40,11 +38,11 @@ def create_spd_matrix(dimension: int) -> Any:
 
 
 def conjugate_gradient(
-    spd_matrix,
-    load_vector,
-    max_iterations=1000,
-    tol=1e-8,
-):
+    spd_matrix: np.ndarray,
+    load_vector: np.ndarray,
+    max_iterations: int = 1000,
+    tol: float = 1e-8,
+) -> np.ndarray:
     """
     return solusi linear sistem np.dot(spd_matrix, x) = b
     >>> import numpy as np
@@ -61,18 +59,15 @@ def conjugate_gradient(
            [-0.01561498],
            [ 0.13979294]])
     """
-    assert np.shape(spd_matrix)[0] == np.shape(spd_matrix)[1]
-    assert np.shape(load_vector)[0] == np.shape(spd_matrix)[0]
+    assert spd_matrix.shape[0] == spd_matrix.shape[1]
+    assert load_vector.shape[0] == spd_matrix.shape[0]
     assert is_matrix_spd(spd_matrix)
 
     x0 = np.zeros((np.shape(load_vector)[0], 1))
     r0 = np.copy(load_vector)
     p0 = np.copy(r0)
 
-    error_residual = 1e9  # lgtm [py/multiple-definition]
-    error_x_solution = 1e9  # lgtm [py/multiple-definition]
     error = 1e9
-
     iterations = 0
 
     while error > tol:
@@ -91,7 +86,7 @@ def conjugate_gradient(
         # kalkulasi error
         error_residual = np.linalg.norm(r - r0)
         error_x_solution = np.linalg.norm(x - x0)
-        error = np.maximum(error_residual, error_x_solution)
+        error = max(error_residual, error_x_solution)
 
         # update variabel
         x0 = np.copy(x)
