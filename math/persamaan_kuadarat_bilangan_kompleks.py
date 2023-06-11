@@ -27,14 +27,18 @@ def akar_kuadrat(a: int, b: int, c: int) -> tuple[complex, complex]:
         raise ValueError("Koefisien a tidak boleh 0")
 
     delta = b * b - 4 * a * c
+    if (delta>0):
+        akar_1 = (-b + sqrt(delta)) / (2 * a)
+        akar_2 = (-b - sqrt(delta)) / (2 * a)
 
-    akar_1 = (-b + sqrt(delta)) / (2 * a)
-    akar_2 = (-b - sqrt(delta)) / (2 * a)
-
-    return (
-        akar_1.real if not akar_1.imag else akar_1,
-        akar_2.real if not akar_2.imag else akar_2,
-    )
+        return (
+            akar_1.real if not akar_1.imag else akar_1,
+            akar_2.real if not akar_2.imag else akar_2,
+        )
+    elif (delta ==0):
+        return "hasilnya adalah 0";
+    else:
+        return "persamaannya imajiner"
 
 
 def main() -> None:
