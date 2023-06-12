@@ -37,7 +37,7 @@ def akar_kuadrat(a: int, b: int, c: int) -> tuple[complex, complex]:
     elif delta == 0:
         return 0
 
-    else :
+    else:
         msg: str = "persamaanya menjadi imajiner"
         return msg
 
