@@ -1,8 +1,8 @@
 import os
 
 
-def seed(n: int = 1, byteorder: str = 'little'):
-    """ random seed
+def seed(n: int = 1, byteorder: str = "little"):
+    """random seed
 
     random seed merupakan fungsi random yang
     mengacak secara psuode code bukan value
@@ -17,8 +17,7 @@ def seed(n: int = 1, byteorder: str = 'little'):
     """
     bytes_need = (n + 7) // 8
     randbytes = os.urandom(bytes_need)
-    bit = int.from_bytes(randbytes,
-                         byteorder=byteorder)
+    bit = int.from_bytes(randbytes, byteorder=byteorder)
     return bit
 
 
@@ -33,7 +32,7 @@ def random():
     """
     a = 1664525
     c = 1013904223
-    m = 2 ** 32
+    m = 2**32
     result = (a * (seed() * 1000) + c) % m
     return result / m
 
@@ -50,7 +49,7 @@ def generator_bit(n: int | float):
     Returns:
         _type_: float
     """
-    if n <= 0 :
+    if n <= 0:
         raise ValueError("inputnya harus bilangan positif")
     k = n.bit_length()
     return seed(k) % n
@@ -72,4 +71,5 @@ def randomint(low=0, high=1):
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
