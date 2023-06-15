@@ -28,13 +28,18 @@ def akar_kuadrat(a: int, b: int, c: int) -> tuple[complex, complex]:
 
     delta = b * b - 4 * a * c
 
-    akar_1 = (-b + sqrt(delta)) / (2 * a)
-    akar_2 = (-b - sqrt(delta)) / (2 * a)
+    if delta > 0:
+        akar_1: complex = (-b + sqrt(delta)) / (2 * a)
+        akar_2: complex = (-b - sqrt(delta)) / (2 * a)
 
-    return (
-        akar_1.real if not akar_1.imag else akar_1,
-        akar_2.real if not akar_2.imag else akar_2,
-    )
+        return akar_1, akar_2
+
+    elif delta == 0:
+        return 0
+
+    else:
+        msg: str = "persamaanya menjadi imajiner"
+        return msg
 
 
 def main() -> None:
