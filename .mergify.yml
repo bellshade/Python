@@ -8,13 +8,12 @@ pull_request_rules:
   # dan pull request secara otomatis akan merge
   - name: ci testing kalo sukses ke squash dengan label
     conditions:
-      - check-success=build
       - base=main
       - label=ready-to-merge
     actions:
       # menambahkan komentar jika sudah di merge
       comment:
-        message: terima kasih atas kontribusinya @{{author}}!
+        message: terima kasih atas kontribusinya @{{author}} !
       # menambahkan label jika sudah di merge
       label:
         add:
