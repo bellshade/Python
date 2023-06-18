@@ -257,6 +257,7 @@
   * [Qr Decomposition](https://github.com/bellshade/Python/blob/main/math/qr_decomposition.py)
   * [R2 Score](https://github.com/bellshade/Python/blob/main/math/r2_score.py)
   * [Radian](https://github.com/bellshade/Python/blob/main/math/radian.py)
+  * [Random Generator](https://github.com/bellshade/Python/blob/main/math/random_generator.py)
   * [Rectangle](https://github.com/bellshade/Python/blob/main/math/rectangle.py)
   * [Recursion Power](https://github.com/bellshade/Python/blob/main/math/recursion_power.py)
   * [Relu](https://github.com/bellshade/Python/blob/main/math/relu.py)
