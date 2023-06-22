@@ -8,11 +8,13 @@
 import numpy as np
 
 
-def costfunction(x_data: np.ndarray,
-                 y_data: np.ndarray,
-                 alpha: float,
-                 weigth: np.ndarray,
-                 panjang_data: int) -> float:
+def costfunction(
+    x_data: np.ndarray,
+    y_data: np.ndarray,
+    alpha: float,
+    weigth: np.ndarray,
+    panjang_data: int,
+) -> float:
     """
     Program ini merupakan perhitungan untuk mengetahui performa
     pemodelan data.cost function ini merupakan turunan dari rumus
@@ -32,16 +34,18 @@ def costfunction(x_data: np.ndarray,
     """
     prod = np.dot(weigth, x_data)
     prod = prod - y_data
-    sum_element = np.sum(prod ** 2) + (alpha * np.sum(weigth.T ** 2))
+    sum_element = np.sum(prod**2) + (alpha * np.sum(weigth.T**2))
     error = (sum_element) / (2 * panjang_data)
     return error
 
 
-def step_gradient_descent(data_x: np.ndarray,
-                          data_y: np.ndarray,
-                          alpha: float,
-                          weight: np.ndarray,
-                          panjang_data: int) -> float:
+def step_gradient_descent(
+    data_x: np.ndarray,
+    data_y: np.ndarray,
+    alpha: float,
+    weight: np.ndarray,
+    panjang_data: int,
+) -> float:
     """
     gradient descent merupakan rumusan turunan dari cost function
     dan ridge regession yang berguna untuk menghitung performa
@@ -70,8 +74,13 @@ def step_gradient_descent(data_x: np.ndarray,
 
 
 class Ridge:
-    def __init__(self, alpha: float = 1.0, fit_intercept: bool = True, iterable=100000,
-                 learning_path: float = 0.0001550) -> None:
+    def __init__(
+        self,
+        alpha: float = 1.0,
+        fit_intercept: bool = True,
+        iterable=100000,
+        learning_path: float = 0.0001550,
+    ) -> None:
         """
         merupakan salah satu model machine learning pada supervised learning,
         yang berkembangan dari
