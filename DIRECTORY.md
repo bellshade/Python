@@ -71,6 +71,8 @@
   * 25 List And Dict Comprehension
     * [Dict Comprehension](https://github.com/bellshade/Python/blob/main/Basic/25_list_and_dict_comprehension/dict_comprehension.py)
     * [List Comprehension](https://github.com/bellshade/Python/blob/main/Basic/25_list_and_dict_comprehension/list_comprehension.py)
+  * 26 Dekorator
+    * [Dekorator](https://github.com/bellshade/Python/blob/main/Basic/26_dekorator/dekorator.py)
   * [Introduction](https://github.com/bellshade/Python/blob/main/Basic/Introduction.py)
 
 ## Algorithm
