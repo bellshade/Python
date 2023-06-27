@@ -31,6 +31,8 @@ Untuk kamu yang ingin belajar bahasa pemrograman python, berikut urutan basic un
 22. [Scope](22_scope)
 23. [Kalkulator dengan Fungsi](23_kalkulator_dengan_fungsi)
 24. [Casting Tipe Data](24_casting_tipe_data)
+25. [list_and_dict](25_list_dict_comprehension)
+26. [dekorator](26_dekorator)
 
 ## Install python pada perangkat
 
