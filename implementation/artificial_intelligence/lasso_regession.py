@@ -11,7 +11,8 @@ def costFunction(
     y_data: np.ndarray,
     alpha: float,
     theta: np.ndarray,
-    panjang_data: int) -> float:
+    panjang_data: int,
+) -> float:
     """
     Program ini merupakan perhitungan untuk mengetahui performa
     pemodelan data.cost function ini merupakan turunan dari rumus
@@ -30,16 +31,16 @@ def costFunction(
     Returns:
         float: hasil dari algoritma cost pada lasso
     """
-    prod = np.dot(theta,x_data)
+    prod = np.dot(theta, x_data)
     prod = prod - y_data
-    sum_element = np.sum(prod ** 2) + (alpha * np.sum(np.sign(prod.T)))
+    sum_element = np.sum(prod**2) + (alpha * np.sum(np.sign(prod.T)))
     error = (sum_element) / (2 * panjang_data)
     return error
 
 
 def gradient_descent_step(
-    X_data: np.array, y_data: np.array, alpha: float,
-    theta: np.array, panjang_data: int) -> float:
+    X_data: np.array, y_data: np.array, alpha: float, theta: np.array, panjang_data: int
+) -> float:
     prod = np.dot(theta, X_data)
     prod = prod - y_data
     sum_grad = np.dot(prod, X_data.T) + alpha * np.sign(prod.T)
@@ -87,9 +88,10 @@ class Lasso:
         panjang_data, panjang_fitur = X.shape
         Y = np.array(y)
         self.weight = np.zeros(panjang_fitur)
-        for i in range(1,self.iterable):
-            self.weight = gradient_descent_step(X, Y, self.alpha, 
-                                                self.weight, panjang_data)
+        for i in range(1, self.iterable):
+            self.weight = gradient_descent_step(
+                X, Y, self.alpha, self.weight, panjang_data
+            )
             error = costFunction(X, Y, self.alpha, self.weight, panjang_data)
             print(f"iter:{i},theta:{self.weight},error:{error}")
         return self.weight
@@ -116,4 +118,5 @@ def main():
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
