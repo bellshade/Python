@@ -146,6 +146,7 @@
     * [Bubble Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort.py)
     * [Bubble Sort Ascii](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort_ascii.py)
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
+    * [Quick Sorting](https://github.com/bellshade/Python/blob/main/algorithm/sorting/quick_sorting.py)
 
 ## Implementation
   * Artificial Intelligence
