@@ -146,6 +146,7 @@
     * [Bubble Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort.py)
     * [Bubble Sort Ascii](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort_ascii.py)
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
+    * [Quick Sorting](https://github.com/bellshade/Python/blob/main/algorithm/sorting/quick_sorting.py)
 
 ## Implementation
   * Artificial Intelligence
@@ -154,6 +155,7 @@
     * [Gradient Descent](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/gradient_descent.py)
     * [K Means Clutser](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/k_means_clutser.py)
     * [K Nearest Neighbour](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/k_nearest_neighbour.py)
+    * [Lasso Regession](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/lasso_regession.py)
     * [Linear Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/linear_regression.py)
     * [Logistic Regression](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/logistic_regression.py)
     * [Lstm](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/lstm.py)
