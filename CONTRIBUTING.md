@@ -164,7 +164,7 @@ kendala atau masalah ketika melakukan pull request. Kamu juga bisa bertanya pada
 
 Catatan: pesan commit harus menjelaskan perubahan secara singkat.
 
-Contoh:
+Contoh yang benar:
 - &#9746; feat: test_x.py
 - &#9745; feat: tambah unittest untuk algoritma x
 
