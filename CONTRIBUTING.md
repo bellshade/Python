@@ -164,6 +164,10 @@ kendala atau masalah ketika melakukan pull request. Kamu juga bisa bertanya pada
 
 Catatan: pesan commit harus menjelaskan perubahan secara singkat.
 
+Contoh:
+- &#9746; feat: test_x.py
+- &#9745; feat: tambah unittest untuk algoritma x
+
 Lebih lengkapnya bisa dilihat di:
 - [EN](https://www.conventionalcommits.org/en/v1.0.0/)
 - [ID](https://www.conventionalcommits.org/id/v1.0.0/)
