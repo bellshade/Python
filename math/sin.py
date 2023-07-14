@@ -1,7 +1,6 @@
 from math import pi, e
 
 
-
 def factorial(n: int) -> int:
     if n < 0:
         raise ValueError("angkanya harus bilangan real")
