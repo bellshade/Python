@@ -24,12 +24,11 @@ def sinus(x: float | int, iterable: int = 4):
     """
     result = 0
     for n in range(iterable):
-        # bikin numerial nya
-        numerator = ((e ** (complex(0, pi / 180) * x))
-                     - (e ** (-complex(0, pi / 180) * x)))
-        # dengan menggunakan factorial
+        numerator = (e ** (complex(0, pi / 180) * x)) - (
+            e ** (-complex(0, pi / 180) * x)
+        )
         denominator = factorial(2 * n + 1)
-        result += (numerator / denominator)
+        result += numerator / denominator
     return result
 
 
