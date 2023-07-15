@@ -269,6 +269,7 @@
   * [Sieve Of Eratosthenes](https://github.com/bellshade/Python/blob/main/math/sieve_of_eratosthenes.py)
   * [Sigmoid](https://github.com/bellshade/Python/blob/main/math/sigmoid.py)
   * [Simpson](https://github.com/bellshade/Python/blob/main/math/simpson.py)
+  * [Sin](https://github.com/bellshade/Python/blob/main/math/sin.py)
   * [Sock Merchant](https://github.com/bellshade/Python/blob/main/math/sock_merchant.py)
   * [Softmax](https://github.com/bellshade/Python/blob/main/math/softmax.py)
   * [Sum Geometric Progression](https://github.com/bellshade/Python/blob/main/math/sum_geometric_progression.py)
