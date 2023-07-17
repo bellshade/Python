@@ -13,7 +13,7 @@ class GaussianNB:
     menebak data `label` tersebut
     """
 
-    def __init__(self) :
+    def __init__(self):
         self.features = []
         self.likelihoods = {}
         self.class_priors = {}
@@ -45,8 +45,7 @@ class GaussianNB:
             for feat_val, count in feat_vals.items():
                 self.pred_priors[fitur][feat_val] = count / self.X[0]
 
-    def fit(self, x: np.array,
-            y: np.array) -> None:
+    def fit(self, x: np.array, y: np.array) -> None:
         self.X = np.array(x)
         self.Y = np.array(y)
         panjang_data, _ = self.X.shape
@@ -86,6 +85,7 @@ class GaussianNB:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
     X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
     Y = np.array([1, 1, 1, 2, 2, 2])
