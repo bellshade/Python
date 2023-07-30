@@ -60,13 +60,17 @@ def similar_search(
     """
     if dataset.ndim != value_array.ndim:
         pesan = (
-            f"dimensi data input salah, dataset: {dataset.ndim} : {value_array.ndim}"
+            f"dimensi data input salah, dataset: {dataset.ndim} : "
+            f"{value_array.ndim}"
         )
         raise ValueError(pesan)
 
     try:
         if dataset.shape[1] != value_array.shape[1]:
-            pesan = f"bentuk data input salah, dataset {dataset.shape[1]}, value_array: {value_array.shape[1]}"
+            pesan = (
+                f"bentuk data input salah, dataset {dataset.shape[1]}, "
+                f"value_array: {value_array.shape[1]}"
+            )
             raise ValueError(pesan)
     except IndexError as index_error:
         if dataset.ndim != value_array.ndim:
@@ -74,7 +78,10 @@ def similar_search(
             raise TypeError("bentuk salah...")
 
     if dataset.dtype != value_array.dtype:
-        pesan = f"tipe data input berbeda, dataset: {dataset.dtype}, value_array: {value_array.dtype}"
+        pesan = (
+            f"tipe data input berbeda, dataset: {dataset.dtype},"
+            f"value_array: {value_array.dtype}"
+        )
         raise TypeError(pesan)
 
     answer: list = []
