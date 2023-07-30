@@ -164,6 +164,7 @@
     * [Polynominal](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/polynominal.py)
     * [Random Forest](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/random_forest.py)
     * [Rigde Regession](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/rigde_regession.py)
+    * [Similarity Searching](https://github.com/bellshade/Python/blob/main/implementation/artificial_intelligence/similarity_searching.py)
   * Audio Filter
     * [Audio Response](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/audio_response.py)
     * [Iir Filter](https://github.com/bellshade/Python/blob/main/implementation/audio_filter/iir_filter.py)
