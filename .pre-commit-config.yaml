@@ -23,6 +23,7 @@ repos:
     hooks:
       - id: flake8
         args:
+          - --exclude=Basic
           - --ignore=E203,W503,F401,W504,F821,F841,E741
           - --max-complexity=25
           - --max-line-length=100
