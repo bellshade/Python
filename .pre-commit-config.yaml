@@ -19,11 +19,12 @@ repos:
       - id: black
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0
+    rev: 6.1.0
     hooks:
       - id: flake8
         args:
-          - --ignore=E203,W503,F401,W504,F821,F841,E741
+          - --exclude=Basic
+          - --ignore=E203,W503,F401,W504,F821,F841,E741,E721
           - --max-complexity=25
           - --max-line-length=100
 
