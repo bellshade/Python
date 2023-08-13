@@ -1,4 +1,4 @@
-from math import e, factorial
+from math import factorial
 
 
 def exponent(x: int | float):
