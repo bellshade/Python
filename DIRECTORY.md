@@ -251,6 +251,7 @@
   * [Bisection Math](https://github.com/bellshade/Python/blob/main/math/bisection_math.py)
   * [Counter](https://github.com/bellshade/Python/blob/main/math/counter.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
+  * [Exponential Function](https://github.com/bellshade/Python/blob/main/math/exponential_function.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
   * [Fibonacci](https://github.com/bellshade/Python/blob/main/math/fibonacci.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
