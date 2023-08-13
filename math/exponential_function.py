@@ -1,6 +1,7 @@
-from math import e,factorial
+from math import e, factorial
 
-def exponent(x:int|float):
+
+def exponent(x: int | float):
     """_summary_
 
     Args:
@@ -17,11 +18,12 @@ def exponent(x:int|float):
     n_term: int = 100
     result: float = 0.0
     for n in range(n_term):
-        result += (x ** n / factorial(n))
+        result += x**n / factorial(n)
 
-    return round(result,11)
+    return round(result, 11)
+
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod(verbose=True)
-    
