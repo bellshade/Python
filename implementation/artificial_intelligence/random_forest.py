@@ -11,6 +11,7 @@
 import numpy as np
 from typing import Union
 
+
 class DecisionTree:
     def __init__(self, max_depth=5, min_samples_leaf=2):
         """
@@ -23,7 +24,7 @@ class DecisionTree:
         self.min_samples_leaf = min_samples_leaf
         self.tree = {}
 
-    def fit(self, X:np.ndarray, y:np.ndarray):
+    def fit(self, X: np.ndarray, y: np.ndarray):
         """
         Metode fit membangun pohon keputusan secara rekursif dengan memanggil
         fungsi build_tree.
@@ -34,7 +35,7 @@ class DecisionTree:
         """
         self.tree = self.build_tree(X, y, depth=0)
 
-    def build_tree(self, X:np.ndarray, y:np.ndarray, depth:int):
+    def build_tree(self, X: np.ndarray, y: np.ndarray, depth: int):
         """
         Fungsi build_tree secara rekursif membagi data berdasarkan fitur dan nilai
         terbaik, dengan mempertimbangkan perolehan informasi
@@ -94,9 +95,12 @@ class DecisionTree:
             "right": right_tree,
         }
 
-    def information_gain(self, y:np.ndarray,
-                         left_indices:Union[np.ndarray,list[int|float]],
-                         right_indices:Union[np.ndarray,list[int|float]]):
+    def information_gain(
+        self,
+        y: np.ndarray,
+        left_indices: Union[np.ndarray, list[int | float]],
+        right_indices: Union[np.ndarray, list[int | float]],
+    ):
         """
         Fungsi information_gain menghitung perolehan informasi untuk pembagian tertentu.
         Args:
@@ -121,7 +125,7 @@ class DecisionTree:
         )
         return gain
 
-    def calculate_entropy(self, y:np.ndarray):
+    def calculate_entropy(self, y: np.ndarray):
         """
             fungsi count_entropy menghitung entropi dari sekumpulan label.
         argumen:
@@ -135,7 +139,7 @@ class DecisionTree:
     # Metode prediksi memprediksi label untuk sekumpulan sampel input.
     # Dengan memanggil fungsi predict_sample untuk setiap sampel.
 
-    def prediksi(self, X:np.ndarray):
+    def prediksi(self, X: np.ndarray):
         """
         Metode memprediksi label untuk satu set sampel input.
         Dengan memanggil fungsi predict_sample untuk setiap sampel.
@@ -147,7 +151,7 @@ class DecisionTree:
         """
         return np.array([self.predict_sample(x) for x in X])
 
-    def predict_sample(self, x:np.ndarray):
+    def predict_sample(self, x: np.ndarray):
         """
             Fungsi predict_sample menelusuri pohon keputusan untuk menentukan prediksi
             label untuk masukan satu sampel.
@@ -181,7 +185,7 @@ class RandomForest:
         self.min_samples_leaf = min_samples_leaf
         self.trees = []
 
-    def fit(self, X:np.ndarray, y:np.ndarray):
+    def fit(self, X: np.ndarray, y: np.ndarray):
         """
         #Metode fit melatih hutan acak dengan membuat pohon keputusan num_trees dan
         # menyesuaikannya pada himpunan bagian acak dari data.
@@ -197,7 +201,7 @@ class RandomForest:
             tree.fit(X[indices], y[indices])
             self.trees.append(tree)
 
-    def prediksi(self, X:np.ndarray):
+    def prediksi(self, X: np.ndarray):
         """Metode prediksi membuat prediksi untuk sekumpulan sampel input dengan
         menggabungkan prediksi dari setiap pohon dan mengambil suara mayoritas.
         argumen:
