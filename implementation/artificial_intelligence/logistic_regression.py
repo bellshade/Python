@@ -33,7 +33,8 @@ def fungsi_sigmoid(n):
     return 1 / (1 + np.exp(-n))
 
 
-def logsitik_regresi(alpha, x, y, max_iterasi=70000):
+def logsitik_regresi(alpha:float, x:np.ndarray, y:np.ndarray,
+                     max_iterasi:int=70000):
     theta = np.zeros(x.shape[1])
 
     for iterasi in range(max_iterasi):
@@ -58,7 +59,7 @@ if __name__ == "__main__":
     theta = logsitik_regresi(alpha, x, y, max_iterasi=70000)
     print("theta: ", theta)
 
-    def prediksi_probabilitas(n):
+    def prediksi_probabilitas(x:np.ndarray):
         return fungsi_sigmoid(np.dot(x, theta))
 
     plt.figure(figsize=(10, 6))

@@ -7,7 +7,7 @@
 # mengatur bobot dari fitur ini, melalui banyak iterasi
 # sehingga cocok dengan kumpulan data kita.
 import numpy as np
-import request
+import requests
 
 
 def collect_dataset():
@@ -16,7 +16,7 @@ def collect_dataset():
     kita menggunakan dataset CSGO, dalam konten ini
     mengandung data ADR vs rating dari player
     """
-    respon = request.get(
+    respon = requests.get(
         "https://raw.githubusercontent.com/yashLadha/The_Math_of_Intelligence/"
         "master/Week1/ADRvsRating.csv"
     )
@@ -43,9 +43,9 @@ def jalankan_step_gradient_descent(data_x, data_y, panjang_data, alpha, theta):
     """
     n = panjang_data
 
-    prod = np.dot(theta, data_x.transpose())
-    prod -= data_y.transpose()
-    sum_grad = np.dot(prod, data_x)
+    prod = np.dot(theta,data_x.T)
+    prod -= data_y.T
+    sum_grad = np.dot(prod,data_x)
     theta = theta - (alpha / n) * sum_grad
     return theta
 
@@ -58,12 +58,11 @@ def jumlah_kesalahan_perhitungan(data_x, data_y, panjang_data, theta):
     :param len_data: panjang dari dataset
     :param theta: fitur vector
     """
-    prod = np.dot(theta, data_x.transpose())
-    prod -= data_y.transpose()
-    sum_elem = np.sum(np.square)
-    error = sum_elem / (2 * panjang_data)
+    prod = np.dot(theta,data_x.T)
+    prod -= data_y.T
+    sum_error = np.sum(np.square(prod))
+    error = sum_error / (2 * panjang_data)
     return error
-
 
 def jalankan_linear_regression(data_x, data_y):
     """
@@ -76,7 +75,7 @@ def jalankan_linear_regression(data_x, data_y):
 
     tanpa_fitur = data_x.shape[1]
     panjang_data = data_x.shape[0] - 1
-    theta = np.zeros((1, tanpa_fitur))
+    theta = np.zeros((1,tanpa_fitur))
 
     for i in range(0, iterasi):
         theta = jalankan_step_gradient_descent(
@@ -101,13 +100,13 @@ def main():
     data = collect_dataset()
     panjang_data = data.shape[0]
     data_x = np.c_[np.ones(panjang_data), data[:, :-1]].astype(float)
-    data_y = data[:, :-1].astype(float)
-
+    data_y = data[:, -1].astype(float)
+    print(data_x.shape,data_y.shape)
     theta = jalankan_linear_regression(data_x, data_y)
     panjang_hasil = theta.shape[1]
     print("resultan fitur vector: ")
     for i in range(0, panjang_hasil):
-        print(f"{theta[0, i]:5.f}")
+        print(f"{theta[0, i]:.5f}")
 
 
 if __name__ == "__main__":
