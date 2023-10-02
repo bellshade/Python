@@ -9,6 +9,7 @@
         secara keseluruhan.
 """
 import numpy as np
+from typing import Union
 
 
 class DecisionTree:
@@ -23,25 +24,25 @@ class DecisionTree:
         self.min_samples_leaf = min_samples_leaf
         self.tree = {}
 
-    def fit(self, X, y):
+    def fit(self, X: np.ndarray, y: np.ndarray):
         """
         Metode fit membangun pohon keputusan secara rekursif dengan memanggil
         fungsi build_tree.
         argumen:
-             X(__type__) : Nilai numerik array 2D
-            y(__type__) : Array 1D dari int
-            kedalaman (_type_):int
+             X(np.ndarray) : Nilai numerik array 2D
+            y(np.ndarray) : Array 1D dari int
+            kedalaman (object):nama objek
         """
         self.tree = self.build_tree(X, y, depth=0)
 
-    def build_tree(self, X, y, depth):
+    def build_tree(self, X: np.ndarray, y: np.ndarray, depth: int):
         """
         Fungsi build_tree secara rekursif membagi data berdasarkan fitur dan nilai
         terbaik, dengan mempertimbangkan perolehan informasi
         argumen:
-            X(__type__) : Nilai numerik array 2D
-            y(__type__) : Array 1D dari int
-            kedalaman (_type_):int
+            X(np.ndarray) : Nilai numerik array 2D
+            y(np.ndarray) : Array 1D dari int
+            kedalaman (int):int
         """
         n_samples, n_features = X.shape
         labels = np.unique(y)
@@ -94,13 +95,22 @@ class DecisionTree:
             "right": right_tree,
         }
 
-    def information_gain(self, y, left_indices, right_indices):
+    def information_gain(
+        self,
+        y: np.ndarray,
+        left_indices: Union[np.ndarray, list[int | float]],
+        right_indices: Union[np.ndarray, list[int | float]],
+    ):
         """
         Fungsi information_gain menghitung perolehan informasi untuk pembagian tertentu.
         Args:
-            y (_type_):1D array of int
-            left_indices (_type_): int
-            right_indices (_type_): int
+            y (np.ndarray):1D array of int
+            left_indices (np.ndarray or list[int|float]): Indeks-indeks data
+                                                          yang termasuk dalam
+                                                          kelompok kiri
+            right_indices (np.ndarray or list[int|float]): Indeks-indeks data
+                                                           yang termasuk dalam
+                                                           kelompok kanan
         """
         parent_entropy = self.calculate_entropy(y)
         left_entropy = self.calculate_entropy(y[left_indices])
@@ -115,7 +125,7 @@ class DecisionTree:
         )
         return gain
 
-    def calculate_entropy(self, y):
+    def calculate_entropy(self, y: np.ndarray):
         """
             fungsi count_entropy menghitung entropi dari sekumpulan label.
         argumen:
@@ -129,7 +139,7 @@ class DecisionTree:
     # Metode prediksi memprediksi label untuk sekumpulan sampel input.
     # Dengan memanggil fungsi predict_sample untuk setiap sampel.
 
-    def prediksi(self, X):
+    def prediksi(self, X: np.ndarray):
         """
         Metode memprediksi label untuk satu set sampel input.
         Dengan memanggil fungsi predict_sample untuk setiap sampel.
@@ -141,15 +151,15 @@ class DecisionTree:
         """
         return np.array([self.predict_sample(x) for x in X])
 
-    def predict_sample(self, x):
+    def predict_sample(self, x: np.ndarray):
         """
             Fungsi predict_sample menelusuri pohon keputusan untuk menentukan prediksi
             label untuk masukan satu sampel.
         argumen:
-            x (_type_): larik 2D dari nilai numerik
+            x (np.ndarray): larik 2D dari nilai numerik
 
         Pengembalian:
-            _type_: kembalikan label(int)
+            int: kembalikan label(int)
         """
         node = self.tree
         while "label" not in node:
@@ -175,13 +185,13 @@ class RandomForest:
         self.min_samples_leaf = min_samples_leaf
         self.trees = []
 
-    def fit(self, X, y):
+    def fit(self, X: np.ndarray, y: np.ndarray):
         """
         #Metode fit melatih hutan acak dengan membuat pohon keputusan num_trees dan
         # menyesuaikannya pada himpunan bagian acak dari data.
         argumen:
-            X(__type__) : Nilai numerik array 2D
-            y(__type__) : Array 1D dari int
+            X(np.ndarray) : Nilai numerik array 2D
+            y(np.ndarray) : Array 1D dari int
         """
         for _ in range(self.num_trees):
             tree = DecisionTree(
@@ -191,14 +201,14 @@ class RandomForest:
             tree.fit(X[indices], y[indices])
             self.trees.append(tree)
 
-    def prediksi(self, X):
+    def prediksi(self, X: np.ndarray):
         """Metode prediksi membuat prediksi untuk sekumpulan sampel input dengan
         menggabungkan prediksi dari setiap pohon dan mengambil suara mayoritas.
         argumen:
-            X (_type_): Nilai numerik larik 2D
+            X (np.ndarray): Nilai numerik larik 2D
 
         Pengembalian:
-            _type_: Larik label 1D (int)
+            np.array: Larik label 1D (int)
         """
         predictions = np.zeros((len(X), len(self.trees)))
         for i, tree in enumerate(self.trees):
