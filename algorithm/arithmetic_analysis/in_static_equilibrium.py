@@ -2,7 +2,6 @@
 Memeriksa apakah sistem gaya berada dalam kesetimbangan statis.
 """
 
-
 from numpy import array, cos, cross, ndarray, radians, sin
 
 

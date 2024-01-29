@@ -19,6 +19,7 @@ kumpulan huruf), karakter terakhir dari teks ditambahkan ke teks sampai
 panjang teks mencapai kelipatan dari break_key. Jadi teks setelah
 dekripsi mungkin sedikit berbeda dari teks aslinya.
 """
+
 import string
 
 import numpy

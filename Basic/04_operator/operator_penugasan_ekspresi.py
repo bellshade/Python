@@ -16,7 +16,6 @@ sekaligus mengembalikan nilai dan mempersingkat sintaks program
 +------------+--------------+-----------------+
 """
 
-
 # Contoh dibawah ini dapat dilihat perbedaannya jika melalui CLI Python
 # Tidak akan mengembalikan nilai, hanya melakukan pengisian
 # walrus = False

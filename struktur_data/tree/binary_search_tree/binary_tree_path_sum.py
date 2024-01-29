@@ -40,6 +40,7 @@ class BinaryTreePathSum:
     >>> BinaryTreePathSum().path_sum(tree, 8)
     2
     """
+
     target: int
 
     def __init__(self) -> None:

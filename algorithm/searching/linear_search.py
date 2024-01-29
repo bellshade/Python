@@ -14,6 +14,7 @@ Space complexity: O(1)
 
 https://en.wikipedia.org/wiki/Linear_search
 """
+
 from __future__ import annotations
 
 from typing import TypeVar
