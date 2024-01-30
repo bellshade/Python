@@ -131,9 +131,7 @@ class BodySystem:
                     dif_x = body2.position_x - body1.position_x
                     dif_y = body2.position_y - body1.position_y
 
-                    distance = (dif_x**2 + dif_y**2 + self.softening_factor) ** (
-                        1 / 2
-                    )
+                    distance = (dif_x**2 + dif_y**2 + self.softening_factor) ** (1 / 2)
                     force_x += (
                         self.gravitation_constant * body2.mass * dif_x / distance**3
                     )
