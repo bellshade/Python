@@ -1,5 +1,4 @@
 import sys
-from getopt import getopt
 
 arg : list[str]= sys.argv[1:]
 
