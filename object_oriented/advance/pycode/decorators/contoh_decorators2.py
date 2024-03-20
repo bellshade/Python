@@ -1,21 +1,34 @@
-# Apabila melihat tanda backslash n (\n) itu tandanya kita bisa memotong panjang karakter dan dapat memberikan baris baru.
-# Fungsi pertama kita buat dengan nama (kasar), yang hanya mengembalikan suatu nilai perubahan text.
-def kasar(s):
-  return s.upper()
-  
-# Fungsi kedua kita buat dengan nama (lembut), yang hanya mengembalikan suatu nilai perubahan text.
-def lembut(s):
-  return s.lower()
-  
-# Fungsi ketiga kita buat dengan nama (kalem), yang bertujuan untuk menampilkan isi nilai dari Fungsi sebelumnya.
-def kalem(func):
+from typing import Callable
 
-  # Selanjutnya kita buat objek dengan nama (menyapa)
-  menyapa = func('Halo Semua Sobat WPU!!!\nJangan lupa titik koma yaa (;)\nEh iya lupa... kalau ini program Python :-D\n')
-  
-  # Keluarkan nilai dari objek menyapa yang memberikan nilai didalam parameter func(...) keluar layar / konsol.
-  print(menyapa)
 
-# Setelah di rasa cukup, saatnya kita panggil fungsi kalem(), dan memasukkan kedua fungsi di atas sebagai parameter dari fungsi kalem().
-kalem(kasar)
-kalem(lembut)
+# Contoh Decorator 2
+def wpu(str1 : str) -> str:
+    # Fungsi wpu yang mengembalikan nilai string upper
+    return str1.upper()
+
+
+def terbuka(str2 : str) -> str:
+    # Fungsi terbuka yang mengembalikan nilai string lower
+    return str2.lower()
+
+
+def bellshade(func : Callable) -> str:
+    """
+    Fungsi ini akan menampung fungsi dari luar fungsi bellshade
+    :param func: parameter fungsi yang akan menampung fungsi lainnya
+    >>> mhs1 = wpu
+    >>> mhs2 = terbuka
+    >>> bellshade(mhs1)
+    'HALO SOBAT BELLSHADE!!!'
+    >>> bellshade(mhs2)
+    'halo sobat bellshade!!!'
+    """
+    return func("Halo Sobat bellshade!!!")
+
+
+def test_func_upper():
+    assert 'HALO SOBAT BELLSHADE!!!' == bellshade(wpu)
+
+
+def test_func_lower():
+    assert 'halo sobat bellshade!!!' == bellshade(terbuka)

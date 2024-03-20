@@ -1,38 +1,44 @@
+<p align="center">
+  <img src="https://i.ibb.co/N1hgztf/magic-mathod.png" alt="Python Advance">
+</p>
+
 # Magic Method Python 
 
 Magic Method adalah definisi / fungsi / method yang dimulai dan diakhiri dengan garis bawah 2x atau ganda '__'. Mereka ditentukan oleh kelas bawaan dalam Python dan biasanya digunakan untuk kelebihan beban operator. Disebut juga Dunder Method, Dunder di sini berarti “Double Under (Garis Bawah)”.
 
 ## Cara Penulisan Magic Method Python
 
-```python
-# Mempelajari Magic Mathod Python
-
-# Membuat class dengan nama Pastikom, dengan memiliki 2 parameter yakni yourname & email.
+```py
 class Pastikom:
-  
-  # Mendefinisikan fungsi __init__ atau menginisialisasikan untuk bertujuan agar class Pastikom dapat menerima input dengan 2 parameter [yourname & email]
-  def __init__(self, yourname, email):
-    self.name = yourname
-    self.email = email
-  
-  # Mendefinisikan sebuah fungsi __repr__ yang bertujuan sebagai merepresentasikan hasil keluaran dari rangkaian yang sudah kita susun pada parameter
-  def __repr__(self):
-    return f'Class: {__class__}\n\tparameter[name]: {self.name}\n\t\tparameter[email]: {self.email}'
-   
-  # Mendefinisikan sebuah fungsi __del__ yang bertujuan untuk memberikan informasi jika ada yang terhapus di salah satu instance pada object
-  def __del__(self):
-    print(f'\nOh tidaaaak!\nYang kamu masukan dengan nama:{self.name} & \nemail:{self.email} sudah terhapus :\'(')
 
-# Membuat object user1 dari Class Pastikom
-user1 = Pastikom('Bellshade', 'Bellshade@Pastikom')
-# Membuat object user1 dari Class Pastikom
-user2 = Pastikom('TomsDroid', 'tomsdroid@Pastikom')
+    def __init__(self, yourname : str, email : str) -> None:
+        """Magic Method
+        Kelas Pastikom memiliki 2 parameter dan/atau argumen
+        :param yourname: tuliskan nama mu di parameter pertama
+        :param email: tuliskan email mu di parameter ke dua
+        nama = 'Bellshade'
+        email = bellshade@pastikom.id
+        >>> Pastikom(nama, email)
+        Nama: Bellshade
+        Email: bellshade@pastikom.id
+        """
+        self.name = yourname
+        self.email = email
+
+    def __repr__(self):
+        """Fungsi representasi nilai parameter dan/atau argumen"""
+        return f'Nama: { self.name }\nEmail: { self.email }'
+
+    def __del__(self):
+        """Fungsi informasi jika ada nilai parameter dan/atau argumen yang terhapus"""
+        return "Oh tidaaaak! Data sudah terhapus :'("
 
 
-# Menampilkan value object user1 dari Class Pastikom
-print(user1)
-# Menghapus value object user1 dari Class Pastikom
-del(user2)
+nama : str = "Bellshade"
+email : str = "bellshade@pastikom.id"
+if __name__ == '__main__':
+    Pastikom(nama, email)
+
 ```
 
 Jika, Kamu ingin mencobanya sendiri melalui cmd / terminal untuk mendapatkan daftar atribut dari _**Magic Mathod**_ dengan Python, buka cmd atau terminal lalu ketik python3 untuk membuka interpreter Python, dan ketik kode berikut: `dir(int)`

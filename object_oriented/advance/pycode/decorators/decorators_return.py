@@ -1,19 +1,25 @@
-# openseries function: fungsi ini akan kita jadikan sebagai decorators function
-def openseries(func):
-  def wrap(*args, **kwargs):
-    print('OpenSeries: Matematika Dasar.')
-    return_val = func(*args, **kwargs) # <- Space func dari parameter fungsi (openseries)
-    print(f'Dieksekusi dari fungsi: {func.__name__}') # <- Mencetak nama dari fungsi (add) 
-    return return_val
-  
-  return wrap # <- Mengembalikan fungsi (wrap) sebagai fungsi terdalam (openseries)
-  
-# ----------| Cara Penggunaan Decorators Yang  Argumen Parameter |---------- #
+from typing import Union, Callable
 
-# Cara memanggil fungsi (wrap & openseries)
+
+def openseries(func : Callable) -> Callable:
+    """
+    Fungsi openseries akan di jadikan sebagai decorators yang mengembalikan fungsi
+    Sekarang coba jalankan fungsi add yang di decorators fungsi openseries
+    >>> a = 5
+    >>> b = 9
+    >>> add(a, b)
+    '(5 + 9): 14'
+    """
+    def wrap(*args : Union[int, float]) -> Union[int, float]:
+        return_val = func(*args)
+        return return_val
+    return wrap
+
+
 @openseries
-def add(a,b):
-  print(f'Fungsi penjumlahan dari {a} + {b} = {a + b}') # <- Fungsi print ini akan muncul di dalam fungsi (wrap) didalam fungsi (openseries)
-  return f'Hasil dari parameter a & b ({a} + {b} = {a + b})'
+def add(a : Union[int, float], b : Union[int, float]) -> Union[int, str]:
+    return f'({a} + {b}): {a + b}'
 
-print(add(5,9))
+
+def test_openseries_add_func():
+    assert add(5, 9) == '(5 + 9): 14'

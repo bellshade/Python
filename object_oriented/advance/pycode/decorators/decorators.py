@@ -1,20 +1,29 @@
-# bellshade function: fungsi ini akan kita jadikan sebagai decorators function
-def bellshade(func):
-  x = 'Belajar Membuat Website' # <- Variable x: agar di cetak didalam fungsi (wrap)
-  
-  def wrap():
-    print('Selamat datang di ruang Bellshade.')
-    print('bersama narasumber:', end='') # <- end="": agar keluar ke konsol hanya satu baris sejajar dengan parameter fungsi (bellshade)
-    func() # <- Space func dari parameter fungsi (bellshade)
-    print(f'Dalam rangka: {x}\nDieksekusi dari fungsi: {func.__name__}') # <- Mencetak Variable dari fungsi (bellshade) 
-  
-  return wrap # <- Mengembalikan fungsi (wrap) sebagai fungsi terdalam (bellshade)
-  
-# ----------| Cara Penggunaan Decorators |---------- #
+from typing import Callable
 
-# Cara memanggil fungsi (wrap & bellshade)
+
+# Decorators
+def bellshade(func : Callable) -> Callable:
+    """
+    Fungsi ini akan kita jadikan sebagai decoratord decorators (@)
+    Saat Mengeksekusi, kita cukup panggil Fungsi wpu
+    >>> wpu('Bellshade')
+    'Selamat datang Bellshade'
+    """
+
+    def wrap(str1 : str) -> str:
+        return f'Selamat datang {str1}'
+
+    return wrap  # <- Mengembalikan fungsi (wrap) sebagai fungsi terdalam (bellshade)
+
+
 @bellshade
-def wpu():
-  print('Web Programming UNPAS!')
+def wpu(str1 : str) -> str:
+    return str1
 
-wpu()
+
+# ----------| Cara Penggunaan Decorators |---------- #
+def test_decorators():
+    @bellshade
+    def wpu(str1):
+        return str1
+        assert str1 == 'Bellshade'

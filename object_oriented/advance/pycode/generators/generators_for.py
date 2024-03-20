@@ -1,30 +1,42 @@
-# Generators
-# import terlebih dahulu module yang kita butuhkan
-import os, sys, time
+from functools import wraps
+from typing import Callable
 
-# Buatlah kelas dengan nama (Generators)
-class Generators():
-  # Disini kita akan membuat fungsi inisialisasi, agar kelas yang kita buat dapat memiliki argumen parameter
-  def __init__(self, input_usr : int) -> None :
-    self.user = int(input_usr)
 
-  # Buatlah fungsi untuk mengenerate angka secara random
-  def start(self):
-    time.sleep(1)
-    if sys.platform != 'linux':
-      os.system('cls')
-    else:
-      os.system('clear')
-    print('Nama Program:',Generators.__name__)
-    print('Generators akan segera di mulai')
-    time.sleep(2)
-    for i in range(5,self.user):
-      print('=> ',i**50)
-      time.sleep(1)
-    
-    print(f'Memory yang di gunakan: {sys.getsizeof(i)} bytes')
-# Instansiasikan kelas yang sudah di definisikan ke dalam variable agar menjadi object
-app = Generators('20')
+# GENERATORS
+def Generators(func : Callable) -> Callable:
+    """
+    Fungsi ini akan menerima parameter dari user untuk melakukan generate
+    ubah bagian range function menjadi [for i in range(random.randint(5,35))]
+    hapus [return i] jika ingin generate berlanjut
+
+    :param func: Tipe parameter diharuskan object_func
+    :return: Hasil Generators
+    >>> coba1()
+    49
+    """
+
+    @wraps(func)
+    def start() -> int:
+        i : int = 1
+        for i in range(13, 50):
+            i**func()
+        return i
+    return start
+
+
+def test_generators():
+
+    @Generators
+    def coba1():
+        return 7
+
+    assert coba1() == 49
+
+
+@Generators
+def coba1():
+    return 7
+
 
 if __name__ == '__main__':
-  app.start()
+    print(coba1())

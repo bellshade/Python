@@ -1,17 +1,30 @@
-# Kita buat fungsi terluar dengan nama (users)
-def users(nama):
+from typing import Callable
 
-  # Saatnya kita buat fungsi didalam fungsi ddngan nama (belajar)
-  def belajar(s):
-    
-    # Return ini mengembalikan nilai untuk fungsi (belajar)
-    return f'username: {nama}\nsedang belajar: {s}'
-  
-  # Di return terluar, kita akan mengembalikan nilai berupa fungsi (belajar)
-  return belajar
-  
-# Buatlah objek sesuai keinginan, dan berikan nilai fungsi (users) didalam objek.
-s1 = users('bellshade')
 
-# Cetak objek yang sudah di definisikan, yang di ikuti dengan tanda kurung ().
-print(s1('Fullstack'))
+# Contoh Decorator 3
+def users(nama : str) -> Callable:
+    """
+    Fungsi ini hanya mengembalikan sebuah fungsi
+    :param name: Parameter nama dari fungsi users
+    >>> nama = 'Udin'
+    >>> belajar = users(nama)
+    >>> belajar('Python')
+    'Udin sedang belajar: Python'
+    """
+
+    def belajar(str1 : Callable) -> str:
+        """
+        Fungsi ini akan membungkus parameter dari users
+        """
+
+        # Return ini mengembalikan nilai untuk fungsi (belajar)
+        return f'{nama} sedang belajar: {str1}'
+
+    # Di return terluar, kita akan mengembalikan nilai berupa fungsi (belajar)
+    return belajar
+
+
+def test_input_user():
+    name = 'Udin'
+    belajar = users(name)
+    assert 'Udin sedang belajar: Python' == belajar('Python')
