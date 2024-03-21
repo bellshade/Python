@@ -293,21 +293,44 @@
   * [Volume](https://github.com/bellshade/Python/blob/main/math/volume.py)
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
-## Object Oriented Programming
+## Object Oriented
+  * Advance
+    * Pycode
+      * Argument
+        * [Args](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/argument/args.py)
+      * Decorators
+        * [Contoh Decorators1](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/contoh_decorators1.py)
+        * [Contoh Decorators2](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/contoh_decorators2.py)
+        * [Contoh Decorators3](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/contoh_decorators3.py)
+        * [Decorators](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/decorators.py)
+        * [Decorators Chaining](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/decorators_chaining.py)
+        * [Decorators Return](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/decorators/decorators_return.py)
+      * Generators
+        * [Generators For](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/generators/generators_for.py)
+        * [Generators While](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/generators/generators_while.py)
+      * Magic Methods
+        * [Mmethod](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/magic_methods/Mmethod.py)
+      * Metaclass
+        * [Composite](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/metaclass/composite.py)
+        * [Factory](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/metaclass/factory.py)
+        * [Proxy](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/metaclass/proxy.py)
+        * [Singleton](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/metaclass/singleton.py)
+      * Type Hint
+        * [Hinter](https://github.com/bellshade/Python/blob/main/object_oriented/advance/pycode/type_hint/hinter.py)
   * Basic Oop
     * 01 Atribut Kelas
-      * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/basic_oop/01_atribut_kelas/atribut_kelas.py)
+      * [Atribut Kelas](https://github.com/bellshade/Python/blob/main/object_oriented/basic_oop/01_atribut_kelas/atribut_kelas.py)
   * Intermediate
     * Abstraksi
-      * [Abstraksi](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/abstraksi/abstraksi.py)
+      * [Abstraksi](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/abstraksi/abstraksi.py)
     * Encapsulation
-      * [Encapsulation](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation.py)
-      * [Encapsulation2](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/encapsulation/encapsulation2.py)
+      * [Encapsulation](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/encapsulation/encapsulation.py)
+      * [Encapsulation2](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/encapsulation/encapsulation2.py)
     * Inheritance
-      * [Inheritance](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/inheritance/inheritance.py)
+      * [Inheritance](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/inheritance/inheritance.py)
     * Polimorfis
-      * [Polimorfisme Kelas](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/polimorfis/polimorfisme_kelas.py)
-      * [Polimorfisme Sederhana](https://github.com/bellshade/Python/blob/main/object_oriented_programming/intermediate/polimorfis/polimorfisme_sederhana.py)
+      * [Polimorfisme Kelas](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/polimorfis/polimorfisme_kelas.py)
+      * [Polimorfisme Sederhana](https://github.com/bellshade/Python/blob/main/object_oriented/intermediate/polimorfis/polimorfisme_sederhana.py)
 
 ## Other
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
