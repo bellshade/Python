@@ -1,5 +1,3 @@
-from typing import Callable
-
 # variable with type hint
 nama: str = 'Bellshade'
 
