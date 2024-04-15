@@ -14,7 +14,7 @@ class Generators:
     2187
     """
 
-    def __init__(self, target_int : Union[int, float], max_repeat : int = 5) -> None:
+    def __init__(self, target_int: Union[int, float], max_repeat: int = 5) -> None:
         self.tar_mul = target_int
         self.target_repeat_max = max_repeat
 
@@ -27,7 +27,7 @@ class Generators:
         try:
             while True:
                 self.indeks += 1
-                self.res = self.indeks ** self.tar_mul
+                self.res = self.indeks**self.tar_mul
                 print(self.res)
 
                 if self.indeks == self.target_repeat_max:
@@ -45,5 +45,5 @@ def test_generate_dengan_attribute():
 
 app = Generators(7)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app()

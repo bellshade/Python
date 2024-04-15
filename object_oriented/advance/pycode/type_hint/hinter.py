@@ -1,5 +1,5 @@
 # variable with type hint
-nama: str = 'Bellshade'
+nama: str = "Bellshade"
 
 
 # definisi function with type hint with return function
@@ -20,10 +20,10 @@ def id(nama: str) -> str:
 
 # testing code
 def test_runner_code():
-    nama = 'Bellshade'
-    assert user(nama) == 'Bellshade'
+    nama = "Bellshade"
+    assert user(nama) == "Bellshade"
 
 
 # running
-if __name__ == '__main__':
+if __name__ == "__main__":
     user(nama)

@@ -14,14 +14,15 @@ class Mahasiswa(IPeople):
     >>> mhs = Mahasiswa()
     >>> mhs.major()
     'Mahasiswa UNPAS'
-"""
-    __nama: str = 'Bellshade'
-    __posisi: str = 'Mahasiswa UNPAS'
+    """
+
+    __nama: str = "Bellshade"
+    __posisi: str = "Mahasiswa UNPAS"
 
     def __call__(self) -> None:
-        logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
-        logging.debug(f'Nama: {self.__nama}')
-        logging.debug(f'Posisi: {self.major()}')
+        logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
+        logging.debug(f"Nama: {self.__nama}")
+        logging.debug(f"Posisi: {self.major()}")
 
     def major(self):
         return __class__.__posisi
@@ -37,13 +38,14 @@ class Dosen(IPeople):
     >>> mhs.major()
     'Dosen UNPAS'
     """
-    __nama: str = 'Sandhika Galih'
-    __posisi: str = 'Dosen UNPAS'
+
+    __nama: str = "Sandhika Galih"
+    __posisi: str = "Dosen UNPAS"
 
     def __call__(self):
-        logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
-        logging.debug(f'Nama: {self.__nama}')
-        logging.debug(f'Posisi: {self.major()}')
+        logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
+        logging.debug(f"Nama: {self.__nama}")
+        logging.debug(f"Posisi: {self.major()}")
 
     def major(self):
         return __class__.__posisi
@@ -53,27 +55,27 @@ class PeopleFactory:
 
     @staticmethod
     def create_people(role_people):
-        if role_people[0].lower() == 'mahasiswa':
+        if role_people[0].lower() == "mahasiswa":
             return mhs()
-        elif role_people[0].lower() == 'dosen':
+        elif role_people[0].lower() == "dosen":
             return dosen()
         else:
-            logging.warning('Argument tidak dikenal!')
+            logging.warning("Argument tidak dikenal!")
 
 
 def test_major_mahasiswa_factories():
     mhs1 = Mahasiswa()
-    assert mhs1.major() == 'Mahasiswa UNPAS'
+    assert mhs1.major() == "Mahasiswa UNPAS"
 
 
 mhs = Mahasiswa()
 dosen = Dosen()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     prompt = sys.argv[1:]
     try:
         if len(prompt) >= 0:
             PeopleFactory.create_people(prompt)
     except IndexError:
-        logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.WARN)
-        logging.warning('Argument mahasiswa atau dosen tidak terdeteksi!')
+        logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.WARN)
+        logging.warning("Argument mahasiswa atau dosen tidak terdeteksi!")
