@@ -2,7 +2,7 @@ import logging
 from src import IJurusan
 
 # Logging Config
-logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
+logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
 
 
 class Informatika(IJurusan):
@@ -62,10 +62,10 @@ class Jurusan(IJurusan):
         self.mahasiswa += mahasiswa_jurusan.jumlah_mahasiswa()
 
     def jumlah_mahasiswa(self):
-        logging.debug(f'Jumlah jurusan dasar: {self.jurusan_dasar}')
+        logging.debug(f"Jumlah jurusan dasar: {self.jurusan_dasar}")
         for jurusan in self.jumlah_jurusan:
-            logging.debug(f'{type(jurusan).__name__}: {jurusan.jumlah_mahasiswa()}')
-        logging.debug(f'Total mahasiswa: {self.mahasiswa}')
+            logging.debug(f"{type(jurusan).__name__}: {jurusan.jumlah_mahasiswa()}")
+        logging.debug(f"Total mahasiswa: {self.mahasiswa}")
 
 
 def test_insert_data_informatika():
@@ -78,7 +78,7 @@ def test_insert_data_management():
     assert 50 == mhs.jumlah_mahasiswa()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p1 = Informatika(30)
     p2 = Management(50)
     jurusan = Jurusan(2)

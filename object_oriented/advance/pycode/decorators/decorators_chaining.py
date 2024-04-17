@@ -2,27 +2,31 @@ from typing import Callable
 
 
 # DECORATORS CHAINING
-def add(func : Callable) -> Callable:
+def add(func: Callable) -> Callable:
     """
     Fungsi ini akan memanggil fungsi lain dan mengembalikan fungsi
     >>> num1()
     1250
     """
+
     def wrap() -> int:
         x = func()
         return x + x
+
     return wrap
 
 
-def add_quadrat(func : Callable) -> Callable:
+def add_quadrat(func: Callable) -> Callable:
     """
     Fungsi ini akan memanggil fungsi lain dan mengembalikan fungsi
     >>> num2()
     2500
     """
+
     def wrap() -> int:
         x = func()
         return x**2
+
     return wrap
 
 
