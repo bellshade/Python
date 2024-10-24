@@ -41,3 +41,11 @@ jobs:
         run: |
           echo "Running flake8 tests"
           flake8 .
+
+      # INFO: error pre-commit issue 
+      # [#324](https://github.com/bellshade/Python/issues/324)
+      - name: jalankan pre-commit dari git action
+        run: |
+          pip install pre-commit
+          pre-commit install
+          pre-commit run --all-files
