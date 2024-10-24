@@ -8,6 +8,12 @@ T = TypeVar("T")
 @runtime_checkable
 class SizedIndexable(Iterable[T], Protocol[T]):
     @overload
-    def __getitem__(self, key: slice) -> SizedIndexable[T]: ...
+    def __getitem__(self, key: slice) -> SizedIndexable[T]:
+        """
+        Hanya untuk suppress LGTM alert
+        """
 
-    def __len__(self) -> int: ...
+    def __len__(self) -> int:
+        """
+        hanya untuk supress LGTM alert
+        """

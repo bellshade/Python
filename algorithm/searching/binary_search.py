@@ -34,12 +34,18 @@ from _types import SizedIndexable
 
 
 class Comparable(Protocol):
-    def __lt__(self, other: Any) -> bool: ...
+    def __lt__(self, other: Any) -> bool:
+        """
+        Hanya untuk supress LGTM alert
+        """
 
     def __le__(self, other: Any) -> bool:
         """Hanya untuk suppress LGTM alert."""
 
-    def __gt__(self, other: Any) -> bool: ...
+    def __gt__(self, other: Any) -> bool:
+        """
+        Hanya untuk supress LGTM alert
+        """
 
     def __ge__(self, other: Any) -> bool:
         """Hanya untuk suppress LGTM alert."""

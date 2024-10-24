@@ -16,5 +16,5 @@ jobs:
       - name: Update DIRECTORY.md
         run: |
           git add DIRECTORY.md
-          git commit -am "update DIRECTORY.md" ||  true
+          git commit -am "docs: update DIRECTORY.md" ||  true
           git push --force origin HEAD:$GITHUB_REF || true
