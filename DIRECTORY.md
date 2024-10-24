@@ -293,6 +293,10 @@
   * [Volume](https://github.com/bellshade/Python/blob/main/math/volume.py)
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
+## Matrix
+  * [Median Matriks](https://github.com/bellshade/Python/blob/main/matrix/median_matriks.py)
+  * [Pencarian Biner Matrix](https://github.com/bellshade/Python/blob/main/matrix/pencarian_biner_matrix.py)
+
 ## Object Oriented
   * Advance
     * Pycode
