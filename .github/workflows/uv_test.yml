@@ -30,4 +30,7 @@ jobs:
         run: uv add -r dev-requirements.txt
 
       - name: run testing
-        run: uv run flake8 .
+        run: |
+          uv add pre-commit
+          uv run pre-commit install
+          uv run pre-commit --all-files
