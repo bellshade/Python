@@ -26,5 +26,8 @@ jobs:
         with:
           python-version-file: ".python-version"
 
+      - name: install depedencies
+        run: uv add -r dev-requirements.txt
+
       - name: run testing
         run: uv run flake8 .
