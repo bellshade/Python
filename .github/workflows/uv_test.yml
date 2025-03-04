@@ -1,0 +1,36 @@
+name: uv python test
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    # menjalankan testing dengan 3 os yaitu
+    # linux (ubuntu), windows, dan macOS
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Setting python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+
+      - name: install depedencies
+        run: uv add -r dev-requirements.txt
+
+      - name: run testing
+        run: |
+          uv add pre-commit
+          uv run pre-commit install
+          uv run pre-commit run --all-files

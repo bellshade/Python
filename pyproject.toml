@@ -1,0 +1,27 @@
+[project]
+name = "python-bellshade"
+version = "1.0.0"
+description = "Repositori untuk belajar pemograman dalam bahasa indonesia"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4",
+  "fake_useragent",
+  "keras",
+  "lxml",
+  "matplotlib",
+  "numpy",
+  "opencv-python",
+  "pandas",
+  "pillow",
+  "projectq",
+  "qiskit",
+  "requests",
+  "scikit-fuzzy",
+  "scikit-learn",
+  "statsmodels",
+  "sympy",
+  "tensorflow",
+  "types-requests",
+  "xgboost",
+]
