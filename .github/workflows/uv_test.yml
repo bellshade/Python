@@ -33,4 +33,4 @@ jobs:
         run: |
           uv add pre-commit
           uv run pre-commit install
-          uv run pre-commit --all-files
+          uv run pre-commit run --all-files
