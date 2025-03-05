@@ -14,7 +14,7 @@ def send_file(filename: str = "textfile.txt", testing: bool = False) -> None:
         conn, addr = sock.accept()
         print(f"terkoneksi.. ke {addr}")
         data = conn.recv(1024)
-        print(f"diterima .. {data = }")
+        print(f"diterima .. {data}")
 
         with open(filename, "rb") as in_file:
             data = in_file.read(1024)
