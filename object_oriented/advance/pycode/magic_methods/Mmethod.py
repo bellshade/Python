@@ -16,7 +16,7 @@ class Pastikom:
 
     def __repr__(self) -> str:
         """Fungsi representasi nilai parameter dan/atau argumen"""
-        return f"Nama: { self.name }\nEmail: { self.email }"
+        return f"Nama: {self.name}\nEmail: {self.email}"
 
     def __del__(self) -> str:
         """Fungsi informasi jika ada nilai parameter dan/atau argumen yang terhapus"""

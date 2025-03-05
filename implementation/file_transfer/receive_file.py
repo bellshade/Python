@@ -13,7 +13,7 @@ if __name__ == "__main__":
         print("menerima data")
         while True:
             data = sock.recv(1024)
-            print(f"{data = }")
+            print(f"{data}")
             if not data:
                 break
             out_file.write(data)

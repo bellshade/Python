@@ -22,4 +22,4 @@ def emisi(start, end) -> list:
 if __name__ == "__main__":
     for entry in emisi(start=date(2020, 10, 1), end=date(2020, 10, 3)):
         print("dari {from} ke {to}: {intensity[actual]}".format(**entry))
-    print(f"{emisi_stngh_jam() = }")
+    print(f"{emisi_stngh_jam()}")

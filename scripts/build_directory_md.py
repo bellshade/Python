@@ -7,6 +7,18 @@ URL_BASE = "https://github.com/bellshade/Python/blob/main"
 
 
 def good_file_paths(top_dir: str = ".") -> Iterator[str]:
+    """
+    Fungsi menghasilkan path file yang memenuhi kriteria tertentu 
+    dari direktori yang diberikan.
+
+    Parameter:
+        - top_dir (str): direktori root tempat pencarian dimulai. 
+                            Default adalah direktori saat ini (".").
+    
+    Return:
+        - (Iterator[str]): path file (relatif terhadap `top_dir`)
+
+    """
     for dir_path, dir_names, filenames in os.walk(top_dir):
         dir_names[:] = [d for d in dir_names if d != "scripts" and d[0] not in "._"]
         for filename in filenames:
@@ -16,7 +28,7 @@ def good_file_paths(top_dir: str = ".") -> Iterator[str]:
                 yield os.path.join(dir_path, filename).lstrip("./")
 
 
-def md_prefix(i):
+def md_prefix(i: int) -> str:
     return f"{i * '  '}*" if i else "\n##"
 
 
