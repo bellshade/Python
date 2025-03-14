@@ -17,7 +17,7 @@ Selamat datang di pemrograman Python dasar. Di sini kalian dapat memulai serta m
 
 Python dibuat dan dikembangkan oleh [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), programmer yang berasal dari Belanda. Python dibuat dengan menggunakan bahasa pemrograman C sebagai basisnya. Pemilihan nama Python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama **Monty Python’s Flying Circus** yang merupakan acara sirkus favorit dari Guido.
 
-Python adalah bahasa pemograman multiparadigma, yaitu mendukung pemograman berorientasi objek, pemograman terstruktur, dan pemgoraman fungsional.
+Python adalah bahasa pemograman multiparadigma, yaitu mendukung pemograman berorientasi objek, pemograman terstruktur, dan pemrograman fungsional.
 
 Kelebihan Python antara lain:
 

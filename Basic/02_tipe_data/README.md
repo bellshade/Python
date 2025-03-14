@@ -128,7 +128,7 @@ Beberapa tipe data dalam Python:
     }
     ```
 
-- Berupa tipe data binary (bytes, bytearray, memmoryview)
+- Berupa tipe data binary (bytes, bytearray, memoryview)
 
   - <a id="12">`bytes`</a>
 
@@ -149,7 +149,7 @@ Beberapa tipe data dalam Python:
 
   - <a id="14">`memoryview`</a>
 
-    Memmoryview adalah cara aman untuk mengekspos protokol buffer dengan python. Ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan. Memmoryview mengambalikan fungsi tampilan memori daripada objek yang diberikan.
+    Memoryview adalah cara aman untuk mengekspos protokol buffer dengan python. Ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan. Memoryview mengambalikan fungsi tampilan memori daripada objek yang diberikan.
 
     ```python
     angka_saya = memoryview(bytes(12))
