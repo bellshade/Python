@@ -257,6 +257,7 @@
   * [Exponential Function](https://github.com/bellshade/Python/blob/main/math/exponential_function.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
   * [Fibonacci](https://github.com/bellshade/Python/blob/main/math/fibonacci.py)
+  * [Fungsi Gamma](https://github.com/bellshade/Python/blob/main/math/fungsi_gamma.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
   * [Intergration](https://github.com/bellshade/Python/blob/main/math/intergration.py)
   * [Is Prime](https://github.com/bellshade/Python/blob/main/math/is_prime.py)
