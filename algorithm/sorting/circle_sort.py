@@ -7,7 +7,7 @@
 # Jika elemen kiri lebih besar, tukar dengan elemen kanan.
 # Lanjutkan ke tengah array, lalu lakukan rekursi.
 
-def circle_sort(collection):
+def circle_sort(collection: list[int]) -> list[int]:
     """
     contoh
     >>> circle_sort([5, 3, 2, 8, 1, 4])
@@ -16,7 +16,7 @@ def circle_sort(collection):
     [-5, 3, 7, 10, 20]
     """
 
-    def circle_sort_rec(arr, left, right):
+    def circle_sort_rec(arr: list[int], left: int, right: int) -> bool:
         if left == right:
             return False
         swapped = False
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     doctest.testmod(verbose=True)
 
-    data = [10, -2, 7, 4, 3]
-    unsorted = [int(item) for item in data]
+    data: list[int] = [10, -2, 7, 4, 3]
+    unsorted: list[int] = [int(item) for item in data]
     print(f"data yang belum di sorting adalah {unsorted}")
     print(f"data yang sudah di sorting {circle_sort(unsorted)}")
