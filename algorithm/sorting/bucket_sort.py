@@ -7,7 +7,7 @@
 # Urutkan masing-masing bucket.
 # Gabungkan semua bucket menjadi satu list terurut.
 
-def bucket_sort(collection):
+def bucket_sort(collection: list[float]) -> list[float]:
     """
     contoh
     >>> bucket_sort([0.25, 0.36, 0.58, 0.41, 0.29, 0.22, 0.45, 0.79])
@@ -20,19 +20,19 @@ def bucket_sort(collection):
         return collection
 
     # Membuat bucket kosong
-    bucket_count = len(collection)
-    buckets = [[] for _ in range(bucket_count)]
+    bucket_count: int = len(collection)
+    buckets: list[list[float]] = [[] for _ in range(bucket_count)]
 
     # Menempatkan elemen ke dalam bucket
     for value in collection:
-        index = int(value * bucket_count)
+        index: int = int(value * bucket_count)
         if index != bucket_count:
             buckets[index].append(value)
         else:
             buckets[bucket_count - 1].append(value)
 
     # Mengurutkan setiap bucket dan menggabungkannya
-    sorted_array = []
+    sorted_array: list[float] = []
     for bucket in buckets:
         sorted_array.extend(sorted(bucket))
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     doctest.testmod(verbose=True)
 
-    data = [0.78, 0.17, 0.39, 0.26, 0.72, 0.94, 0.21, 0.12, 0.23, 0.68]
-    unsorted = [float(item) for item in data]
+    data: list[float] = [0.78, 0.17, 0.39, 0.26, 0.72, 0.94, 0.21, 0.12, 0.23, 0.68]
+    unsorted: list[float] = [float(item) for item in data]
     print(f"data yang belum di sorting adalah {unsorted}")
     print(f"data yang sudah di sorting {bucket_sort(unsorted)}")
