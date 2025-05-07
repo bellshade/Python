@@ -147,6 +147,8 @@
     * [Bogo Sorting](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bogo_sorting.py)
     * [Bubble Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort.py)
     * [Bubble Sort Ascii](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bubble_sort_ascii.py)
+    * [Bucket Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/bucket_sort.py)
+    * [Circle Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/circle_sort.py)
     * [Merge Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/merge_sort.py)
     * [Pop Sort](https://github.com/bellshade/Python/blob/main/algorithm/sorting/pop_sort.py)
     * [Quick Sorting](https://github.com/bellshade/Python/blob/main/algorithm/sorting/quick_sorting.py)
