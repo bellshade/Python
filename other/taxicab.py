@@ -10,6 +10,14 @@ def taxi_cab(x):
     angka (a, b), lalu dihitung a^3 + b^3. Jika hasil penjumlahan muncul sekali, maka
     akan disimpan sebagai bilangan Taxicab.
 
+    >>> taxi_cab(10)
+    []
+    >>> taxi_cab(20)
+    [1729, 4104]
+    >>> taxi_cab(30)
+    [1729, 4104, 13832, 20683]
+    >>> taxi_cab(40)
+    [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232]
     """
     cubes = array('i', [i**3 for i in range(0, x)])
     dict_sum_pairs = {}
