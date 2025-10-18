@@ -349,6 +349,7 @@
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Rgb To Hex](https://github.com/bellshade/Python/blob/main/other/rgb_to_hex.py)
   * [Strong Password Check](https://github.com/bellshade/Python/blob/main/other/strong_password_check.py)
+  * [Taxicab](https://github.com/bellshade/Python/blob/main/other/taxicab.py)
   * [Tower Of Hanoi](https://github.com/bellshade/Python/blob/main/other/tower_of_hanoi.py)
   * Turtle
     * [Logo Apple](https://github.com/bellshade/Python/blob/main/other/turtle/logo_apple.py)
