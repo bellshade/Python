@@ -344,6 +344,7 @@
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
+  * [Happy Number](https://github.com/bellshade/Python/blob/main/other/happy_number.py)
   * [Hex To Rgb](https://github.com/bellshade/Python/blob/main/other/hex_to_rgb.py)
   * [Is Palindrom](https://github.com/bellshade/Python/blob/main/other/is_palindrom.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
