@@ -40,8 +40,8 @@ def kaprekar_number(number: int) -> str:
         if eq_parts == number:
             continue
 
-        sum = square_number // eq_parts + square_number % eq_parts
-        if sum == number:
+        jumlah = square_number // eq_parts + square_number % eq_parts
+        if jumlah == number:
             return benar
 
     return bukan
