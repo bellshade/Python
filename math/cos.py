@@ -1,6 +1,6 @@
 # Menghitung cosisnus dengan menggunakan deret taylor
 # https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions
-import numpy as np
+import math
 
 
 def factorial(x):
@@ -30,9 +30,9 @@ def cosinus(sudut):
     """
     result = 0.0
     interable = 10
-    radian = sudut * np.pi / 180
+    radian = sudut * math.pi / 180
     for i in range(interable):
-        numerator = np.pow(radian, 2 * i) * np.pow(-1, i)
+        numerator = math.pow(radian, 2 * i) * math.pow(-1, i)
         detector = factorial(2 * i)
         result = result + (numerator / detector)
 
