@@ -3,7 +3,7 @@
 import math
 
 
-def kaprekar_number(number):
+def kaprekar_number(number: int) -> str:
     """
     Angka kaprekar adalah angka yang yang di kuadratkan,
     dan di pisahmenjadi dua bagian dan di jumlahkan lagi
@@ -15,7 +15,7 @@ def kaprekar_number(number):
     'Angka Kaprekar'
     >>> kaprekar_number(5)
     'Bukan Angka Kaprekar'
-    >>> kaprekar_number(4)
+    >>> kaprekar_number(10)
     'Bukan Angka Kaprekar'
 
     """
@@ -36,6 +36,9 @@ def kaprekar_number(number):
     while r_digits < cout_d:
         r_digits += 1
         eq_parts = math.pow(10 , r_digits)
+
+        if eq_parts == number:
+            continue
 
         sum = square_number // eq_parts + square_number % eq_parts
         if sum == number:
