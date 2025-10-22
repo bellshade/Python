@@ -1,6 +1,6 @@
 # mengecek apakah bilangan apakah bilangan itu masuk kaprekar
 # https://en.wikipedia.org/wiki/Kaprekar_number
-import numpy as np
+import math
 
 
 def kaprekar_number(number):
@@ -35,7 +35,7 @@ def kaprekar_number(number):
     r_digits = 0
     while r_digits < cout_d:
         r_digits += 1
-        eq_parts = np.pow(10 , r_digits)
+        eq_parts = math.pow(10 , r_digits)
 
         sum = square_number // eq_parts + square_number % eq_parts
         if sum == number:
