@@ -5,9 +5,9 @@ def is_lucky_number(number):
     Lucky number adalah angka yang selamat dari persortiran
     angka berdasarkan posisi mirip Sieve.
 
-    >>> is_lucky_number(897)
+    >>> is_lucky_number(1)
     'Angka Lucky'
-    >>> is_lucky_number(80)
+    >>> is_lucky_number(21)
     'Angka Lucky'
     >>> is_lucky_number(1232)
     'Bukan Angka Lucky'
@@ -16,18 +16,31 @@ def is_lucky_number(number):
 
     """
     benar , bukan = "Angka Lucky" , "Bukan Angka Lucky"
-    ar = set()
+    MAX_NUMBER = 10000
 
-    while number != 0:
-        digit = number % 10
+    idx = 1
+    nbr = []
+    for i in range(1 , MAX_NUMBER):
+        nbr.append(i)
 
-        if digit in ar:
-            return bukan
+    while idx < len(nbr):
+        step = nbr[idx]
+        if step > len(nbr):
+            break
 
-        ar.add(digit)
-        number //= 10
+        new_numbers = []
+        pos = 1
+        for val in nbr:
+            if pos % step != 0:
+                new_numbers.append(val)
+            pos += 1
+        nbr = new_numbers
+        idx += 1
 
-    return benar
+    if number in nbr:
+        return benar
+    else:
+        return bukan
 
 
 def main(args=None):
@@ -35,10 +48,10 @@ def main(args=None):
 
     doctest.testmod()
 
-    print(is_lucky_number(897))  # Angka Lucky
-    print(is_lucky_number(80))  # Angka Lucky
-    print(is_lucky_number(1232))  # Bukan Angka Lucky
-    print(is_lucky_number(700))  # Bukan Angka Lucky
+    print(is_lucky_number(1))  # Angka Lucky
+    print(is_lucky_number(21))  # Angka Lucky
+    print(is_lucky_number(80))  # Bukan Angka Lucky
+    print(is_lucky_number(897))  # Bukan Angka Lucky
 
 
 if __name__ == "__main__":
