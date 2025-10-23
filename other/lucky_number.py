@@ -9,6 +9,10 @@ def is_lucky_number(number):
     'Angka Lucky'
     >>> is_lucky_number(21)
     'Angka Lucky'
+    >>> is_lucky_number(9)
+    'Angka Lucky'
+    >>> is_lucky_number(10)
+    'Bukan Angka Lucky'
     >>> is_lucky_number(1232)
     'Bukan Angka Lucky'
     >>> is_lucky_number(700)
@@ -21,7 +25,8 @@ def is_lucky_number(number):
     idx = 1
     nbr = []
     for i in range(1 , MAX_NUMBER):
-        nbr.append(i)
+        if i % 2 != 0:
+            nbr.append(i)
 
     while idx < len(nbr):
         step = nbr[idx]
@@ -50,6 +55,8 @@ def main(args=None):
 
     print(is_lucky_number(1))  # Angka Lucky
     print(is_lucky_number(21))  # Angka Lucky
+    print(is_lucky_number(9))   # Angka Lucky
+    print(is_lucky_number(10))  # Bukan Angka Lucky
     print(is_lucky_number(80))  # Bukan Angka Lucky
     print(is_lucky_number(897))  # Bukan Angka Lucky
 
