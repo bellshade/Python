@@ -20,7 +20,7 @@ def krisnamurty(number : int) -> int | str:
     """
     error = "Masukkan Angka dengan benar"
     benar , bukan = "Angka Krisnamurty" , "Bukan Angka Krisnamuty"
-    if number <= 0:
+    if not isinstance(number,int):
         return error
     else :
         temp = number
