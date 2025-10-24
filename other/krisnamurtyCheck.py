@@ -20,7 +20,7 @@ def krisnamurty(number : int) -> int | str:
     """
     error = "Masukkan Angka dengan benar"
     benar , bukan = "Angka Krisnamurty" , "Bukan Angka Krisnamuty"
-    if not isinstance(number,int):
+    if not isinstance(number,int) or number < 0:
         return error
     else :
         total = sum(factorial(int(d)) for d in str(number))
