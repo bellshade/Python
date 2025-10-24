@@ -347,6 +347,7 @@
   * [Happy Number](https://github.com/bellshade/Python/blob/main/other/happy_number.py)
   * [Hex To Rgb](https://github.com/bellshade/Python/blob/main/other/hex_to_rgb.py)
   * [Is Palindrom](https://github.com/bellshade/Python/blob/main/other/is_palindrom.py)
+  * [Logic Gate](https://github.com/bellshade/Python/blob/main/other/logic_gate.py)
   * [Power Dac](https://github.com/bellshade/Python/blob/main/other/power_dac.py)
   * [Rgb To Hex](https://github.com/bellshade/Python/blob/main/other/rgb_to_hex.py)
   * [Strong Password Check](https://github.com/bellshade/Python/blob/main/other/strong_password_check.py)
