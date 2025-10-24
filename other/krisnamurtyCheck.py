@@ -23,16 +23,8 @@ def krisnamurty(number : int) -> int | str:
     if not isinstance(number,int):
         return error
     else :
-        temp = number
-        total = 0
-        while temp > 0:
-            digit = temp % 10
-            total += factorial(digit)
-            temp //= 10
-        if total == number:
-            return benar
-        else :
-            return bukan
+        total = sum(factorial(int(d)) for d in str(number))
+        return benar if total == number else bukan
 
 
 def main(args=None):
