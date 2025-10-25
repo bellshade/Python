@@ -1,4 +1,6 @@
-from math import pi, e
+# Menghitung sinus dengan deret taylor
+# https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions
+import numpy as np
 
 
 def factorial(n: int) -> int:
@@ -10,29 +12,37 @@ def factorial(n: int) -> int:
         return n * factorial(n - 1)
 
 
-def sinus(x: float | int, iterable: int = 4):
+def sinus(sudut : float | int, iterable: int = 10):
     """
     Sinus ini merupakan perhitungan dasar yang ada pada
     teori pythagoras
     Args:
-        x (float | int): input ini merupakan value dari sudut yang kita
+        sudut (float | int): input ini merupakan value dari sudut yang kita
                          inputkan
-        iterable (int, optional): paramater ini untuk jumlah data yang kuta sum kan
-                                  Defaults to 4.
     Returns:
-        complex: hasil dari pembagian numerator (complex) dengan denominator
+        (float): hasil dari pembagian numerator dengan denominator
+
+    >>> sinus(0)
+    0.0
+    >>> sinus(30)
+    0.49999999999999994
+    >>> sinus(45)
+    0.7071067811865475
+    >>> sinus(60)
+    0.8660254037844385
+    >>> sinus(90)
+    1.0
     """
-    result = 0
+    result = 0.0
+    radian = sudut * np.pi / 180
     for n in range(iterable):
-        numerator = (e ** (complex(0, pi / 180) * x)) - (
-            e ** (-complex(0, pi / 180) * x)
-        )
+        numerator = np.pow(radian, 2 * n + 1) * np.pow(-1, n)
         denominator = factorial(2 * n + 1)
         result += numerator / denominator
-    return result
+    return float(result)
 
 
 if __name__ == "__main__":
-    list_sudut = [0, pi / 2, pi * 3 / 4, pi]
+    list_sudut = [0, 30, 45, 60, 90]
     for sudut in list_sudut:
-        print("Sudut:", sudut, "Sin:", sinus(sudut))
+        print(f"Sudut : {sudut}, Sin : {sinus(sudut)}")
