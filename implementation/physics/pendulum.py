@@ -4,18 +4,18 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 
-def full_pendulum(g, l, theta, theta_velocity, time_step):
+def full_pendulum(g, L, theta, theta_velocity, time_step):
     """
     fungsi untuk menghitung persamaan pendulum.
     """
-    theta_acceleration = -(g / l) * np.sin(theta)
+    theta_acceleration = -(g / L) * np.sin(theta)
     theta_velocity += time_step * theta_acceleration
     theta += time_step * theta_velocity
     return theta, theta_velocity
 
 
 g = 9.8  # konstanta gravitasi
-l = 1.0  # panjang tali
+L = 1.0  # panjang tali
 
 
 theta = [np.radians(90)]
@@ -28,19 +28,19 @@ time_stap = np.linspace(0, 20, 300)
 Looping untuk memasukkan setiap angka.
 """
 for t in time_stap:
-    theta_new, theta_velocity = full_pendulum(g, l, theta[-1],
+    theta_new, theta_velocity = full_pendulum(g, L, theta[-1],
                                               theta_velocity, time_step)
     theta.append(theta_new)
 
 # persamaan proyeksi panjang tali
-x = l * np.sin(theta)
-y = -l * np.cos(theta)
+x = L * np.sin(theta)
+y = -L * np.cos(theta)
 
 fig, axis = plt.subplots()
 
 # batas sumbu x dan y
-axis.set_xlim(-l - 0.2 , l + 0.2)
-axis.set_ylim(-l - 0.2 , l)
+axis.set_xlim(-L - 0.2 , L + 0.2)
+axis.set_ylim(-L - 0.2 , L)
 
 plt.grid()
 
