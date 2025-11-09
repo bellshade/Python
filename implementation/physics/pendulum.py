@@ -27,7 +27,7 @@ time_stap = np.linspace(0, 20, 300)
 """
 Looping untuk memasukkan setiap angka.
 """
-for t in time_stap:
+for _ in time_stap:
     theta_new, theta_velocity = full_pendulum(g, L, theta[-1],
                                               theta_velocity, time_step)
     theta.append(theta_new)
