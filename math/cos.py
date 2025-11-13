@@ -3,7 +3,7 @@
 import math
 
 
-def factorial(x):
+def factorial(x) -> int:
     if x < 0:
         return ValueError("Angkanya harus bilangan real")
     if x == 0 or x == 1:
@@ -12,7 +12,7 @@ def factorial(x):
         return x * (factorial(x - 1))
 
 
-def cosinus(sudut):
+def cosinus(sudut) -> float:
     """
     Cosinus adalah sebuah perbandingan dari sisi samping dan
     miring segitiga siku-siku.
