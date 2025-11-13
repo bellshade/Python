@@ -1,6 +1,6 @@
 # Menghitung sinus dengan deret taylor
 # https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions
-import numpy as np
+import math
 
 
 def factorial(n: int) -> int:
@@ -34,9 +34,9 @@ def sinus(sudut : float | int, iterable: int = 10):
     1.0
     """
     result = 0.0
-    radian = sudut * np.pi / 180
+    radian = sudut * math.pi / 180
     for n in range(iterable):
-        numerator = np.pow(radian, 2 * n + 1) * np.pow(-1, n)
+        numerator = math.pow(radian, 2 * n + 1) * math.pow(-1, n)
         denominator = factorial(2 * n + 1)
         result += numerator / denominator
     return float(result)
