@@ -342,6 +342,7 @@
 
 ## Other
   * [Anagramcheck](https://github.com/bellshade/Python/blob/main/other/anagramCheck.py)
+  * [Composite Number](https://github.com/bellshade/Python/blob/main/other/composite_number.py)
   * [Date To Weekday](https://github.com/bellshade/Python/blob/main/other/date_to_weekday.py)
   * [Doomsday Alg](https://github.com/bellshade/Python/blob/main/other/doomsday_alg.py)
   * [Happy Number](https://github.com/bellshade/Python/blob/main/other/happy_number.py)
