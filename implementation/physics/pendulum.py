@@ -92,4 +92,5 @@ if __name__ == "__main__":
         blit=True
     )
 
+    print(animation)
     plt.show()
