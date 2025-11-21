@@ -23,6 +23,8 @@ def rieman_integral(fungsiHitung: Callable[[float], float],
         left = a + i * delta_x
         right = left + delta_x
 
+        if not callable(fungsiHitung):
+            raise TypeError("Fungsi harus cabble")
         if approx == "kiri":
             x_i = left
         elif approx == "kanan":
