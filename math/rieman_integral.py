@@ -31,7 +31,7 @@ def rieman_integral(fungsiHitung: Callable[[float], float],
             x_i = left + 0.5 * delta_x
         else:
             raise ValueError("masukkan approx benar")
-
+        print("type fungsiHitung:", type(fungsiHitung),"callable",callable(fungsiHitung))
         sigma += fungsiHitung(x_i)
 
     return delta_x * sigma
@@ -41,11 +41,6 @@ def main(args=None):
     import doctest
 
     doctest.testmod()
-
-    # persamaan x
-    def f(x):
-        return 1/x
-    print(rieman_integral(f, 0, 1, 1, "tengah"))  # 0.5
 
     # persamaan 4/(1+x^2)
     def g(x):
