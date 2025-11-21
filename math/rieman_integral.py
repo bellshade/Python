@@ -44,7 +44,7 @@ def main(args=None):
 
     # persamaan x
     def f(x):
-        return x
+        return 1/x
     print(rieman_integral(f, 0, 1, 1, "tengah"))  # 0.5
 
     # persamaan 4/(1+x^2)
