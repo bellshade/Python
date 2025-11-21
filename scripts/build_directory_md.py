@@ -8,13 +8,13 @@ URL_BASE = "https://github.com/bellshade/Python/blob/main"
 
 def good_file_paths(top_dir: str = ".") -> Iterator[str]:
     """
-    Fungsi menghasilkan path file yang memenuhi kriteria tertentu 
+    Fungsi menghasilkan path file yang memenuhi kriteria tertentu
     dari direktori yang diberikan.
 
     Parameter:
-        - top_dir (str): direktori root tempat pencarian dimulai. 
+        - top_dir (str): direktori root tempat pencarian dimulai.
                             Default adalah direktori saat ini (".").
-    
+
     Return:
         - (Iterator[str]): path file (relatif terhadap `top_dir`)
 

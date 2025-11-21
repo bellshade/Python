@@ -2,7 +2,7 @@
 # https://en.wikipedia.org/wiki/Logic_gate
 
 
-def NOT_gate(input_1 : int) -> int | str:
+def NOT_gate(input_1: int) -> int | str:
     """
     NOT gate adalah gerbang logika yang menghasilkan 0
     jika input satu dan begitu juga sebaliknya.
@@ -14,15 +14,15 @@ def NOT_gate(input_1 : int) -> int | str:
 
     """
     error = "angka hanya satu dan nol"
-    if input_1 == 1 :
+    if input_1 == 1:
         return 0
-    elif input_1 == 0 :
+    elif input_1 == 0:
         return 1
-    else :
+    else:
         return error
 
 
-def OR_gate(int_1 : int , int_2 : int) -> int | str:
+def OR_gate(int_1: int, int_2: int) -> int | str:
     """
     OR gate adalah gerbang yang menghasilkan 0 jika dua
     input 0.
@@ -52,7 +52,7 @@ def OR_gate(int_1 : int , int_2 : int) -> int | str:
         return error
 
 
-def AND_gate(int_1 : int , int_2 : int) -> int | str:
+def AND_gate(int_1: int, int_2: int) -> int | str:
     """
     AND gate adalah gerbang yang menghasilkan 1 jika dua
     input 1.
@@ -82,7 +82,7 @@ def AND_gate(int_1 : int , int_2 : int) -> int | str:
         return error
 
 
-def NAND_gate(int_1 : int , int_2 : int) -> int | str:
+def NAND_gate(int_1: int, int_2: int) -> int | str:
     """
     NAND gate adalah gerbang yang menghasilkan 0 jika dua
     input 1.
@@ -112,7 +112,7 @@ def NAND_gate(int_1 : int , int_2 : int) -> int | str:
         return error
 
 
-def NOR_GATE(int_1 : int , int_2 : int) -> int | str:
+def NOR_GATE(int_1: int, int_2: int) -> int | str:
     """
     NOR gate adalah gerbang yang menghasilkan 1 jika dua
     input 0.
@@ -142,7 +142,7 @@ def NOR_GATE(int_1 : int , int_2 : int) -> int | str:
         return error
 
 
-def XOR_gate(int_1 : int , int_2 : int) -> int | str:
+def XOR_gate(int_1: int, int_2: int) -> int | str:
     """
     XOR gate adalah gerbang yang akan menghasilkan angka 1 jika
     input nya berlawanan.
@@ -168,7 +168,7 @@ def XOR_gate(int_1 : int , int_2 : int) -> int | str:
         return error
 
 
-def XNOR_gate(int_1  : int, int_2 : int) -> int | str:
+def XNOR_gate(int_1: int, int_2: int) -> int | str:
     """
     XNOR gate adalah gerbang yang yang akan menghasilkan 1 jika
     inputnya sama.

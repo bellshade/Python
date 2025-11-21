@@ -19,12 +19,12 @@ def is_lucky_number(number):
     'Bukan Angka Lucky'
 
     """
-    benar , bukan = "Angka Lucky" , "Bukan Angka Lucky"
+    benar, bukan = "Angka Lucky", "Bukan Angka Lucky"
     MAX_NUMBER = 10000
 
     idx = 1
     nbr = []
-    for i in range(1 , MAX_NUMBER):
+    for i in range(1, MAX_NUMBER):
         if i % 2 != 0:
             nbr.append(i)
 
@@ -55,7 +55,7 @@ def main(args=None):
 
     print(is_lucky_number(1))  # Angka Lucky
     print(is_lucky_number(21))  # Angka Lucky
-    print(is_lucky_number(9))   # Angka Lucky
+    print(is_lucky_number(9))  # Angka Lucky
     print(is_lucky_number(10))  # Bukan Angka Lucky
     print(is_lucky_number(80))  # Bukan Angka Lucky
     print(is_lucky_number(897))  # Bukan Angka Lucky

@@ -58,5 +58,5 @@ def main(args=None):
         print(happy_or_sad(i))
 
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
     main()

@@ -7,6 +7,7 @@
 # Urutkan masing-masing bucket.
 # Gabungkan semua bucket menjadi satu list terurut.
 
+
 def bucket_sort(collection: list[float]) -> list[float]:
     """
     contoh

@@ -19,7 +19,7 @@ def taxi_cab(x):
     >>> taxi_cab(40)
     [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232]
     """
-    cubes = array('i', [i**3 for i in range(0, x)])
+    cubes = array("i", [i**3 for i in range(0, x)])
     dict_sum_pairs = {}
     raman = set()
 
