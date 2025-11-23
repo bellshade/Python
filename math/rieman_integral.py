@@ -2,11 +2,9 @@ from typing import Callable
 import math
 
 
-def rieman_integral(fungsiHitung: Callable[[float], float],
-                    a: float,
-                    b: float,
-                    n: int,
-                    approx: str) -> float:
+def rieman_integral(
+    fungsiHitung: Callable[[float], float], a: float, b: float, n: int, approx: str
+) -> float:
     """
     >>> rieman_integral(math.sin,0,math.pi/2,100,"tengah")
     1.0000102809119051
@@ -47,13 +45,14 @@ def main(args=None):
     # persamaan x
     def f(x):
         return x
+
     print(rieman_integral(f, 0, 1, 1, "tengah"))  # 0.5
 
     # persamaan 4/(1+x^2)
     def g(x):
         return (4) / (1 + x**2)
-    print(rieman_integral(g, 0, 1, 1000, "tengah"))  # 3.1415927369231227
 
+    print(rieman_integral(g, 0, 1, 1000, "tengah"))  # 3.1415927369231227
 
     print(rieman_integral(math.sin, 0, math.pi / 2, 100, "kiri"))  # 0.9921254566056331
 
