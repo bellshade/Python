@@ -109,19 +109,25 @@ flake8 perubahan_kamu.py
 flake8 .
 ```
 
-Untuk *doctests*:
-
-```bash
-pytest . --doctest-modules
-```
-
-```bash
-pytest perubahan_kamu.py --doctest-modules --ignore=Basic/
-```
-
 **Saran**
 
 [Pemahaman list dan generator](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) lebih disukai daripada penggunaan `lambda`, `map`, `filter`. Tetapi yang penting adalah menunjukkan kekuatan Python dalam kode yang mudah dibaca dan dipelihara.
+
+kamu bisa dengan menggunakan pre-commit sebagai cek / menjalankan semua test dengan cara
+
+```bash
+# jika tidak ada pre-commit, install terlebih dahulu
+pip install pre-commit
+
+# jika menggunakan uv, kamu bisa menginstall dengan menggunakan uv
+uv pip install pre-commit
+
+# jalakan perintahnya
+pre-commit run --all-files
+
+# jika menggunakan uv
+uv run pre-commit run --all-files
+```
 
 ## Tambahan Perubahan
 
