@@ -26,8 +26,9 @@ def calculate_pendulum():
     theta_velocity = 0
 
     for _ in time_stap:
-        theta_new, theta_velocity = full_pendulum(g, L, theta[-1],
-                                                  theta_velocity, time_step)
+        theta_new, theta_velocity = full_pendulum(
+            g, L, theta[-1], theta_velocity, time_step
+        )
         theta.append(theta_new)
 
     # persamaan proyeksi panjang tali
@@ -40,8 +41,8 @@ def setup_axis(axis) -> None:
     """
     Setup sumbu x dan y.
     """
-    axis.set_xlim(-L - 0.2 , L + 0.2)
-    axis.set_ylim(-L - 0.2 , L)
+    axis.set_xlim(-L - 0.2, L + 0.2)
+    axis.set_ylim(-L - 0.2, L)
     axis.grid()
     return axis
 
@@ -50,9 +51,9 @@ def create_plot_elements(axis) -> None:
     """
     Membuat elemen plot yang akan dianimasu.
     """
-    rod_line, = axis.plot([], [], lw=2)
-    mass_point, = axis.plot([], [], marker='o', markersize=10)
-    trace, = axis.plot([], [], '-', lw=1, alpha=0.6)
+    (rod_line,) = axis.plot([], [], lw=2)
+    (mass_point,) = axis.plot([], [], marker="o", markersize=10)
+    (trace,) = axis.plot([], [], "-", lw=1, alpha=0.6)
     return rod_line, mass_point, trace
 
 
@@ -89,7 +90,7 @@ if __name__ == "__main__":
         init_func=init,
         frames=len(time_stap),
         interval=25,
-        blit=True
+        blit=True,
     )
 
     print(animation)
