@@ -260,6 +260,8 @@
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
   * [Exponential Function](https://github.com/bellshade/Python/blob/main/math/exponential_function.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
+  * [Faktorial Looping](https://github.com/bellshade/Python/blob/main/math/faktorial_looping.py)
+  * [Faktorial Rekursif](https://github.com/bellshade/Python/blob/main/math/faktorial_rekursif.py)
   * [Fibonacci](https://github.com/bellshade/Python/blob/main/math/fibonacci.py)
   * [Fungsi Gamma](https://github.com/bellshade/Python/blob/main/math/fungsi_gamma.py)
   * [Geometric Sum](https://github.com/bellshade/Python/blob/main/math/geometric_sum.py)
