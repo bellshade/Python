@@ -3,7 +3,7 @@
 import math
 
 
-def faktorial(n: int = 2) -> int:
+def faktorial(n: int) -> int:
     """
     Fungsi untuk kalkulasi faktorial
     parameter :
