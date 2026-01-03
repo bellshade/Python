@@ -15,6 +15,8 @@ def faktorial(n: int) -> int:
         return 1
     if n > 1:
         return n * faktorial(n - 1)
+    else:
+        return ValueError("Nilai Tidak valid")
 
 
 def sin(x: float) -> float:
