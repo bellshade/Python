@@ -3,7 +3,7 @@
 import math
 
 
-def faktorial(n : int = 2) -> int:
+def faktorial(n: int = 2) -> int:
     """
     Fungsi untuk kalkulasi faktorial
     parameter :
@@ -17,7 +17,7 @@ def faktorial(n : int = 2) -> int:
         return n * faktorial(n - 1)
 
 
-def sin(x : float) -> float:
+def sin(x: float) -> float:
     """
     Fungsi untuk kalkulasi dari deret sin.
     Input dari fungsi ini dikonvergensi menjadi
@@ -37,7 +37,7 @@ def sin(x : float) -> float:
     return float(result)
 
 
-def cos(x : float) -> float:
+def cos(x: float) -> float:
     """
     Fungsi untuk kalkulasi dari deret cosinus.
     Input dari fungsi ini dikonvergensi menjadi
@@ -75,7 +75,7 @@ def euler(x: int = 1) -> float:
     return float(result)
 
 
-def ln(x : float) -> float:
+def ln(x: float) -> float:
     """
     Fungsi untuk melakukan kalkulasi deret taylor
     ln(x + 1).Dengan batas -1 < x <= 1.
@@ -92,7 +92,7 @@ def ln(x : float) -> float:
             detector = i
             result = result + (numerator / detector)
         return float(result)
-    else :
+    else:
         return ValueError("Angka tidak valid")
 
 
