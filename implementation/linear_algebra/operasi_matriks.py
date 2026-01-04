@@ -3,8 +3,8 @@ from typing import Union
 
 
 def penjumlahan(
-        matriks_1 : list[list[Union[int, float]]],
-        matriks_2 : list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
+    matriks_1: list[list[Union[int, float]]], matriks_2: list[list[Union[int, float]]]
+) -> list[list[Union[int, float]]]:
     """
     Fungsi untuk melakukan penjumlahan 2 matrriks
 
@@ -13,7 +13,7 @@ def penjumlahan(
     """
     if len(matriks_1) != len(matriks_2):
         return ValueError("Ukuran Matriks Harus Sama")
-    else :
+    else:
         result = []
         n = len(matriks_1)
         for i in range(n):
@@ -26,8 +26,8 @@ def penjumlahan(
 
 
 def pengurangan(
-        matriks_1 : list[list[Union[int, float]]],
-        matriks_2 : list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
+    matriks_1: list[list[Union[int, float]]], matriks_2: list[list[Union[int, float]]]
+) -> list[list[Union[int, float]]]:
     """
     Fungsi untuk melakukan kalkulasi pengurangan matriks
 
@@ -36,7 +36,7 @@ def pengurangan(
     """
     if len(matriks_1) != len(matriks_2):
         return ValueError("Ukuran Matriks Sama")
-    else :
+    else:
         result = []
         n = len(matriks_1)
         for i in range(n):
@@ -49,8 +49,8 @@ def pengurangan(
 
 
 def perkalian(
-        matriks_1 : list[list[Union[int, float]]],
-        matriks_2 : list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
+    matriks_1: list[list[Union[int, float]]], matriks_2: list[list[Union[int, float]]]
+) -> list[list[Union[int, float]]]:
     """
     Fungsi untuk melakukan kalkulasi perkalian matriks
 
@@ -72,8 +72,9 @@ def perkalian(
     return result
 
 
-def perkalian_skalar_matriks(matriks : list[list[Union[int, float]]],
-                             x : int) -> list[list[Union[int, float]]]:
+def perkalian_skalar_matriks(
+    matriks: list[list[Union[int, float]]], x: int
+) -> list[list[Union[int, float]]]:
     """
     Fungsi untuk kalkulasi skalar dan matriks
 
@@ -91,7 +92,7 @@ def perkalian_skalar_matriks(matriks : list[list[Union[int, float]]],
     return result
 
 
-def matriks_identitas(n : int) -> list[list[int]]:
+def matriks_identitas(n: int) -> list[list[int]]:
     """
     Funsi untuk menghasilkan matriks identitas
 
@@ -100,7 +101,7 @@ def matriks_identitas(n : int) -> list[list[int]]:
     >>> matriks_identitas(3)
     [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
     """
-    if n < 0 :
+    if n < 0:
         return ValueError("ukuran harus positif")
     else:
         return [[1 if j == i else 0 for j in range(int(n))] for i in range(int(n))]
