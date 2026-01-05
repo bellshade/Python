@@ -3,7 +3,7 @@
 from typing import Union
 
 
-def LU(A : list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
+def LU(A: list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
     """
     >>> A = [[2, 3, 1], [4, 7, 7], [-2, 4, 5]]
     >>> L, U = LU(A)
