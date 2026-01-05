@@ -18,6 +18,7 @@ def LU(A : list[list[Union[int, float]]]) -> list[list[Union[int, float]]]:
 
     for k in range(n - 1):
         if U[k][k] == 0:
+
             raise ValueError("Faktorisasi LU tidak ada")
         for i in range(k + 1, n):
             L[i][k] = U[i][k] / U[k][k]
