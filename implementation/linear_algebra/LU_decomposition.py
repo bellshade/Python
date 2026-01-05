@@ -1,7 +1,7 @@
 # https://en.wikipedia.org/wiki/LU_decomposition#Algorithms
 
 
-def LU(A) -> tuple:
+def LU(A : list[list[int]]) -> list[list[int]]:
     """
     >>> A = [[2, 3, 1], [4, 7, 7], [-2, 4, 5]]
     >>> L, U = LU(A)
