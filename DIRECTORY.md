@@ -227,6 +227,7 @@
     * [Gambar Sepia](https://github.com/bellshade/Python/blob/main/implementation/image_processing/gambar_sepia.py)
   * Linear Algebra
     * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/conjugate_gradient.py)
+    * [Operasi Matriks](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/operasi_matriks.py)
     * [Polynom For Point](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/polynom_for_point.py)
     * [Rayleigh Quotient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/rayleigh_quotient.py)
     * [Transformation 2D](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/transformation_2d.py)
