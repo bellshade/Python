@@ -1,7 +1,8 @@
 # https://en.wikipedia.org/wiki/Combination
 # https://en.wikipedia.org/wiki/Permutation
 
-def faktorial(n : int) -> int:
+
+def faktorial(n: int) -> int:
     """
     Fungsi untuk menghitung faktorial
 
@@ -17,7 +18,7 @@ def faktorial(n : int) -> int:
         return f
 
 
-def kombinasi(n : int, r : int) -> int:
+def kombinasi(n: int, r: int) -> int:
     """
     Fungsi untuk kalkulasi kombinasi
 
@@ -32,7 +33,7 @@ def kombinasi(n : int, r : int) -> int:
         return penyebut / pembilang
 
 
-def permutasi(n : int, r : int) -> int:
+def permutasi(n: int, r: int) -> int:
     """
     Fungsi untuk kalkulasi permutasi
 
