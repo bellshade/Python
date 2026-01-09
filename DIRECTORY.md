@@ -270,6 +270,7 @@
   * [Is Prime](https://github.com/bellshade/Python/blob/main/math/is_prime.py)
   * [Iteration Power](https://github.com/bellshade/Python/blob/main/math/iteration_power.py)
   * [Jumlah Deret Geomteri](https://github.com/bellshade/Python/blob/main/math/jumlah_deret_geomteri.py)
+  * [Kombinasi Permutasi](https://github.com/bellshade/Python/blob/main/math/kombinasi_permutasi.py)
   * [Midpoint](https://github.com/bellshade/Python/blob/main/math/midpoint.py)
   * [Pascal Triangle](https://github.com/bellshade/Python/blob/main/math/pascal_triangle.py)
   * [Persamaan Kuadarat Bilangan Kompleks](https://github.com/bellshade/Python/blob/main/math/persamaan_kuadarat_bilangan_kompleks.py)
