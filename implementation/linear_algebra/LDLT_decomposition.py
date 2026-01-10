@@ -1,6 +1,7 @@
 # https://en.wikipedia.org/wiki/Cholesky_decomposition#LDL_decomposition
 
-def transpose(x : list[list[int]]) -> list[list[int]]:
+
+def transpose(x: list[list[int]]) -> list[list[int]]:
     """
     >>> transpose([[1, 2], [3, 4]])
     [[1, 3], [2, 4]]
@@ -9,7 +10,7 @@ def transpose(x : list[list[int]]) -> list[list[int]]:
     return x
 
 
-def LDLT_decomposition(x : list[list[int]]) -> list[list[int]]:
+def LDLT_decomposition(x: list[list[int]]) -> list[list[int]]:
     """
     >>> L, D, Lt = LDLT_decomposition([[2, 4, 6], [4, 9, 14], [6, 14, 19]])
     >>> L
