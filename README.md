@@ -19,9 +19,9 @@ Repositori ini berisi kumpulan berbagai macam _source code_ struktur data, algor
 
 Python dibuat dan dikembangkan oleh Guido Van Rossum, programmer yang berasal dari Belanda. Pemilihan nama python itu sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama **Moth Python Flying Circus** yang merupakan acara sirkus favorit dari Guido.
 
-Python adalah bahasa pemrograman multi paradigma, pemrogramaan berorientasi objek dan permograman terstruktur juga didukung penuh, dan banyak fiturnya mendukung pemrograman fungsional.
+Python adalah bahasa pemrograman multi paradigma, pemrogramaan berorientasi objek dan pemrograman terstruktur juga didukung penuh, serta banyak fiturnya mendukung pemrograman fungsional.
 
-Kelebihan diatara python antara lain
+Kelebihan diantara python antara lain
 
 - Mudah digunakan untuk menulis di perangkat lunak terbaru
 - Mudah untuk diajarkan
@@ -35,15 +35,15 @@ Contoh implementasi dari bahasa pemrograman python adalah
 - Aplikasi bisnis seperti tryton
 - Pembuatan game seperti battlefield 2
 - Pengembangan web seperti django atau flask (library)
-- Pengembangan dari situs web dan layanan sperti dropbox, buzfeed dan uber
+- Pengembangan dari situs web dan layanan seperti dropbox, buzfeed dan uber
 
 ### Baru Belajar? Mulai dari [sini](Basic) 🌟
 
-Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming dasar dahulu. Silahkan ikuti alur belajar berikut untuk mempelajari dasar - dasar pemograman langsung menggunakan Python
+Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming dasar dahulu. Silakan ikuti alur belajar berikut untuk mempelajari dasar-dasar pemograman langsung menggunakan Python
 
 | Langkah |              Topik               |                                  Target Pembelajaran                                  |            Materi Rujukan             |
 | :-----: | :------------------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------: |
-|   01    | Introduksi Pemograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |    [Materi](Basic/01_introduction)    |
+|   01    | Introduksi Pemrograman dan Python | Memahami apa itu membuat program dan apa peran Python dalam proses pembuatan program  |    [Materi](Basic/01_introduction)    |
 |   02    |            Tipe data             |                              Memahami apa itu tipe data                               |     [Materi](Basic/02_tipe_data)      |
 |   03    |             Variabel             |                               Memahami apa itu variabel                               |      [Materi](Basic/03_variable)      |
 |   04    |             Operasi              | Dapat melakukan operasi sederhana menggunakan program yang ditulis menggunakan Python |      [Materi](Basic/04_operator)      |
@@ -60,12 +60,12 @@ Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming d
 |   15    |               Math               |                           Mengenal module math pada python                            |    [Materi](Basic/15_python_math)     |
 |   16    |              kelas               |                              Mengenal kelas pada python                               |       [Materi](Basic/16_class)        |
 
-Setelah menyelesaikan seluruh rangkaian pengenalan dasar - dasar pemograman, kalian dapat mulai untuk mempelajari topik - topik lain yang jauh lebih seru!
+Setelah menyelesaikan seluruh rangkaian pengenalan dasar-dasar pemrograman, kalian dapat mulai untuk mempelajari topik-topik lain yang jauh lebih seru!
 Untuk sekarang, mulai saja dulu dengan [Object Oriented Programming](object_oriented_programming/README.md)
 
 ## 🎓 Topik Lanjutan 🎓
 
-Jika kalian sudah menguasai dasar - dasar pemograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik - topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka.
+Jika kalian sudah menguasai dasar-dasar pemrograman beserta dengan paradigma _Object Oriented Programming_, kalian bisa langsung mengeksplorasi topik-topik lain yang jauh lebih menantang dan tidak kalah seru. Di repositori ini, kami telah menyiapkan beberapa topik yang mungkin kamu suka.
 
 1.  [Struktur Data](/struktur_data)
 
