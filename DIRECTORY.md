@@ -226,6 +226,7 @@
   * Image Processing
     * [Gambar Sepia](https://github.com/bellshade/Python/blob/main/implementation/image_processing/gambar_sepia.py)
   * Linear Algebra
+    * [Ldlt Decomposition](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/LDLT_decomposition.py)
     * [Conjugate Gradient](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/conjugate_gradient.py)
     * [Operasi Matriks](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/operasi_matriks.py)
     * [Polynom For Point](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/polynom_for_point.py)
