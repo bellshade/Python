@@ -259,6 +259,7 @@
   * [Convolution](https://github.com/bellshade/Python/blob/main/math/convolution.py)
   * [Cos](https://github.com/bellshade/Python/blob/main/math/cos.py)
   * [Counter](https://github.com/bellshade/Python/blob/main/math/counter.py)
+  * [Deret Taylor](https://github.com/bellshade/Python/blob/main/math/deret_taylor.py)
   * [Digit Sum](https://github.com/bellshade/Python/blob/main/math/digit_sum.py)
   * [Exponential Function](https://github.com/bellshade/Python/blob/main/math/exponential_function.py)
   * [Faktor Prima](https://github.com/bellshade/Python/blob/main/math/faktor_prima.py)
