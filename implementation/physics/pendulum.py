@@ -4,11 +4,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 
-# parameter awal
-g = 9.8  # konstanta gravitasi
-L = 1.0  # panjang tali
-time_step = 20 / 300
-time_stap = np.linspace(0, 20, 300)
+def parameter(g=9.8, L=1.0, a=float, b=float) -> float:
+    time_step = a / b
+    time_stap = np.linspace(0, a, b)
+    return g, L, time_step, time_stap
 
 
 def full_pendulum(g, L, theta, theta_velocity, time_step):
@@ -21,7 +20,10 @@ def full_pendulum(g, L, theta, theta_velocity, time_step):
     return theta, theta_velocity
 
 
-def calculate_pendulum():
+def calculate_pendulum() -> float:
+    """
+    Melakukan kalkulasi pendulum
+    """
     theta = [np.radians(90)]
     theta_velocity = 0
 
@@ -69,6 +71,7 @@ def animate(frame, x, y, rod_line, mass_point, trace) -> None:
 
 
 if __name__ == "__main__":
+    g, L, time_step, time_stap = parameter(a=20, b=300)
     x, y = calculate_pendulum()
     fig, axis = plt.subplots()
     axis = setup_axis(axis)
