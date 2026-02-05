@@ -19,7 +19,7 @@ def kaprekar_number(number: int) -> str:
     'Bukan Angka Kaprekar'
 
     """
-    benar , bukan = "Angka Kaprekar" , "Bukan Angka Kaprekar"
+    benar, bukan = "Angka Kaprekar", "Bukan Angka Kaprekar"
     if number == 1:
         return benar
 
@@ -35,7 +35,7 @@ def kaprekar_number(number: int) -> str:
     r_digits = 0
     while r_digits < cout_d:
         r_digits += 1
-        eq_parts = math.pow(10 , r_digits)
+        eq_parts = math.pow(10, r_digits)
 
         if eq_parts == number:
             continue
@@ -52,12 +52,10 @@ def main(args=None):
 
     doctest.testmod()
 
+
+if __name__ == "__main__":
     # sampel case
     print(kaprekar_number(45))  # Angka Kaprekar
     print(kaprekar_number(9))  # Angka Kaprekar
     print(kaprekar_number(5))  # Bukan Angka Kaprekar
     print(kaprekar_number(10))  # Bukan Angka Kaprekar
-
-
-if __name__ == "__main__":
-    main()
