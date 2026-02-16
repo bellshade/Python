@@ -11,7 +11,7 @@ def faktorial(n) -> int:
     120
     """
     if n < 0:
-        raise ValueError('nilai harus positif')
+        raise ValueError("nilai harus positif")
     if n == 0:
         return 1
     else:
@@ -21,7 +21,7 @@ def faktorial(n) -> int:
         return f
 
 
-def kombinasi(n : int, r : int) -> int:
+def kombinasi(n: int, r: int) -> int:
     """
     >>> kombinasi(5, 2)
     10.0
@@ -37,7 +37,7 @@ def kombinasi(n : int, r : int) -> int:
         return C
 
 
-def identity(n : int = 2) -> list[list[Union[int]]]:
+def identity(n: int = 2) -> list[list[Union[int]]]:
     """
     Membuat matriks identitas
 
@@ -48,7 +48,7 @@ def identity(n : int = 2) -> list[list[Union[int]]]:
     for i in range(n):
         row = []
         for j in range(n):
-            if (j == i):
+            if j == i:
                 row.append(1)
             else:
                 row.append(0)
@@ -104,7 +104,7 @@ def hilbert(A, b=1) -> list[list[Union[int, float]]]:
     return res
 
 
-def pascal(n, kind='simetri') -> list[list[Union[int, float]]]:
+def pascal(n, kind="simetri") -> list[list[Union[int, float]]]:
     """
     Membuat matriks pascal dengan beberapa tipe
 
@@ -133,9 +133,9 @@ def pascal(n, kind='simetri') -> list[list[Union[int, float]]]:
             for k in range(len(t)):
                 res[i][j] += L_n[i][k] * t[k][j]
 
-    if kind.lower() == 'lower':
+    if kind.lower() == "lower":
         return L_n
-    elif kind.lower() == 'upper':
+    elif kind.lower() == "upper":
         return t
     else:
         return res
