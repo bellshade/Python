@@ -128,9 +128,12 @@ def pascal(n, kind="simetri") -> list[list[Union[int, float]]]:
             t[j][i] = L_n[i][j]
 
     res = [[0 for _ in range(len(L_n))] for _ in range(len(L_n))]
-    for i in range(len(L_n)):
-        for j in range(len(t[0])):
-            for k in range(len(t)):
+    x = len(L_n)
+    y = len(t)
+    y1 = len(t[0])
+    for i in range(x):
+        for j in range(y1):
+            for k in range(y):
                 res[i][j] += L_n[i][k] * t[k][j]
 
     if kind.lower() == "lower":
