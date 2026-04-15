@@ -308,6 +308,7 @@
   * [Zellers Congruence](https://github.com/bellshade/Python/blob/main/math/zellers_congruence.py)
 
 ## Matrix
+  * [Matriks Special](https://github.com/bellshade/Python/blob/main/matrix/matriks_special.py)
   * [Median Matriks](https://github.com/bellshade/Python/blob/main/matrix/median_matriks.py)
   * [Pencarian Biner Matrix](https://github.com/bellshade/Python/blob/main/matrix/pencarian_biner_matrix.py)
 
