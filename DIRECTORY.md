@@ -236,6 +236,7 @@
     * [Transformation 2D](https://github.com/bellshade/Python/blob/main/implementation/linear_algebra/transformation_2d.py)
   * Physics
     * [N Body Simulation](https://github.com/bellshade/Python/blob/main/implementation/physics/n_body_simulation.py)
+    * [Pendulum](https://github.com/bellshade/Python/blob/main/implementation/physics/pendulum.py)
     * [Percepatan](https://github.com/bellshade/Python/blob/main/implementation/physics/percepatan.py)
   * Statistic
     * [Labelencoding](https://github.com/bellshade/Python/blob/main/implementation/statistic/LabelEncoding.py)
